@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
 
+# Theme: {{theme-name}}
+# Author: {{theme-author}}
+# Variant: {{theme-variant}}
+
 # Exit if not on a tty
 
 if [[ ! -t 0 ]]; then
     exit 0
 fi
 
-export GOGH_THEME="{{scheme-slug}}"
+export GOGH_THEME="{{theme-slug}}"
 
 color00="{{color_01_hex}}"      # Black (Host)
 color01="{{color_02_hex}}"      # Red (Syntax string)
@@ -75,7 +79,7 @@ print_osc_rgb() {
     printf "\033]%d;rgb:%s\033\\" "$osc" $(hex_to_hexs "$hex")
 }
 
-print_linux_palette() {
+print_linux() {
     local color="$1"
     local hex="$2"
 
