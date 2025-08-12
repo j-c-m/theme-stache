@@ -29,8 +29,8 @@ color13="{{color_14_hex}}"      # Bright Magenta
 color14="{{color_15_hex}}"      # Bright Cyan
 color15="{{color_16_hex}}"      # Bright White
 
-foreground="{{foreground_hex}}" # Background
-background="{{background_hex}}" # Foreground (Text)
+foreground="{{foreground_hex}}" # Foreground (Text)
+background="{{background_hex}}" # Background
 cursor="{{cursor_hex}}"         # Cursor
 
 function tolower()
