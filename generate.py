@@ -13,39 +13,45 @@ def load_config(config_path):
 
 def load_yaml(yaml_path):
     """Load a YAML color scheme file."""
-    with open(yaml_path, 'r') as f:
-        return yaml.safe_load(f)
+    try:
+        with open(yaml_path, 'r') as f:
+            return yaml.safe_load(f)
+    except Exception as e:
+        print(f"Error loading YAML file {yaml_path}: {e}")
+        return None
 
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
     return name.lower().replace(' ', '-')
 
 def main():
-    # Define paths
-    config_path = 'templates/config.json'
-    themes_dir = 'themes'
+    config_path = Path('templates/config.json')
+    themes_dir = Path('themes')
 
-    # Load configuration
-    config = load_config(config_path)
+    try:
+        config = load_config(config_path)
+    except Exception as e:
+        print(f"Error loading config file {config_path}: {e}")
+        return
 
-    # Get all .yml files in themes directory and sort by filename
-    theme_files = sorted(glob.glob(f"{themes_dir}/*.yml"))
+    theme_files = sorted(glob.glob(str(themes_dir / '*.yml')))
 
     if not theme_files:
         print("No theme files found in themes/ directory.")
         return
 
-    # Iterate through each theme file in sorted order
     for theme_file in theme_files:
-        # Load theme data
-        theme_data = load_yaml(theme_file)
+        theme_path = Path(theme_file)
 
-        # Prepare Mustache context
+        theme_data = load_yaml(theme_path)
+        if theme_data is None:
+            continue
+
         context = {
-            'scheme-slug': slugify(theme_data['name']),
-            'name': theme_data['name'],
-            'variant': theme_data['variant'],
-            'author': theme_data['author'],
+            'theme-slug': slugify(theme_data['name']),
+            'theme-name': theme_data['name'],
+            'theme-variant': theme_data['variant'],
+            'theme-author': theme_data['author'],
             'color_01_hex': theme_data['color_01'],
             'color_02_hex': theme_data['color_02'],
             'color_03_hex': theme_data['color_03'],
@@ -67,33 +73,37 @@ def main():
             'cursor_hex': theme_data['cursor']
         }
 
-        # Iterate through each entry in config.json
         for template_key, template_config in config.items():
-            # Read the Mustache template
-            template_path = f'templates/{template_key}'
-            if not os.path.exists(template_path):
+            template_path = Path('templates') / template_key
+            if not template_path.exists():
                 print(f"Template file {template_path} not found, skipping for theme {theme_data['name']}...")
                 continue
 
-            with open(template_path, 'r') as f:
-                template = f.read()
+            try:
+                with open(template_path, 'r') as f:
+                    template = f.read()
+            except Exception as e:
+                print(f"Error reading template file {template_path}: {e}")
+                continue
 
-            # Render the template with Mustache
             rendered = pystache.render(template, context)
 
-            # Get output path from config, applying full Mustache rendering to filename
-            output_dir = template_config['directory']
+            output_dir = Path(template_config['directory'])
             output_filename = pystache.render(template_config['filename'], context)
-            output_path = Path(output_dir) / output_filename
+            output_path = output_dir / output_filename
 
-            # Ensure output directory exists
-            os.makedirs(output_dir, exist_ok=True)
+            try:
+                os.makedirs(output_dir, exist_ok=True)
+            except Exception as e:
+                print(f"Error creating output directory {output_dir}: {e}")
+                continue
 
-            # Write the rendered output
-            with open(output_path, 'w') as f:
-                f.write(rendered)
-
-            print(f"Generated theme file for {theme_data['name']} at: {output_path}")
+            try:
+                with open(output_path, 'w') as f:
+                    f.write(rendered)
+                print(f"Generated theme file for {theme_data['name']} at: {output_path}")
+            except Exception as e:
+                print(f"Error writing output file {output_path}: {e}")
 
 if __name__ == "__main__":
     main()
