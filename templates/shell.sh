@@ -10,8 +10,6 @@ if [[ ! -t 0 ]]; then
     exit 0
 fi
 
-export GOGH_THEME="{{theme-slug}}"
-
 color00="{{color_01_hex}}"      # Black (Host)
 color01="{{color_02_hex}}"      # Red (Syntax string)
 color02="{{color_03_hex}}"      # Green (Command)
