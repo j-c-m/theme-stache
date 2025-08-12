@@ -1,0 +1,6 @@
+{
+  "shell.sh": {
+    "directory": "build/shell/",
+    "filename": "{{ scheme-slug }}.sh"
+  }
+}
