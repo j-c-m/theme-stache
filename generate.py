@@ -196,10 +196,10 @@ def main():
 
                 output_dir = Path(template_config['directory'])
                 output_filename = pystache.render(template_config['filename'], context)
-                output_path = output_dir / output_filename
+                output_path = 'build' / output_dir / output_filename
 
                 try:
-                    os.makedirs(output_dir, exist_ok=True)
+                    os.makedirs('build' / output_dir, exist_ok=True)
                 except Exception as e:
                     print(f"Error creating output directory {output_dir}: {e}")
                     continue

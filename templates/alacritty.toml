@@ -1,0 +1,36 @@
+# Source:   {{theme-source}}
+# Theme:    {{theme-name}}
+# Author:   {{theme-author}}
+# Variant:  {{theme-variant}}
+
+# Default colors
+[colors.primary]
+background  = '{{foreground_hex}}'
+foreground  = '{{background_hex}}'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '{{color_01_hex}}'
+cursor      = '{{cursor_hex}}'
+
+# Normal colors
+[colors.normal]
+black       = '{{color_01_hex}}'
+red         = '{{color_02_hex}}'
+green       = '{{color_03_hex}}'
+yellow      = '{{color_04_hex}}'
+blue        = '{{color_05_hex}}'
+magenta     = '{{color_06_hex}}'
+cyan        = '{{color_07_hex}}'
+white       = '{{color_08_hex}}'
+
+# Bright colors
+[colors.bright]
+black       = '{{color_09_hex}}'
+red         = '{{color_10_hex}}'
+green       = '{{color_11_hex}}'
+yellow      = '{{color_12_hex}}'
+blue        = '{{color_13_hex}}'
+magenta     = '{{color_14_hex}}'
+cyan        = '{{color_15_hex}}'
+white       = '{{color_16_hex}}'

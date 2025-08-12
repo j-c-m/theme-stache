@@ -1,6 +1,10 @@
 {
   "shell.sh": {
-    "directory": "build/shell/",
+    "directory": "shell",
     "filename": "{{theme-source-slug}}-{{theme-slug}}.sh"
+  },
+  "alacritty.toml": {
+    "directory": "alacritty",
+    "filename": "{{theme-source-slug}}-{{theme-slug}}.toml"
   }
 }

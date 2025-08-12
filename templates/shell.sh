@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-# Theme: {{theme-name}}
-# Author: {{theme-author}}
-# Variant: {{theme-variant}}
+# Source:   {{theme-source}}
+# Theme:    {{theme-name}}
+# Author:   {{theme-author}}
+# Variant:  {{theme-variant}}
 
 # Exit if not on a tty
 
