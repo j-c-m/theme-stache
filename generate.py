@@ -181,7 +181,7 @@ def map_theme_data(theme_data, source, theme_path):
             'ansi-5-hex': palette['base0E'],  # Magenta
             'ansi-6-hex': palette['base0C'],  # Cyan
             'ansi-7-hex': palette['base05'],  # White
-            'ansi-8-hex': palette['base10'],  # Bright Black
+            'ansi-8-hex': palette['base03'],  # Bright Black
             'ansi-9-hex': palette['base12'],  # Bright Red
             'ansi-10-hex': palette['base14'],  # Bright Green
             'ansi-11-hex': palette['base13'],  # Bright Yellow
