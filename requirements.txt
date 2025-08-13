@@ -3,4 +3,3 @@ pystache
 pyjson
 pathlib
 unidecode
-plistlib

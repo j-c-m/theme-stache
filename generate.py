@@ -405,6 +405,9 @@ def main():
                 print(f"Validation error for {theme_path}: {e}")
                 continue
 
+            # Add the entire context as a JSON string
+            context['theme-json'] = json.dumps(context, sort_keys=True, ensure_ascii=False, indent=4)
+
             for template_key, template_config in config.items():
                 template_path = Path('templates') / template_key
                 if not template_path.exists():
