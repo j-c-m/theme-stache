@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Oceanic Next
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#121B21'
+foreground  = '#B3B8C3'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#121C21'
+cursor      = '#B3B8C3'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#121C21'
+red         = '#E44754'
+green       = '#89BD82'
+yellow      = '#F7BD51'
+blue        = '#5486C0'
+magenta     = '#B77EB8'
+cyan        = '#50A5A4'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#52606B'
+red         = '#E44754'
+green       = '#89BD82'
+yellow      = '#F7BD51'
+blue        = '#5486C0'
+magenta     = '#B77EB8'
+cyan        = '#50A5A4'
+white       = '#FFFFFF'

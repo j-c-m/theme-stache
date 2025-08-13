@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Harper
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#010101'
+foreground  = '#A8A49D'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#010101'
+cursor      = '#A8A49D'
+
+# Selection colors
+[colors.selection]
+background  = '#A8A49D'
+text        = '#575b62'
+
+# Normal colors
+[colors.normal]
+black       = '#010101'
+red         = '#F8B63F'
+green       = '#7FB5E1'
+yellow      = '#D6DA25'
+blue        = '#489E48'
+magenta     = '#B296C6'
+cyan        = '#F5BFD7'
+white       = '#A8A49D'
+
+# Bright colors
+[colors.bright]
+black       = '#726E6A'
+red         = '#F8B63F'
+green       = '#7FB5E1'
+yellow      = '#D6DA25'
+blue        = '#489E48'
+magenta     = '#B296C6'
+cyan        = '#F5BFD7'
+white       = '#FEFBEA'

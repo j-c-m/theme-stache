@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Tomorrow Night Eighties
+# Author:   Chris Kempson (http://chriskempson.com)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#2D2D2D'
+foreground  = '#CCCCCC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#393939'
+cursor      = '#CCCCCC'
+
+# Selection colors
+[colors.selection]
+background  = '#CCCCCC'
+text        = '#333333'
+
+# Normal colors
+[colors.normal]
+black       = '#393939'
+red         = '#F2777A'
+green       = '#99CC99'
+yellow      = '#FFCC66'
+blue        = '#6699CC'
+magenta     = '#CC99CC'
+cyan        = '#66CCCC'
+white       = '#CCCCCC'
+
+# Bright colors
+[colors.bright]
+black       = '#999999'
+red         = '#F2777A'
+green       = '#99CC99'
+yellow      = '#FFCC66'
+blue        = '#6699CC'
+magenta     = '#CC99CC'
+cyan        = '#66CCCC'
+white       = '#FFFFFF'

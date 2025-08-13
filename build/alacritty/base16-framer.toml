@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Framer
+# Author:   Framer (Maintained by Jesse Hoyos)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#181818'
+foreground  = '#D0D0D0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#181818'
+cursor      = '#D0D0D0'
+
+# Selection colors
+[colors.selection]
+background  = '#E8E8E8'
+text        = '#171717'
+
+# Normal colors
+[colors.normal]
+black       = '#181818'
+red         = '#FD886B'
+green       = '#32CCDC'
+yellow      = '#FECB6E'
+blue        = '#20BCFC'
+magenta     = '#BA8CFC'
+cyan        = '#ACDDFD'
+white       = '#D0D0D0'
+
+# Bright colors
+[colors.bright]
+black       = '#747474'
+red         = '#FD886B'
+green       = '#32CCDC'
+yellow      = '#FECB6E'
+blue        = '#20BCFC'
+magenta     = '#BA8CFC'
+cyan        = '#ACDDFD'
+white       = '#EEEEEE'

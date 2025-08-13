@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Classic Light
+# Author:   Jason Heeris (http://heeris.id.au)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#F5F5F5'
+foreground  = '#303030'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#F5F5F5'
+cursor      = '#303030'
+
+# Selection colors
+[colors.selection]
+background  = '#202020'
+text        = '#dfdfdf'
+
+# Normal colors
+[colors.normal]
+black       = '#F5F5F5'
+red         = '#AC4142'
+green       = '#90A959'
+yellow      = '#F4BF75'
+blue        = '#6A9FB5'
+magenta     = '#AA759F'
+cyan        = '#75B5AA'
+white       = '#303030'
+
+# Bright colors
+[colors.bright]
+black       = '#B0B0B0'
+red         = '#AC4142'
+green       = '#90A959'
+yellow      = '#F4BF75'
+blue        = '#6A9FB5'
+magenta     = '#AA759F'
+cyan        = '#75B5AA'
+white       = '#151515'

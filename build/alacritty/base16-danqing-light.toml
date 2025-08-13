@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    DanQing Light
+# Author:   Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#fcfefd'
+foreground  = '#5a605d'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#fcfefd'
+cursor      = '#5a605d'
+
+# Selection colors
+[colors.selection]
+background  = '#434846'
+text        = '#bcb7b9'
+
+# Normal colors
+[colors.normal]
+black       = '#fcfefd'
+red         = '#F9906F'
+green       = '#8AB361'
+yellow      = '#F0C239'
+blue        = '#B0A4E3'
+magenta     = '#CCA4E3'
+cyan        = '#30DFF3'
+white       = '#5a605d'
+
+# Bright colors
+[colors.bright]
+black       = '#cad8d2'
+red         = '#F9906F'
+green       = '#8AB361'
+yellow      = '#F0C239'
+blue        = '#B0A4E3'
+magenta     = '#CCA4E3'
+cyan        = '#30DFF3'
+white       = '#2d302f'

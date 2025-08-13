@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Smyck
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#242424'
+foreground  = '#F7F7F7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#F7F7F7'
+
+# Selection colors
+[colors.selection]
+background  = '#B0B0B0'
+text        = '#4f4f4f'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#C75646'
+green       = '#8EB33B'
+yellow      = '#D0B03C'
+blue        = '#72B3CC'
+magenta     = '#C8A0D1'
+cyan        = '#218693'
+white       = '#B0B0B0'
+
+# Bright colors
+[colors.bright]
+black       = '#5D5D5D'
+red         = '#E09690'
+green       = '#CDEE69'
+yellow      = '#FFE377'
+blue        = '#9CD9F0'
+magenta     = '#FBB1F9'
+cyan        = '#77DFD8'
+white       = '#F7F7F7'

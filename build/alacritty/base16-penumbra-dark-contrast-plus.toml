@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Penumbra Dark Contrast Plus
+# Author:   Zachary Weiss (https://github.com/zacharyweiss)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#181B1F'
+foreground  = '#CECECE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#181B1F'
+cursor      = '#CECECE'
+
+# Selection colors
+[colors.selection]
+background  = '#FFF7ED'
+text        = '#000812'
+
+# Normal colors
+[colors.normal]
+black       = '#181B1F'
+red         = '#DF7F78'
+green       = '#50B584'
+yellow      = '#9CA748'
+blue        = '#61A3E6'
+magenta     = '#A48FE1'
+cyan        = '#00B3C2'
+white       = '#CECECE'
+
+# Bright colors
+[colors.bright]
+black       = '#636363'
+red         = '#DF7F78'
+green       = '#50B584'
+yellow      = '#9CA748'
+blue        = '#61A3E6'
+magenta     = '#A48FE1'
+cyan        = '#00B3C2'
+white       = '#FFFDFB'

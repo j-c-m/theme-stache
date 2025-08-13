@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Horizon Terminal Dark
+# Author:   Michaël Ball (http://github.com/michael-ball/)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#1C1E26'
+foreground  = '#CBCED0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1C1E26'
+cursor      = '#CBCED0'
+
+# Selection colors
+[colors.selection]
+background  = '#DCDFE4'
+text        = '#23201b'
+
+# Normal colors
+[colors.normal]
+black       = '#1C1E26'
+red         = '#E95678'
+green       = '#29D398'
+yellow      = '#FAC29A'
+blue        = '#26BBD9'
+magenta     = '#EE64AC'
+cyan        = '#59E1E3'
+white       = '#CBCED0'
+
+# Bright colors
+[colors.bright]
+black       = '#6F6F70'
+red         = '#E95678'
+green       = '#29D398'
+yellow      = '#FAC29A'
+blue        = '#26BBD9'
+magenta     = '#EE64AC'
+cyan        = '#59E1E3'
+white       = '#E3E6EE'

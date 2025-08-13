@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Aci
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0D1926'
+foreground  = '#B4E1FD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#363636'
+cursor      = '#B4E1FD'
+
+# Selection colors
+[colors.selection]
+background  = '#B6B6B6'
+text        = '#494949'
+
+# Normal colors
+[colors.normal]
+black       = '#363636'
+red         = '#FF0883'
+green       = '#83FF08'
+yellow      = '#FF8308'
+blue        = '#0883FF'
+magenta     = '#8308FF'
+cyan        = '#08FF83'
+white       = '#B6B6B6'
+
+# Bright colors
+[colors.bright]
+black       = '#424242'
+red         = '#FF1E8E'
+green       = '#8EFF1E'
+yellow      = '#FF8E1E'
+blue        = '#1E8EFF'
+magenta     = '#8E1EFF'
+cyan        = '#1EFF8E'
+white       = '#C2C2C2'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Solarized Dark
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#002B36'
+foreground  = '#839496'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#073642'
+cursor      = '#839496'
+
+# Selection colors
+[colors.selection]
+background  = '#EEE8D5'
+text        = '#11172a'
+
+# Normal colors
+[colors.normal]
+black       = '#073642'
+red         = '#DC322F'
+green       = '#859900'
+yellow      = '#CF9A6B'
+blue        = '#268BD2'
+magenta     = '#D33682'
+cyan        = '#2AA198'
+white       = '#EEE8D5'
+
+# Bright colors
+[colors.bright]
+black       = '#657B83'
+red         = '#CB4B16'
+green       = '#859900'
+yellow      = '#CF9A6B'
+blue        = '#6c71c4'
+magenta     = '#D33682'
+cyan        = '#2AA198'
+white       = '#FDF6E3'

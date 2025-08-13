@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Relaxed
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#353A44'
+foreground  = '#D9D9D9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#151515'
+cursor      = '#D9D9D9'
+
+# Selection colors
+[colors.selection]
+background  = '#D9D9D9'
+text        = '#262626'
+
+# Normal colors
+[colors.normal]
+black       = '#151515'
+red         = '#BC5653'
+green       = '#909D63'
+yellow      = '#EBC17A'
+blue        = '#6A8799'
+magenta     = '#B06698'
+cyan        = '#C9DFFF'
+white       = '#D9D9D9'
+
+# Bright colors
+[colors.bright]
+black       = '#636363'
+red         = '#BC5653'
+green       = '#A0AC77'
+yellow      = '#EBC17A'
+blue        = '#7EAAC7'
+magenta     = '#B06698'
+cyan        = '#ACBBD0'
+white       = '#F7F7F7'

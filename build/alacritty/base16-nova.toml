@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Nova
+# Author:   George Essig (https://github.com/gessig), Trevor D. Miller (https://trevordmiller.com)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#3C4C55'
+foreground  = '#C5D4DD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#3C4C55'
+cursor      = '#C5D4DD'
+
+# Selection colors
+[colors.selection]
+background  = '#899BA6'
+text        = '#766459'
+
+# Normal colors
+[colors.normal]
+black       = '#3C4C55'
+red         = '#83AFE5'
+green       = '#7FC1CA'
+yellow      = '#A8CE93'
+blue        = '#83AFE5'
+magenta     = '#9A93E1'
+cyan        = '#F2C38F'
+white       = '#C5D4DD'
+
+# Bright colors
+[colors.bright]
+black       = '#899BA6'
+red         = '#83AFE5'
+green       = '#7FC1CA'
+yellow      = '#A8CE93'
+blue        = '#83AFE5'
+magenta     = '#9A93E1'
+cyan        = '#F2C38F'
+white       = '#556873'

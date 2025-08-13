@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Mono Green
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#022B00'
+foreground  = '#0BFF00'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#034000'
+cursor      = '#0BFF00'
+
+# Selection colors
+[colors.selection]
+background  = '#0BFF00'
+text        = '#f400ff'
+
+# Normal colors
+[colors.normal]
+black       = '#034000'
+red         = '#0BFF00'
+green       = '#0BFF00'
+yellow      = '#0BFF00'
+blue        = '#0BFF00'
+magenta     = '#0BFF00'
+cyan        = '#0BFF00'
+white       = '#0BFF00'
+
+# Bright colors
+[colors.bright]
+black       = '#0BFF00'
+red         = '#0BFF00'
+green       = '#0BFF00'
+yellow      = '#0BFF00'
+blue        = '#0BFF00'
+magenta     = '#0BFF00'
+cyan        = '#0BFF00'
+white       = '#0BFF00'

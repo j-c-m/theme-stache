@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Seti
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#111213'
+foreground  = '#CACECD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#323232'
+cursor      = '#CACECD'
+
+# Selection colors
+[colors.selection]
+background  = '#EEEEEE'
+text        = '#111111'
+
+# Normal colors
+[colors.normal]
+black       = '#323232'
+red         = '#C22832'
+green       = '#8EC43D'
+yellow      = '#E0C64F'
+blue        = '#43A5D5'
+magenta     = '#8B57B5'
+cyan        = '#8EC43D'
+white       = '#EEEEEE'
+
+# Bright colors
+[colors.bright]
+black       = '#323232'
+red         = '#C22832'
+green       = '#8EC43D'
+yellow      = '#E0C64F'
+blue        = '#43A5D5'
+magenta     = '#8B57B5'
+cyan        = '#8EC43D'
+white       = '#FFFFFF'

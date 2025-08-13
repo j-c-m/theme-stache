@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ic Green Ppl
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#3A3D3F'
+foreground  = '#D9EFD3'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1F1F1F'
+cursor      = '#D9EFD3'
+
+# Selection colors
+[colors.selection]
+background  = '#E0FFEF'
+text        = '#1f0010'
+
+# Normal colors
+[colors.normal]
+black       = '#1F1F1F'
+red         = '#FB002A'
+green       = '#339C24'
+yellow      = '#659B25'
+blue        = '#149B45'
+magenta     = '#53B82C'
+cyan        = '#2CB868'
+white       = '#E0FFEF'
+
+# Bright colors
+[colors.bright]
+black       = '#032710'
+red         = '#A7FF3F'
+green       = '#9FFF6D'
+yellow      = '#D2FF6D'
+blue        = '#72FFB5'
+magenta     = '#50FF3E'
+cyan        = '#22FF71'
+white       = '#DAEFD0'

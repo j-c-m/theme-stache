@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Quiet
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#141414'
+foreground  = '#B9B9B9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#141414'
+cursor      = '#A0A0A0'
+
+# Selection colors
+[colors.selection]
+background  = '#C5C5C5'
+text        = '#3a3a3a'
+
+# Normal colors
+[colors.normal]
+black       = '#141414'
+red         = '#C16262'
+green       = '#49B685'
+yellow      = '#C5B76D'
+blue        = '#4992B6'
+magenta     = '#815BBE'
+cyan        = '#41A4A4'
+white       = '#C5C5C5'
+
+# Bright colors
+[colors.bright]
+black       = '#505050'
+red         = '#ED5E7A'
+green       = '#7ECE7E'
+yellow      = '#DBDB70'
+blue        = '#4DBFFF'
+magenta     = '#C067E4'
+cyan        = '#70DBD8'
+white       = '#F0F0F0'

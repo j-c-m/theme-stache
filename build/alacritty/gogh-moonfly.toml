@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Moonfly
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#080808'
+foreground  = '#BDBDBD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#323437'
+cursor      = '#9E9E9E'
+
+# Selection colors
+[colors.selection]
+background  = '#C6C6C6'
+text        = '#393939'
+
+# Normal colors
+[colors.normal]
+black       = '#323437'
+red         = '#FF5454'
+green       = '#8CC85F'
+yellow      = '#E3C78A'
+blue        = '#80A0FF'
+magenta     = '#CF87E8'
+cyan        = '#79DAC8'
+white       = '#C6C6C6'
+
+# Bright colors
+[colors.bright]
+black       = '#949494'
+red         = '#FF5189'
+green       = '#36C692'
+yellow      = '#C2C292'
+blue        = '#74B2FF'
+magenta     = '#AE81FF'
+cyan        = '#85DC85'
+white       = '#E4E4E4'

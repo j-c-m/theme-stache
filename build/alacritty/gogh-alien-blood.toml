@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Alien Blood
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0F1610'
+foreground  = '#637D75'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#112616'
+cursor      = '#637D75'
+
+# Selection colors
+[colors.selection]
+background  = '#647D75'
+text        = '#9b828a'
+
+# Normal colors
+[colors.normal]
+black       = '#112616'
+red         = '#7F2B27'
+green       = '#2F7E25'
+yellow      = '#717F24'
+blue        = '#2F6A7F'
+magenta     = '#47587F'
+cyan        = '#327F77'
+white       = '#647D75'
+
+# Bright colors
+[colors.bright]
+black       = '#3C4812'
+red         = '#E08009'
+green       = '#18E000'
+yellow      = '#BDE000'
+blue        = '#00AAE0'
+magenta     = '#0058E0'
+cyan        = '#00E0C4'
+white       = '#73FA91'

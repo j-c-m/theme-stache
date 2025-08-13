@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Flexoki Light
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#FFFCF0'
+foreground  = '#100F0F'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#282726'
+cursor      = '#100F0F'
+
+# Selection colors
+[colors.selection]
+background  = '#878580'
+text        = '#787a7f'
+
+# Normal colors
+[colors.normal]
+black       = '#282726'
+red         = '#AF3029'
+green       = '#66800B'
+yellow      = '#AD8301'
+blue        = '#205EA6'
+magenta     = '#A02F6F'
+cyan        = '#24837B'
+white       = '#878580'
+
+# Bright colors
+[colors.bright]
+black       = '#1C1B1A'
+red         = '#D14D41'
+green       = '#879A39'
+yellow      = '#D0A215'
+blue        = '#4385BE'
+magenta     = '#CE5D97'
+cyan        = '#3AA99F'
+white       = '#6F6E69'

@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Pasque
+# Author:   Gabriel Fontes (https://github.com/Misterio77)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#271C3A'
+foreground  = '#DEDCDF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#271C3A'
+cursor      = '#DEDCDF'
+
+# Selection colors
+[colors.selection]
+background  = '#EDEAEF'
+text        = '#121510'
+
+# Normal colors
+[colors.normal]
+black       = '#271C3A'
+red         = '#A92258'
+green       = '#C6914B'
+yellow      = '#804ead'
+blue        = '#8E7DC6'
+magenta     = '#953B9D'
+cyan        = '#7263AA'
+white       = '#DEDCDF'
+
+# Bright colors
+[colors.bright]
+black       = '#5D5766'
+red         = '#A92258'
+green       = '#C6914B'
+yellow      = '#804ead'
+blue        = '#8E7DC6'
+magenta     = '#953B9D'
+cyan        = '#7263AA'
+white       = '#BBAADD'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Liquid Carbon Transparent
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#AFC2C2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#AFC2C2'
+
+# Selection colors
+[colors.selection]
+background  = '#BCCCCC'
+text        = '#433333'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF3030'
+green       = '#559A70'
+yellow      = '#CCAC00'
+blue        = '#0099CC'
+magenta     = '#CC69C8'
+cyan        = '#7AC4CC'
+white       = '#BCCCCC'
+
+# Bright colors
+[colors.bright]
+black       = '#000000'
+red         = '#FF3030'
+green       = '#559A70'
+yellow      = '#CCAC00'
+blue        = '#0099CC'
+magenta     = '#CC69C8'
+cyan        = '#7AC4CC'
+white       = '#BCCCCC'

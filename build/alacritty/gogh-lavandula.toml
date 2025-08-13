@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Lavandula
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#050014'
+foreground  = '#736E7D'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#230046'
+cursor      = '#736E7D'
+
+# Selection colors
+[colors.selection]
+background  = '#736E7D'
+text        = '#8c9182'
+
+# Normal colors
+[colors.normal]
+black       = '#230046'
+red         = '#7D1625'
+green       = '#337E6F'
+yellow      = '#7F6F49'
+blue        = '#4F4A7F'
+magenta     = '#5A3F7F'
+cyan        = '#58777F'
+white       = '#736E7D'
+
+# Bright colors
+[colors.bright]
+black       = '#372D46'
+red         = '#E05167'
+green       = '#52E0C4'
+yellow      = '#E0C386'
+blue        = '#8E87E0'
+magenta     = '#A776E0'
+cyan        = '#9AD4E0'
+white       = '#8C91FA'

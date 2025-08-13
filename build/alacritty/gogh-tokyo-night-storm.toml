@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Tokyo Night Storm
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#24283B'
+foreground  = '#C0CAF5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#414868'
+cursor      = '#C0CAF5'
+
+# Selection colors
+[colors.selection]
+background  = '#C0CAF5'
+text        = '#3f350a'
+
+# Normal colors
+[colors.normal]
+black       = '#414868'
+red         = '#F7768E'
+green       = '#9ECE6A'
+yellow      = '#E0AF68'
+blue        = '#7AA2F7'
+magenta     = '#BB9AF7'
+cyan        = '#7DCFFF'
+white       = '#C0CAF5'
+
+# Bright colors
+[colors.bright]
+black       = '#414868'
+red         = '#F7768E'
+green       = '#9ECE6A'
+yellow      = '#E0AF68'
+blue        = '#7AA2F7'
+magenta     = '#BB9AF7'
+cyan        = '#7DCFFF'
+white       = '#C0CAF5'

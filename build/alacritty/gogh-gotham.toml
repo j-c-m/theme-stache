@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Gotham
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0A0F14'
+foreground  = '#98D1CE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#0A0F14'
+cursor      = '#98D1CE'
+
+# Selection colors
+[colors.selection]
+background  = '#98D1CE'
+text        = '#672e31'
+
+# Normal colors
+[colors.normal]
+black       = '#0A0F14'
+red         = '#C33027'
+green       = '#26A98B'
+yellow      = '#EDB54B'
+blue        = '#195465'
+magenta     = '#4E5165'
+cyan        = '#33859D'
+white       = '#98D1CE'
+
+# Bright colors
+[colors.bright]
+black       = '#10151B'
+red         = '#D26939'
+green       = '#081F2D'
+yellow      = '#245361'
+blue        = '#093748'
+magenta     = '#888BA5'
+cyan        = '#599CAA'
+white       = '#D3EBE9'

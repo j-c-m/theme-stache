@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Penumbra Light
+# Author:   Zachary Weiss (https://github.com/zacharyweiss)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#FFFDFB'
+foreground  = '#636363'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#FFFDFB'
+cursor      = '#636363'
+
+# Selection colors
+[colors.selection]
+background  = '#303338'
+text        = '#cfccc7'
+
+# Normal colors
+[colors.normal]
+black       = '#FFFDFB'
+red         = '#CA736C'
+green       = '#47A477'
+yellow      = '#8D9741'
+blue        = '#5794D0'
+magenta     = '#9481CC'
+cyan        = '#00A2AF'
+white       = '#636363'
+
+# Bright colors
+[colors.bright]
+black       = '#BEBEBE'
+red         = '#CA736C'
+green       = '#47A477'
+yellow      = '#8D9741'
+blue        = '#5794D0'
+magenta     = '#9481CC'
+cyan        = '#00A2AF'
+white       = '#24272B'

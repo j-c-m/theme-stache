@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Monokai Soda
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1A1A1A'
+foreground  = '#C4C5B5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1A1A1A'
+cursor      = '#C4C5B5'
+
+# Selection colors
+[colors.selection]
+background  = '#C4C5B5'
+text        = '#3b3a4a'
+
+# Normal colors
+[colors.normal]
+black       = '#1A1A1A'
+red         = '#F4005F'
+green       = '#98E024'
+yellow      = '#FA8419'
+blue        = '#9D65FF'
+magenta     = '#F4005F'
+cyan        = '#58D1EB'
+white       = '#C4C5B5'
+
+# Bright colors
+[colors.bright]
+black       = '#625E4C'
+red         = '#F4005F'
+green       = '#98E024'
+yellow      = '#E0D561'
+blue        = '#9D65FF'
+magenta     = '#F4005F'
+cyan        = '#58D1EB'
+white       = '#F6F6EF'

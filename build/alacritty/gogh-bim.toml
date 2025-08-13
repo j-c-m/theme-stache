@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Bim
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#012849'
+foreground  = '#A9BED8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2C2423'
+cursor      = '#A9BED8'
+
+# Selection colors
+[colors.selection]
+background  = '#918988'
+text        = '#6e7677'
+
+# Normal colors
+[colors.normal]
+black       = '#2C2423'
+red         = '#F557A0'
+green       = '#A9EE55'
+yellow      = '#F5A255'
+blue        = '#5EA2EC'
+magenta     = '#A957EC'
+cyan        = '#5EEEA0'
+white       = '#918988'
+
+# Bright colors
+[colors.bright]
+black       = '#918988'
+red         = '#F579B2'
+green       = '#BBEE78'
+yellow      = '#F5B378'
+blue        = '#81B3EC'
+magenta     = '#BB79EC'
+cyan        = '#81EEB2'
+white       = '#F5EEEC'

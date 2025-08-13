@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Night Owl
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#011627'
+foreground  = '#D6DEEB'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#011627'
+cursor      = '#D6DEEB'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#011627'
+red         = '#EF5350'
+green       = '#22DA6E'
+yellow      = '#ADDB67'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#21C7A8'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#575656'
+red         = '#EF5350'
+green       = '#22DA6E'
+yellow      = '#FFEB95'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#7FDBCA'
+white       = '#FFFFFF'

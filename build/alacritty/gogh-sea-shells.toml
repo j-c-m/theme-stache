@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Sea Shells
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#09141B'
+foreground  = '#DEB88D'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#17384C'
+cursor      = '#DEB88D'
+
+# Selection colors
+[colors.selection]
+background  = '#DEB88D'
+text        = '#214772'
+
+# Normal colors
+[colors.normal]
+black       = '#17384C'
+red         = '#D15123'
+green       = '#027C9B'
+yellow      = '#FCA02F'
+blue        = '#1E4950'
+magenta     = '#68D4F1'
+cyan        = '#50A3B5'
+white       = '#DEB88D'
+
+# Bright colors
+[colors.bright]
+black       = '#434B53'
+red         = '#D48678'
+green       = '#628D98'
+yellow      = '#FDD39F'
+blue        = '#1BBCDD'
+magenta     = '#BBE3EE'
+cyan        = '#87ACB4'
+white       = '#FEE4CE'

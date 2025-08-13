@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ayu Light
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#FAFAFA'
+foreground  = '#575F66'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#575F66'
+cursor      = '#FF9940'
+
+# Selection colors
+[colors.selection]
+background  = '#FAFAFA'
+text        = '#050505'
+
+# Normal colors
+[colors.normal]
+black       = '#575F66'
+red         = '#F51818'
+green       = '#86B300'
+yellow      = '#F2AE49'
+blue        = '#399EE6'
+magenta     = '#A37ACC'
+cyan        = '#4CBF99'
+white       = '#FAFAFA'
+
+# Bright colors
+[colors.bright]
+black       = '#8A9199'
+red         = '#F51818'
+green       = '#86B300'
+yellow      = '#F2AE49'
+blue        = '#399EE6'
+magenta     = '#A37ACC'
+cyan        = '#4CBF99'
+white       = '#FAFAFA'

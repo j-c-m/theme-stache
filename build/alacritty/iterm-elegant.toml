@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    Elegant
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#292b30'
+foreground  = '#ced1d5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#0b1120'
+cursor      = '#55bbf9'
+
+# Selection colors
+[colors.selection]
+background  = '#d5d5d5'
+text        = '#214180'
+
+# Normal colors
+[colors.normal]
+black       = '#0b1120'
+red         = '#e9335a'
+green       = '#94ca99'
+yellow      = '#f6cd93'
+blue        = '#92aadc'
+magenta     = '#be94e5'
+cyan        = '#8bc9ec'
+white       = '#feffff'
+
+# Bright colors
+[colors.bright]
+black       = '#565656'
+red         = '#e9335a'
+green       = '#94ca99'
+yellow      = '#f6cd93'
+blue        = '#92aadc'
+magenta     = '#be94e5'
+cyan        = '#5faae9'
+white       = '#feffff'

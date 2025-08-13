@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Gruvbox Dark
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#282828'
+foreground  = '#EBDBB2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#282828'
+cursor      = '#EBDBB2'
+
+# Selection colors
+[colors.selection]
+background  = '#A89984'
+text        = '#57667b'
+
+# Normal colors
+[colors.normal]
+black       = '#282828'
+red         = '#CC241D'
+green       = '#98971A'
+yellow      = '#D79921'
+blue        = '#458588'
+magenta     = '#B16286'
+cyan        = '#689D6A'
+white       = '#A89984'
+
+# Bright colors
+[colors.bright]
+black       = '#928374'
+red         = '#FB4934'
+green       = '#B8BB26'
+yellow      = '#FABD2F'
+blue        = '#83A598'
+magenta     = '#D3869B'
+cyan        = '#8EC07C'
+white       = '#EBDBB2'

@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    ShadeSmear Light
+# Author:   Kyle Giammarco (http://kyle.giammar.co)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#DBDBDB'
+foreground  = '#232323'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#DBDBDB'
+cursor      = '#232323'
+
+# Selection colors
+[colors.selection]
+background  = '#1C1C1C'
+text        = '#e3e3e3'
+
+# Normal colors
+[colors.normal]
+black       = '#DBDBDB'
+red         = '#CC5450'
+green       = '#71983B'
+yellow      = '#307878'
+blue        = '#376388'
+magenta     = '#D7AB54'
+cyan        = '#C57D42'
+white       = '#232323'
+
+# Bright colors
+[colors.bright]
+black       = '#4E4E4E'
+red         = '#CC5450'
+green       = '#71983B'
+yellow      = '#307878'
+blue        = '#376388'
+magenta     = '#D7AB54'
+cyan        = '#C57D42'
+white       = '#E4E4E4'

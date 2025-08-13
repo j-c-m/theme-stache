@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Kimber
+# Author:   Mishka Nguyen (https://github.com/akhsiM)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#222222'
+foreground  = '#DEDEE7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#222222'
+cursor      = '#DEDEE7'
+
+# Selection colors
+[colors.selection]
+background  = '#C3C3B4'
+text        = '#3c3c4b'
+
+# Normal colors
+[colors.normal]
+black       = '#222222'
+red         = '#C88C8C'
+green       = '#99C899'
+yellow      = '#D8B56D'
+blue        = '#537C9C'
+magenta     = '#86CACD'
+cyan        = '#78B4B4'
+white       = '#DEDEE7'
+
+# Bright colors
+[colors.bright]
+black       = '#644646'
+red         = '#C88C8C'
+green       = '#99C899'
+yellow      = '#D8B56D'
+blue        = '#537C9C'
+magenta     = '#86CACD'
+cyan        = '#78B4B4'
+white       = '#FFFFE6'

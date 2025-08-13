@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Outrun Dark
+# Author:   Hugo Delahousse (http://github.com/hugodelahousse/)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#00002A'
+foreground  = '#D0D0FA'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#00002A'
+cursor      = '#D0D0FA'
+
+# Selection colors
+[colors.selection]
+background  = '#E0E0FF'
+text        = '#1f1f00'
+
+# Normal colors
+[colors.normal]
+black       = '#00002A'
+red         = '#FF4242'
+green       = '#59F176'
+yellow      = '#F3E877'
+blue        = '#66B0FF'
+magenta     = '#F10596'
+cyan        = '#0EF0F0'
+white       = '#D0D0FA'
+
+# Bright colors
+[colors.bright]
+black       = '#50507A'
+red         = '#FF4242'
+green       = '#59F176'
+yellow      = '#F3E877'
+blue        = '#66B0FF'
+magenta     = '#F10596'
+cyan        = '#0EF0F0'
+white       = '#F5F5FF'

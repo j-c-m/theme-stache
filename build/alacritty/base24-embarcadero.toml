@@ -1,0 +1,41 @@
+# Source:   base24
+# Theme:    Embarcadero
+# Author:   Thomas Leon Highbaugh
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#252A2F'
+foreground  = '#BCBDC0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#252A2F'
+cursor      = '#BCBDC0'
+
+# Selection colors
+[colors.selection]
+background  = '#DADBDB'
+text        = '#252424'
+
+# Normal colors
+[colors.normal]
+black       = '#252A2F'
+red         = '#ED5D86'
+green       = '#20C290'
+yellow      = '#EB824D'
+blue        = '#4080D0'
+magenta     = '#A070D0'
+cyan        = '#02EFEF'
+white       = '#BCBDC0'
+
+# Bright colors
+[colors.bright]
+black       = '#7F8285'
+red         = '#F57D9A'
+green       = '#A0D0A0'
+yellow      = '#FFE089'
+blue        = '#80B0F0'
+magenta     = '#C090F0'
+cyan        = '#40C0C0'
+white       = '#F8F8F8'

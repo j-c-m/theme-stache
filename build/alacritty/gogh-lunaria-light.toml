@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Lunaria Light
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#EBE4E1'
+foreground  = '#484646'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#3E3C3D'
+cursor      = '#484646'
+
+# Selection colors
+[colors.selection]
+background  = '#D5CFCC'
+text        = '#2a3033'
+
+# Normal colors
+[colors.normal]
+black       = '#3E3C3D'
+red         = '#783C1F'
+green       = '#497D46'
+yellow      = '#8F750B'
+blue        = '#3F3566'
+magenta     = '#793F62'
+cyan        = '#3778A9'
+white       = '#D5CFCC'
+
+# Bright colors
+[colors.bright]
+black       = '#484646'
+red         = '#B06240'
+green       = '#7BC175'
+yellow      = '#DCB735'
+blue        = '#5C4F89'
+magenta     = '#B56895'
+cyan        = '#64BAFF'
+white       = '#EBE4E1'

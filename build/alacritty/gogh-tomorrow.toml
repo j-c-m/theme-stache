@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Tomorrow
+# Author:   Chris Kempson (http://chriskempson.com)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#FFFFFF'
+foreground  = '#4D4D4C'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#E0E0E0'
+cursor      = '#4D4D4C'
+
+# Selection colors
+[colors.selection]
+background  = '#4D4D4C'
+text        = '#b2b2b3'
+
+# Normal colors
+[colors.normal]
+black       = '#E0E0E0'
+red         = '#C82829'
+green       = '#718C00'
+yellow      = '#EAB700'
+blue        = '#4271AE'
+magenta     = '#8959A8'
+cyan        = '#3E999F'
+white       = '#4D4D4C'
+
+# Bright colors
+[colors.bright]
+black       = '#8E908C'
+red         = '#C82829'
+green       = '#718C00'
+yellow      = '#EAB700'
+blue        = '#4271AE'
+magenta     = '#8959A8'
+cyan        = '#3E999F'
+white       = '#1D1F21'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Frontend Delight
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1B1C1D'
+foreground  = '#ADADAD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#242526'
+cursor      = '#ADADAD'
+
+# Selection colors
+[colors.selection]
+background  = '#ADADAD'
+text        = '#525252'
+
+# Normal colors
+[colors.normal]
+black       = '#242526'
+red         = '#F8511B'
+green       = '#565747'
+yellow      = '#FA771D'
+blue        = '#2C70B7'
+magenta     = '#F02E4F'
+cyan        = '#3CA1A6'
+white       = '#ADADAD'
+
+# Bright colors
+[colors.bright]
+black       = '#5FAC6D'
+red         = '#F74319'
+green       = '#74EC4C'
+yellow      = '#FDC325'
+blue        = '#3393CA'
+magenta     = '#E75E4F'
+cyan        = '#4FBCE6'
+white       = '#8C735B'

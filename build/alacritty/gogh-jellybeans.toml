@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Jellybeans
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#121212'
+foreground  = '#DEDEDE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#929292'
+cursor      = '#DEDEDE'
+
+# Selection colors
+[colors.selection]
+background  = '#DEDEDE'
+text        = '#212121'
+
+# Normal colors
+[colors.normal]
+black       = '#929292'
+red         = '#E27373'
+green       = '#94B979'
+yellow      = '#FFBA7B'
+blue        = '#97BEDC'
+magenta     = '#E1C0FA'
+cyan        = '#00988E'
+white       = '#DEDEDE'
+
+# Bright colors
+[colors.bright]
+black       = '#BDBDBD'
+red         = '#FFA1A1'
+green       = '#BDDEAB'
+yellow      = '#FFDCA0'
+blue        = '#B1D8F6'
+magenta     = '#FBDAFF'
+cyan        = '#1AB2A8'
+white       = '#FFFFFF'

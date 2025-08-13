@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Soft Server
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#242626'
+foreground  = '#99A3A2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#99A3A2'
+
+# Selection colors
+[colors.selection]
+background  = '#99A3A2'
+text        = '#665c5d'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#A2686A'
+green       = '#9AA56A'
+yellow      = '#A3906A'
+blue        = '#6B8FA3'
+magenta     = '#6A71A3'
+cyan        = '#6BA58F'
+white       = '#99A3A2'
+
+# Bright colors
+[colors.bright]
+black       = '#666C6C'
+red         = '#DD5C60'
+green       = '#BFDF55'
+yellow      = '#DEB360'
+blue        = '#62B1DF'
+magenta     = '#606EDF'
+cyan        = '#64E39C'
+white       = '#D2E0DE'

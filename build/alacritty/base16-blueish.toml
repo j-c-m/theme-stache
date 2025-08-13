@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Blueish
+# Author:   Ben Mayoras
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#182430'
+foreground  = '#C8E1F8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#182430'
+cursor      = '#C8E1F8'
+
+# Selection colors
+[colors.selection]
+background  = '#DDEAF6'
+text        = '#221509'
+
+# Normal colors
+[colors.normal]
+black       = '#182430'
+red         = '#4CE587'
+green       = '#C3E88D'
+yellow      = '#82AAFF'
+blue        = '#82AAFF'
+magenta     = '#FF84DD'
+cyan        = '#5FD1FF'
+white       = '#C8E1F8'
+
+# Bright colors
+[colors.bright]
+black       = '#616D78'
+red         = '#4CE587'
+green       = '#C3E88D'
+yellow      = '#82AAFF'
+blue        = '#82AAFF'
+magenta     = '#FF84DD'
+cyan        = '#5FD1FF'
+white       = '#8F98A0'

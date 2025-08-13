@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Campbell
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0C0C0C'
+foreground  = '#CCCCCC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#0C0C0C'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#CCCCCC'
+text        = '#333333'
+
+# Normal colors
+[colors.normal]
+black       = '#0C0C0C'
+red         = '#C50F1F'
+green       = '#13A10E'
+yellow      = '#C19C00'
+blue        = '#0037DA'
+magenta     = '#881798'
+cyan        = '#3A96DD'
+white       = '#CCCCCC'
+
+# Bright colors
+[colors.bright]
+black       = '#767676'
+red         = '#E74856'
+green       = '#16C60C'
+yellow      = '#F9F1A5'
+blue        = '#3B78FF'
+magenta     = '#B4009E'
+cyan        = '#61D6D6'
+white       = '#F2F2F2'

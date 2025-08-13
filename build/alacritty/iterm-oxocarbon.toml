@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    Oxocarbon
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#161616'
+foreground  = '#f2f4f8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#161616'
+cursor      = '#fefefe'
+
+# Selection colors
+[colors.selection]
+background  = '#393939'
+text        = '#161616'
+
+# Normal colors
+[colors.normal]
+black       = '#161616'
+red         = '#3ddbd9'
+green       = '#33b1ff'
+yellow      = '#ee5396'
+blue        = '#42be65'
+magenta     = '#be95ff'
+cyan        = '#ff7eb6'
+white       = '#f2f4f8'
+
+# Bright colors
+[colors.bright]
+black       = '#585858'
+red         = '#3ddbd9'
+green       = '#33b1ff'
+yellow      = '#ee5396'
+blue        = '#42be65'
+magenta     = '#be95ff'
+cyan        = '#ff7eb6'
+white       = '#f2f4f8'

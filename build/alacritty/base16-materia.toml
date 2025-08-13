@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Materia
+# Author:   Defman21
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#263238'
+foreground  = '#CDD3DE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#263238'
+cursor      = '#CDD3DE'
+
+# Selection colors
+[colors.selection]
+background  = '#D5DBE5'
+text        = '#2a241a'
+
+# Normal colors
+[colors.normal]
+black       = '#263238'
+red         = '#EC5F67'
+green       = '#8BD649'
+yellow      = '#FFCC00'
+blue        = '#89DDFF'
+magenta     = '#82AAFF'
+cyan        = '#80CBC4'
+white       = '#CDD3DE'
+
+# Bright colors
+[colors.bright]
+black       = '#707880'
+red         = '#EC5F67'
+green       = '#8BD649'
+yellow      = '#FFCC00'
+blue        = '#89DDFF'
+magenta     = '#82AAFF'
+cyan        = '#80CBC4'
+white       = '#FFFFFF'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Lunaria Eclipse
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#323F46'
+foreground  = '#C9CDD7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#323F46'
+cursor      = '#C9CDD7'
+
+# Selection colors
+[colors.selection]
+background  = '#C9CDD7'
+text        = '#363228'
+
+# Normal colors
+[colors.normal]
+black       = '#323F46'
+red         = '#83615B'
+green       = '#7F9781'
+yellow      = '#A69875'
+blue        = '#53516F'
+magenta     = '#856880'
+cyan        = '#7D96B2'
+white       = '#C9CDD7'
+
+# Bright colors
+[colors.bright]
+black       = '#3D4950'
+red         = '#BA9088'
+green       = '#BEDBC1'
+yellow      = '#F1DFB4'
+blue        = '#767495'
+magenta     = '#BE9CB8'
+cyan        = '#BCDBFF'
+white       = '#DFE2ED'

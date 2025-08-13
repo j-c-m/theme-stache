@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Pencil Dark
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#212121'
+foreground  = '#F1F1F1'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#212121'
+cursor      = '#F1F1F1'
+
+# Selection colors
+[colors.selection]
+background  = '#D9D9D9'
+text        = '#262626'
+
+# Normal colors
+[colors.normal]
+black       = '#212121'
+red         = '#C30771'
+green       = '#10A778'
+yellow      = '#A89C14'
+blue        = '#008EC4'
+magenta     = '#523C79'
+cyan        = '#20A5BA'
+white       = '#D9D9D9'
+
+# Bright colors
+[colors.bright]
+black       = '#424242'
+red         = '#FB007A'
+green       = '#5FD7AF'
+yellow      = '#F3E430'
+blue        = '#20BBFC'
+magenta     = '#6855DE'
+cyan        = '#4FB8CC'
+white       = '#F1F1F1'

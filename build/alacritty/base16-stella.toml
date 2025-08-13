@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Stella
+# Author:   Shrimpram
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#2B213C'
+foreground  = '#998BAD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2B213C'
+cursor      = '#998BAD'
+
+# Selection colors
+[colors.selection]
+background  = '#B4A5C8'
+text        = '#4b5a37'
+
+# Normal colors
+[colors.normal]
+black       = '#2B213C'
+red         = '#C79987'
+green       = '#ACC79B'
+yellow      = '#C7C691'
+blue        = '#A5AAD4'
+magenta     = '#C594FF'
+cyan        = '#9BC7BF'
+white       = '#998BAD'
+
+# Bright colors
+[colors.bright]
+black       = '#655978'
+red         = '#C79987'
+green       = '#ACC79B'
+yellow      = '#C7C691'
+blue        = '#A5AAD4'
+magenta     = '#C594FF'
+cyan        = '#9BC7BF'
+white       = '#EBDCFF'

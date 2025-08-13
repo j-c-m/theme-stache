@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    City Lights
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#171D23'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#41505E'
+cursor      = '#008B94'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#41505E'
+red         = '#D95468'
+green       = '#8BD49C'
+yellow      = '#EBBF83'
+blue        = '#539AFC'
+magenta     = '#B62D65'
+cyan        = '#70E1E8'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#41505E'
+red         = '#D95468'
+green       = '#8BD49C'
+yellow      = '#EBBF83'
+blue        = '#539AFC'
+magenta     = '#B62D65'
+cyan        = '#70E1E8'
+white       = '#FFFFFF'

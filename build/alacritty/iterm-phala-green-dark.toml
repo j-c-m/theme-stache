@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    Phala Green Dark
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#cdfa50'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#cdfa50'
+
+# Selection colors
+[colors.selection]
+background  = '#1b4611'
+text        = '#feffff'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#9d2713'
+green       = '#49ad31'
+yellow      = '#a8a633'
+blue        = '#0b22b8'
+magenta     = '#b23bb9'
+cyan        = '#4bb0bd'
+white       = '#cacaca'
+
+# Bright colors
+[colors.bright]
+black       = '#797979'
+red         = '#d93a1f'
+green       = '#5dd73f'
+yellow      = '#e9e64a'
+blue        = '#1331f5'
+magenta     = '#da4ae3'
+cyan        = '#63e4e8'
+white       = '#eaeaea'

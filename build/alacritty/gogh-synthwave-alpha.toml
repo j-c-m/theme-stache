@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Synthwave Alpha
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#241B30'
+foreground  = '#F2F2E3'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#241B30'
+cursor      = '#F2F2E3'
+
+# Selection colors
+[colors.selection]
+background  = '#B9B1BC'
+text        = '#464e43'
+
+# Normal colors
+[colors.normal]
+black       = '#241B30'
+red         = '#9A0048'
+green       = '#00986C'
+yellow      = '#ADAD3E'
+blue        = '#6E29AD'
+magenta     = '#B300AD'
+cyan        = '#00B0B1'
+white       = '#B9B1BC'
+
+# Bright colors
+[colors.bright]
+black       = '#7F7094'
+red         = '#E60A70'
+green       = '#0AE4A4'
+yellow      = '#F9F972'
+blue        = '#AA54F9'
+magenta     = '#FF00F6'
+cyan        = '#00FBFD'
+white       = '#F2F2E3'

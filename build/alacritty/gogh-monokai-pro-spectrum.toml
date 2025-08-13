@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Monokai Pro Spectrum
+# Author:   
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#363537'
+foreground  = '#F7F1FF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#363537'
+cursor      = '#F7F1FF'
+
+# Selection colors
+[colors.selection]
+background  = '#F7F1FF'
+text        = '#080e00'
+
+# Normal colors
+[colors.normal]
+black       = '#363537'
+red         = '#FC618D'
+green       = '#7BD88F'
+yellow      = '#FCE566'
+blue        = '#FD9353'
+magenta     = '#948AE3'
+cyan        = '#5AD4E6'
+white       = '#F7F1FF'
+
+# Bright colors
+[colors.bright]
+black       = '#A1A1A1'
+red         = '#FC618D'
+green       = '#7BD88F'
+yellow      = '#FCE566'
+blue        = '#FD9353'
+magenta     = '#948AE3'
+cyan        = '#5AD4E6'
+white       = '#F7F1FF'

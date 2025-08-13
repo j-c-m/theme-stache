@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Man Page
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#FEF49C'
+foreground  = '#000000'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#000000'
+
+# Selection colors
+[colors.selection]
+background  = '#CCCCCC'
+text        = '#333333'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#CC0000'
+green       = '#00A600'
+yellow      = '#999900'
+blue        = '#0000B2'
+magenta     = '#B200B2'
+cyan        = '#00A6B2'
+white       = '#CCCCCC'
+
+# Bright colors
+[colors.bright]
+black       = '#666666'
+red         = '#E50000'
+green       = '#00D900'
+yellow      = '#E5E500'
+blue        = '#0000FF'
+magenta     = '#E500E5'
+cyan        = '#00E5E5'
+white       = '#E5E5E5'

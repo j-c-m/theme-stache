@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ic Orange Ppl
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#262626'
+foreground  = '#FFCB83'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FFCB83'
+
+# Selection colors
+[colors.selection]
+background  = '#FFC88A'
+text        = '#003775'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#C13900'
+green       = '#A4A900'
+yellow      = '#CAAF00'
+blue        = '#BD6D00'
+magenta     = '#FC5E00'
+cyan        = '#F79500'
+white       = '#FFC88A'
+
+# Bright colors
+[colors.bright]
+black       = '#6A4F2A'
+red         = '#FF8C68'
+green       = '#F6FF40'
+yellow      = '#FFE36E'
+blue        = '#FFBE55'
+magenta     = '#FC874F'
+cyan        = '#C69752'
+white       = '#FAFAFF'

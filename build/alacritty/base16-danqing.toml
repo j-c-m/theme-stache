@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    DanQing
+# Author:   Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#2d302f'
+foreground  = '#e0f0eF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2d302f'
+cursor      = '#e0f0eF'
+
+# Selection colors
+[colors.selection]
+background  = '#ecf6f2'
+text        = '#13090d'
+
+# Normal colors
+[colors.normal]
+black       = '#2d302f'
+red         = '#F9906F'
+green       = '#8AB361'
+yellow      = '#F0C239'
+blue        = '#B0A4E3'
+magenta     = '#CCA4E3'
+cyan        = '#30DFF3'
+white       = '#e0f0eF'
+
+# Bright colors
+[colors.bright]
+black       = '#9da8a3'
+red         = '#F9906F'
+green       = '#8AB361'
+yellow      = '#F0C239'
+blue        = '#B0A4E3'
+magenta     = '#CCA4E3'
+cyan        = '#30DFF3'
+white       = '#fcfefd'

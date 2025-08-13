@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Spacegray
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#20242D'
+foreground  = '#B3B8C3'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#B3B8C3'
+
+# Selection colors
+[colors.selection]
+background  = '#B3B8C3'
+text        = '#4c473c'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#B04B57'
+green       = '#87B379'
+yellow      = '#E5C179'
+blue        = '#7D8FA4'
+magenta     = '#A47996'
+cyan        = '#85A7A5'
+white       = '#B3B8C3'
+
+# Bright colors
+[colors.bright]
+black       = '#000000'
+red         = '#B04B57'
+green       = '#87B379'
+yellow      = '#E5C179'
+blue        = '#7D8FA4'
+magenta     = '#A47996'
+cyan        = '#85A7A5'
+white       = '#FFFFFF'

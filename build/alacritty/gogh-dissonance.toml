@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Dissonance
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#DC322F'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#DC322F'
+green       = '#56DB3A'
+yellow      = '#FF8400'
+blue        = '#0084D4'
+magenta     = '#B729D9'
+cyan        = '#CCCCFF'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#D6DBE5'
+red         = '#DC322F'
+green       = '#56DB3A'
+yellow      = '#FF8400'
+blue        = '#0084D4'
+magenta     = '#B729D9'
+cyan        = '#CCCCFF'
+white       = '#FFFFFF'

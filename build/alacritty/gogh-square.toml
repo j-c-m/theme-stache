@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Square
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0A1E24'
+foreground  = '#A1A1A1'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#050505'
+cursor      = '#A1A1A1'
+
+# Selection colors
+[colors.selection]
+background  = '#F2F2F2'
+text        = '#0d0d0d'
+
+# Normal colors
+[colors.normal]
+black       = '#050505'
+red         = '#E9897C'
+green       = '#B6377D'
+yellow      = '#ECEBBE'
+blue        = '#A9CDEB'
+magenta     = '#75507B'
+cyan        = '#C9CAEC'
+white       = '#F2F2F2'
+
+# Bright colors
+[colors.bright]
+black       = '#141414'
+red         = '#F99286'
+green       = '#C3F786'
+yellow      = '#FCFBCC'
+blue        = '#B6DEFB'
+magenta     = '#AD7FA8'
+cyan        = '#D7D9FC'
+white       = '#E2E2E2'

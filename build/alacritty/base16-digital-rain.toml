@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Digital Rain
+# Author:   Nathan Byrd (https://github.com/cognitivegears)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#00FF00'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#00FF00'
+
+# Selection colors
+[colors.selection]
+background  = '#C4CEC4'
+text        = '#3b313b'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#C85A46'
+green       = '#64C83C'
+yellow      = '#A67A50'
+blue        = '#5482AF'
+magenta     = '#9472B4'
+cyan        = '#468C78'
+white       = '#00FF00'
+
+# Bright colors
+[colors.bright]
+black       = '#7C8D7C'
+red         = '#C85A46'
+green       = '#64C83C'
+yellow      = '#A67A50'
+blue        = '#5482AF'
+magenta     = '#9472B4'
+cyan        = '#468C78'
+white       = '#D8E2DC'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Tender
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#282828'
+foreground  = '#EEEEEE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1D1D1D'
+cursor      = '#EEEEEE'
+
+# Selection colors
+[colors.selection]
+background  = '#EEEEEE'
+text        = '#111111'
+
+# Normal colors
+[colors.normal]
+black       = '#1D1D1D'
+red         = '#C5152F'
+green       = '#C9D05C'
+yellow      = '#FFC24B'
+blue        = '#B3DEEF'
+magenta     = '#D3B987'
+cyan        = '#73CEF4'
+white       = '#EEEEEE'
+
+# Bright colors
+[colors.bright]
+black       = '#323232'
+red         = '#F43753'
+green       = '#D9E066'
+yellow      = '#FACC72'
+blue        = '#C0EAFB'
+magenta     = '#EFD093'
+cyan        = '#A1D6EC'
+white       = '#FFFFFF'

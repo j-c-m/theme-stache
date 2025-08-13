@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Mar
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#FFFFFF'
+foreground  = '#23476A'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#23476A'
+
+# Selection colors
+[colors.selection]
+background  = '#F8F8F8'
+text        = '#070707'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#B5407B'
+green       = '#7BB540'
+yellow      = '#B57B40'
+blue        = '#407BB5'
+magenta     = '#7B40B5'
+cyan        = '#40B57B'
+white       = '#F8F8F8'
+
+# Bright colors
+[colors.bright]
+black       = '#737373'
+red         = '#CD73A0'
+green       = '#A0CD73'
+yellow      = '#CDA073'
+blue        = '#73A0CD'
+magenta     = '#A073CD'
+cyan        = '#73CDA0'
+white       = '#FFFFFF'

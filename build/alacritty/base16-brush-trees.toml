@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Brush Trees
+# Author:   Abraham White &lt;abelincoln.white@gmail.com&gt;
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#E3EFEF'
+foreground  = '#6D828E'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#E3EFEF'
+cursor      = '#6D828E'
+
+# Selection colors
+[colors.selection]
+background  = '#5A6D7A'
+text        = '#a59285'
+
+# Normal colors
+[colors.normal]
+black       = '#E3EFEF'
+red         = '#b38686'
+green       = '#87b386'
+yellow      = '#aab386'
+blue        = '#868cb3'
+magenta     = '#b386b2'
+cyan        = '#86b3b3'
+white       = '#6D828E'
+
+# Bright colors
+[colors.bright]
+black       = '#98AFB5'
+red         = '#b38686'
+green       = '#87b386'
+yellow      = '#aab386'
+blue        = '#868cb3'
+magenta     = '#b386b2'
+cyan        = '#86b3b3'
+white       = '#485867'

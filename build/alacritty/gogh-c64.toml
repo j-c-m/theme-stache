@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    C64
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#40318D'
+foreground  = '#7869C4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#090300'
+cursor      = '#7869C4'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#090300'
+red         = '#883932'
+green       = '#55A049'
+yellow      = '#BFCE72'
+blue        = '#40318D'
+magenta     = '#8B3F96'
+cyan        = '#67B6BD'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#000000'
+red         = '#883932'
+green       = '#55A049'
+yellow      = '#BFCE72'
+blue        = '#40318D'
+magenta     = '#8B3F96'
+cyan        = '#67B6BD'
+white       = '#F7F7F7'

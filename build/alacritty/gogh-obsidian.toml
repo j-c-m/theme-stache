@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Obsidian
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#283033'
+foreground  = '#CDCDCD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#CDCDCD'
+
+# Selection colors
+[colors.selection]
+background  = '#BBBBBB'
+text        = '#444444'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#A60001'
+green       = '#00BB00'
+yellow      = '#FECD22'
+blue        = '#3A9BDB'
+magenta     = '#BB00BB'
+cyan        = '#00BBBB'
+white       = '#BBBBBB'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF0003'
+green       = '#93C863'
+yellow      = '#FEF874'
+blue        = '#A1D7FF'
+magenta     = '#FF55FF'
+cyan        = '#55FFFF'
+white       = '#FFFFFF'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Belafonte Night
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#20111B'
+foreground  = '#968C83'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#20111B'
+cursor      = '#968C83'
+
+# Selection colors
+[colors.selection]
+background  = '#968C83'
+text        = '#69737c'
+
+# Normal colors
+[colors.normal]
+black       = '#20111B'
+red         = '#BE100E'
+green       = '#858162'
+yellow      = '#EAA549'
+blue        = '#426A79'
+magenta     = '#97522C'
+cyan        = '#989A9C'
+white       = '#968C83'
+
+# Bright colors
+[colors.bright]
+black       = '#5E5252'
+red         = '#BE100E'
+green       = '#858162'
+yellow      = '#EAA549'
+blue        = '#426A79'
+magenta     = '#97522C'
+cyan        = '#989A9C'
+white       = '#D5CCBA'

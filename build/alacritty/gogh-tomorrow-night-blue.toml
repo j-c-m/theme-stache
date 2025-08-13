@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Tomorrow Night Blue
+# Author:   Chris Kempson (http://chriskempson.com)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#002451'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#00346E'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#00346E'
+red         = '#FF9DA4'
+green       = '#D1F1A9'
+yellow      = '#FFEEAD'
+blue        = '#BBDAFF'
+magenta     = '#EBBBFF'
+cyan        = '#99FFFF'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#7285B7'
+red         = '#FF9DA4'
+green       = '#D1F1A9'
+yellow      = '#FFEEAD'
+blue        = '#BBDAFF'
+magenta     = '#EBBBFF'
+cyan        = '#99FFFF'
+white       = '#FFFFFF'

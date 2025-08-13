@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Blue Forest
+# Author:   alonsodomin (https://github.com/alonsodomin)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#141F2E'
+foreground  = '#FFCC33'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#141F2E'
+cursor      = '#FFCC33'
+
+# Selection colors
+[colors.selection]
+background  = '#91CCFF'
+text        = '#6e3300'
+
+# Normal colors
+[colors.normal]
+black       = '#141F2E'
+red         = '#fffab1'
+green       = '#80ff80'
+yellow      = '#91CCFF'
+blue        = '#a2cff5'
+magenta     = '#0099FF'
+cyan        = '#80ff80'
+white       = '#FFCC33'
+
+# Bright colors
+[colors.bright]
+black       = '#a0ffa0'
+red         = '#fffab1'
+green       = '#80ff80'
+yellow      = '#91CCFF'
+blue        = '#a2cff5'
+magenta     = '#0099FF'
+cyan        = '#80ff80'
+white       = '#375780'

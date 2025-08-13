@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    One Double Light
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#fafafa'
+foreground  = '#383a42'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#464b57'
+cursor      = '#191919'
+
+# Selection colors
+[colors.selection]
+background  = '#464d5d'
+text        = '#191919'
+
+# Normal colors
+[colors.normal]
+black       = '#464b57'
+red         = '#e45649'
+green       = '#50a14f'
+yellow      = '#c18401'
+blue        = '#0184bc'
+magenta     = '#a626a4'
+cyan        = '#0997b3'
+white       = '#e8d9d9'
+
+# Bright colors
+[colors.bright]
+black       = '#0f131e'
+red         = '#f24c2d'
+green       = '#3db637'
+yellow      = '#e09d00'
+blue        = '#2e63d6'
+magenta     = '#d21fd1'
+cyan        = '#06b1d8'
+white       = '#ffffff'

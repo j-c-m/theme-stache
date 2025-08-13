@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Cobalt 2
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#132738'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#BBBBBB'
+text        = '#444444'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF0000'
+green       = '#38DE21'
+yellow      = '#FFE50A'
+blue        = '#1460D2'
+magenta     = '#FF005D'
+cyan        = '#00BBBB'
+white       = '#BBBBBB'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#F40E17'
+green       = '#3BD01D'
+yellow      = '#EDC809'
+blue        = '#5555FF'
+magenta     = '#FF55FF'
+cyan        = '#6AE3FA'
+white       = '#FFFFFF'

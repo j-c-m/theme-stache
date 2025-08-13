@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    One Light
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#F8F8F8'
+foreground  = '#2A2B32'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#2A2B32'
+
+# Selection colors
+[colors.selection]
+background  = '#8E8F96'
+text        = '#717069'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#DA3E39'
+green       = '#41933E'
+yellow      = '#855504'
+blue        = '#315EEE'
+magenta     = '#930092'
+cyan        = '#0E6FAD'
+white       = '#8E8F96'
+
+# Bright colors
+[colors.bright]
+black       = '#2A2B32'
+red         = '#DA3E39'
+green       = '#41933E'
+yellow      = '#855504'
+blue        = '#315EEE'
+magenta     = '#930092'
+cyan        = '#0E6FAD'
+white       = '#FFFEFE'

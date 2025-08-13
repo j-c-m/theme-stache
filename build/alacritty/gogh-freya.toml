@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Freya
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#252E32'
+foreground  = '#94A3A5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#073642'
+cursor      = '#839496'
+
+# Selection colors
+[colors.selection]
+background  = '#94A3A5'
+text        = '#6b5c5a'
+
+# Normal colors
+[colors.normal]
+black       = '#073642'
+red         = '#DC322F'
+green       = '#859900'
+yellow      = '#B58900'
+blue        = '#268BD2'
+magenta     = '#EC0048'
+cyan        = '#2AA198'
+white       = '#94A3A5'
+
+# Bright colors
+[colors.bright]
+black       = '#586E75'
+red         = '#CB4B16'
+green       = '#859900'
+yellow      = '#B58900'
+blue        = '#268BD2'
+magenta     = '#D33682'
+cyan        = '#2AA198'
+white       = '#6C71C4'

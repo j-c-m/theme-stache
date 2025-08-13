@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Google Light
+# Author:   Seth Wright (http://sethawright.com)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#ffffff'
+foreground  = '#373b41'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#ffffff'
+cursor      = '#373b41'
+
+# Selection colors
+[colors.selection]
+background  = '#282a2e'
+text        = '#d7d5d1'
+
+# Normal colors
+[colors.normal]
+black       = '#ffffff'
+red         = '#CC342B'
+green       = '#198844'
+yellow      = '#FBA922'
+blue        = '#3971ED'
+magenta     = '#A36AC7'
+cyan        = '#3971ED'
+white       = '#373b41'
+
+# Bright colors
+[colors.bright]
+black       = '#b4b7b4'
+red         = '#CC342B'
+green       = '#198844'
+yellow      = '#FBA922'
+blue        = '#3971ED'
+magenta     = '#A36AC7'
+cyan        = '#3971ED'
+white       = '#1d1f21'

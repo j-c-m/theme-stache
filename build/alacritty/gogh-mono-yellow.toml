@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Mono Yellow
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2B2400'
+foreground  = '#FFD300'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#403500'
+cursor      = '#FFD300'
+
+# Selection colors
+[colors.selection]
+background  = '#FFD300'
+text        = '#002cff'
+
+# Normal colors
+[colors.normal]
+black       = '#403500'
+red         = '#FFD300'
+green       = '#FFD300'
+yellow      = '#FFD300'
+blue        = '#FFD300'
+magenta     = '#FFD300'
+cyan        = '#FFD300'
+white       = '#FFD300'
+
+# Bright colors
+[colors.bright]
+black       = '#FFD300'
+red         = '#FFD300'
+green       = '#FFD300'
+yellow      = '#FFD300'
+blue        = '#FFD300'
+magenta     = '#FFD300'
+cyan        = '#FFD300'
+white       = '#FFD300'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Plateau
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1B1818'
+foreground  = '#7E7777'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#CA4949'
+cursor      = '#7E7777'
+
+# Selection colors
+[colors.selection]
+background  = '#E7DFDF'
+text        = '#182020'
+
+# Normal colors
+[colors.normal]
+black       = '#CA4949'
+red         = '#CA4949'
+green       = '#4B8B8B'
+yellow      = '#A06E3B'
+blue        = '#7272CA'
+magenta     = '#BD5187'
+cyan        = '#5485B6'
+white       = '#E7DFDF'
+
+# Bright colors
+[colors.bright]
+black       = '#655D5D'
+red         = '#B45A3C'
+green       = '#4B8B8B'
+yellow      = '#A06E3B'
+blue        = '#8464C4'
+magenta     = '#BD5187'
+cyan        = '#5485B6'
+white       = '#F4ECEC'

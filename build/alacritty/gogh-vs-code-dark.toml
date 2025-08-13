@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Vs Code Dark+
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1E1E1E'
+foreground  = '#CCCCCC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#6A787A'
+cursor      = '#CCCCCC'
+
+# Selection colors
+[colors.selection]
+background  = '#C3DDE1'
+text        = '#3c221e'
+
+# Normal colors
+[colors.normal]
+black       = '#6A787A'
+red         = '#E9653B'
+green       = '#39E9A8'
+yellow      = '#E5B684'
+blue        = '#44AAE6'
+magenta     = '#E17599'
+cyan        = '#3DD5E7'
+white       = '#C3DDE1'
+
+# Bright colors
+[colors.bright]
+black       = '#598489'
+red         = '#E65029'
+green       = '#00FF9A'
+yellow      = '#E89440'
+blue        = '#009AFB'
+magenta     = '#FF578F'
+cyan        = '#5FFFFF'
+white       = '#D9FBFF'

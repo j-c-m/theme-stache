@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Summerfruit Light
+# Author:   Christopher Corley (http://christop.club/)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#FFFFFF'
+foreground  = '#101010'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#FFFFFF'
+cursor      = '#101010'
+
+# Selection colors
+[colors.selection]
+background  = '#151515'
+text        = '#eaeaea'
+
+# Normal colors
+[colors.normal]
+black       = '#FFFFFF'
+red         = '#FF0086'
+green       = '#00C918'
+yellow      = '#ABA800'
+blue        = '#3777E6'
+magenta     = '#AD00A1'
+cyan        = '#1FAAAA'
+white       = '#101010'
+
+# Bright colors
+[colors.bright]
+black       = '#B0B0B0'
+red         = '#FF0086'
+green       = '#00C918'
+yellow      = '#ABA800'
+blue        = '#3777E6'
+magenta     = '#AD00A1'
+cyan        = '#1FAAAA'
+white       = '#202020'

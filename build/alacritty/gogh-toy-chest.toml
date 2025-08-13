@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Toy Chest
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#24364B'
+foreground  = '#31D07B'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2C3F58'
+cursor      = '#31D07B'
+
+# Selection colors
+[colors.selection]
+background  = '#23D183'
+text        = '#dc2e7c'
+
+# Normal colors
+[colors.normal]
+black       = '#2C3F58'
+red         = '#BE2D26'
+green       = '#1A9172'
+yellow      = '#DB8E27'
+blue        = '#325D96'
+magenta     = '#8A5EDC'
+cyan        = '#35A08F'
+white       = '#23D183'
+
+# Bright colors
+[colors.bright]
+black       = '#336889'
+red         = '#DD5944'
+green       = '#31D07B'
+yellow      = '#E7D84B'
+blue        = '#34A6DA'
+magenta     = '#AE6BDC'
+cyan        = '#42C3AE'
+white       = '#D5D5D5'

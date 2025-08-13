@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Treehouse
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#191919'
+foreground  = '#786B53'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#321300'
+cursor      = '#786B53'
+
+# Selection colors
+[colors.selection]
+background  = '#786B53'
+text        = '#8794ac'
+
+# Normal colors
+[colors.normal]
+black       = '#321300'
+red         = '#B2270E'
+green       = '#44A900'
+yellow      = '#AA820C'
+blue        = '#58859A'
+magenta     = '#97363D'
+cyan        = '#B25A1E'
+white       = '#786B53'
+
+# Bright colors
+[colors.bright]
+black       = '#433626'
+red         = '#ED5D20'
+green       = '#55F238'
+yellow      = '#F2B732'
+blue        = '#85CFED'
+magenta     = '#E14C5A'
+cyan        = '#F07D14'
+white       = '#FFC800'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Elementary
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#101010'
+foreground  = '#F2F2F2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#303030'
+cursor      = '#F2F2F2'
+
+# Selection colors
+[colors.selection]
+background  = '#F2F2F2'
+text        = '#0d0d0d'
+
+# Normal colors
+[colors.normal]
+black       = '#303030'
+red         = '#E1321A'
+green       = '#6AB017'
+yellow      = '#FFC005'
+blue        = '#004F9E'
+magenta     = '#EC0048'
+cyan        = '#2AA7E7'
+white       = '#F2F2F2'
+
+# Bright colors
+[colors.bright]
+black       = '#5D5D5D'
+red         = '#FF361E'
+green       = '#7BC91F'
+yellow      = '#FFD00A'
+blue        = '#0071FF'
+magenta     = '#FF1D62'
+cyan        = '#4BB8FD'
+white       = '#A020F0'

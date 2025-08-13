@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Monokai Pro Light
+# Author:   
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#FEFAF9'
+foreground  = '#29242A'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#FEFAF9'
+cursor      = '#29242A'
+
+# Selection colors
+[colors.selection]
+background  = '#29242A'
+text        = '#d6dbd5'
+
+# Normal colors
+[colors.normal]
+black       = '#FEFAF9'
+red         = '#E14775'
+green       = '#269D69'
+yellow      = '#CC7A0A'
+blue        = '#E16032'
+magenta     = '#7058BE'
+cyan        = '#1C8CA8'
+white       = '#29242A'
+
+# Bright colors
+[colors.bright]
+black       = '#6E6B6A'
+red         = '#E14775'
+green       = '#269D69'
+yellow      = '#CC7A0A'
+blue        = '#E16032'
+magenta     = '#7058BE'
+cyan        = '#1C8CA8'
+white       = '#29242A'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Catppuccin Latte
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#EFF1F5'
+foreground  = '#4C4F69'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#5C5F77'
+cursor      = '#4C4F69'
+
+# Selection colors
+[colors.selection]
+background  = '#ACB0BE'
+text        = '#534f41'
+
+# Normal colors
+[colors.normal]
+black       = '#5C5F77'
+red         = '#D20F39'
+green       = '#40A02B'
+yellow      = '#DF8E1D'
+blue        = '#1E66F5'
+magenta     = '#EA76CB'
+cyan        = '#179299'
+white       = '#ACB0BE'
+
+# Bright colors
+[colors.bright]
+black       = '#6C6F85'
+red         = '#D20F39'
+green       = '#40A02B'
+yellow      = '#DF8E1D'
+blue        = '#1E66F5'
+magenta     = '#EA76CB'
+cyan        = '#179299'
+white       = '#BCC0CC'

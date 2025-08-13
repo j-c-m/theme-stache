@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Solarized Darcula
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#3D3F41'
+foreground  = '#D2D8D9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#25292A'
+cursor      = '#D2D8D9'
+
+# Selection colors
+[colors.selection]
+background  = '#D2D8D9'
+text        = '#2d2726'
+
+# Normal colors
+[colors.normal]
+black       = '#25292A'
+red         = '#F24840'
+green       = '#629655'
+yellow      = '#B68800'
+blue        = '#2075C7'
+magenta     = '#797FD4'
+cyan        = '#15968D'
+white       = '#D2D8D9'
+
+# Bright colors
+[colors.bright]
+black       = '#25292A'
+red         = '#F24840'
+green       = '#629655'
+yellow      = '#B68800'
+blue        = '#2075C7'
+magenta     = '#797FD4'
+cyan        = '#15968D'
+white       = '#D2D8D9'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Everforest Light Soft
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#F3EAD3'
+foreground  = '#5C6A72'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#5C6A72'
+cursor      = '#5C6A72'
+
+# Selection colors
+[colors.selection]
+background  = '#DFDDC8'
+text        = '#202237'
+
+# Normal colors
+[colors.normal]
+black       = '#5C6A72'
+red         = '#F85552'
+green       = '#8DA101'
+yellow      = '#DFA000'
+blue        = '#3A94C5'
+magenta     = '#DF69BA'
+cyan        = '#35A77C'
+white       = '#DFDDC8'
+
+# Bright colors
+[colors.bright]
+black       = '#3A464C'
+red         = '#E67E80'
+green       = '#A7C080'
+yellow      = '#DBBC7F'
+blue        = '#7FBBB3'
+magenta     = '#D699B6'
+cyan        = '#83C092'
+white       = '#D3C6AA'

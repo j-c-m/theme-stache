@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Summer Pop
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#272822'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#666666'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#E5E5E5'
+text        = '#1a1a1a'
+
+# Normal colors
+[colors.normal]
+black       = '#666666'
+red         = '#FF1E8E'
+green       = '#8EFF1E'
+yellow      = '#FFFB00'
+blue        = '#1E8EFF'
+magenta     = '#E500E5'
+cyan        = '#00E5E5'
+white       = '#E5E5E5'
+
+# Bright colors
+[colors.bright]
+black       = '#666666'
+red         = '#FF1E8E'
+green       = '#8EFF1E'
+yellow      = '#FFFB00'
+blue        = '#1E8EFF'
+magenta     = '#E500E5'
+cyan        = '#00E5E5'
+white       = '#E5E5E5'

@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    Havn Skumring
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#121521'
+foreground  = '#d7dbea'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#262c45'
+cursor      = '#40786f'
+
+# Selection colors
+[colors.selection]
+background  = '#34504a'
+text        = '#dcdfed'
+
+# Normal colors
+[colors.normal]
+black       = '#262c45'
+red         = '#d96048'
+green       = '#7cab7f'
+yellow      = '#eeb64e'
+blue        = '#5d6bef'
+magenta     = '#79719a'
+cyan        = '#c98bbe'
+white       = '#dde0ed'
+
+# Bright colors
+[colors.bright]
+black       = '#212840'
+red         = '#c47768'
+green       = '#8f9d90'
+yellow      = '#e4c693'
+blue        = '#5d85c6'
+magenta     = '#967de7'
+cyan        = '#c57eb3'
+white       = '#fdf6e3'

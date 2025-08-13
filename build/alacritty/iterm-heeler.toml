@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    heeler
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#211f44'
+foreground  = '#fcfcfc'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#ffffff'
+
+# Selection colors
+[colors.selection]
+background  = '#2b2b3f'
+text        = '#7bfb70'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#d3573b'
+green       = '#c1d041'
+yellow      = '#eecf75'
+blue        = '#6da3ec'
+magenta     = '#fd9bc1'
+cyan        = '#fe9d6e'
+white       = '#feffff'
+
+# Bright colors
+[colors.bright]
+black       = '#000000'
+red         = '#d3573b'
+green       = '#c1d041'
+yellow      = '#eecf75'
+blue        = '#2c86ff'
+magenta     = '#fd9bc1'
+cyan        = '#92a5df'
+white       = '#feffff'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Forest
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1B1918'
+foreground  = '#9C9491'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#F22C40'
+cursor      = '#9C9491'
+
+# Selection colors
+[colors.selection]
+background  = '#E6E2E0'
+text        = '#191d1f'
+
+# Normal colors
+[colors.normal]
+black       = '#F22C40'
+red         = '#F22C40'
+green       = '#7B9726'
+yellow      = '#C38418'
+blue        = '#407EE7'
+magenta     = '#C33FF3'
+cyan        = '#3D97B8'
+white       = '#E6E2E0'
+
+# Bright colors
+[colors.bright]
+black       = '#766E6B'
+red         = '#DF5320'
+green       = '#7B9726'
+yellow      = '#C38418'
+blue        = '#6666EA'
+magenta     = '#C33FF3'
+cyan        = '#3D97B8'
+white       = '#F1EFEE'

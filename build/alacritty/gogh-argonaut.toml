@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Argonaut
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#0E1019'
+foreground  = '#FFFAF4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#232323'
+cursor      = '#FFFAF4'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#232323'
+red         = '#FF000F'
+green       = '#8CE10B'
+yellow      = '#FFB900'
+blue        = '#008DF8'
+magenta     = '#6D43A6'
+cyan        = '#00D8EB'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#444444'
+red         = '#FF2740'
+green       = '#ABE15B'
+yellow      = '#FFD242'
+blue        = '#0092FF'
+magenta     = '#9A5FEB'
+cyan        = '#67FFF0'
+white       = '#FFFFFF'

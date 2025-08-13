@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    3024 Day
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#F7F7F7'
+foreground  = '#4A4543'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#090300'
+cursor      = '#4A4543'
+
+# Selection colors
+[colors.selection]
+background  = '#A5A2A2'
+text        = '#5a5d5d'
+
+# Normal colors
+[colors.normal]
+black       = '#090300'
+red         = '#DB2D20'
+green       = '#01A252'
+yellow      = '#FDED02'
+blue        = '#01A0E4'
+magenta     = '#A16A94'
+cyan        = '#B5E4F4'
+white       = '#A5A2A2'
+
+# Bright colors
+[colors.bright]
+black       = '#5C5855'
+red         = '#E8BBD0'
+green       = '#3A3432'
+yellow      = '#4A4543'
+blue        = '#807D7C'
+magenta     = '#D6D5D4'
+cyan        = '#CDAB53'
+white       = '#F7F7F7'

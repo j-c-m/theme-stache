@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Apathy
+# Author:   Jannik Siebert (https://github.com/janniks)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#031A16'
+foreground  = '#81B5AC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#031A16'
+cursor      = '#81B5AC'
+
+# Selection colors
+[colors.selection]
+background  = '#A7CEC8'
+text        = '#583137'
+
+# Normal colors
+[colors.normal]
+black       = '#031A16'
+red         = '#3E9688'
+green       = '#883E96'
+yellow      = '#3E4C96'
+blue        = '#96883E'
+magenta     = '#4C963E'
+cyan        = '#963E4C'
+white       = '#81B5AC'
+
+# Bright colors
+[colors.bright]
+black       = '#2B685E'
+red         = '#3E9688'
+green       = '#883E96'
+yellow      = '#3E4C96'
+blue        = '#96883E'
+magenta     = '#4C963E'
+cyan        = '#963E4C'
+white       = '#D2E7E4'

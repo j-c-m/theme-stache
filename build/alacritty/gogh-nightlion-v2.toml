@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Nightlion V2
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#171717'
+foreground  = '#BBBBBB'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#4C4C4C'
+cursor      = '#BBBBBB'
+
+# Selection colors
+[colors.selection]
+background  = '#BBBBBB'
+text        = '#444444'
+
+# Normal colors
+[colors.normal]
+black       = '#4C4C4C'
+red         = '#BB0000'
+green       = '#04F623'
+yellow      = '#F3F167'
+blue        = '#64D0F0'
+magenta     = '#CE6FDB'
+cyan        = '#00DADF'
+white       = '#BBBBBB'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF5555'
+green       = '#7DF71D'
+yellow      = '#FFFF55'
+blue        = '#62CBE8'
+magenta     = '#FF9BF5'
+cyan        = '#00CCD8'
+white       = '#FFFFFF'

@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    detuned
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#c7c7c7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#161616'
+cursor      = '#c7c7c7'
+
+# Selection colors
+[colors.selection]
+background  = '#c6dcfb'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#161616'
+red         = '#ea5385'
+green       = '#b2e152'
+yellow      = '#e3da81'
+blue        = '#4091d3'
+magenta     = '#8f3ef5'
+cyan        = '#6cb4d5'
+white       = '#c7c7c7'
+
+# Bright colors
+[colors.bright]
+black       = '#676767'
+red         = '#ea86ab'
+green       = '#c4e180'
+yellow      = '#fcf28f'
+blue        = '#55baf9'
+magenta     = '#b89ff8'
+cyan        = '#7fd4fa'
+white       = '#fefefe'

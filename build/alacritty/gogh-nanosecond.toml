@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Nanosecond
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#112233'
+foreground  = '#FAFAFA'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FAFAFA'
+
+# Selection colors
+[colors.selection]
+background  = '#AAAAAA'
+text        = '#555555'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF0000'
+green       = '#00AA00'
+yellow      = '#FFAA00'
+blue        = '#00AAFF'
+magenta     = '#FF00FF'
+cyan        = '#00AAAA'
+white       = '#AAAAAA'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF5555'
+green       = '#80FF80'
+yellow      = '#FFFF80'
+blue        = '#AACCFF'
+magenta     = '#FFAAFF'
+cyan        = '#80FFFF'
+white       = '#FFFFFF'

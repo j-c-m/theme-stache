@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Thayer Bright
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1B1D1E'
+foreground  = '#F8F8F8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1B1D1E'
+cursor      = '#F8F8F8'
+
+# Selection colors
+[colors.selection]
+background  = '#CCCCC6'
+text        = '#333339'
+
+# Normal colors
+[colors.normal]
+black       = '#1B1D1E'
+red         = '#F92672'
+green       = '#4DF840'
+yellow      = '#F4FD22'
+blue        = '#2757D6'
+magenta     = '#8C54FE'
+cyan        = '#38C8B5'
+white       = '#CCCCC6'
+
+# Bright colors
+[colors.bright]
+black       = '#505354'
+red         = '#FF5995'
+green       = '#B6E354'
+yellow      = '#FEED6C'
+blue        = '#3F78FF'
+magenta     = '#9E6FFE'
+cyan        = '#23CFD5'
+white       = '#F8F8F2'

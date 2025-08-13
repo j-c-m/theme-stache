@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Peppermint
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#C7C7C7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#353535'
+cursor      = '#BBBBBB'
+
+# Selection colors
+[colors.selection]
+background  = '#B3B3B3'
+text        = '#4c4c4c'
+
+# Normal colors
+[colors.normal]
+black       = '#353535'
+red         = '#E64569'
+green       = '#89D287'
+yellow      = '#DAB752'
+blue        = '#439ECF'
+magenta     = '#D961DC'
+cyan        = '#64AAAF'
+white       = '#B3B3B3'
+
+# Bright colors
+[colors.bright]
+black       = '#535353'
+red         = '#E4859A'
+green       = '#A2CCA1'
+yellow      = '#E1E387'
+blue        = '#6FBBE2'
+magenta     = '#E586E7'
+cyan        = '#96DCDA'
+white       = '#DEDEDE'

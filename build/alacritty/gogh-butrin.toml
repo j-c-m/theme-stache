@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Butrin
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#4B3B3C'
+foreground  = '#F2F2F2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#8C7E78'
+cursor      = '#E39D93'
+
+# Selection colors
+[colors.selection]
+background  = '#E2CEBE'
+text        = '#1d3141'
+
+# Normal colors
+[colors.normal]
+black       = '#8C7E78'
+red         = '#E68A8A'
+green       = '#99CC99'
+yellow      = '#FAD7A0'
+blue        = '#6699CC'
+magenta     = '#C8A2C8'
+cyan        = '#6FC3B2'
+white       = '#E2CEBE'
+
+# Bright colors
+[colors.bright]
+black       = '#BFACA4'
+red         = '#F2B1B1'
+green       = '#B2D8B2'
+yellow      = '#F7DCB4'
+blue        = '#87CEFA'
+magenta     = '#D8BFD8'
+cyan        = '#64DBDB'
+white       = '#F2F2F2'

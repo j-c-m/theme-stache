@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    0x96f
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#252426'
+foreground  = '#fbfcfa'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#262427'
+cursor      = '#fbfcfa'
+
+# Selection colors
+[colors.selection]
+background  = '#fbfcfa'
+text        = '#252426'
+
+# Normal colors
+[colors.normal]
+black       = '#262427'
+red         = '#ff7272'
+green       = '#bcdf59'
+yellow      = '#ffca58'
+blue        = '#49cae4'
+magenta     = '#a093e2'
+cyan        = '#aee8f4'
+white       = '#fcfcfa'
+
+# Bright colors
+[colors.bright]
+black       = '#545452'
+red         = '#ff8787'
+green       = '#c6e472'
+yellow      = '#ffd271'
+blue        = '#64d2e8'
+magenta     = '#aea3e6'
+cyan        = '#baebf6'
+white       = '#fcfcfa'

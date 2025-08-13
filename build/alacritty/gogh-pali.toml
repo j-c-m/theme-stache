@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Pali
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#232E37'
+foreground  = '#D9E6F2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#0A0A0A'
+cursor      = '#D9E6F2'
+
+# Selection colors
+[colors.selection]
+background  = '#F2F2F2'
+text        = '#0d0d0d'
+
+# Normal colors
+[colors.normal]
+black       = '#0A0A0A'
+red         = '#AB8F74'
+green       = '#74AB8F'
+yellow      = '#8FAB74'
+blue        = '#8F74AB'
+magenta     = '#AB748F'
+cyan        = '#748FAB'
+white       = '#F2F2F2'
+
+# Bright colors
+[colors.bright]
+black       = '#5D5D5D'
+red         = '#FF1D62'
+green       = '#9CC3AF'
+yellow      = '#FFD00A'
+blue        = '#AF9CC3'
+magenta     = '#FF1D62'
+cyan        = '#4BB8FD'
+white       = '#A020F0'

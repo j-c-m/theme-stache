@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    One Double Dark
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#282b33'
+foreground  = '#dcdfe4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#3e4451'
+cursor      = '#f1e0dc'
+
+# Selection colors
+[colors.selection]
+background  = '#585a6e'
+text        = '#ced5f1'
+
+# Normal colors
+[colors.normal]
+black       = '#3e4451'
+red         = '#e06c75'
+green       = '#98c379'
+yellow      = '#e5c07b'
+blue        = '#61afef'
+magenta     = '#c678dd'
+cyan        = '#56b6c2'
+white       = '#dcdfe4'
+
+# Bright colors
+[colors.bright]
+black       = '#545d6d'
+red         = '#fd807f'
+green       = '#96d58a'
+yellow      = '#edc273'
+blue        = '#84c8ff'
+magenta     = '#ee82ee'
+cyan        = '#3ae1f7'
+white       = '#f7f9fc'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Monokai Pro Ristretto
+# Author:   
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#3E3838'
+foreground  = '#FBF2F3'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#3E3838'
+cursor      = '#FBF2F3'
+
+# Selection colors
+[colors.selection]
+background  = '#FBF2F3'
+text        = '#040d0c'
+
+# Normal colors
+[colors.normal]
+black       = '#3E3838'
+red         = '#DF7484'
+green       = '#BBD87E'
+yellow      = '#EDCE73'
+blue        = '#DC9373'
+magenta     = '#A9AAE9'
+cyan        = '#A4D7CC'
+white       = '#FBF2F3'
+
+# Bright colors
+[colors.bright]
+black       = '#70696A'
+red         = '#DF7484'
+green       = '#BBD87E'
+yellow      = '#EDCE73'
+blue        = '#DC9373'
+magenta     = '#A9AAE9'
+cyan        = '#A4D7CC'
+white       = '#FBF2F3'

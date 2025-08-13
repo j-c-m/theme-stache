@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Dark Pastel
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#BBBBBB'
+text        = '#444444'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF5555'
+green       = '#55FF55'
+yellow      = '#FFFF55'
+blue        = '#5555FF'
+magenta     = '#FF55FF'
+cyan        = '#55FFFF'
+white       = '#BBBBBB'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF5555'
+green       = '#55FF55'
+yellow      = '#FFFF55'
+blue        = '#5555FF'
+magenta     = '#FF55FF'
+cyan        = '#55FFFF'
+white       = '#FFFFFF'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Earthsong
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#292520'
+foreground  = '#E5C7A9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#121418'
+cursor      = '#E5C7A9'
+
+# Selection colors
+[colors.selection]
+background  = '#E5C6AA'
+text        = '#1a3955'
+
+# Normal colors
+[colors.normal]
+black       = '#121418'
+red         = '#C94234'
+green       = '#85C54C'
+yellow      = '#F5AE2E'
+blue        = '#1398B9'
+magenta     = '#D0633D'
+cyan        = '#509552'
+white       = '#E5C6AA'
+
+# Bright colors
+[colors.bright]
+black       = '#675F54'
+red         = '#FF645A'
+green       = '#98E036'
+yellow      = '#E0D561'
+blue        = '#5FDAFF'
+magenta     = '#FF9269'
+cyan        = '#84F088'
+white       = '#F6F7EC'

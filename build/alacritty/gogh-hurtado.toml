@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Hurtado
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#DBDBDB'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#575757'
+cursor      = '#DBDBDB'
+
+# Selection colors
+[colors.selection]
+background  = '#CBCCCB'
+text        = '#343334'
+
+# Normal colors
+[colors.normal]
+black       = '#575757'
+red         = '#FF1B00'
+green       = '#A5E055'
+yellow      = '#FBE74A'
+blue        = '#496487'
+magenta     = '#FD5FF1'
+cyan        = '#86E9FE'
+white       = '#CBCCCB'
+
+# Bright colors
+[colors.bright]
+black       = '#262626'
+red         = '#D51D00'
+green       = '#A5DF55'
+yellow      = '#FBE84A'
+blue        = '#89BEFF'
+magenta     = '#C001C1'
+cyan        = '#86EAFE'
+white       = '#DBDBDB'

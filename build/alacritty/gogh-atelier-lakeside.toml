@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Lakeside
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#161B1D'
+foreground  = '#7195A8'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#D22D72'
+cursor      = '#7195A8'
+
+# Selection colors
+[colors.selection]
+background  = '#C1E4F6'
+text        = '#3e1b09'
+
+# Normal colors
+[colors.normal]
+black       = '#D22D72'
+red         = '#D22D72'
+green       = '#568C3B'
+yellow      = '#8A8A0F'
+blue        = '#257FAD'
+magenta     = '#B72DD2'
+cyan        = '#2D8F6F'
+white       = '#C1E4F6'
+
+# Bright colors
+[colors.bright]
+black       = '#5A7B8C'
+red         = '#935C25'
+green       = '#568C3B'
+yellow      = '#8A8A0F'
+blue        = '#6B6BB8'
+magenta     = '#B72DD2'
+cyan        = '#2D8F6F'
+white       = '#EBF8FF'

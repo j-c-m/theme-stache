@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Tokyo City Terminal Dark
+# Author:   Michaël Ball
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#171D23'
+foreground  = '#D8E2EC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#171D23'
+cursor      = '#D8E2EC'
+
+# Selection colors
+[colors.selection]
+background  = '#F6F6F8'
+text        = '#090907'
+
+# Normal colors
+[colors.normal]
+black       = '#171D23'
+red         = '#D95468'
+green       = '#8BD49C'
+yellow      = '#EBBF83'
+blue        = '#539AFC'
+magenta     = '#B62D65'
+cyan        = '#70E1E8'
+white       = '#D8E2EC'
+
+# Bright colors
+[colors.bright]
+black       = '#526270'
+red         = '#D95468'
+green       = '#8BD49C'
+yellow      = '#EBBF83'
+blue        = '#539AFC'
+magenta     = '#B62D65'
+cyan        = '#70E1E8'
+white       = '#FBFBFD'

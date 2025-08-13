@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Astrodark
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1A1D23'
+foreground  = '#9B9FA9'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#111317'
+cursor      = '#CACCD3'
+
+# Selection colors
+[colors.selection]
+background  = '#ADB0BB'
+text        = '#524f44'
+
+# Normal colors
+[colors.normal]
+black       = '#111317'
+red         = '#F8747E'
+green       = '#75AD47'
+yellow      = '#D09214'
+blue        = '#50A4E9'
+magenta     = '#CC83E3'
+cyan        = '#00B298'
+white       = '#ADB0BB'
+
+# Bright colors
+[colors.bright]
+black       = '#576176'
+red         = '#FAA5AB'
+green       = '#A5CD84'
+yellow      = '#EFBD58'
+blue        = '#8DC3F1'
+magenta     = '#DEAEED'
+cyan        = '#27FFDF'
+white       = '#CACCD3'

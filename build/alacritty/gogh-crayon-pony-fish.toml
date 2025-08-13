@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Crayon Pony Fish
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#150707'
+foreground  = '#68525A'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2B1B1D'
+cursor      = '#68525A'
+
+# Selection colors
+[colors.selection]
+background  = '#68525A'
+text        = '#97ada5'
+
+# Normal colors
+[colors.normal]
+black       = '#2B1B1D'
+red         = '#91002B'
+green       = '#579524'
+yellow      = '#AB311B'
+blue        = '#8C87B0'
+magenta     = '#692F50'
+cyan        = '#E8A866'
+white       = '#68525A'
+
+# Bright colors
+[colors.bright]
+black       = '#3D2B2E'
+red         = '#C5255D'
+green       = '#8DFF57'
+yellow      = '#C8381D'
+blue        = '#CFC9FF'
+magenta     = '#FC6CBA'
+cyan        = '#FFCEAF'
+white       = '#B0949D'

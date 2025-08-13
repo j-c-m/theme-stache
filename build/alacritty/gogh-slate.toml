@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Slate
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#222222'
+foreground  = '#35B1D2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#222222'
+cursor      = '#35B1D2'
+
+# Selection colors
+[colors.selection]
+background  = '#02C5E0'
+text        = '#fd3a1f'
+
+# Normal colors
+[colors.normal]
+black       = '#222222'
+red         = '#E2A8BF'
+green       = '#81D778'
+yellow      = '#C4C9C0'
+blue        = '#264B49'
+magenta     = '#A481D3'
+cyan        = '#15AB9C'
+white       = '#02C5E0'
+
+# Bright colors
+[colors.bright]
+black       = '#FFFFFF'
+red         = '#FFCDD9'
+green       = '#BEFFA8'
+yellow      = '#D0CCCA'
+blue        = '#7AB0D2'
+magenta     = '#C5A7D9'
+cyan        = '#8CDFE0'
+white       = '#E0E0E0'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Monokai Pro Ocatagon
+# Author:   
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#3A3D4B'
+foreground  = '#EAF2F1'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#3A3D4B'
+cursor      = '#EAF2F1'
+
+# Selection colors
+[colors.selection]
+background  = '#EAF2F1'
+text        = '#150d0e'
+
+# Normal colors
+[colors.normal]
+black       = '#3A3D4B'
+red         = '#FF657A'
+green       = '#BAD761'
+yellow      = '#FFD76D'
+blue        = '#FF9B5E'
+magenta     = '#C39AC9'
+cyan        = '#9CD1BB'
+white       = '#EAF2F1'
+
+# Bright colors
+[colors.bright]
+black       = '#ADAEB4'
+red         = '#FF657A'
+green       = '#BAD761'
+yellow      = '#FFD76D'
+blue        = '#FF9B5E'
+magenta     = '#C39AC9'
+cyan        = '#9CD1BB'
+white       = '#EAF2F1'

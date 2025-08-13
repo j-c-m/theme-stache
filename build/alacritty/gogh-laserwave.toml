@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Laserwave
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1F1926'
+foreground  = '#E0E0E0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#39243A'
+cursor      = '#C7C7C7'
+
+# Selection colors
+[colors.selection]
+background  = '#91889B'
+text        = '#6e7764'
+
+# Normal colors
+[colors.normal]
+black       = '#39243A'
+red         = '#EB64B9'
+green       = '#AFD686'
+yellow      = '#FEAE87'
+blue        = '#40B4C4'
+magenta     = '#B381C5'
+cyan        = '#215969'
+white       = '#91889B'
+
+# Bright colors
+[colors.bright]
+black       = '#716485'
+red         = '#FC2377'
+green       = '#50FA7B'
+yellow      = '#FFE261'
+blue        = '#74DFC4'
+magenta     = '#6D75E0'
+cyan        = '#B4DCE7'
+white       = '#FFFFFF'

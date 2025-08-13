@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Dune
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#20201D'
+foreground  = '#999580'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#D73737'
+cursor      = '#999580'
+
+# Selection colors
+[colors.selection]
+background  = '#E8E4CF'
+text        = '#171b30'
+
+# Normal colors
+[colors.normal]
+black       = '#D73737'
+red         = '#D73737'
+green       = '#60AC39'
+yellow      = '#AE9513'
+blue        = '#6684E1'
+magenta     = '#D43552'
+cyan        = '#1FAD83'
+white       = '#E8E4CF'
+
+# Bright colors
+[colors.bright]
+black       = '#7D7A68'
+red         = '#B65611'
+green       = '#60AC39'
+yellow      = '#AE9513'
+blue        = '#B854D4'
+magenta     = '#D43552'
+cyan        = '#1FAD83'
+white       = '#FEFBEC'

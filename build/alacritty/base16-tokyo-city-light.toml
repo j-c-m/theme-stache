@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Tokyo City Light
+# Author:   Michaël Ball
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#FBFBFD'
+foreground  = '#343B59'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#FBFBFD'
+cursor      = '#343B59'
+
+# Selection colors
+[colors.selection]
+background  = '#1D252C'
+text        = '#e2dad3'
+
+# Normal colors
+[colors.normal]
+black       = '#FBFBFD'
+red         = '#8C4351'
+green       = '#485E30'
+yellow      = '#4C505E'
+blue        = '#34548a'
+magenta     = '#5A4A78'
+cyan        = '#4C505E'
+white       = '#343B59'
+
+# Bright colors
+[colors.bright]
+black       = '#9699A3'
+red         = '#8C4351'
+green       = '#485E30'
+yellow      = '#4C505E'
+blue        = '#34548a'
+magenta     = '#5A4A78'
+cyan        = '#4C505E'
+white       = '#171D23'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Vaughn
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#25234F'
+foreground  = '#DCDCCC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#25234F'
+cursor      = '#DCDCCC'
+
+# Selection colors
+[colors.selection]
+background  = '#709080'
+text        = '#8f6f7f'
+
+# Normal colors
+[colors.normal]
+black       = '#25234F'
+red         = '#705050'
+green       = '#60B48A'
+yellow      = '#DFAF8F'
+blue        = '#5555FF'
+magenta     = '#F08CC3'
+cyan        = '#8CD0D3'
+white       = '#709080'
+
+# Bright colors
+[colors.bright]
+black       = '#709080'
+red         = '#DCA3A3'
+green       = '#60B48A'
+yellow      = '#F0DFAF'
+blue        = '#5555FF'
+magenta     = '#EC93D3'
+cyan        = '#93E0E3'
+white       = '#FFFFFF'

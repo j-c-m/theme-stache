@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Paul Millr
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#F2F2F2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2A2A2A'
+cursor      = '#F2F2F2'
+
+# Selection colors
+[colors.selection]
+background  = '#BBBBBB'
+text        = '#444444'
+
+# Normal colors
+[colors.normal]
+black       = '#2A2A2A'
+red         = '#FF0000'
+green       = '#79FF0F'
+yellow      = '#D3BF00'
+blue        = '#396BD7'
+magenta     = '#B449BE'
+cyan        = '#66CCFF'
+white       = '#BBBBBB'
+
+# Bright colors
+[colors.bright]
+black       = '#666666'
+red         = '#FF0080'
+green       = '#66FF66'
+yellow      = '#F3D64E'
+blue        = '#709AED'
+magenta     = '#DB67E6'
+cyan        = '#7ADFF2'
+white       = '#FFFFFF'

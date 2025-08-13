@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Broadcast
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2B2B2B'
+foreground  = '#E6E1DC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#E6E1DC'
+
+# Selection colors
+[colors.selection]
+background  = '#FFFFFF'
+text        = '#000000'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#DA4939'
+green       = '#519F50'
+yellow      = '#FFD24A'
+blue        = '#6D9CBE'
+magenta     = '#D0D0FF'
+cyan        = '#6E9CBE'
+white       = '#FFFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#323232'
+red         = '#FF7B6B'
+green       = '#83D182'
+yellow      = '#FFFF7C'
+blue        = '#9FCEF0'
+magenta     = '#FFFFFF'
+cyan        = '#A0CEF0'
+white       = '#FFFFFF'

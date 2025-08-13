@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Hipster Green
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#100B05'
+foreground  = '#84C138'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#84C138'
+
+# Selection colors
+[colors.selection]
+background  = '#BFBFBF'
+text        = '#404040'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#B6214A'
+green       = '#00A600'
+yellow      = '#BFBF00'
+blue        = '#246EB2'
+magenta     = '#B200B2'
+cyan        = '#00A6B2'
+white       = '#BFBFBF'
+
+# Bright colors
+[colors.bright]
+black       = '#666666'
+red         = '#E50000'
+green       = '#86A93E'
+yellow      = '#E5E500'
+blue        = '#0000FF'
+magenta     = '#E500E5'
+cyan        = '#00E5E5'
+white       = '#E5E5E5'

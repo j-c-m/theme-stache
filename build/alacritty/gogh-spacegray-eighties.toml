@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Spacegray Eighties
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#222222'
+foreground  = '#BDBAAE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#15171C'
+cursor      = '#BDBAAE'
+
+# Selection colors
+[colors.selection]
+background  = '#EFECE7'
+text        = '#101318'
+
+# Normal colors
+[colors.normal]
+black       = '#15171C'
+red         = '#EC5F67'
+green       = '#81A764'
+yellow      = '#FEC254'
+blue        = '#5486C0'
+magenta     = '#BF83C1'
+cyan        = '#57C2C1'
+white       = '#EFECE7'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF6973'
+green       = '#93D493'
+yellow      = '#FFD256'
+blue        = '#4D84D1'
+magenta     = '#FF55FF'
+cyan        = '#83E9E4'
+white       = '#FFFFFF'

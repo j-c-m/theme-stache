@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Embers
+# Author:   Jannik Siebert (https://github.com/janniks)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#16130F'
+foreground  = '#A39A90'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#16130F'
+cursor      = '#A39A90'
+
+# Selection colors
+[colors.selection]
+background  = '#BEB6AE'
+text        = '#414951'
+
+# Normal colors
+[colors.normal]
+black       = '#16130F'
+red         = '#826D57'
+green       = '#57826D'
+yellow      = '#6D8257'
+blue        = '#6D5782'
+magenta     = '#82576D'
+cyan        = '#576D82'
+white       = '#A39A90'
+
+# Bright colors
+[colors.bright]
+black       = '#5A5047'
+red         = '#826D57'
+green       = '#57826D'
+yellow      = '#6D8257'
+blue        = '#6D5782'
+magenta     = '#82576D'
+cyan        = '#576D82'
+white       = '#DBD6D1'

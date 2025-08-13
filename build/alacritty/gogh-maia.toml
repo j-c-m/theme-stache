@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Maia
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#31363B'
+foreground  = '#BDC3C7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#232423'
+cursor      = '#BDC3C7'
+
+# Selection colors
+[colors.selection]
+background  = '#E0E0E0'
+text        = '#1f1f1f'
+
+# Normal colors
+[colors.normal]
+black       = '#232423'
+red         = '#BA2922'
+green       = '#7E807E'
+yellow      = '#4C4F4D'
+blue        = '#16A085'
+magenta     = '#43746A'
+cyan        = '#00CCCC'
+white       = '#E0E0E0'
+
+# Bright colors
+[colors.bright]
+black       = '#282928'
+red         = '#CC372C'
+green       = '#8D8F8D'
+yellow      = '#4E524F'
+blue        = '#13BF9D'
+magenta     = '#487D72'
+cyan        = '#00D1D1'
+white       = '#E8E8E8'

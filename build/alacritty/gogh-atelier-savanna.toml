@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Savanna
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#171C19'
+foreground  = '#78877D'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#B16139'
+cursor      = '#78877D'
+
+# Selection colors
+[colors.selection]
+background  = '#DFE7E2'
+text        = '#20181d'
+
+# Normal colors
+[colors.normal]
+black       = '#B16139'
+red         = '#B16139'
+green       = '#489963'
+yellow      = '#A07E3B'
+blue        = '#478C90'
+magenta     = '#867469'
+cyan        = '#1C9AA0'
+white       = '#DFE7E2'
+
+# Bright colors
+[colors.bright]
+black       = '#5F6D64'
+red         = '#9F713C'
+green       = '#489963'
+yellow      = '#A07E3B'
+blue        = '#55859B'
+magenta     = '#867469'
+cyan        = '#1C9AA0'
+white       = '#ECF4EE'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    One Dark
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1E2127'
+foreground  = '#5C6370'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#5C6370'
+
+# Selection colors
+[colors.selection]
+background  = '#ABB2BF'
+text        = '#544d40'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#E06C75'
+green       = '#98C379'
+yellow      = '#D19A66'
+blue        = '#61AFEF'
+magenta     = '#C678DD'
+cyan        = '#56B6C2'
+white       = '#ABB2BF'
+
+# Bright colors
+[colors.bright]
+black       = '#5C6370'
+red         = '#E06C75'
+green       = '#98C379'
+yellow      = '#D19A66'
+blue        = '#61AFEF'
+magenta     = '#C678DD'
+cyan        = '#56B6C2'
+white       = '#FFFEFE'

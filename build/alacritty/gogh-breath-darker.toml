@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Breath Darker
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#080D14'
+foreground  = '#17A88B'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1E2229'
+cursor      = '#17A88B'
+
+# Selection colors
+[colors.selection]
+background  = '#FCFCFC'
+text        = '#030303'
+
+# Normal colors
+[colors.normal]
+black       = '#1E2229'
+red         = '#ED1515'
+green       = '#44853A'
+yellow      = '#F67400'
+blue        = '#1D99F3'
+magenta     = '#9B59B6'
+cyan        = '#1ABC9C'
+white       = '#FCFCFC'
+
+# Bright colors
+[colors.bright]
+black       = '#7F8C8D'
+red         = '#C0392B'
+green       = '#55A649'
+yellow      = '#FDBC4B'
+blue        = '#3DAEE9'
+magenta     = '#8E44AD'
+cyan        = '#16A085'
+white       = '#FFFFFF'

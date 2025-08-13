@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Solar Flare Light
+# Author:   Chuck Harmston (https://chuck.harmston.ch)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#F5F7FA'
+foreground  = '#586875'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#F5F7FA'
+cursor      = '#586875'
+
+# Selection colors
+[colors.selection]
+background  = '#222E38'
+text        = '#ddd1c7'
+
+# Normal colors
+[colors.normal]
+black       = '#F5F7FA'
+red         = '#EF5253'
+green       = '#7CC844'
+yellow      = '#E4B51C'
+blue        = '#33B5E1'
+magenta     = '#A363D5'
+cyan        = '#52CBB0'
+white       = '#586875'
+
+# Bright colors
+[colors.bright]
+black       = '#85939E'
+red         = '#EF5253'
+green       = '#7CC844'
+yellow      = '#E4B51C'
+blue        = '#33B5E1'
+magenta     = '#A363D5'
+cyan        = '#52CBB0'
+white       = '#18262F'

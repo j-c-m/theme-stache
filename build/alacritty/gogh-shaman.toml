@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Shaman
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#001015'
+foreground  = '#405555'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#012026'
+cursor      = '#405555'
+
+# Selection colors
+[colors.selection]
+background  = '#405555'
+text        = '#bfaaaa'
+
+# Normal colors
+[colors.normal]
+black       = '#012026'
+red         = '#B2302D'
+green       = '#00A941'
+yellow      = '#5E8BAA'
+blue        = '#449A86'
+magenta     = '#00599D'
+cyan        = '#5D7E19'
+white       = '#405555'
+
+# Bright colors
+[colors.bright]
+black       = '#384451'
+red         = '#FF4242'
+green       = '#2AEA5E'
+yellow      = '#8ED4FD'
+blue        = '#61D5BA'
+magenta     = '#1298FF'
+cyan        = '#98D028'
+white       = '#58FBD6'

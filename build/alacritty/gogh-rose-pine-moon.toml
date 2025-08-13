@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Rosé Pine Moon
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#232136'
+foreground  = '#E0DEF4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#393552'
+cursor      = '#E0DEF4'
+
+# Selection colors
+[colors.selection]
+background  = '#E0DEF4'
+text        = '#1f210b'
+
+# Normal colors
+[colors.normal]
+black       = '#393552'
+red         = '#EB6F92'
+green       = '#9CCFD8'
+yellow      = '#F6C177'
+blue        = '#3E8FB0'
+magenta     = '#C4A7E7'
+cyan        = '#EA9A97'
+white       = '#E0DEF4'
+
+# Bright colors
+[colors.bright]
+black       = '#6E6A86'
+red         = '#EB6F92'
+green       = '#9CCFD8'
+yellow      = '#F6C177'
+blue        = '#3E8FB0'
+magenta     = '#C4A7E7'
+cyan        = '#EA9A97'
+white       = '#E0DEF4'

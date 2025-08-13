@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Palenight
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#292D3E'
+foreground  = '#BFC7D5'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#292D3E'
+cursor      = '#BFC7D5'
+
+# Selection colors
+[colors.selection]
+background  = '#ABB2BF'
+text        = '#544d40'
+
+# Normal colors
+[colors.normal]
+black       = '#292D3E'
+red         = '#F07178'
+green       = '#C3E88D'
+yellow      = '#FFCB6B'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#60ADEC'
+white       = '#ABB2BF'
+
+# Bright colors
+[colors.bright]
+black       = '#959DCB'
+red         = '#F07178'
+green       = '#C3E88D'
+yellow      = '#FF5572'
+blue        = '#82AAFF'
+magenta     = '#FFCB6B'
+cyan        = '#676E95'
+white       = '#FFFEFE'

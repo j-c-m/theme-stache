@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Birds Of Paradise
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2A1F1D'
+foreground  = '#E0DBB7'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#573D26'
+cursor      = '#E0DBB7'
+
+# Selection colors
+[colors.selection]
+background  = '#E0DBB7'
+text        = '#1f2448'
+
+# Normal colors
+[colors.normal]
+black       = '#573D26'
+red         = '#BE2D26'
+green       = '#6BA18A'
+yellow      = '#E99D2A'
+blue        = '#5A86AD'
+magenta     = '#AC80A6'
+cyan        = '#74A6AD'
+white       = '#E0DBB7'
+
+# Bright colors
+[colors.bright]
+black       = '#9B6C4A'
+red         = '#E84627'
+green       = '#95D8BA'
+yellow      = '#D0D150'
+blue        = '#B8D3ED'
+magenta     = '#D19ECB'
+cyan        = '#93CFD7'
+white       = '#FFF9D5'

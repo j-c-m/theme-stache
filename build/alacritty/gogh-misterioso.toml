@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Misterioso
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2D3743'
+foreground  = '#E1E1E0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#E1E1E0'
+
+# Selection colors
+[colors.selection]
+background  = '#E1E1E0'
+text        = '#1e1e1f'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF4242'
+green       = '#74AF68'
+yellow      = '#FFAD29'
+blue        = '#338F86'
+magenta     = '#9414E6'
+cyan        = '#23D7D7'
+white       = '#E1E1E0'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#FF3242'
+green       = '#74CD68'
+yellow      = '#FFB929'
+blue        = '#23D7D7'
+magenta     = '#FF37FF'
+cyan        = '#00EDE1'
+white       = '#FFFFFF'

@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Material Darker
+# Author:   Nate Peterson
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#212121'
+foreground  = '#EEFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#212121'
+cursor      = '#EEFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#EEFFFF'
+text        = '#110000'
+
+# Normal colors
+[colors.normal]
+black       = '#212121'
+red         = '#F07178'
+green       = '#C3E88D'
+yellow      = '#FFCB6B'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#89DDFF'
+white       = '#EEFFFF'
+
+# Bright colors
+[colors.bright]
+black       = '#4A4A4A'
+red         = '#F07178'
+green       = '#C3E88D'
+yellow      = '#FFCB6B'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#89DDFF'
+white       = '#FFFFFF'

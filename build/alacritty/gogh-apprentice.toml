@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Apprentice
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#262626'
+foreground  = '#BCBCBC'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1C1C1C'
+cursor      = '#BCBCBC'
+
+# Selection colors
+[colors.selection]
+background  = '#6C6C6C'
+text        = '#939393'
+
+# Normal colors
+[colors.normal]
+black       = '#1C1C1C'
+red         = '#AF5F5F'
+green       = '#5F875F'
+yellow      = '#87875F'
+blue        = '#5F87AF'
+magenta     = '#5F5F87'
+cyan        = '#5F8787'
+white       = '#6C6C6C'
+
+# Bright colors
+[colors.bright]
+black       = '#444444'
+red         = '#FF8700'
+green       = '#87AF87'
+yellow      = '#FFFFAF'
+blue        = '#8FAFD7'
+magenta     = '#8787AF'
+cyan        = '#5FAFAF'
+white       = '#FFFFFF'

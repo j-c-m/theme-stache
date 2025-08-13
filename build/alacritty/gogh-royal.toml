@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Royal
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#100815'
+foreground  = '#514968'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#241F2B'
+cursor      = '#514968'
+
+# Selection colors
+[colors.selection]
+background  = '#524966'
+text        = '#adb699'
+
+# Normal colors
+[colors.normal]
+black       = '#241F2B'
+red         = '#91284C'
+green       = '#23801C'
+yellow      = '#B49D27'
+blue        = '#6580B0'
+magenta     = '#674D96'
+cyan        = '#8AAABE'
+white       = '#524966'
+
+# Bright colors
+[colors.bright]
+black       = '#312D3D'
+red         = '#D5356C'
+green       = '#2CD946'
+yellow      = '#FDE83B'
+blue        = '#90BAF9'
+magenta     = '#A479E3'
+cyan        = '#ACD4EB'
+white       = '#9E8CBD'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Neon Night
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#20242D'
+foreground  = '#C7C8FF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#20242D'
+cursor      = '#C7C8FF'
+
+# Selection colors
+[colors.selection]
+background  = '#C9CCCD'
+text        = '#363332'
+
+# Normal colors
+[colors.normal]
+black       = '#20242D'
+red         = '#FF8E8E'
+green       = '#7EFDD0'
+yellow      = '#FCAD3F'
+blue        = '#69B4F9'
+magenta     = '#DD92F6'
+cyan        = '#8CE8FF'
+white       = '#C9CCCD'
+
+# Bright colors
+[colors.bright]
+black       = '#20242D'
+red         = '#FF8E8E'
+green       = '#7EFDD0'
+yellow      = '#FCAD3F'
+blue        = '#69B4F9'
+magenta     = '#DD92F6'
+cyan        = '#8CE8FF'
+white       = '#C9CCCD'

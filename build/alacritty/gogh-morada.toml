@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Morada
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#211F46'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#040404'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#F5DCBE'
+text        = '#0a2341'
+
+# Normal colors
+[colors.normal]
+black       = '#040404'
+red         = '#0F49C4'
+green       = '#48B117'
+yellow      = '#E87324'
+blue        = '#BC0116'
+magenta     = '#665B93'
+cyan        = '#70A699'
+white       = '#F5DCBE'
+
+# Bright colors
+[colors.bright]
+black       = '#4F7CBF'
+red         = '#1C96C7'
+green       = '#3BFF6F'
+yellow      = '#EFC31C'
+blue        = '#FB605B'
+magenta     = '#975B5A'
+cyan        = '#1EFF8E'
+white       = '#F6F5FB'

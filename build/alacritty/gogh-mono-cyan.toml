@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Mono Cyan
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#00222B'
+foreground  = '#00CCFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#003340'
+cursor      = '#00CCFF'
+
+# Selection colors
+[colors.selection]
+background  = '#00CCFF'
+text        = '#ff3300'
+
+# Normal colors
+[colors.normal]
+black       = '#003340'
+red         = '#00CCFF'
+green       = '#00CCFF'
+yellow      = '#00CCFF'
+blue        = '#00CCFF'
+magenta     = '#00CCFF'
+cyan        = '#00CCFF'
+white       = '#00CCFF'
+
+# Bright colors
+[colors.bright]
+black       = '#00CCFF'
+red         = '#00CCFF'
+green       = '#00CCFF'
+yellow      = '#00CCFF'
+blue        = '#00CCFF'
+magenta     = '#00CCFF'
+cyan        = '#00CCFF'
+white       = '#00CCFF'

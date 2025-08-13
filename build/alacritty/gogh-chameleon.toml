@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Chameleon
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2C2C2C'
+foreground  = '#DEDEDE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#2C2C2C'
+cursor      = '#DEDEDE'
+
+# Selection colors
+[colors.selection]
+background  = '#C8BB97'
+text        = '#374468'
+
+# Normal colors
+[colors.normal]
+black       = '#2C2C2C'
+red         = '#CC231C'
+green       = '#689D69'
+yellow      = '#D79922'
+blue        = '#366B71'
+magenta     = '#4E5165'
+cyan        = '#458587'
+white       = '#C8BB97'
+
+# Bright colors
+[colors.bright]
+black       = '#777777'
+red         = '#CC231C'
+green       = '#689D69'
+yellow      = '#D79922'
+blue        = '#366B71'
+magenta     = '#4E5165'
+cyan        = '#458587'
+white       = '#C8BB97'

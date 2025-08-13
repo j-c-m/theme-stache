@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Still Alive
+# Author:   Derrick McKee (derrick.mckee@gmail.com)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#F0F0F0'
+foreground  = '#D80000'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#F0F0F0'
+cursor      = '#D80000'
+
+# Selection colors
+[colors.selection]
+background  = '#489000'
+text        = '#b76fff'
+
+# Normal colors
+[colors.normal]
+black       = '#F0F0F0'
+red         = '#487830'
+green       = '#5C5C6A'
+yellow      = '#426395'
+blue        = '#001878'
+magenta     = '#900000'
+cyan        = '#2C3C57'
+white       = '#D80000'
+
+# Bright colors
+[colors.bright]
+black       = '#F01818'
+red         = '#487830'
+green       = '#5C5C6A'
+yellow      = '#426395'
+blue        = '#001878'
+magenta     = '#900000'
+cyan        = '#2C3C57'
+white       = '#30A860'

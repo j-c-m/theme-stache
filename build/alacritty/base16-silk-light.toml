@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Silk Light
+# Author:   Gabriel Fontes (https://github.com/Misterio77)
+# Variant:  light
+
+# Default colors
+[colors.primary]
+background  = '#E9F1EF'
+foreground  = '#385156'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#E9F1EF'
+cursor      = '#385156'
+
+# Selection colors
+[colors.selection]
+background  = '#0e3c46'
+text        = '#f1c3b9'
+
+# Normal colors
+[colors.normal]
+black       = '#E9F1EF'
+red         = '#CF432E'
+green       = '#6CA38C'
+yellow      = '#CFAD25'
+blue        = '#39AAC9'
+magenta     = '#6E6582'
+cyan        = '#329CA2'
+white       = '#385156'
+
+# Bright colors
+[colors.bright]
+black       = '#5C787B'
+red         = '#CF432E'
+green       = '#6CA38C'
+yellow      = '#CFAD25'
+blue        = '#39AAC9'
+magenta     = '#6E6582'
+cyan        = '#329CA2'
+white       = '#D2FAFF'

@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Urple
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#1B1B23'
+foreground  = '#877A9B'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#877A9B'
+
+# Selection colors
+[colors.selection]
+background  = '#87799C'
+text        = '#788663'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#B0425B'
+green       = '#37A415'
+yellow      = '#AD5C42'
+blue        = '#564D9B'
+magenta     = '#6C3CA1'
+cyan        = '#808080'
+white       = '#87799C'
+
+# Bright colors
+[colors.bright]
+black       = '#5D3225'
+red         = '#FF6388'
+green       = '#29E620'
+yellow      = '#F08161'
+blue        = '#867AED'
+magenta     = '#A05EEE'
+cyan        = '#EAEAEA'
+white       = '#BFA3FF'

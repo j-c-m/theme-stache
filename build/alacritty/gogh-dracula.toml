@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Dracula
+# Author:   Dracula (https://draculatheme.com)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#282A36'
+foreground  = '#F8F8F2'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#262626'
+cursor      = '#F8F8F2'
+
+# Selection colors
+[colors.selection]
+background  = '#F8F8F2'
+text        = '#07070d'
+
+# Normal colors
+[colors.normal]
+black       = '#262626'
+red         = '#E64747'
+green       = '#42E66C'
+yellow      = '#E4F34A'
+blue        = '#9B6BDF'
+magenta     = '#E356A7'
+cyan        = '#75D7EC'
+white       = '#F8F8F2'
+
+# Bright colors
+[colors.bright]
+black       = '#7A7A7A'
+red         = '#FF5555'
+green       = '#50FA7B'
+yellow      = '#F1FA8C'
+blue        = '#BD93F9'
+magenta     = '#FF79C6'
+cyan        = '#8BE9FD'
+white       = '#F9F9FB'

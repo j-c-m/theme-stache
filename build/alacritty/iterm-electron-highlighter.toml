@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    electron-highlighter
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#24283b'
+foreground  = '#a8b5d1'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#15161e'
+cursor      = '#a8b5d1'
+
+# Selection colors
+[colors.selection]
+background  = '#283457'
+text        = '#a8b5d1'
+
+# Normal colors
+[colors.normal]
+black       = '#15161e'
+red         = '#f7768e'
+green       = '#58ffc7'
+yellow      = '#ffd9af'
+blue        = '#82aaff'
+magenta     = '#d2a6ef'
+cyan        = '#57f9ff'
+white       = '#7c8eac'
+
+# Bright colors
+[colors.bright]
+black       = '#506686'
+red         = '#f7768e'
+green       = '#58ffc7'
+yellow      = '#ffd9af'
+blue        = '#82aaff'
+magenta     = '#d2a6ef'
+cyan        = '#57f9ff'
+white       = '#c5cee0'

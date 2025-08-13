@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Cave
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#19171C'
+foreground  = '#7E7887'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#BE4678'
+cursor      = '#7E7887'
+
+# Selection colors
+[colors.selection]
+background  = '#E2DFE7'
+text        = '#1d2018'
+
+# Normal colors
+[colors.normal]
+black       = '#BE4678'
+red         = '#BE4678'
+green       = '#2A9292'
+yellow      = '#A06E3B'
+blue        = '#576DDB'
+magenta     = '#BF40BF'
+cyan        = '#398BC6'
+white       = '#E2DFE7'
+
+# Bright colors
+[colors.bright]
+black       = '#655F6D'
+red         = '#AA573C'
+green       = '#2A9292'
+yellow      = '#A06E3B'
+blue        = '#955AE7'
+magenta     = '#BF40BF'
+cyan        = '#398BC6'
+white       = '#EFECF4'

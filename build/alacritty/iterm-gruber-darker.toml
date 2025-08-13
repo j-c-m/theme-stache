@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    gruber-darker
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#181818'
+foreground  = '#e4e4e4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#181818'
+cursor      = '#ffdd33'
+
+# Selection colors
+[colors.selection]
+background  = '#ffffff'
+text        = '#52494e'
+
+# Normal colors
+[colors.normal]
+black       = '#181818'
+red         = '#f43841'
+green       = '#73d936'
+yellow      = '#ffdd33'
+blue        = '#96a6c8'
+magenta     = '#9e95c7'
+cyan        = '#95a99f'
+white       = '#e4e4e4'
+
+# Bright colors
+[colors.bright]
+black       = '#52494e'
+red         = '#ff4f58'
+green       = '#73d936'
+yellow      = '#ffdd33'
+blue        = '#96a6c8'
+magenta     = '#afafd7'
+cyan        = '#95a99f'
+white       = '#f5f5f5'

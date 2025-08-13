@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Nightfly
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#011627'
+foreground  = '#BDC1C6'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1D3B53'
+cursor      = '#9CA1AA'
+
+# Selection colors
+[colors.selection]
+background  = '#A1AAB8'
+text        = '#5e5547'
+
+# Normal colors
+[colors.normal]
+black       = '#1D3B53'
+red         = '#FC514E'
+green       = '#A1CD5E'
+yellow      = '#E3D18A'
+blue        = '#82AAFF'
+magenta     = '#C792EA'
+cyan        = '#7FDBCA'
+white       = '#A1AAB8'
+
+# Bright colors
+[colors.bright]
+black       = '#7C8F8F'
+red         = '#FF5874'
+green       = '#21C7A8'
+yellow      = '#ECC48D'
+blue        = '#82AAFF'
+magenta     = '#AE81FF'
+cyan        = '#7FDBCA'
+white       = '#D6DEEB'

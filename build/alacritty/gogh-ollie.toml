@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ollie
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#222125'
+foreground  = '#8A8DAE'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#8A8DAE'
+
+# Selection colors
+[colors.selection]
+background  = '#8A8EAC'
+text        = '#757153'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#AC2E31'
+green       = '#31AC61'
+yellow      = '#AC4300'
+blue        = '#2D57AC'
+magenta     = '#B08528'
+cyan        = '#1FA6AC'
+white       = '#8A8EAC'
+
+# Bright colors
+[colors.bright]
+black       = '#5B3725'
+red         = '#FF3D48'
+green       = '#3BFF99'
+yellow      = '#FF5E1E'
+blue        = '#4488FF'
+magenta     = '#FFC21D'
+cyan        = '#1FFAFF'
+white       = '#5B6EA7'

@@ -1,0 +1,41 @@
+# Source:   iterm
+# Theme:    starlight
+# Author:   unknown
+# Variant:  unknown
+
+# Default colors
+[colors.primary]
+background  = '#232323'
+foreground  = '#feffff'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#232323'
+cursor      = '#feffff'
+
+# Selection colors
+[colors.selection]
+background  = '#feffff'
+text        = '#232323'
+
+# Normal colors
+[colors.normal]
+black       = '#232323'
+red         = '#e2415d'
+green       = '#65b138'
+yellow      = '#ddc541'
+blue        = '#53a9cf'
+magenta     = '#e7b1f8'
+cyan        = '#59bf9b'
+white       = '#e6e6e6'
+
+# Bright colors
+[colors.bright]
+black       = '#606060'
+red         = '#eb5b57'
+green       = '#6ad161'
+yellow      = '#e8e85b'
+blue        = '#78c2f3'
+magenta     = '#f1aeed'
+cyan        = '#6adbc4'
+white       = '#feffff'

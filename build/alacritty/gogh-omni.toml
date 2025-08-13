@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Omni
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#191622'
+foreground  = '#ABB2BF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#191622'
+cursor      = '#ABB2BF'
+
+# Selection colors
+[colors.selection]
+background  = '#ABB2BF'
+text        = '#544d40'
+
+# Normal colors
+[colors.normal]
+black       = '#191622'
+red         = '#E96379'
+green       = '#67E480'
+yellow      = '#E89E64'
+blue        = '#78D1E1'
+magenta     = '#988BC7'
+cyan        = '#FF79C6'
+white       = '#ABB2BF'
+
+# Bright colors
+[colors.bright]
+black       = '#000000'
+red         = '#E96379'
+green       = '#67E480'
+yellow      = '#E89E64'
+blue        = '#78D1E1'
+magenta     = '#988BC7'
+cyan        = '#FF79C6'
+white       = '#FFFFFF'

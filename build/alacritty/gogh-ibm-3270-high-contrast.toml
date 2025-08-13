@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ibm 3270 (High Contrast)
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#000000'
+foreground  = '#FDFDFD'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FDFDFD'
+
+# Selection colors
+[colors.selection]
+background  = '#BEBEBE'
+text        = '#414141'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#FF0000'
+green       = '#00FF00'
+yellow      = '#FFFF00'
+blue        = '#00BFFF'
+magenta     = '#FFC0CB'
+cyan        = '#40E0D0'
+white       = '#BEBEBE'
+
+# Bright colors
+[colors.bright]
+black       = '#414141'
+red         = '#FFA500'
+green       = '#98FB98'
+yellow      = '#FFFF00'
+blue        = '#0000CD'
+magenta     = '#A020F0'
+cyan        = '#AEEEEE'
+white       = '#FFFFFF'

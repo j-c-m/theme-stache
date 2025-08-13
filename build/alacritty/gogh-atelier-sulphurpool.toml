@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Sulphurpool
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#202746'
+foreground  = '#898EA4'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#C94922'
+cursor      = '#898EA4'
+
+# Selection colors
+[colors.selection]
+background  = '#DFE2F1'
+text        = '#201d0e'
+
+# Normal colors
+[colors.normal]
+black       = '#C94922'
+red         = '#C94922'
+green       = '#AC9739'
+yellow      = '#C08B30'
+blue        = '#3D8FD1'
+magenta     = '#9C637A'
+cyan        = '#22A2C9'
+white       = '#DFE2F1'
+
+# Bright colors
+[colors.bright]
+black       = '#6B7394'
+red         = '#C76B29'
+green       = '#AC9739'
+yellow      = '#C08B30'
+blue        = '#6679CC'
+magenta     = '#9C637A'
+cyan        = '#22A2C9'
+white       = '#F5F7FF'

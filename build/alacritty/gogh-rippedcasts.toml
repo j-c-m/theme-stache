@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Rippedcasts
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#2B2B2B'
+foreground  = '#FFFFFF'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#000000'
+cursor      = '#FFFFFF'
+
+# Selection colors
+[colors.selection]
+background  = '#BFBFBF'
+text        = '#404040'
+
+# Normal colors
+[colors.normal]
+black       = '#000000'
+red         = '#CDAF95'
+green       = '#A8FF60'
+yellow      = '#BFBB1F'
+blue        = '#75A5B0'
+magenta     = '#FF73FD'
+cyan        = '#5A647E'
+white       = '#BFBFBF'
+
+# Bright colors
+[colors.bright]
+black       = '#666666'
+red         = '#EECBAD'
+green       = '#BCEE68'
+yellow      = '#E5E500'
+blue        = '#86BDC9'
+magenta     = '#E500E5'
+cyan        = '#8C9BC4'
+white       = '#E5E5E5'

@@ -1,0 +1,41 @@
+# Source:   base16
+# Theme:    Horizon Dark
+# Author:   Michaël Ball (http://github.com/michael-ball/)
+# Variant:  dark
+
+# Default colors
+[colors.primary]
+background  = '#1C1E26'
+foreground  = '#CBCED0'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#1C1E26'
+cursor      = '#CBCED0'
+
+# Selection colors
+[colors.selection]
+background  = '#DCDFE4'
+text        = '#23201b'
+
+# Normal colors
+[colors.normal]
+black       = '#1C1E26'
+red         = '#E93C58'
+green       = '#EFAF8E'
+yellow      = '#EFB993'
+blue        = '#DF5273'
+magenta     = '#B072D1'
+cyan        = '#24A8B4'
+white       = '#CBCED0'
+
+# Bright colors
+[colors.bright]
+black       = '#6F6F70'
+red         = '#E93C58'
+green       = '#EFAF8E'
+yellow      = '#EFB993'
+blue        = '#DF5273'
+magenta     = '#B072D1'
+cyan        = '#24A8B4'
+white       = '#E3E6EE'

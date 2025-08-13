@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Ciapre
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#191C27'
+foreground  = '#AEA47A'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#181818'
+cursor      = '#AEA47A'
+
+# Selection colors
+[colors.selection]
+background  = '#AEA47F'
+text        = '#515b80'
+
+# Normal colors
+[colors.normal]
+black       = '#181818'
+red         = '#810009'
+green       = '#48513B'
+yellow      = '#CC8B3F'
+blue        = '#576D8C'
+magenta     = '#724D7C'
+cyan        = '#5C4F4B'
+white       = '#AEA47F'
+
+# Bright colors
+[colors.bright]
+black       = '#555555'
+red         = '#AC3835'
+green       = '#A6A75D'
+yellow      = '#DCDF7C'
+blue        = '#3097C6'
+magenta     = '#D33061'
+cyan        = '#F3DBB2'
+white       = '#F4F4F4'

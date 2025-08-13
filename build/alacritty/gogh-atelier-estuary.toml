@@ -1,0 +1,41 @@
+# Source:   gogh
+# Theme:    Atelier Estuary
+# Author:   
+# Variant:  
+
+# Default colors
+[colors.primary]
+background  = '#22221B'
+foreground  = '#878573'
+
+# Colors the cursor will use if `custom_cursor_colors` is true
+[colors.cursor]
+text        = '#BA6236'
+cursor      = '#878573'
+
+# Selection colors
+[colors.selection]
+background  = '#E7E6DF'
+text        = '#181920'
+
+# Normal colors
+[colors.normal]
+black       = '#BA6236'
+red         = '#BA6236'
+green       = '#7D9726'
+yellow      = '#A5980D'
+blue        = '#36A166'
+magenta     = '#9D6C7C'
+cyan        = '#5B9D48'
+white       = '#E7E6DF'
+
+# Bright colors
+[colors.bright]
+black       = '#6C6B5A'
+red         = '#AE7313'
+green       = '#7D9726'
+yellow      = '#A5980D'
+blue        = '#5F9182'
+magenta     = '#9D6C7C'
+cyan        = '#5B9D48'
+white       = '#F4F3EC'
