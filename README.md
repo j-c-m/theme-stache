@@ -49,7 +49,7 @@ Use theme-stache (theme-stach.py) to browse, activate, or install themes (create
 
 ![theme-stache tool screenshot](/images/theme-stache-screenshot.png)
 
-Recommended vimrc colorscheme section,let the 16 colors do the work!
+Recommended vimrc colorscheme section, let the 16 colors do the work!
 
 ```vimscript
 if &t_Co > 16
