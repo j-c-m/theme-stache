@@ -3,6 +3,7 @@ import curses
 import json
 import sys
 import os
+import subprocess
 from pathlib import Path
 
 def hex_to_rgb(hex_color):
@@ -221,6 +222,8 @@ def update_preview(win, file_path):
             shortcuts = [
                 ("q", " quit", 24, 1),
                 (", ", "", 1, 1),
+                ("a", " activate", 24, 1),
+                (", ", "", 1, 1),
                 ("i", " install", 24, 1),
                 (", ", "", 1, 1),
                 ("↑↓", " navigate", 24, 1),
@@ -309,6 +312,56 @@ def main(stdscr, themes):
             current_idx = min(len(themes) - 1, current_idx + max_themes)
             if current_idx >= offset + max_themes:
                 offset = min(len(themes) - max_themes, offset + max_themes)
+        elif key == ord('a'):
+            try:
+                with open(themes[current_idx]['file'], 'r') as f:
+                    theme = json.load(f)
+                # Extract colors from JSON
+                colors = {}
+                for i in range(16):
+                    colors[f'ansi-{i}-hex'] = theme.get(f'ansi-{i}-hex', '#000000')
+                colors['foreground-hex'] = theme.get('foreground-hex', '#FFFFFF')
+                colors['background-hex'] = theme.get('background-hex', '#000000')
+                colors['cursor-hex'] = theme.get('cursor-hex', '#FFFFFF')
+                colors['selection-hex'] = theme.get('selection-hex', '#CCCCCC')
+                colors['selection-text-hex'] = theme.get('selection-text-hex', '#000000')
+
+                # Exit curses to set terminal colors
+                curses.endwin()
+                # Set ANSI colors (0-15)
+                for i in range(16):
+                    hex_val = colors[f'ansi-{i}-hex'].lstrip('#')
+                    r, g, b = [int(hex_val[j:j+2], 16) for j in (0, 2, 4)]
+                    print(f"\033]4;{i};rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
+                # Set foreground, background, cursor, selection
+                fg_hex = colors['foreground-hex'].lstrip('#')
+                bg_hex = colors['background-hex'].lstrip('#')
+                cursor_hex = colors['cursor-hex'].lstrip('#')
+                sel_hex = colors['selection-hex'].lstrip('#')
+                sel_text_hex = colors['selection-text-hex'].lstrip('#')
+                r, g, b = hex_to_rgb(fg_hex)
+                print(f"\033]10;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
+                r, g, b = hex_to_rgb(bg_hex)
+                print(f"\033]11;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
+                r, g, b = hex_to_rgb(cursor_hex)
+                print(f"\033]12;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
+                # Note: Selection colors may not be supported by all terminals
+                sys.stdout.flush()
+
+                # Reinitialize curses
+                stdscr = curses.initscr()
+                curses.curs_set(0)
+                curses.start_color()
+                curses.use_default_colors()
+                stdscr.timeout(-1)
+                stdscr.clear()
+                stdscr.redrawwin()
+                draw_ui(stdscr, themes, current_idx, offset)
+                stdscr.noutrefresh()
+                curses.doupdate()
+                stdscr.refresh()
+            except (IOError, json.JSONDecodeError):
+                pass  # Silently ignore errors
         elif key == ord('i'):
             script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
             symlink_path = Path.home() / ".shell_theme.sh"
