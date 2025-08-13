@@ -2,6 +2,8 @@
 import curses
 import json
 import sys
+import subprocess
+import os
 from pathlib import Path
 
 def hex_to_rgb(hex_color):
@@ -29,7 +31,7 @@ def contrast_ratio(fg_hex, bg_hex):
 
 def choose_readable_foreground(fg_hex, bg_hex):
     """Choose a readable foreground color based on WCAG contrast ratio."""
-    if contrast_ratio(fg_hex, bg_hex) >= 3:
+    if contrast_ratio(fg_hex, bg_hex) >= 2:
         return fg_hex
     black_ratio = contrast_ratio('#000000', bg_hex)
     white_ratio = contrast_ratio('#FFFFFF', bg_hex)
@@ -48,7 +50,8 @@ def load_themes(directory):
                 'name': theme.get('theme-name', 'Unknown'),
                 'source': theme.get('theme-source', 'Unknown'),
                 'variant': theme.get('theme-variant', 'Unknown'),
-                'slug': theme.get('theme-slug', file.stem)
+                'slug': theme.get('theme-slug', file.stem),
+                'source-slug': theme.get('theme-source-slug', file.stem.split('-')[0])
             })
         except json.JSONDecodeError:
             print(f"Skipping invalid JSON file: {file}")
@@ -56,7 +59,7 @@ def load_themes(directory):
     return sorted(themes, key=lambda t: (t['name'].lower(), t['source'].lower()))
 
 def update_preview(win, file_path):
-    """Update the preview window with theme colors and metadata in a grid layout."""
+    """Update the preview window with theme colors and metadata in a 2-column grid layout."""
     try:
         with open(file_path, 'r') as f:
             theme = json.load(f)
@@ -124,6 +127,13 @@ def update_preview(win, file_path):
     fg = choose_readable_foreground(fg_hex, sel_text_hex)
     fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 17
     curses.init_pair(23, fg_color, 21)  # adjusted fg on sel_text
+    # Color pair for key names (ansi-1-hex on bg)
+    ansi_1_hex = theme.get('ansi-1-hex', '#FF0000')
+    r, g, b = hex_to_rgb(ansi_1_hex)
+    curses.init_color(25, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
+    fg = choose_readable_foreground(ansi_1_hex, bg_hex)
+    fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 25
+    curses.init_pair(24, fg_color, 18)  # ansi-1 on bg
 
     # Set background
     win.bkgd(' ', curses.color_pair(1))
@@ -131,9 +141,25 @@ def update_preview(win, file_path):
     # Draw content
     win.box()
     height, width = win.getmaxyx()
-    box_width = 20  # Fixed width for each rectangle
-    box_height = 3  # Fixed height for each rectangle
-    cols = max(1, (width - 3) // box_width)  # Number of columns
+    # Calculate grid dimensions
+    total_colors = 21  # 16 ANSI + 5 others
+    metadata_lines = 6  # Title + Theme + Author + Variant + Source + blank
+    header_lines = 2  # "ANSI Colors:" + "Other Colors:"
+    shortcuts_lines = 1  # Shortcuts at bottom
+    box_height = 2  # Fixed height for each rectangle (name + hex, no padding)
+    min_box_width = 10  # Minimum width for each rectangle
+    # Fixed 2-column grid
+    cols = 2
+    box_width = max(min_box_width, (width - 3) // cols)  # Fill window width
+    # Calculate rows needed
+    ansi_rows = 8  # 16 colors in 8x2 grid (0-7 next to 8-15)
+    other_rows = 3  # 5 colors in 3x2 grid (ceiling(5/2))
+    total_rows = ansi_rows + other_rows
+    # Ensure grid fits
+    grid_height = height - metadata_lines - header_lines - shortcuts_lines - 1  # -1 for border
+    if grid_height < total_rows * box_height:
+        box_height = max(1, grid_height // total_rows)  # Reduce height if needed
+
     try:
         win.addstr(0, 1, "Preview", curses.color_pair(1))
         line = 1
@@ -146,12 +172,12 @@ def update_preview(win, file_path):
         win.addstr(line, 1, f"Source: {theme.get('theme-source', 'Unknown')}"[:width-2], curses.color_pair(1))
         line += 2
 
-        # ANSI Colors Grid (4x4)
+        # ANSI Colors Grid (8x2, 0-7 next to 8-15)
         win.addstr(line, 1, "ANSI Colors:", curses.color_pair(1))
         line += 1
-        for row in range(4):
-            for col in range(min(cols, 4)):
-                idx = row * 4 + col
+        for row in range(ansi_rows):
+            for col in range(cols):
+                idx = row + col * 8  # Pair 0 with 8, 1 with 9, etc.
                 if idx >= 16:
                     break
                 try:
@@ -160,12 +186,13 @@ def update_preview(win, file_path):
                     name = ansi_names[idx][:box_width-2]
                     hex_val = theme.get(f'ansi-{idx}-hex', '#000000')[:box_width-2]
                     win.addstr(y, x, f"{name:^{box_width-2}}", curses.color_pair(2 + idx))
-                    win.addstr(y + 1, x, f"{hex_val:^{box_width-2}}", curses.color_pair(2 + idx))
+                    if y + 1 < height:
+                        win.addstr(y + 1, x, f"{hex_val:^{box_width-2}}", curses.color_pair(2 + idx))
                 except curses.error:
                     pass
-        line += box_height * 4 + 1
+        line += box_height * ansi_rows
 
-        # Other Colors Grid (1x5 or 2x3 based on width)
+        # Other Colors Grid (3x2)
         win.addstr(line, 1, "Other Colors:", curses.color_pair(1))
         line += 1
         other_colors = [
@@ -184,16 +211,40 @@ def update_preview(win, file_path):
                 name_text = name[:box_width-2]
                 hex_text = hex_val[:box_width-2]
                 win.addstr(y, x, f"{name_text:^{box_width-2}}", curses.color_pair(pair))
-                win.addstr(y + 1, x, f"{hex_text:^{box_width-2}}", curses.color_pair(pair))
+                if y + 1 < height:
+                    win.addstr(y + 1, x, f"{hex_text:^{box_width-2}}", curses.color_pair(pair))
             except curses.error:
                 pass
+
+        # Keyboard shortcuts at bottom
+        try:
+            shortcuts = [
+                ("q", " quit", 24, 1),
+                (", ", "", 1, 1),
+                ("a", " activate", 24, 1),
+                (", ", "", 1, 1),
+                ("i", " install", 24, 1),
+                (", ", "", 1, 1),
+                ("↑↓", " navigate", 24, 1),
+                (", ", "", 1, 1),
+                ("PgUp/PgDn", " scroll", 24, 1)
+            ]
+            x = 1
+            for key, text, key_pair, text_pair in shortcuts:
+                if x + len(key + text) < width - 2:
+                    win.addstr(height - 2, x, key, curses.color_pair(key_pair))
+                    x += len(key)
+                    win.addstr(height - 2, x, text, curses.color_pair(text_pair))
+                    x += len(text)
+        except curses.error:
+            pass
     except curses.error:
         pass
 
 def draw_ui(stdscr, themes, current_idx, offset):
     """Draw the list and preview windows."""
     height, width = stdscr.getmaxyx()
-    list_width = width // 2
+    list_width = min(30, width // 3)  # Narrower list window
     preview_width = width - list_width
 
     # Create windows
@@ -204,13 +255,12 @@ def draw_ui(stdscr, themes, current_idx, offset):
     list_win.box()
     try:
         list_win.addstr(0, 1, "Themes")
-        max_themes = height - 3  # Reserve space for title and quit note
+        max_themes = height - 3  # Reserve space for title
         for i in range(offset, min(offset + max_themes, len(themes))):
             theme = themes[i]
             text = f"{theme['name']} ({theme['source']}, {theme['variant']})"[:list_width-2]
             attr = curses.A_REVERSE if i == current_idx else 0
             list_win.addstr(i - offset + 1, 1, text, attr)
-        list_win.addstr(height - 2, 1, "Press 'q' to quit", curses.A_DIM)
     except curses.error:
         pass
     list_win.refresh()
@@ -244,16 +294,44 @@ def main(stdscr, themes):
 
     while True:
         key = stdscr.getch()
+        height, _ = stdscr.getmaxyx()
+        max_themes = height - 3  # Visible themes in list window
         if key == curses.KEY_UP and current_idx > 0:
             current_idx -= 1
             if current_idx < offset:
                 offset -= 1
         elif key == curses.KEY_DOWN and current_idx < len(themes) - 1:
             current_idx += 1
-            height, _ = stdscr.getmaxyx()
-            max_themes = height - 3
             if current_idx >= offset + max_themes:
                 offset += 1
+        elif key == curses.KEY_PPAGE and current_idx > 0:
+            current_idx = max(0, current_idx - max_themes)
+            offset = max(0, offset - max_themes)
+        elif key == curses.KEY_NPAGE and current_idx < len(themes) - 1:
+            current_idx = min(len(themes) - 1, current_idx + max_themes)
+            if current_idx >= offset + max_themes:
+                offset = min(len(themes) - max_themes, offset + max_themes)
+        elif key == ord('a'):
+            script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
+            if script_path.is_file():
+                try:
+                    subprocess.run(["bash", str(script_path)], check=True)
+                except subprocess.SubprocessError:
+                    pass  # Silently ignore errors
+            else:
+                pass  # Silently ignore missing script
+        elif key == ord('i'):
+            script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
+            symlink_path = Path.home() / ".shell_theme.sh"
+            if script_path.is_file():
+                try:
+                    if symlink_path.exists() or symlink_path.is_symlink():
+                        os.remove(symlink_path)
+                    os.symlink(script_path, symlink_path)
+                except (OSError, PermissionError):
+                    pass  # Silently ignore errors
+            else:
+                pass  # Silently ignore missing script
         elif key == curses.KEY_RESIZE:
             stdscr.clear()
             stdscr.redrawwin()
