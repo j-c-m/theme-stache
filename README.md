@@ -45,7 +45,9 @@ unset THEME_STACHE
 unset DEFAULT_THEME
 ```
 
-Use theme-stache.py to browse, activate, or install themes (create .shell_theme.sh symlink).
+Use theme-stache (theme-stach.py) to browse, activate, or install themes (create .shell_theme.sh symlink).
+
+![theme-stache tool screenshot](/images/theme-stache-screenshot.png)
 
 ### alacritty
 
