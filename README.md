@@ -73,3 +73,5 @@ import = [
     "~/.config/alacritty/themes/themes/{theme}.toml"
 ]
 ```
+
+# to be continued ...
