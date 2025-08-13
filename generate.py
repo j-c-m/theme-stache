@@ -24,7 +24,7 @@ def load_yaml(yaml_path):
 
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
-    name = unidecode(name);
+    name = unidecode(name)
     name = name.lower()
     name = name.replace(' ', '-').replace('_', '-')
     name = re.sub(r'[^0-9a-z-]', '', name)
@@ -118,7 +118,52 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': palette['base05'],  # Foreground
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
-            'selection-hex': palette['base02'] # Selection Background
+            'selection-hex': palette['base02']  # Selection Background
+        })
+    elif source == 'base24':
+        # Required fields for Base24 schema
+        required_fields = ['name', 'author', 'variant', 'palette']
+        missing_fields = [field for field in required_fields if theme_data.get(field) is None]
+        if missing_fields:
+            raise ValueError(f"Missing required fields in {theme_path}: {', '.join(missing_fields)}")
+
+        palette = theme_data['palette']
+        required_palette_fields = [
+            'base00', 'base01', 'base02', 'base03', 'base04',
+            'base05', 'base06', 'base07', 'base08', 'base09',
+            'base0A', 'base0B', 'base0C', 'base0D', 'base0E', 'base0F',
+            'base10', 'base11', 'base12', 'base13', 'base14', 'base15',
+            'base16', 'base17'
+        ]
+        missing_palette_fields = [field for field in required_palette_fields if palette.get(field) is None]
+        if missing_palette_fields:
+            raise ValueError(f"Missing required palette fields in {theme_path}: {', '.join(missing_palette_fields)}")
+
+        context.update({
+            'theme-slug': slugify(theme_data['name']),
+            'theme-name': theme_data['name'],
+            'theme-variant': theme_data['variant'],
+            'theme-author': theme_data['author'],
+            'ansi-0-hex': palette['base00'],  # Black
+            'ansi-1-hex': palette['base08'],  # Red
+            'ansi-2-hex': palette['base0B'],  # Green
+            'ansi-3-hex': palette['base0A'],  # Yellow
+            'ansi-4-hex': palette['base0D'],  # Blue
+            'ansi-5-hex': palette['base0E'],  # Magenta
+            'ansi-6-hex': palette['base0C'],  # Cyan
+            'ansi-7-hex': palette['base05'],  # White
+            'ansi-8-hex': palette['base10'],  # Bright Black
+            'ansi-9-hex': palette['base12'],  # Bright Red
+            'ansi-10-hex': palette['base14'],  # Bright Green
+            'ansi-11-hex': palette['base13'],  # Bright Yellow
+            'ansi-12-hex': palette['base16'],  # Bright Blue
+            'ansi-13-hex': palette['base17'],  # Bright Magenta
+            'ansi-14-hex': palette['base15'],  # Bright Cyan
+            'ansi-15-hex': palette['base07'],  # Bright White
+            'foreground-hex': palette['base05'],  # Foreground
+            'background-hex': palette['base00'],  # Background
+            'cursor-hex': palette['base05'],  # Cursor
+            'selection-hex': palette['base02']  # Selection Background
         })
     else:
         # Placeholder for other theme sources (no strict validation)
@@ -168,7 +213,7 @@ def main():
         return
 
     for source_dir in theme_sources:
-        source_name = source_dir.name  # e.g., 'gogh', 'base16'
+        source_name = source_dir.name  # e.g., 'gogh', 'base16', 'base24'
         theme_files = sorted(glob.glob(str(source_dir / '*.yaml')) + glob.glob(str(source_dir / '*.yml')))
 
         if not theme_files:
