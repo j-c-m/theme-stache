@@ -5,8 +5,8 @@
 
 # Default colors
 [colors.primary]
-background  = '{{foreground-hex}}'
-foreground  = '{{background-hex}}'
+background  = '{{background-hex}}'
+foreground  = '{{foreground-hex}}'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
