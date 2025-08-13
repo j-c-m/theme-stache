@@ -172,26 +172,26 @@ def map_theme_data(theme_data, source, theme_path):
             'theme-name': theme_data.get('theme_name', 'Unknown Theme'),
             'theme-variant': theme_data.get('type', ''),
             'theme-author': theme_data.get('creator', ''),
-            'ansi-0-hex': theme_data.get('colors', {}).get('black', '#000000'),
-            'ansi-1-hex': theme_data.get('colors', {}).get('red', '#000000'),
-            'ansi-2-hex': theme_data.get('colors', {}).get('green', '#000000'),
-            'ansi-3-hex': theme_data.get('colors', {}).get('yellow', '#000000'),
-            'ansi-4-hex': theme_data.get('colors', {}).get('blue', '#000000'),
-            'ansi-5-hex': theme_data.get('colors', {}).get('magenta', '#000000'),
-            'ansi-6-hex': theme_data.get('colors', {}).get('cyan', '#000000'),
-            'ansi-7-hex': theme_data.get('colors', {}).get('white', '#000000'),
-            'ansi-8-hex': theme_data.get('colors', {}).get('bright_black', '#000000'),
-            'ansi-9-hex': theme_data.get('colors', {}).get('bright_red', '#000000'),
-            'ansi-10-hex': theme_data.get('colors', {}).get('bright_green', '#000000'),
-            'ansi-11-hex': theme_data.get('colors', {}).get('bright_yellow', '#000000'),
-            'ansi-12-hex': theme_data.get('colors', {}).get('bright_blue', '#000000'),
-            'ansi-13-hex': theme_data.get('colors', {}).get('bright_magenta', '#000000'),
-            'ansi-14-hex': theme_data.get('colors', {}).get('bright_cyan', '#000000'),
-            'ansi-15-hex': theme_data.get('colors', {}).get('bright_white', '#000000'),
-            'foreground-hex': theme_data.get('foreground', '#FFFFFF'),
-            'background-hex': theme_data.get('background', '#000000'),
-            'cursor-hex': theme_data.get('cursor', '#FFFFFF'),
-            'selection-hex': theme_data.get('selection', '#CCCCCC')
+            'ansi-0-hex': theme_data.get('colors', {}).get('black', '#2e3436'),      # Dark Gray (Black)
+            'ansi-1-hex': theme_data.get('colors', {}).get('red', '#cc0000'),       # Red
+            'ansi-2-hex': theme_data.get('colors', {}).get('green', '#4e9a06'),     # Green
+            'ansi-3-hex': theme_data.get('colors', {}).get('yellow', '#c4a000'),    # Yellow
+            'ansi-4-hex': theme_data.get('colors', {}).get('blue', '#3465a4'),      # Blue
+            'ansi-5-hex': theme_data.get('colors', {}).get('magenta', '#75507b'),   # Magenta
+            'ansi-6-hex': theme_data.get('colors', {}).get('cyan', '#06989a'),      # Cyan
+            'ansi-7-hex': theme_data.get('colors', {}).get('white', '#d3d7cf'),     # Light Gray (White)
+            'ansi-8-hex': theme_data.get('colors', {}).get('bright_black', '#555753'),  # Bright Black
+            'ansi-9-hex': theme_data.get('colors', {}).get('bright_red', '#ef2929'),    # Bright Red
+            'ansi-10-hex': theme_data.get('colors', {}).get('bright_green', '#8ae234'), # Bright Green
+            'ansi-11-hex': theme_data.get('colors', {}).get('bright_yellow', '#fce94f'),# Bright Yellow
+            'ansi-12-hex': theme_data.get('colors', {}).get('bright_blue', '#729fcf'),  # Bright Blue
+            'ansi-13-hex': theme_data.get('colors', {}).get('bright_magenta', '#ad7fa8'),# Bright Magenta
+            'ansi-14-hex': theme_data.get('colors', {}).get('bright_cyan', '#34e2e2'),  # Bright Cyan
+            'ansi-15-hex': theme_data.get('colors', {}).get('bright_white', '#eeeeec'), # Bright White
+            'foreground-hex': theme_data.get('foreground', '#d3d7cf'),  # Light Gray (Foreground)
+            'background-hex': theme_data.get('background', '#2e3436'),  # Dark Gray (Background)
+            'cursor-hex': theme_data.get('cursor', '#d3d7cf'),         # Light Gray (Cursor)
+            'selection-hex': theme_data.get('selection', '#555753')    # Medium Gray (Selection)
         })
 
     return context
