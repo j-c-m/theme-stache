@@ -3,6 +3,7 @@ import curses
 import json
 import sys
 import os
+import subprocess
 from pathlib import Path
 
 def hex_to_rgb(hex_color):
@@ -35,6 +36,21 @@ def choose_readable_foreground(fg_hex, bg_hex):
     black_ratio = contrast_ratio('#000000', bg_hex)
     white_ratio = contrast_ratio('#FFFFFF', bg_hex)
     return '#000000' if black_ratio > white_ratio else '#FFFFFF'
+
+def activate_theme(script_path):
+    """Run the shell script to apply theme colors, passing output to stdout/stderr."""
+    if script_path.is_file():
+        try:
+            curses.reset_shell_mode()
+            result = subprocess.run(["bash", "--noprofile", "--norc", str(script_path)], capture_output=True, text=True)
+            sys.stdout.write(result.stdout)
+            sys.stderr.write(result.stderr)
+            sys.stdout.flush()
+            sys.stderr.flush()
+            return True
+        except subprocess.SubprocessError:
+            pass  # Silently ignore errors
+    return False
 
 def load_themes(directory):
     """Load metadata from all JSON files in the directory."""
@@ -277,6 +293,7 @@ def main(stdscr, themes):
 
     current_idx = 0
     offset = 0
+    last_activated_script = None  # Track last activated theme script
 
     # Force initial render
     stdscr.clear()
@@ -312,58 +329,15 @@ def main(stdscr, themes):
             if current_idx >= offset + max_themes:
                 offset = min(len(themes) - max_themes, offset + max_themes)
         elif key == ord('a'):
-            try:
-                with open(themes[current_idx]['file'], 'r') as f:
-                    theme = json.load(f)
-                # Extract colors from JSON
-                colors = {}
-                for i in range(16):
-                    colors[f'ansi-{i}-hex'] = theme.get(f'ansi-{i}-hex', '#000000')
-                colors['foreground-hex'] = theme.get('foreground-hex', '#FFFFFF')
-                colors['background-hex'] = theme.get('background-hex', '#000000')
-                colors['cursor-hex'] = theme.get('cursor-hex', '#FFFFFF')
-                colors['selection-hex'] = theme.get('selection-hex', '#CCCCCC')
-                colors['selection-text-hex'] = theme.get('selection-text-hex', '#000000')
-
-                # Exit curses to set terminal colors
-                curses.endwin()
-                # Set ANSI colors (0-15)
-                for i in range(16):
-                    hex_val = colors[f'ansi-{i}-hex'].lstrip('#')
-                    r, g, b = [int(hex_val[j:j+2], 16) for j in (0, 2, 4)]
-                    print(f"\033]4;{i};rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                # Set foreground, background, cursor, selection, selection text
-                fg_hex = colors['foreground-hex'].lstrip('#')
-                bg_hex = colors['background-hex'].lstrip('#')
-                cursor_hex = colors['cursor-hex'].lstrip('#')
-                sel_hex = colors['selection-hex'].lstrip('#')
-                sel_text_hex = colors['selection-text-hex'].lstrip('#')
-                r, g, b = hex_to_rgb(fg_hex)
-                print(f"\033]10;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                r, g, b = hex_to_rgb(bg_hex)
-                print(f"\033]11;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                r, g, b = hex_to_rgb(cursor_hex)
-                print(f"\033]12;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                r, g, b = hex_to_rgb(sel_hex)
-                print(f"\033]17;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                r, g, b = hex_to_rgb(sel_text_hex)
-                print(f"\033]19;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                sys.stdout.flush()
-
-                # Reinitialize curses
-                stdscr = curses.initscr()
-                curses.curs_set(0)
-                curses.start_color()
-                curses.use_default_colors()
-                stdscr.timeout(-1)
-                stdscr.clear()
+            script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
+            if script_path.is_file():
+                subprocess.run(["bash", str(script_path)])
+                last_activated_script = script_path  # Track activated theme
                 stdscr.redrawwin()
                 draw_ui(stdscr, themes, current_idx, offset)
                 stdscr.noutrefresh()
                 curses.doupdate()
                 stdscr.refresh()
-            except (IOError, json.JSONDecodeError):
-                pass  # Silently ignore errors
         elif key == ord('i'):
             script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
             symlink_path = Path.home() / ".shell_theme.sh"
@@ -388,10 +362,12 @@ def main(stdscr, themes):
         curses.doupdate()
         stdscr.refresh()
 
+    return last_activated_script
+
 if __name__ == "__main__":
     default_dir = Path(__file__).parent / "build" / "json"
     if len(sys.argv) > 2:
-        print("Usage: python theme_preview.py [directory]")
+        print("Usage: python preview.py [directory]")
         sys.exit(1)
     directory = Path(sys.argv[1]) if len(sys.argv) == 2 else default_dir
     if directory.is_dir():
@@ -400,7 +376,10 @@ if __name__ == "__main__":
             print(f"No valid JSON theme files found in {directory}.")
             sys.exit(1)
         print(f"Loaded {len(themes)} themes from {directory}.")
-        curses.wrapper(main, themes)
+        last_activated_script = curses.wrapper(main, themes)
+        # Run the last activated script again outside curses.wrapper
+        if last_activated_script:
+            subprocess.run(["bash", str(last_activated_script)])
     else:
         print(f"Invalid path: {directory}. Provide a directory containing JSON files.")
         sys.exit(1)
