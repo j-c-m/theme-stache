@@ -29,7 +29,7 @@ def contrast_ratio(fg_hex, bg_hex):
 
 def choose_readable_foreground(fg_hex, bg_hex):
     """Choose a readable foreground color based on WCAG contrast ratio."""
-    if contrast_ratio(fg_hex, bg_hex) >= 2:
+    if contrast_ratio(fg_hex, bg_hex) >= 3:
         return fg_hex
     black_ratio = contrast_ratio('#000000', bg_hex)
     white_ratio = contrast_ratio('#FFFFFF', bg_hex)
@@ -267,18 +267,18 @@ def main(stdscr, themes):
         stdscr.refresh()
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("Usage: python theme_preview.py <directory>")
+    default_dir = Path(__file__).parent / "build" / "json"
+    if len(sys.argv) > 2:
+        print("Usage: python theme_preview.py [directory]")
         sys.exit(1)
-
-    path = Path(sys.argv[1])
-    if path.is_dir():
-        themes = load_themes(path)
+    directory = Path(sys.argv[1]) if len(sys.argv) == 2 else default_dir
+    if directory.is_dir():
+        themes = load_themes(directory)
         if not themes:
-            print("No valid JSON theme files found in the directory.")
+            print(f"No valid JSON theme files found in {directory}.")
             sys.exit(1)
-        print(f"Loaded {len(themes)} themes.")
+        print(f"Loaded {len(themes)} themes from {directory}.")
         curses.wrapper(main, themes)
     else:
-        print("Invalid path. Provide a directory containing JSON files.")
+        print(f"Invalid path: {directory}. Provide a directory containing JSON files.")
         sys.exit(1)
