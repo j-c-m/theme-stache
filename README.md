@@ -58,7 +58,7 @@ endif
 
 set notermguicolors
 colorscheme habamax
-``
+```
 
 ### alacritty
 
