@@ -3,8 +3,10 @@ import json
 import yaml
 import pystache
 import os
+import re
 from pathlib import Path
 import glob
+from unidecode import unidecode
 
 def load_config(config_path):
     """Load the config.json file."""
@@ -22,7 +24,11 @@ def load_yaml(yaml_path):
 
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
-    return name.lower().replace(' ', '-')
+    name = unidecode(name);
+    name = name.lower()
+    name = name.replace(' ', '-').replace('_', '-')
+    name = re.sub(r'[^0-9a-z-]', '', name)
+    return name
 
 def map_theme_data(theme_data, source, theme_path):
     """Map theme data from different sources to the standard context for Mustache templates."""
