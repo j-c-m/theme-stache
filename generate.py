@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import json
 import yaml
+import plistlib
 import pystache
 import os
 import re
@@ -21,6 +22,22 @@ def load_yaml(yaml_path):
     except Exception as e:
         print(f"Error loading YAML file {yaml_path}: {e}")
         return None
+
+def load_plist(plist_path):
+    """Load an iTerm .itermcolors plist file."""
+    try:
+        with open(plist_path, 'rb') as f:
+            return plistlib.load(f)
+    except Exception as e:
+        print(f"Error loading plist file {plist_path}: {e}")
+        return None
+
+def rgb_to_hex(r, g, b):
+    """Convert RGB values (0-1) to hex format (#RRGGBB)."""
+    r = int(r * 255)
+    g = int(g * 255)
+    b = int(b * 255)
+    return f"#{r:02x}{g:02x}{b:02x}"
 
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
@@ -165,6 +182,132 @@ def map_theme_data(theme_data, source, theme_path):
             'cursor-hex': palette['base05'],  # Cursor
             'selection-hex': palette['base02']  # Selection Background
         })
+    elif source == 'iterm':
+        # Required fields for iTerm .itermcolors schema
+        required_fields = [
+            'Ansi 0 Color', 'Ansi 1 Color', 'Ansi 2 Color', 'Ansi 3 Color',
+            'Ansi 4 Color', 'Ansi 5 Color', 'Ansi 6 Color', 'Ansi 7 Color',
+            'Ansi 8 Color', 'Ansi 9 Color', 'Ansi 10 Color', 'Ansi 11 Color',
+            'Ansi 12 Color', 'Ansi 13 Color', 'Ansi 14 Color', 'Ansi 15 Color',
+            'Background Color', 'Foreground Color', 'Cursor Color', 'Selection Color'
+        ]
+        missing_fields = [field for field in required_fields if theme_data.get(field) is None]
+        if missing_fields:
+            raise ValueError(f"Missing required fields in {theme_path}: {', '.join(missing_fields)}")
+
+        # Validate RGB components for each color
+        for field in required_fields:
+            if not all(key in theme_data[field] for key in ['Red Component', 'Green Component', 'Blue Component']):
+                raise ValueError(f"Missing RGB components in {theme_path} for {field}")
+
+        # Extract theme name from file name (no metadata in .itermcolors)
+        theme_name = Path(theme_path).stem
+        context.update({
+            'theme-slug': slugify(theme_name),
+            'theme-name': theme_name,
+            'theme-variant': 'unknown',  # No variant specified in .itermcolors
+            'theme-author': 'unknown',  # No author specified in .itermcolors
+            'ansi-0-hex': rgb_to_hex(
+                theme_data['Ansi 0 Color']['Red Component'],
+                theme_data['Ansi 0 Color']['Green Component'],
+                theme_data['Ansi 0 Color']['Blue Component']
+            ),
+            'ansi-1-hex': rgb_to_hex(
+                theme_data['Ansi 1 Color']['Red Component'],
+                theme_data['Ansi 1 Color']['Green Component'],
+                theme_data['Ansi 1 Color']['Blue Component']
+            ),
+            'ansi-2-hex': rgb_to_hex(
+                theme_data['Ansi 2 Color']['Red Component'],
+                theme_data['Ansi 2 Color']['Green Component'],
+                theme_data['Ansi 2 Color']['Blue Component']
+            ),
+            'ansi-3-hex': rgb_to_hex(
+                theme_data['Ansi 3 Color']['Red Component'],
+                theme_data['Ansi 3 Color']['Green Component'],
+                theme_data['Ansi 3 Color']['Blue Component']
+            ),
+            'ansi-4-hex': rgb_to_hex(
+                theme_data['Ansi 4 Color']['Red Component'],
+                theme_data['Ansi 4 Color']['Green Component'],
+                theme_data['Ansi 4 Color']['Blue Component']
+            ),
+            'ansi-5-hex': rgb_to_hex(
+                theme_data['Ansi 5 Color']['Red Component'],
+                theme_data['Ansi 5 Color']['Green Component'],
+                theme_data['Ansi 5 Color']['Blue Component']
+            ),
+            'ansi-6-hex': rgb_to_hex(
+                theme_data['Ansi 6 Color']['Red Component'],
+                theme_data['Ansi 6 Color']['Green Component'],
+                theme_data['Ansi 6 Color']['Blue Component']
+            ),
+            'ansi-7-hex': rgb_to_hex(
+                theme_data['Ansi 7 Color']['Red Component'],
+                theme_data['Ansi 7 Color']['Green Component'],
+                theme_data['Ansi 7 Color']['Blue Component']
+            ),
+            'ansi-8-hex': rgb_to_hex(
+                theme_data['Ansi 8 Color']['Red Component'],
+                theme_data['Ansi 8 Color']['Green Component'],
+                theme_data['Ansi 8 Color']['Blue Component']
+            ),
+            'ansi-9-hex': rgb_to_hex(
+                theme_data['Ansi 9 Color']['Red Component'],
+                theme_data['Ansi 9 Color']['Green Component'],
+                theme_data['Ansi 9 Color']['Blue Component']
+            ),
+            'ansi-10-hex': rgb_to_hex(
+                theme_data['Ansi 10 Color']['Red Component'],
+                theme_data['Ansi 10 Color']['Green Component'],
+                theme_data['Ansi 10 Color']['Blue Component']
+            ),
+            'ansi-11-hex': rgb_to_hex(
+                theme_data['Ansi 11 Color']['Red Component'],
+                theme_data['Ansi 11 Color']['Green Component'],
+                theme_data['Ansi 11 Color']['Blue Component']
+            ),
+            'ansi-12-hex': rgb_to_hex(
+                theme_data['Ansi 12 Color']['Red Component'],
+                theme_data['Ansi 12 Color']['Green Component'],
+                theme_data['Ansi 12 Color']['Blue Component']
+            ),
+            'ansi-13-hex': rgb_to_hex(
+                theme_data['Ansi 13 Color']['Red Component'],
+                theme_data['Ansi 13 Color']['Green Component'],
+                theme_data['Ansi 13 Color']['Blue Component']
+            ),
+            'ansi-14-hex': rgb_to_hex(
+                theme_data['Ansi 14 Color']['Red Component'],
+                theme_data['Ansi 14 Color']['Green Component'],
+                theme_data['Ansi 14 Color']['Blue Component']
+            ),
+            'ansi-15-hex': rgb_to_hex(
+                theme_data['Ansi 15 Color']['Red Component'],
+                theme_data['Ansi 15 Color']['Green Component'],
+                theme_data['Ansi 15 Color']['Blue Component']
+            ),
+            'foreground-hex': rgb_to_hex(
+                theme_data['Foreground Color']['Red Component'],
+                theme_data['Foreground Color']['Green Component'],
+                theme_data['Foreground Color']['Blue Component']
+            ),
+            'background-hex': rgb_to_hex(
+                theme_data['Background Color']['Red Component'],
+                theme_data['Background Color']['Green Component'],
+                theme_data['Background Color']['Blue Component']
+            ),
+            'cursor-hex': rgb_to_hex(
+                theme_data['Cursor Color']['Red Component'],
+                theme_data['Cursor Color']['Green Component'],
+                theme_data['Cursor Color']['Blue Component']
+            ),
+            'selection-hex': rgb_to_hex(
+                theme_data['Selection Color']['Red Component'],
+                theme_data['Selection Color']['Green Component'],
+                theme_data['Selection Color']['Blue Component']
+            )
+        })
     else:
         # Placeholder for other theme sources (no strict validation)
         context.update({
@@ -213,8 +356,12 @@ def main():
         return
 
     for source_dir in theme_sources:
-        source_name = source_dir.name  # e.g., 'gogh', 'base16', 'base24'
-        theme_files = sorted(glob.glob(str(source_dir / '*.yaml')) + glob.glob(str(source_dir / '*.yml')))
+        source_name = source_dir.name  # e.g., 'gogh', 'base16', 'base24', 'iterm'
+        theme_files = sorted(
+            glob.glob(str(source_dir / '*.yaml')) +
+            glob.glob(str(source_dir / '*.yml')) +
+            glob.glob(str(source_dir / '*.itermcolors'))
+        )
 
         if not theme_files:
             print(f"No theme files found in {source_dir} directory.")
@@ -222,7 +369,11 @@ def main():
 
         for theme_file in theme_files:
             theme_path = Path(theme_file)
-            theme_data = load_yaml(theme_path)
+            if theme_path.suffix == '.itermcolors':
+                theme_data = load_plist(theme_path)
+                source_name = 'iterm'  # Override source for .itermcolors files
+            else:
+                theme_data = load_yaml(theme_path)
             if theme_data is None:
                 continue
 
