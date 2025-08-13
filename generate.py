@@ -56,25 +56,26 @@ def map_theme_data(theme_data, source, theme_path):
             'theme-name': theme_data['name'],
             'theme-variant': theme_data['variant'],
             'theme-author': theme_data['author'],
-            'color_01_hex': theme_data['color_01'],
-            'color_02_hex': theme_data['color_02'],
-            'color_03_hex': theme_data['color_03'],
-            'color_04_hex': theme_data['color_04'],
-            'color_05_hex': theme_data['color_05'],
-            'color_06_hex': theme_data['color_06'],
-            'color_07_hex': theme_data['color_07'],
-            'color_08_hex': theme_data['color_08'],
-            'color_09_hex': theme_data['color_09'],
-            'color_10_hex': theme_data['color_10'],
-            'color_11_hex': theme_data['color_11'],
-            'color_12_hex': theme_data['color_12'],
-            'color_13_hex': theme_data['color_13'],
-            'color_14_hex': theme_data['color_14'],
-            'color_15_hex': theme_data['color_15'],
-            'color_16_hex': theme_data['color_16'],
-            'foreground_hex': theme_data['foreground'],
-            'background_hex': theme_data['background'],
-            'cursor_hex': theme_data['cursor']
+            'ansi-0-hex': theme_data['color_01'],
+            'ansi-1-hex': theme_data['color_02'],
+            'ansi-2-hex': theme_data['color_03'],
+            'ansi-3-hex': theme_data['color_04'],
+            'ansi-4-hex': theme_data['color_05'],
+            'ansi-5-hex': theme_data['color_06'],
+            'ansi-6-hex': theme_data['color_07'],
+            'ansi-7-hex': theme_data['color_08'],
+            'ansi-8-hex': theme_data['color_09'],
+            'ansi-9-hex': theme_data['color_10'],
+            'ansi-10-hex': theme_data['color_11'],
+            'ansi-11-hex': theme_data['color_12'],
+            'ansi-12-hex': theme_data['color_13'],
+            'ansi-13-hex': theme_data['color_14'],
+            'ansi-14-hex': theme_data['color_15'],
+            'ansi-15-hex': theme_data['color_16'],
+            'foreground-hex': theme_data['foreground'],
+            'background-hex': theme_data['background'],
+            'cursor-hex': theme_data['cursor'],
+            'selection-hex': theme_data['color_08']
         })
     elif source == 'base16':
         # Required fields for Base16 schema
@@ -98,25 +99,26 @@ def map_theme_data(theme_data, source, theme_path):
             'theme-name': theme_data['name'],
             'theme-variant': theme_data['variant'],
             'theme-author': theme_data['author'],
-            'color_01_hex': palette['base00'],  # Black
-            'color_02_hex': palette['base08'],  # Red
-            'color_03_hex': palette['base0B'],  # Green
-            'color_04_hex': palette['base0A'],  # Yellow
-            'color_05_hex': palette['base0D'],  # Blue
-            'color_06_hex': palette['base0E'],  # Magenta
-            'color_07_hex': palette['base0C'],  # Cyan
-            'color_08_hex': palette['base05'],  # White
-            'color_09_hex': palette['base03'],  # Bright Black
-            'color_10_hex': palette['base08'],  # Bright Red
-            'color_11_hex': palette['base0B'],  # Bright Green
-            'color_12_hex': palette['base0A'],  # Bright Yellow
-            'color_13_hex': palette['base0D'],  # Bright Blue
-            'color_14_hex': palette['base0E'],  # Bright Magenta
-            'color_15_hex': palette['base0C'],  # Bright Cyan
-            'color_16_hex': palette['base07'],  # Bright White
-            'foreground_hex': palette['base05'],  # Foreground
-            'background_hex': palette['base00'],  # Background
-            'cursor_hex': palette['base05']  # Cursor
+            'ansi-0-hex': palette['base00'],  # Black
+            'ansi-1-hex': palette['base08'],  # Red
+            'ansi-2-hex': palette['base0B'],  # Green
+            'ansi-3-hex': palette['base0A'],  # Yellow
+            'ansi-4-hex': palette['base0D'],  # Blue
+            'ansi-5-hex': palette['base0E'],  # Magenta
+            'ansi-6-hex': palette['base0C'],  # Cyan
+            'ansi-7-hex': palette['base05'],  # White
+            'ansi-8-hex': palette['base03'],  # Bright Black
+            'ansi-9-hex': palette['base08'],  # Bright Red
+            'ansi-10-hex': palette['base0B'],  # Bright Green
+            'ansi-11-hex': palette['base0A'],  # Bright Yellow
+            'ansi-12-hex': palette['base0D'],  # Bright Blue
+            'ansi-13-hex': palette['base0E'],  # Bright Magenta
+            'ansi-14-hex': palette['base0C'],  # Bright Cyan
+            'ansi-15-hex': palette['base07'],  # Bright White
+            'foreground-hex': palette['base05'],  # Foreground
+            'background-hex': palette['base00'],  # Background
+            'cursor-hex': palette['base05'],  # Cursor
+            'selection-hex': palette['base02'] # Selection Background
         })
     else:
         # Placeholder for other theme sources (no strict validation)
@@ -125,25 +127,26 @@ def map_theme_data(theme_data, source, theme_path):
             'theme-name': theme_data.get('theme_name', 'Unknown Theme'),
             'theme-variant': theme_data.get('type', ''),
             'theme-author': theme_data.get('creator', ''),
-            'color_01_hex': theme_data.get('colors', {}).get('black', '#000000'),
-            'color_02_hex': theme_data.get('colors', {}).get('red', '#000000'),
-            'color_03_hex': theme_data.get('colors', {}).get('green', '#000000'),
-            'color_04_hex': theme_data.get('colors', {}).get('yellow', '#000000'),
-            'color_05_hex': theme_data.get('colors', {}).get('blue', '#000000'),
-            'color_06_hex': theme_data.get('colors', {}).get('magenta', '#000000'),
-            'color_07_hex': theme_data.get('colors', {}).get('cyan', '#000000'),
-            'color_08_hex': theme_data.get('colors', {}).get('white', '#000000'),
-            'color_09_hex': theme_data.get('colors', {}).get('bright_black', '#000000'),
-            'color_10_hex': theme_data.get('colors', {}).get('bright_red', '#000000'),
-            'color_11_hex': theme_data.get('colors', {}).get('bright_green', '#000000'),
-            'color_12_hex': theme_data.get('colors', {}).get('bright_yellow', '#000000'),
-            'color_13_hex': theme_data.get('colors', {}).get('bright_blue', '#000000'),
-            'color_14_hex': theme_data.get('colors', {}).get('bright_magenta', '#000000'),
-            'color_15_hex': theme_data.get('colors', {}).get('bright_cyan', '#000000'),
-            'color_16_hex': theme_data.get('colors', {}).get('bright_white', '#000000'),
-            'foreground_hex': theme_data.get('foreground', '#FFFFFF'),
-            'background_hex': theme_data.get('background', '#000000'),
-            'cursor_hex': theme_data.get('cursor', '#FFFFFF')
+            'ansi-0-hex': theme_data.get('colors', {}).get('black', '#000000'),
+            'ansi-1-hex': theme_data.get('colors', {}).get('red', '#000000'),
+            'ansi-2-hex': theme_data.get('colors', {}).get('green', '#000000'),
+            'ansi-3-hex': theme_data.get('colors', {}).get('yellow', '#000000'),
+            'ansi-4-hex': theme_data.get('colors', {}).get('blue', '#000000'),
+            'ansi-5-hex': theme_data.get('colors', {}).get('magenta', '#000000'),
+            'ansi-6-hex': theme_data.get('colors', {}).get('cyan', '#000000'),
+            'ansi-7-hex': theme_data.get('colors', {}).get('white', '#000000'),
+            'ansi-8-hex': theme_data.get('colors', {}).get('bright_black', '#000000'),
+            'ansi-9-hex': theme_data.get('colors', {}).get('bright_red', '#000000'),
+            'ansi-10-hex': theme_data.get('colors', {}).get('bright_green', '#000000'),
+            'ansi-11-hex': theme_data.get('colors', {}).get('bright_yellow', '#000000'),
+            'ansi-12-hex': theme_data.get('colors', {}).get('bright_blue', '#000000'),
+            'ansi-13-hex': theme_data.get('colors', {}).get('bright_magenta', '#000000'),
+            'ansi-14-hex': theme_data.get('colors', {}).get('bright_cyan', '#000000'),
+            'ansi-15-hex': theme_data.get('colors', {}).get('bright_white', '#000000'),
+            'foreground-hex': theme_data.get('foreground', '#FFFFFF'),
+            'background-hex': theme_data.get('background', '#000000'),
+            'cursor-hex': theme_data.get('cursor', '#FFFFFF'),
+            'selection-hex': theme_data.get('selection', '#CCCCCC')
         })
 
     return context
