@@ -39,6 +39,16 @@ def rgb_to_hex(r, g, b):
     b = int(b * 255)
     return f"#{r:02x}{g:02x}{b:02x}"
 
+def invert_hex_color(hex_color):
+    """Invert a hex color (#RRGGBB) to its complementary color."""
+    hex_color = hex_color.lstrip('#')
+    if len(hex_color) != 6:
+        raise ValueError(f"Invalid hex color format: {hex_color}")
+    r = 255 - int(hex_color[0:2], 16)
+    g = 255 - int(hex_color[2:4], 16)
+    b = 255 - int(hex_color[4:6], 16)
+    return f"#{r:02x}{g:02x}{b:02x}"
+
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
     name = unidecode(name)
@@ -92,7 +102,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': theme_data['foreground'],
             'background-hex': theme_data['background'],
             'cursor-hex': theme_data['cursor'],
-            'selection-hex': theme_data['color_08']
+            'selection-hex': theme_data['color_08'],
+            'selection-text-hex': invert_hex_color(theme_data['color_08'])
         })
     elif source == 'base16':
         # Required fields for Base16 schema
@@ -135,7 +146,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': palette['base05'],  # Foreground
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
-            'selection-hex': palette['base02']  # Selection Background
+            'selection-hex': palette['base02'],  # Selection Background
+            'selection-text-hex': invert_hex_color(palette['base02'])  # Selection Text
         })
     elif source == 'base24':
         # Required fields for Base24 schema
@@ -180,7 +192,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': palette['base05'],  # Foreground
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
-            'selection-hex': palette['base02']  # Selection Background
+            'selection-hex': palette['base02'],  # Selection Background
+            'selection-text-hex': invert_hex_color(palette['base02'])  # Selection Text
         })
     elif source == 'iterm':
         # Required fields for iTerm .itermcolors schema
@@ -189,7 +202,8 @@ def map_theme_data(theme_data, source, theme_path):
             'Ansi 4 Color', 'Ansi 5 Color', 'Ansi 6 Color', 'Ansi 7 Color',
             'Ansi 8 Color', 'Ansi 9 Color', 'Ansi 10 Color', 'Ansi 11 Color',
             'Ansi 12 Color', 'Ansi 13 Color', 'Ansi 14 Color', 'Ansi 15 Color',
-            'Background Color', 'Foreground Color', 'Cursor Color', 'Selection Color'
+            'Background Color', 'Foreground Color', 'Cursor Color', 'Selection Color',
+            'Selected Text Color'
         ]
         missing_fields = [field for field in required_fields if theme_data.get(field) is None]
         if missing_fields:
@@ -306,10 +320,16 @@ def map_theme_data(theme_data, source, theme_path):
                 theme_data['Selection Color']['Red Component'],
                 theme_data['Selection Color']['Green Component'],
                 theme_data['Selection Color']['Blue Component']
+            ),
+            'selection-text-hex': rgb_to_hex(
+                theme_data['Selected Text Color']['Red Component'],
+                theme_data['Selected Text Color']['Green Component'],
+                theme_data['Selected Text Color']['Blue Component']
             )
         })
     else:
         # Placeholder for other theme sources (no strict validation)
+        selection_hex = theme_data.get('selection', '#555753')  # Medium Gray (Selection)
         context.update({
             'theme-slug': slugify(theme_data.get('theme_name', 'unknown')),
             'theme-name': theme_data.get('theme_name', 'Unknown Theme'),
@@ -334,7 +354,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': theme_data.get('foreground', '#d3d7cf'),  # Light Gray (Foreground)
             'background-hex': theme_data.get('background', '#2e3436'),  # Dark Gray (Background)
             'cursor-hex': theme_data.get('cursor', '#d3d7cf'),         # Light Gray (Cursor)
-            'selection-hex': theme_data.get('selection', '#555753')    # Medium Gray (Selection)
+            'selection-hex': selection_hex,  # Medium Gray (Selection)
+            'selection-text-hex': theme_data.get('selection_text', invert_hex_color(selection_hex))  # Inverted Selection
         })
 
     return context

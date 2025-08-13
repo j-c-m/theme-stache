@@ -13,6 +13,11 @@ foreground  = '{{background-hex}}'
 text        = '{{ansi-0-hex}}'
 cursor      = '{{cursor-hex}}'
 
+# Selection colors
+[colors.selection]
+background  = '{{selection-hex}}'
+text        = '{{selection-text-hex}}'
+
 # Normal colors
 [colors.normal]
 black       = '{{ansi-0-hex}}'

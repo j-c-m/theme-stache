@@ -11,27 +11,28 @@ if [[ ! -t 0 ]]; then
     exit 0
 fi
 
-color00="{{ansi-0-hex}}"      # Black (Host)
-color01="{{ansi-1-hex}}"      # Red (Syntax string)
-color02="{{ansi-2-hex}}"      # Green (Command)
-color03="{{ansi-3-hex}}"      # Yellow (Command second)
-color04="{{ansi-4-hex}}"      # Blue (Path)
-color05="{{ansi-5-hex}}"      # Magenta (Syntax var)
-color06="{{ansi-6-hex}}"      # Cyan (Prompt)
-color07="{{ansi-7-hex}}"      # White
-color08="{{ansi-8-hex}}"      # Bright Black
-color09="{{ansi-9-hex}}"      # Bright Red (Command error)
-color10="{{ansi-10-hex}}"      # Bright Green (Exec)
-color11="{{ansi-11-hex}}"      # Bright Yellow
-color12="{{ansi-12-hex}}"      # Bright Blue (Folder)
-color13="{{ansi-13-hex}}"      # Bright Magenta
-color14="{{ansi-14-hex}}"      # Bright Cyan
-color15="{{ansi-15-hex}}"      # Bright White
+color00="{{ansi-0-hex}}"    # Black (Host)
+color01="{{ansi-1-hex}}"    # Red (Syntax string)
+color02="{{ansi-2-hex}}"    # Green (Command)
+color03="{{ansi-3-hex}}"    # Yellow (Command second)
+color04="{{ansi-4-hex}}"    # Blue (Path)
+color05="{{ansi-5-hex}}"    # Magenta (Syntax var)
+color06="{{ansi-6-hex}}"    # Cyan (Prompt)
+color07="{{ansi-7-hex}}"    # White
+color08="{{ansi-8-hex}}"    # Bright Black
+color09="{{ansi-9-hex}}"    # Bright Red (Command error)
+color10="{{ansi-10-hex}}"   # Bright Green (Exec)
+color11="{{ansi-11-hex}}"   # Bright Yellow
+color12="{{ansi-12-hex}}"   # Bright Blue (Folder)
+color13="{{ansi-13-hex}}"   # Bright Magenta
+color14="{{ansi-14-hex}}"   # Bright Cyan
+color15="{{ansi-15-hex}}"   # Bright White
 
-foreground="{{foreground-hex}}" # Foreground (Text)
-background="{{background-hex}}" # Background
-cursor="{{cursor-hex}}"         # Cursor
-selection="{{selection-hex}}"   # Selection Background
+foreground="{{foreground-hex}}"         # Foreground (Text)
+background="{{background-hex}}"         # Background
+cursor="{{cursor-hex}}"                 # Cursor
+selection="{{selection-hex}}"           # Selection Background
+selection-text="{{selection-text-hex}}" # Selection Text
 
 function tolower()
 {
@@ -165,3 +166,5 @@ unset color15
 unset foreground
 unset background
 unset cursor
+unset selection
+unset selection-text
