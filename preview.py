@@ -3,7 +3,6 @@ import curses
 import json
 import sys
 import os
-import subprocess
 from pathlib import Path
 
 def hex_to_rgb(hex_color):
@@ -333,7 +332,7 @@ def main(stdscr, themes):
                     hex_val = colors[f'ansi-{i}-hex'].lstrip('#')
                     r, g, b = [int(hex_val[j:j+2], 16) for j in (0, 2, 4)]
                     print(f"\033]4;{i};rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                # Set foreground, background, cursor, selection
+                # Set foreground, background, cursor, selection, selection text
                 fg_hex = colors['foreground-hex'].lstrip('#')
                 bg_hex = colors['background-hex'].lstrip('#')
                 cursor_hex = colors['cursor-hex'].lstrip('#')
@@ -345,7 +344,10 @@ def main(stdscr, themes):
                 print(f"\033]11;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
                 r, g, b = hex_to_rgb(cursor_hex)
                 print(f"\033]12;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
-                # Note: Selection colors may not be supported by all terminals
+                r, g, b = hex_to_rgb(sel_hex)
+                print(f"\033]17;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
+                r, g, b = hex_to_rgb(sel_text_hex)
+                print(f"\033]19;rgb:{r:02x}/{g:02x}/{b:02x}\033\\", end='', flush=True)
                 sys.stdout.flush()
 
                 # Reinitialize curses
