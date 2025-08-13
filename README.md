@@ -1,4 +1,6 @@
-# theme-stache
+![theme stache logo](/images/theme-stache.png)
+
+# theme stache "stash"
 
 Building themes to any target using mustache templates.
 
