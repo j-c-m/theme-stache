@@ -2,7 +2,6 @@
 import curses
 import json
 import sys
-import subprocess
 import os
 from pathlib import Path
 
@@ -74,7 +73,7 @@ def update_preview(win, file_path):
         "Bright Blue", "Bright Magenta", "Bright Cyan", "Bright White"
     ]
 
-    # Redefine colors (1-24)
+    # Redefine colors (1-25)
     for i in range(16):
         hex_val = theme.get(f'ansi-{i}-hex', '#000000')
         r, g, b = hex_to_rgb(hex_val)
@@ -105,6 +104,14 @@ def update_preview(win, file_path):
     r, g, b = hex_to_rgb('#FFFFFF')
     curses.init_color(24, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
+    # Color pair for key names (ansi-1-hex on bg)
+    ansi_1_hex = theme.get('ansi-1-hex', '#FF0000')
+    r, g, b = hex_to_rgb(ansi_1_hex)
+    curses.init_color(25, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
+    fg = choose_readable_foreground(ansi_1_hex, bg_hex)
+    fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 25
+    curses.init_pair(24, fg_color, 18)  # ansi-1 on bg
+
     # Define color pairs
     curses.init_pair(1, 17, 18)  # fg on bg (default)
     for i in range(16):
@@ -127,13 +134,6 @@ def update_preview(win, file_path):
     fg = choose_readable_foreground(fg_hex, sel_text_hex)
     fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 17
     curses.init_pair(23, fg_color, 21)  # adjusted fg on sel_text
-    # Color pair for key names (ansi-1-hex on bg)
-    ansi_1_hex = theme.get('ansi-1-hex', '#FF0000')
-    r, g, b = hex_to_rgb(ansi_1_hex)
-    curses.init_color(25, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
-    fg = choose_readable_foreground(ansi_1_hex, bg_hex)
-    fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 25
-    curses.init_pair(24, fg_color, 18)  # ansi-1 on bg
 
     # Set background
     win.bkgd(' ', curses.color_pair(1))
@@ -220,8 +220,6 @@ def update_preview(win, file_path):
         try:
             shortcuts = [
                 ("q", " quit", 24, 1),
-                (", ", "", 1, 1),
-                ("a", " activate", 24, 1),
                 (", ", "", 1, 1),
                 ("i", " install", 24, 1),
                 (", ", "", 1, 1),
@@ -311,15 +309,6 @@ def main(stdscr, themes):
             current_idx = min(len(themes) - 1, current_idx + max_themes)
             if current_idx >= offset + max_themes:
                 offset = min(len(themes) - max_themes, offset + max_themes)
-        elif key == ord('a'):
-            script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
-            if script_path.is_file():
-                try:
-                    subprocess.run(["bash", str(script_path)], check=True)
-                except subprocess.SubprocessError:
-                    pass  # Silently ignore errors
-            else:
-                pass  # Silently ignore missing script
         elif key == ord('i'):
             script_path = Path(__file__).parent / "build" / "shell" / f"{themes[current_idx]['source-slug']}-{themes[current_idx]['slug']}.sh"
             symlink_path = Path.home() / ".shell_theme.sh"
