@@ -13,5 +13,5 @@ Building themes to any target using mustache templates.
 
 ## targets
 
-* [shell.sh](/templates/shell.sh) xterm OSC shell script
-* [alacritty](/templates/alacritty.toml) Alacritty terminal emulator
+* [shell.sh](/build/shell) xterm OSC shell script
+* [alacritty](/build/alacritty) Alacritty terminal emulator
