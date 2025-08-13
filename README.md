@@ -13,5 +13,50 @@ Building themes to any target using mustache templates.
 
 ## targets
 
+### shell
+
 * [shell.sh](/build/shell) xterm OSC shell script
+
+install
+
+```bash
+mkdir -p $HOME/.config
+cd $HOME/.config
+git clone https://github.com/j-c-m/theme-stache.git
+```
+
+sample .bashrc or .zshrc addtion
+
+```bash
+THEME_STACHE="${HOME}/.config/theme-stache"
+DEFAULT_THEME="base16-eighties"
+
+if [ ! -f "${HOME}/.shell_theme.sh" ]; then
+    ln -s "${THEME_STACHE}/build/shell/${DEFAULT_THEME}.sh" "${HOME}/.shell_theme.sh"
+fi
+
+if [ ! -f "${HOME}/bin/theme-stache" ]; then
+    ln -s "${THEME_STACHE}/theme-stache.py" "${HOME}/bin/theme-stache"
+fi
+
+source "${HOME}/.shell_theme.sh"
+
+unset THEME_STACHE
+unset DEFAULT_THEME
+```
+
+Use theme-stache.py to browse, activate, or install themes (create .shell_theme.sh symlink).
+
+### alacritty
+
 * [alacritty](/build/alacritty) Alacritty terminal emulator
+
+Add an import to your `alacritty.toml` (Replace `{theme}` with your desired
+colorscheme):
+
+```toml
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/{theme}.toml"
+]
+```
