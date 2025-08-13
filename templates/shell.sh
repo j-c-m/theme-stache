@@ -32,7 +32,7 @@ foreground="{{foreground-hex}}"         # Foreground (Text)
 background="{{background-hex}}"         # Background
 cursor="{{cursor-hex}}"                 # Cursor
 selection="{{selection-hex}}"           # Selection Background
-selection-text="{{selection-text-hex}}" # Selection Text
+selection_text="{{selection-text-hex}}" # Selection Text
 
 function tolower()
 {
@@ -109,6 +109,7 @@ do_osc() {
     print_osc_rgb 11 "$background"
     print_osc_rgb 12 "$cursor"
     print_osc_rgb 17 "$selection"
+    print_osc_rgb 19 "$selection_text"
 }
 
 do_linux() {
@@ -167,4 +168,4 @@ unset foreground
 unset background
 unset cursor
 unset selection
-unset selection-text
+unset selection_text
