@@ -146,8 +146,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': palette['base05'],  # Foreground
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
-            'selection-hex': palette['base02'],  # Selection Background
-            'selection-text-hex': invert_hex_color(palette['base02'])  # Selection Text
+            'selection-hex': palette['base06'],  # Selection Background
+            'selection-text-hex': invert_hex_color(palette['base06'])  # Selection Text
         })
     elif source == 'base24':
         # Required fields for Base24 schema
@@ -192,8 +192,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': palette['base05'],  # Foreground
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
-            'selection-hex': palette['base02'],  # Selection Background
-            'selection-text-hex': invert_hex_color(palette['base02'])  # Selection Text
+            'selection-hex': palette['base06'],  # Selection Background
+            'selection-text-hex': invert_hex_color(palette['base06'])  # Selection Text
         })
     elif source == 'iterm':
         # Required fields for iTerm .itermcolors schema
