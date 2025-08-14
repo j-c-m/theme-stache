@@ -171,10 +171,6 @@ def main():
     for source, name, source_slug, slug, issues, path, fg_hex in schemes:
         filename = os.path.basename(path)
         header = f"{source_slug} {name} ({filename})"
-        if output_mode == 'ansi':
-            header = f"{ansi_color(fg_hex)}{header}{ansi_color()}"
-        elif output_mode == 'html':
-            header = f"<span style=\"color:{fg_hex}\">{header}</span>"
         output.append(f"## {header}")
         output.append("### Issues Found")
         for issue in issues:
