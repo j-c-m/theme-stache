@@ -15,27 +15,27 @@ cursor      = '#999993'
 
 # Selection colors
 [colors.selection]
-background  = '#899CA1'
+background  = '#899ca1'
 text        = '#76635e'
 
 # Normal colors
 [colors.normal]
 black       = '#333333'
-red         = '#8C4665'
+red         = '#8c4665'
 green       = '#287373'
-yellow      = '#7C7C99'
+yellow      = '#7c7c99'
 blue        = '#395573'
-magenta     = '#5E468C'
-cyan        = '#31658C'
-white       = '#899CA1'
+magenta     = '#5e468c'
+cyan        = '#31658c'
+white       = '#899ca1'
 
 # Bright colors
 [colors.bright]
-black       = '#3D3D3D'
-red         = '#BF4D80'
-green       = '#53A6A6'
-yellow      = '#9E9ECB'
-blue        = '#477AB3'
-magenta     = '#7E62B3'
-cyan        = '#6096BF'
-white       = '#C0C0C0'
+black       = '#3d3d3d'
+red         = '#bf4d80'
+green       = '#53a6a6'
+yellow      = '#9e9ecb'
+blue        = '#477ab3'
+magenta     = '#7e62b3'
+cyan        = '#6096bf'
+white       = '#c0c0c0'

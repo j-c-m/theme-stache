@@ -21,7 +21,7 @@ text        = '#111111'
 # Normal colors
 [colors.normal]
 black       = '#151718'
-red         = '#Cd3f45'
+red         = '#cd3f45'
 green       = '#9fca56'
 yellow      = '#e6cd69'
 blue        = '#55b5db'
@@ -31,8 +31,8 @@ white       = '#d6d6d6'
 
 # Bright colors
 [colors.bright]
-black       = '#41535B'
-red         = '#Cd3f45'
+black       = '#41535b'
+red         = '#cd3f45'
 green       = '#9fca56'
 yellow      = '#e6cd69'
 blue        = '#55b5db'

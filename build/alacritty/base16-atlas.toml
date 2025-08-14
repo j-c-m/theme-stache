@@ -31,7 +31,7 @@ white       = '#a1a19a'
 
 # Bright colors
 [colors.bright]
-black       = '#6C8B91'
+black       = '#6c8b91'
 red         = '#ff5a67'
 green       = '#7fc06e'
 yellow      = '#ffcc1b'

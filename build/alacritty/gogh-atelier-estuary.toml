@@ -5,37 +5,37 @@
 
 # Default colors
 [colors.primary]
-background  = '#22221B'
+background  = '#22221b'
 foreground  = '#878573'
 
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
-text        = '#BA6236'
+text        = '#ba6236'
 cursor      = '#878573'
 
 # Selection colors
 [colors.selection]
-background  = '#E7E6DF'
+background  = '#e7e6df'
 text        = '#181920'
 
 # Normal colors
 [colors.normal]
-black       = '#BA6236'
-red         = '#BA6236'
-green       = '#7D9726'
-yellow      = '#A5980D'
-blue        = '#36A166'
-magenta     = '#9D6C7C'
-cyan        = '#5B9D48'
-white       = '#E7E6DF'
+black       = '#ba6236'
+red         = '#ba6236'
+green       = '#7d9726'
+yellow      = '#a5980d'
+blue        = '#36a166'
+magenta     = '#9d6c7c'
+cyan        = '#5b9d48'
+white       = '#e7e6df'
 
 # Bright colors
 [colors.bright]
-black       = '#6C6B5A'
-red         = '#AE7313'
-green       = '#7D9726'
-yellow      = '#A5980D'
-blue        = '#5F9182'
-magenta     = '#9D6C7C'
-cyan        = '#5B9D48'
-white       = '#F4F3EC'
+black       = '#6c6b5a'
+red         = '#ae7313'
+green       = '#7d9726'
+yellow      = '#a5980d'
+blue        = '#5f9182'
+magenta     = '#9d6c7c'
+cyan        = '#5b9d48'
+white       = '#f4f3ec'
