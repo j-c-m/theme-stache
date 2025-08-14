@@ -9,6 +9,33 @@ def hex_to_rgb(hex_color):
     hex_color = hex_color.lstrip('#')
     return tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
 
+def rgb_to_xyz(rgb):
+    """Convert RGB to XYZ color space (sRGB, D65 illuminant)."""
+    r, g, b = [x / 255.0 for x in rgb]
+    r = ((r + 0.055) / 1.055) ** 2.4 if r > 0.04045 else r / 12.92
+    g = ((g + 0.055) / 1.055) ** 2.4 if g > 0.04045 else g / 12.92
+    b = ((b + 0.055) / 1.055) ** 2.4 if b > 0.04045 else b / 12.92
+    x = r * 0.4124 + g * 0.3576 + b * 0.1805
+    y = r * 0.2126 + g * 0.7152 + b * 0.0722
+    z = r * 0.0193 + g * 0.1192 + b * 0.9505
+    return x * 100, y * 100, z * 100
+
+def xyz_to_lab(xyz):
+    """Convert XYZ to CIELAB (L*a*b*, D65 illuminant)."""
+    x, y, z = [v / 100 for v in xyz]
+    xn, yn, zn = 0.95047, 1.00000, 1.08883  # D65 reference white
+    x, y, z = x / xn, y / yn, z / zn
+    def f(t):
+        return t ** (1/3) if t > (6/29)**3 else (1/3) * (29/6)**2 * t + 4/29
+    L = 116 * f(y) - 16
+    a = 500 * (f(x) - f(y))
+    b = 200 * (f(y) - f(z))
+    return L, a, b
+
+def lab_distance(lab1, lab2):
+    """Calculate Euclidean distance between two colors in CIELAB space."""
+    return math.sqrt(sum((a - b) ** 2 for a, b in zip(lab1, lab2)))
+
 def ansi_color(fg_hex=None, bg_hex=None):
     """Generate ANSI escape code for foreground and/or background color."""
     if not fg_hex and not bg_hex:
@@ -32,10 +59,6 @@ def html_color(fg_hex=None, bg_hex=None):
     if bg_hex:
         styles.append(f"background:{bg_hex}")
     return f"<span style=\"{';'.join(styles)}\">", "</span>"
-
-def rgb_distance(rgb1, rgb2):
-    """Calculate Euclidean distance between two RGB colors."""
-    return math.sqrt(sum((a - b) ** 2 for a, b in zip(rgb1, rgb2)))
 
 def relative_luminance(rgb):
     """Calculate relative luminance for a color."""
@@ -80,28 +103,32 @@ def check_color_scheme(file_path, output_mode):
             return f"{open_tag}{text}{close_tag}"
         return text  # plain mode
 
-    # Check if background and ansi-0 are greatly different (RGB distance > 50)
+    # Check if background and ansi-0 are greatly different (LAB distance > 15)
     bg_hex = scheme.get('background-hex')
     ansi0_hex = scheme.get('ansi-0-hex')
     if bg_hex and ansi0_hex:
-        bg_diff = rgb_distance(hex_to_rgb(bg_hex), hex_to_rgb(ansi0_hex))
-        if bg_diff > 50:
+        bg_lab = xyz_to_lab(rgb_to_xyz(hex_to_rgb(bg_hex)))
+        ansi0_lab = xyz_to_lab(rgb_to_xyz(hex_to_rgb(ansi0_hex)))
+        bg_diff = lab_distance(bg_lab, ansi0_lab)
+        if bg_diff > 15:
             issues.append(
                 f"Background ({format_color(bg_hex, fg_hex=bg_hex)}) and "
                 f"ansi-0 ({format_color(ansi0_hex, fg_hex=ansi0_hex)}) "
-                f"differ significantly (RGB distance: {bg_diff:.2f})"
+                f"differ significantly (LAB distance: {bg_diff:.2f})"
             )
 
-    # Check if foreground and ansi-7 are greatly different (RGB distance > 50)
+    # Check if foreground and ansi-7 are greatly different (LAB distance > 15)
     fg_hex_issue = scheme.get('foreground-hex')
     ansi7_hex = scheme.get('ansi-7-hex')
     if fg_hex_issue and ansi7_hex:
-        fg_diff = rgb_distance(hex_to_rgb(fg_hex_issue), hex_to_rgb(ansi7_hex))
-        if fg_diff > 50:
+        fg_lab = xyz_to_lab(rgb_to_xyz(hex_to_rgb(fg_hex_issue)))
+        ansi7_lab = xyz_to_lab(rgb_to_xyz(hex_to_rgb(ansi7_hex)))
+        fg_diff = lab_distance(fg_lab, ansi7_lab)
+        if fg_diff > 15:
             issues.append(
                 f"Foreground ({format_color(fg_hex_issue, fg_hex=fg_hex_issue)}) and "
                 f"ansi-7 ({format_color(ansi7_hex, fg_hex=ansi7_hex)}) "
-                f"differ significantly (RGB distance: {fg_diff:.2f})"
+                f"differ significantly (LAB distance: {fg_diff:.2f})"
             )
 
     # Check WCAG contrast for ansi-15 and ansi-7 against ansi-0 and background
