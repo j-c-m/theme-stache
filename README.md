@@ -71,7 +71,7 @@ colorscheme):
 ```toml
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/{theme}.toml"
+    "~/.config/theme-stache/build/alacritty/{theme}.toml"
 ]
 ```
 
