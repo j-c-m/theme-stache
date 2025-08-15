@@ -20,7 +20,7 @@
     "foreground-hex": "#809980",
     "selection-hex": "#8ca68c",
     "selection-text-hex": "#735973",
-    "theme-author": "",
+    "theme-author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)",
     "theme-name": "Atelier Seaside",
     "theme-slug": "atelier-seaside",
     "theme-source": "gogh",

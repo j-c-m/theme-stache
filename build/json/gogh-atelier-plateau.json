@@ -20,7 +20,7 @@
     "foreground-hex": "#7e7777",
     "selection-hex": "#8a8585",
     "selection-text-hex": "#757a7a",
-    "theme-author": "",
+    "theme-author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/plateau)",
     "theme-name": "Atelier Plateau",
     "theme-slug": "atelier-plateau",
     "theme-source": "gogh",

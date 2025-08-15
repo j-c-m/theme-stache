@@ -20,7 +20,7 @@
     "foreground-hex": "#7e7887",
     "selection-hex": "#8b8792",
     "selection-text-hex": "#74786d",
-    "theme-author": "",
+    "theme-author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/cave)",
     "theme-name": "Atelier Cave",
     "theme-slug": "atelier-cave",
     "theme-source": "gogh",
