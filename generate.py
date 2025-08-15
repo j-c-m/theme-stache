@@ -57,6 +57,53 @@ def slugify(name):
     name = re.sub(r'[^0-9a-z-]', '', name)
     return name
 
+def srgb_to_linear(c):
+    if c < 0.04045:
+        return c / 12.92
+    else:
+        return ((c + 0.055) / 1.055) ** 2.4
+
+def linear_to_srgb(c):
+    if c < 0.0031308:
+        return 12.92 * c
+    else:
+        return 1.055 * (c ** (1/2.4)) - 0.055
+
+def p3_to_srgb(r, g, b):
+    r_lin = srgb_to_linear(r)
+    g_lin = srgb_to_linear(g)
+    b_lin = srgb_to_linear(b)
+
+    matrix = [
+        [1.22494018, -0.22469880, -0.00012973],
+        [-0.04205631, 1.04203282, -0.00000601],
+        [-0.01963755, -0.07862814, 1.09826365]
+    ]
+
+    r_s_lin = matrix[0][0] * r_lin + matrix[0][1] * g_lin + matrix[0][2] * b_lin
+    g_s_lin = matrix[1][0] * r_lin + matrix[1][1] * g_lin + matrix[1][2] * b_lin
+    b_s_lin = matrix[2][0] * r_lin + matrix[2][1] * g_lin + matrix[2][2] * b_lin
+
+    r_s_lin = max(0, min(1, r_s_lin))
+    g_s_lin = max(0, min(1, g_s_lin))
+    b_s_lin = max(0, min(1, b_s_lin))
+
+    r_out = linear_to_srgb(r_s_lin)
+    g_out = linear_to_srgb(g_s_lin)
+    b_out = linear_to_srgb(b_s_lin)
+
+    return r_out, g_out, b_out
+
+def get_hex_from_color(theme_data, color_key):
+    color = theme_data[color_key]
+    r = color['Red Component']
+    g = color['Green Component']
+    b = color['Blue Component']
+    color_space = color.get('Color Space', 'sRGB').strip()  # Handle possible spaces or variations like 'sRGB'
+    if color_space == 'P3':
+        r, g, b = p3_to_srgb(r, g, b)
+    return rgb_to_hex(r, g, b)
+
 def map_theme_data(theme_data, source, theme_path):
     """Map theme data from different sources to the standard context for Mustache templates."""
     context = {
@@ -221,111 +268,27 @@ def map_theme_data(theme_data, source, theme_path):
             'theme-name': theme_name,
             'theme-variant': 'unknown',  # No variant specified in .itermcolors
             'theme-author': 'unknown',  # No author specified in .itermcolors
-            'ansi-0-hex': rgb_to_hex(
-                theme_data['Ansi 0 Color']['Red Component'],
-                theme_data['Ansi 0 Color']['Green Component'],
-                theme_data['Ansi 0 Color']['Blue Component']
-            ),
-            'ansi-1-hex': rgb_to_hex(
-                theme_data['Ansi 1 Color']['Red Component'],
-                theme_data['Ansi 1 Color']['Green Component'],
-                theme_data['Ansi 1 Color']['Blue Component']
-            ),
-            'ansi-2-hex': rgb_to_hex(
-                theme_data['Ansi 2 Color']['Red Component'],
-                theme_data['Ansi 2 Color']['Green Component'],
-                theme_data['Ansi 2 Color']['Blue Component']
-            ),
-            'ansi-3-hex': rgb_to_hex(
-                theme_data['Ansi 3 Color']['Red Component'],
-                theme_data['Ansi 3 Color']['Green Component'],
-                theme_data['Ansi 3 Color']['Blue Component']
-            ),
-            'ansi-4-hex': rgb_to_hex(
-                theme_data['Ansi 4 Color']['Red Component'],
-                theme_data['Ansi 4 Color']['Green Component'],
-                theme_data['Ansi 4 Color']['Blue Component']
-            ),
-            'ansi-5-hex': rgb_to_hex(
-                theme_data['Ansi 5 Color']['Red Component'],
-                theme_data['Ansi 5 Color']['Green Component'],
-                theme_data['Ansi 5 Color']['Blue Component']
-            ),
-            'ansi-6-hex': rgb_to_hex(
-                theme_data['Ansi 6 Color']['Red Component'],
-                theme_data['Ansi 6 Color']['Green Component'],
-                theme_data['Ansi 6 Color']['Blue Component']
-            ),
-            'ansi-7-hex': rgb_to_hex(
-                theme_data['Ansi 7 Color']['Red Component'],
-                theme_data['Ansi 7 Color']['Green Component'],
-                theme_data['Ansi 7 Color']['Blue Component']
-            ),
-            'ansi-8-hex': rgb_to_hex(
-                theme_data['Ansi 8 Color']['Red Component'],
-                theme_data['Ansi 8 Color']['Green Component'],
-                theme_data['Ansi 8 Color']['Blue Component']
-            ),
-            'ansi-9-hex': rgb_to_hex(
-                theme_data['Ansi 9 Color']['Red Component'],
-                theme_data['Ansi 9 Color']['Green Component'],
-                theme_data['Ansi 9 Color']['Blue Component']
-            ),
-            'ansi-10-hex': rgb_to_hex(
-                theme_data['Ansi 10 Color']['Red Component'],
-                theme_data['Ansi 10 Color']['Green Component'],
-                theme_data['Ansi 10 Color']['Blue Component']
-            ),
-            'ansi-11-hex': rgb_to_hex(
-                theme_data['Ansi 11 Color']['Red Component'],
-                theme_data['Ansi 11 Color']['Green Component'],
-                theme_data['Ansi 11 Color']['Blue Component']
-            ),
-            'ansi-12-hex': rgb_to_hex(
-                theme_data['Ansi 12 Color']['Red Component'],
-                theme_data['Ansi 12 Color']['Green Component'],
-                theme_data['Ansi 12 Color']['Blue Component']
-            ),
-            'ansi-13-hex': rgb_to_hex(
-                theme_data['Ansi 13 Color']['Red Component'],
-                theme_data['Ansi 13 Color']['Green Component'],
-                theme_data['Ansi 13 Color']['Blue Component']
-            ),
-            'ansi-14-hex': rgb_to_hex(
-                theme_data['Ansi 14 Color']['Red Component'],
-                theme_data['Ansi 14 Color']['Green Component'],
-                theme_data['Ansi 14 Color']['Blue Component']
-            ),
-            'ansi-15-hex': rgb_to_hex(
-                theme_data['Ansi 15 Color']['Red Component'],
-                theme_data['Ansi 15 Color']['Green Component'],
-                theme_data['Ansi 15 Color']['Blue Component']
-            ),
-            'foreground-hex': rgb_to_hex(
-                theme_data['Foreground Color']['Red Component'],
-                theme_data['Foreground Color']['Green Component'],
-                theme_data['Foreground Color']['Blue Component']
-            ),
-            'background-hex': rgb_to_hex(
-                theme_data['Background Color']['Red Component'],
-                theme_data['Background Color']['Green Component'],
-                theme_data['Background Color']['Blue Component']
-            ),
-            'cursor-hex': rgb_to_hex(
-                theme_data['Cursor Color']['Red Component'],
-                theme_data['Cursor Color']['Green Component'],
-                theme_data['Cursor Color']['Blue Component']
-            ),
-            'selection-hex': rgb_to_hex(
-                theme_data['Selection Color']['Red Component'],
-                theme_data['Selection Color']['Green Component'],
-                theme_data['Selection Color']['Blue Component']
-            ),
-            'selection-text-hex': rgb_to_hex(
-                theme_data['Selected Text Color']['Red Component'],
-                theme_data['Selected Text Color']['Green Component'],
-                theme_data['Selected Text Color']['Blue Component']
-            )
+            'ansi-0-hex': get_hex_from_color(theme_data, 'Ansi 0 Color'),
+            'ansi-1-hex': get_hex_from_color(theme_data, 'Ansi 1 Color'),
+            'ansi-2-hex': get_hex_from_color(theme_data, 'Ansi 2 Color'),
+            'ansi-3-hex': get_hex_from_color(theme_data, 'Ansi 3 Color'),
+            'ansi-4-hex': get_hex_from_color(theme_data, 'Ansi 4 Color'),
+            'ansi-5-hex': get_hex_from_color(theme_data, 'Ansi 5 Color'),
+            'ansi-6-hex': get_hex_from_color(theme_data, 'Ansi 6 Color'),
+            'ansi-7-hex': get_hex_from_color(theme_data, 'Ansi 7 Color'),
+            'ansi-8-hex': get_hex_from_color(theme_data, 'Ansi 8 Color'),
+            'ansi-9-hex': get_hex_from_color(theme_data, 'Ansi 9 Color'),
+            'ansi-10-hex': get_hex_from_color(theme_data, 'Ansi 10 Color'),
+            'ansi-11-hex': get_hex_from_color(theme_data, 'Ansi 11 Color'),
+            'ansi-12-hex': get_hex_from_color(theme_data, 'Ansi 12 Color'),
+            'ansi-13-hex': get_hex_from_color(theme_data, 'Ansi 13 Color'),
+            'ansi-14-hex': get_hex_from_color(theme_data, 'Ansi 14 Color'),
+            'ansi-15-hex': get_hex_from_color(theme_data, 'Ansi 15 Color'),
+            'foreground-hex': get_hex_from_color(theme_data, 'Foreground Color'),
+            'background-hex': get_hex_from_color(theme_data, 'Background Color'),
+            'cursor-hex': get_hex_from_color(theme_data, 'Cursor Color'),
+            'selection-hex': get_hex_from_color(theme_data, 'Selection Color'),
+            'selection-text-hex': get_hex_from_color(theme_data, 'Selected Text Color')
         })
     else:
         # Placeholder for other theme sources (no strict validation)
