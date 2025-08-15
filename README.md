@@ -53,6 +53,8 @@ Use theme-stache (theme-stach.py) to browse, activate, or install themes (create
 
 ![theme-stache tool screenshot](/images/theme-stache-screenshot.png)
 
+[ansi-dim.vim](https://raw.githubusercontent.com/j-c-m/dotfiles/refs/heads/master/.vim/colors/ansi-dim.vim)
+
 Recommended vimrc colorscheme section, let the 16 colors do the work!
 
 ```vimscript
@@ -60,8 +62,7 @@ if &t_Co > 16
   set t_Co=16
 endif
 
-set notermguicolors
-colorscheme habamax
+colorscheme ansi-dim
 ```
 
 ### alacritty
