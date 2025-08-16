@@ -312,6 +312,23 @@ def map_theme_data(theme_data, source, theme_path):
 
     return context
 
+def calculate_luminance(hex_color):
+    """Calculate relative luminance of a hex color."""
+    # Remove # and convert to RGB
+    hex_color = hex_color.lstrip('#')
+    r, g, b = int(hex_color[0:2], 16) / 255.0, int(hex_color[2:4], 16) / 255.0, int(hex_color[4:6], 16) / 255.0
+    # Convert to linear RGB
+    r = srgb_to_linear(r)
+    g = srgb_to_linear(g)
+    b = srgb_to_linear(b)
+    # Calculate luminance using sRGB coefficients
+    return 0.2126 * r + 0.7152 * g + 0.0722 * b
+
+def guess_variant_from_background(hex_color):
+    """Guess theme variant based on background color luminance."""
+    luminance = calculate_luminance(hex_color)
+    return 'light' if luminance > 0.5 else 'dark'
+
 def main():
     config_path = Path('templates/config.json')
 
@@ -361,6 +378,10 @@ def main():
             for key in context:
                 if key.endswith('-hex') and isinstance(context[key], str):
                     context[key] = context[key].lower()
+
+            # Guess variant based on background color if variant is 'unknown' or empty
+            if context['theme-variant'] in ['unknown', '']:
+                context['theme-variant'] = guess_variant_from_background(context['background-hex'])
 
             # Add the entire context as a JSON string
             context['theme-json'] = json.dumps(context, sort_keys=True, ensure_ascii=False, indent=4)
