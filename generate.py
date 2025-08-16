@@ -149,8 +149,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': theme_data['foreground'],
             'background-hex': theme_data['background'],
             'cursor-hex': theme_data['cursor'],
-            'selection-hex': theme_data['color_08'],
-            'selection-text-hex': invert_hex_color(theme_data['color_08'])
+            'selection-hex': theme_data['foreground'],
+            'selection-text-hex': theme_data['background']
         })
     elif source == 'base16':
         # Required fields for Base16 schema
@@ -194,7 +194,7 @@ def map_theme_data(theme_data, source, theme_path):
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
             'selection-hex': palette['base06'],  # Selection Background
-            'selection-text-hex': invert_hex_color(palette['base06'])  # Selection Text
+            'selection-text-hex': palette['base01']  # Selection Text
         })
     elif source == 'base24':
         # Required fields for Base24 schema
@@ -240,7 +240,7 @@ def map_theme_data(theme_data, source, theme_path):
             'background-hex': palette['base00'],  # Background
             'cursor-hex': palette['base05'],  # Cursor
             'selection-hex': palette['base06'],  # Selection Background
-            'selection-text-hex': invert_hex_color(palette['base06'])  # Selection Text
+            'selection-text-hex': palette['base01']  # Selection Text
         })
     elif source == 'iterm':
         # Required fields for iTerm .itermcolors schema
@@ -292,7 +292,6 @@ def map_theme_data(theme_data, source, theme_path):
         })
     else:
         # Placeholder for other theme sources (no strict validation)
-        selection_hex = theme_data.get('selection', '#555753')  # Medium Gray (Selection)
         context.update({
             'theme-slug': slugify(theme_data.get('theme_name', 'unknown')),
             'theme-name': theme_data.get('theme_name', 'Unknown Theme'),
@@ -317,8 +316,8 @@ def map_theme_data(theme_data, source, theme_path):
             'foreground-hex': theme_data.get('foreground', '#d3d7cf'),  # Light Gray (Foreground)
             'background-hex': theme_data.get('background', '#2e3436'),  # Dark Gray (Background)
             'cursor-hex': theme_data.get('cursor', '#d3d7cf'),         # Light Gray (Cursor)
-            'selection-hex': selection_hex,  # Medium Gray (Selection)
-            'selection-text-hex': theme_data.get('selection_text', invert_hex_color(selection_hex))  # Inverted Selection
+            'selection-hex': theme_data.get('selection', '#555753'),  # Medium Gray (Selection)
+            'selection-text-hex': theme_data.get('selection_text')  # Inverted Selection
         })
 
     return context
