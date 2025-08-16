@@ -39,16 +39,6 @@ def rgb_to_hex(r, g, b):
     b = int(b * 255)
     return f"#{r:02x}{g:02x}{b:02x}"
 
-def invert_hex_color(hex_color):
-    """Invert a hex color (#RRGGBB) to its complementary color."""
-    hex_color = hex_color.lstrip('#')
-    if len(hex_color) != 6:
-        raise ValueError(f"Invalid hex color format: {hex_color}")
-    r = 255 - int(hex_color[0:2], 16)
-    g = 255 - int(hex_color[2:4], 16)
-    b = 255 - int(hex_color[4:6], 16)
-    return f"#{r:02x}{g:02x}{b:02x}"
-
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
     name = unidecode(name)
