@@ -39,6 +39,14 @@ def rgb_to_hex(r, g, b):
     b = int(b * 255)
     return f"#{r:02x}{g:02x}{b:02x}"
 
+def hex_to_rgb(hex_color):
+    """Convert hex color (#RRGGBB) to RGB values (0-1)."""
+    hex_color = hex_color.lstrip('#')
+    r = int(hex_color[0:2], 16) / 255.0
+    g = int(hex_color[2:4], 16) / 255.0
+    b = int(hex_color[4:6], 16) / 255.0
+    return r, g, b
+
 def slugify(name):
     """Convert theme name to a slug (lowercase, replace spaces with hyphens)."""
     name = unidecode(name)
@@ -329,6 +337,32 @@ def guess_variant_from_background(hex_color):
     luminance = calculate_luminance(hex_color)
     return 'light' if luminance > 0.5 else 'dark'
 
+def generate_iterm_plist(context):
+    """Generate an iTerm .itermcolors plist from the context."""
+    plist_dict = {}
+    color_keys = [
+        ('Ansi 0 Color', 'ansi-0-hex'), ('Ansi 1 Color', 'ansi-1-hex'), ('Ansi 2 Color', 'ansi-2-hex'),
+        ('Ansi 3 Color', 'ansi-3-hex'), ('Ansi 4 Color', 'ansi-4-hex'), ('Ansi 5 Color', 'ansi-5-hex'),
+        ('Ansi 6 Color', 'ansi-6-hex'), ('Ansi 7 Color', 'ansi-7-hex'), ('Ansi 8 Color', 'ansi-8-hex'),
+        ('Ansi 9 Color', 'ansi-9-hex'), ('Ansi 10 Color', 'ansi-10-hex'), ('Ansi 11 Color', 'ansi-11-hex'),
+        ('Ansi 12 Color', 'ansi-12-hex'), ('Ansi 13 Color', 'ansi-13-hex'), ('Ansi 14 Color', 'ansi-14-hex'),
+        ('Ansi 15 Color', 'ansi-15-hex'), ('Foreground Color', 'foreground-hex'),
+        ('Background Color', 'background-hex'), ('Cursor Color', 'cursor-hex'),
+        ('Selection Color', 'selection-hex'), ('Selected Text Color', 'selection-text-hex')
+    ]
+
+    for plist_key, context_key in color_keys:
+        r, g, b = hex_to_rgb(context[context_key])
+        plist_dict[plist_key] = {
+            'Red Component': r,
+            'Green Component': g,
+            'Blue Component': b,
+            'Alpha Component': 1.0,
+            'Color Space': 'sRGB'
+        }
+
+    return plistlib.dumps(plist_dict, fmt=plistlib.FMT_XML).decode('utf-8')
+
 def main():
     config_path = Path('templates/config.json')
 
@@ -385,6 +419,9 @@ def main():
 
             # Add the entire context as a JSON string
             context['theme-json'] = json.dumps(context, sort_keys=True, ensure_ascii=False, indent=4)
+
+            # Add the iTerm .itermcolors plist as a string
+            context['theme-itermcolors-plist'] = generate_iterm_plist(context)
 
             for template_key, template_config in config.items():
                 template_path = Path('templates') / template_key
