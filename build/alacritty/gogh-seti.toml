@@ -15,8 +15,8 @@ cursor      = '#cacecd'
 
 # Selection colors
 [colors.selection]
-background  = '#eeeeee'
-text        = '#111111'
+background  = '#cacecd'
+text        = '#111213'
 
 # Normal colors
 [colors.normal]

@@ -16,7 +16,7 @@ cursor      = '#a9b1d6'
 # Selection colors
 [colors.selection]
 background  = '#cbccd1'
-text        = '#34332e'
+text        = '#16161e'
 
 # Normal colors
 [colors.normal]
