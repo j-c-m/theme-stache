@@ -96,5 +96,8 @@ import = [
     "~/.config/theme-stache/build/alacritty/{theme}.toml"
 ]
 ```
+### iterm2
+
+* [iterm2](/build/itermcolors/) iTerm2 terminal emulator
 
 # to be continued ...
