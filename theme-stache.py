@@ -99,27 +99,27 @@ def update_preview(win, file_path):
 
     # Redefine colors (1-25)
     for i in range(16):
-        hex_val = theme.get(f'ansi-{i}', {}).get('hex', '#000000')
+        hex_val = theme.get(f'ansi-{i}').get('hex')
         r, g, b = hex_to_rgb(hex_val)
         curses.init_color(i + 1, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
-    fg_hex = theme.get('foreground', {}).get('hex', '#FFFFFF')
+    fg_hex = theme.get('foreground').get('hex')
     r, g, b = hex_to_rgb(fg_hex)
     curses.init_color(17, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
-    bg_hex = theme.get('background', {}).get('hex', '#000000')
+    bg_hex = theme.get('background').get('hex')
     r, g, b = hex_to_rgb(bg_hex)
     curses.init_color(18, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
-    cursor_hex = theme.get('cursor', {}).get('hex', '#FFFFFF')
+    cursor_hex = theme.get('cursor').get('hex')
     r, g, b = hex_to_rgb(cursor_hex)
     curses.init_color(19, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
-    sel_hex = theme.get('selection', {}).get('hex', '#CCCCCC')
+    sel_hex = theme.get('selection').get('hex')
     r, g, b = hex_to_rgb(sel_hex)
     curses.init_color(20, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
-    sel_text_hex = theme.get('selection-text', {}).get('hex', '#000000')
+    sel_text_hex = theme.get('selection-text').get('hex')
     r, g, b = hex_to_rgb(sel_text_hex)
     curses.init_color(21, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
@@ -129,7 +129,7 @@ def update_preview(win, file_path):
     curses.init_color(24, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
 
     # Color pair for key names (ansi-1.hex on bg)
-    ansi_1_hex = theme.get('ansi-1', {}).get('hex', '#FF0000')
+    ansi_1_hex = theme.get('ansi-1').get('hex')
     r, g, b = hex_to_rgb(ansi_1_hex)
     curses.init_color(25, r * 1000 // 255, g * 1000 // 255, b * 1000 // 255)
     fg = choose_readable_foreground(ansi_1_hex, bg_hex)
@@ -139,7 +139,7 @@ def update_preview(win, file_path):
     # Define color pairs
     curses.init_pair(1, 17, 18)  # fg on bg (default)
     for i in range(16):
-        fg = choose_readable_foreground(fg_hex, theme.get(f'ansi-{i}', {}).get('hex', '#000000'))
+        fg = choose_readable_foreground(fg_hex, theme.get(f'ansi-{i}').get('hex'))
         fg_color = 23 if fg == '#000000' else 24 if fg == '#FFFFFF' else 17
         curses.init_pair(2 + i, fg_color, i + 1)  # adjusted fg on ansi-i bg
     fg = choose_readable_foreground(fg_hex, cursor_hex)
@@ -166,7 +166,6 @@ def update_preview(win, file_path):
     win.box()
     height, width = win.getmaxyx()
     # Calculate grid dimensions
-    total_colors = 21  # 16 ANSI + 5 others
     metadata_lines = 6  # Title + Theme + Author + Variant + Source + blank
     header_lines = 2  # "ANSI Colors:" + "Other Colors:"
     shortcuts_lines = 1  # Shortcuts at bottom
