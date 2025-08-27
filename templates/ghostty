@@ -1,0 +1,27 @@
+# Source:   {{theme-source}}
+# Theme:    {{theme-name}}
+# Author:   {{theme-author}}
+# Variant:  {{theme-variant}}
+
+palette = 0={{ansi-0.hex}}
+palette = 1={{ansi-1.hex}}
+palette = 2={{ansi-2.hex}}
+palette = 3={{ansi-3.hex}}
+palette = 4={{ansi-4.hex}}
+palette = 5={{ansi-5.hex}}
+palette = 6={{ansi-6.hex}}
+palette = 7={{ansi-7.hex}}
+palette = 8={{ansi-8.hex}}
+palette = 9={{ansi-9.hex}}
+palette = 10={{ansi-10.hex}}
+palette = 11={{ansi-11.hex}}
+palette = 12={{ansi-12.hex}}
+palette = 13={{ansi-13.hex}}
+palette = 14={{ansi-14.hex}}
+palette = 15={{ansi-15.hex}}
+background = {{background.hex}}
+foreground = {{foreground.hex}}
+cursor-color = {{cursor.hex}}
+cursor-text = {{ansi-0.hex}}
+selection-background = {{selection.hex}}
+selection-foreground = {{selection-text.hex}}

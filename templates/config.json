@@ -14,5 +14,9 @@
   "iterm.itermcolors": {
     "directory": "itermcolors",
     "filename": "{{theme-source-slug}}-{{theme-slug}}.itermcolors"
+  },
+  "ghostty": {
+    "directory": "ghostty",
+    "filename": "{{theme-source-slug}}-{{theme-slug}}"
   }
 }
