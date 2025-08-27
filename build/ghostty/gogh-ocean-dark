@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ocean Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#4f4f4f
+palette = 1=#af4b57
+palette = 2=#afd383
+palette = 3=#e5c079
+palette = 4=#7d90a4
+palette = 5=#a4799d
+palette = 6=#85a6a5
+palette = 7=#eeedee
+palette = 8=#7b7b7b
+palette = 9=#af4b57
+palette = 10=#ceffab
+palette = 11=#fffecc
+palette = 12=#b5dcfe
+palette = 13=#fb9bfe
+palette = 14=#dfdffd
+palette = 15=#fefffe
+background = #1c1f27
+foreground = #979cac
+cursor-color = #979cac
+cursor-text = #4f4f4f
+selection-background = #979cac
+selection-foreground = #1c1f27

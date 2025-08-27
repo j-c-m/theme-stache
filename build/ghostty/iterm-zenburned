@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    zenburned
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#3f3f3f
+palette = 1=#e3716e
+palette = 2=#819b69
+palette = 3=#b77e63
+palette = 4=#6099c0
+palette = 5=#b279a7
+palette = 6=#66a5ad
+palette = 7=#f0e4cf
+palette = 8=#625a5b
+palette = 9=#ec8685
+palette = 10=#8bae68
+palette = 11=#d68c67
+palette = 12=#61abda
+palette = 13=#cf86c1
+palette = 14=#65b8c1
+palette = 15=#c0ab86
+background = #3f3f3f
+foreground = #f0e4cf
+cursor-color = #f3eadb
+cursor-text = #3f3f3f
+selection-background = #746955
+selection-foreground = #f0e4cf

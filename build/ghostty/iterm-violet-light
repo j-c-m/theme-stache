@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Violet Light
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#56595c
+palette = 1=#c94c22
+palette = 2=#85981c
+palette = 3=#b4881d
+palette = 4=#2e8bce
+palette = 5=#d13a82
+palette = 6=#32a198
+palette = 7=#d3d0c9
+palette = 8=#45484b
+palette = 9=#bd3612
+palette = 10=#728903
+palette = 11=#a57704
+palette = 12=#2075c7
+palette = 13=#c61b6e
+palette = 14=#259185
+palette = 15=#c8c5bd
+background = #fcf4dc
+foreground = #52676f
+cursor-color = #52676f
+cursor-text = #56595c
+selection-background = #5859b7
+selection-foreground = #fcf4dc

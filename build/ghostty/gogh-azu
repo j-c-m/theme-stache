@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Azu
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ac6d74
+palette = 2=#74ac6d
+palette = 3=#aca46d
+palette = 4=#6d74ac
+palette = 5=#a46dac
+palette = 6=#6daca4
+palette = 7=#e6e6e6
+palette = 8=#262626
+palette = 9=#d6b8bc
+palette = 10=#bcd6b8
+palette = 11=#d6d3b8
+palette = 12=#b8bcd6
+palette = 13=#d3b8d6
+palette = 14=#b8d6d3
+palette = 15=#ffffff
+background = #09111a
+foreground = #d9e6f2
+cursor-color = #d9e6f2
+cursor-text = #000000
+selection-background = #d9e6f2
+selection-foreground = #09111a

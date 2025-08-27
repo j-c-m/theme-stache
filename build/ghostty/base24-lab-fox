@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Lab Fox
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2e2e2e
+palette = 1=#fc6d26
+palette = 2=#3eb383
+palette = 3=#db501f
+palette = 4=#db3b21
+palette = 5=#380d75
+palette = 6=#6e49cb
+palette = 7=#cfd0d0
+palette = 8=#737373
+palette = 9=#ff6517
+palette = 10=#52e9a8
+palette = 11=#fca012
+palette = 12=#db501f
+palette = 13=#441090
+palette = 14=#7d53e7
+palette = 15=#feffff
+background = #2e2e2e
+foreground = #cfd0d0
+cursor-color = #cfd0d0
+cursor-text = #2e2e2e
+selection-background = #feffff
+selection-foreground = #2e2e2e

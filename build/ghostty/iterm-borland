@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Borland
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#4e4e4e
+palette = 1=#ff6b60
+palette = 2=#a7ff60
+palette = 3=#ffffb6
+palette = 4=#96cafd
+palette = 5=#ff73fd
+palette = 6=#c6c4fd
+palette = 7=#eeeeee
+palette = 8=#7c7c7c
+palette = 9=#ffb6b0
+palette = 10=#ceffab
+palette = 11=#ffffcb
+palette = 12=#b5dcfe
+palette = 13=#ff9cfe
+palette = 14=#dfdffe
+palette = 15=#ffffff
+background = #0000a4
+foreground = #ffff4e
+cursor-color = #ffa460
+cursor-text = #4e4e4e
+selection-background = #a4a4a4
+selection-foreground = #0000a4

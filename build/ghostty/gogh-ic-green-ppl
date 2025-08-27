@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ic Green Ppl
+# Author:   
+# Variant:  dark
+
+palette = 0=#1f1f1f
+palette = 1=#fb002a
+palette = 2=#339c24
+palette = 3=#659b25
+palette = 4=#149b45
+palette = 5=#53b82c
+palette = 6=#2cb868
+palette = 7=#e0ffef
+palette = 8=#032710
+palette = 9=#a7ff3f
+palette = 10=#9fff6d
+palette = 11=#d2ff6d
+palette = 12=#72ffb5
+palette = 13=#50ff3e
+palette = 14=#22ff71
+palette = 15=#daefd0
+background = #3a3d3f
+foreground = #d9efd3
+cursor-color = #d9efd3
+cursor-text = #1f1f1f
+selection-background = #d9efd3
+selection-foreground = #3a3d3f

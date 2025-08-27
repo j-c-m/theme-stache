@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Morada
+# Author:   
+# Variant:  dark
+
+palette = 0=#040404
+palette = 1=#0f49c4
+palette = 2=#48b117
+palette = 3=#e87324
+palette = 4=#bc0116
+palette = 5=#665b93
+palette = 6=#70a699
+palette = 7=#f5dcbe
+palette = 8=#4f7cbf
+palette = 9=#1c96c7
+palette = 10=#3bff6f
+palette = 11=#efc31c
+palette = 12=#fb605b
+palette = 13=#975b5a
+palette = 14=#1eff8e
+palette = 15=#f6f5fb
+background = #211f46
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #040404
+selection-background = #ffffff
+selection-foreground = #211f46

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Ayu Light
+# Author:   Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
+# Variant:  light
+
+palette = 0=#f8f9fa
+palette = 1=#f07171
+palette = 2=#6cbf49
+palette = 3=#f2ae49
+palette = 4=#399ee6
+palette = 5=#a37acc
+palette = 6=#4cbf99
+palette = 7=#5c6166
+palette = 8=#a0a6ac
+palette = 9=#ff7383
+palette = 10=#86b300
+palette = 11=#ffaa33
+palette = 12=#478acc
+palette = 13=#b595d6
+palette = 14=#55b4d4
+palette = 15=#404447
+background = #f8f9fa
+foreground = #5c6166
+cursor-color = #5c6166
+cursor-text = #f8f9fa
+selection-background = #4e5257
+selection-foreground = #edeff1

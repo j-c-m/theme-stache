@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    wilmersdorf
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#34373e
+palette = 1=#e06382
+palette = 2=#7ebebd
+palette = 3=#cccccc
+palette = 4=#a6c1e0
+palette = 5=#e1c1ee
+palette = 6=#5b94ab
+palette = 7=#ababab
+palette = 8=#424650
+palette = 9=#f97092
+palette = 10=#8ed6d5
+palette = 11=#d1deff
+palette = 12=#b2cff0
+palette = 13=#eecbfc
+palette = 14=#68aac5
+palette = 15=#d3d3d3
+background = #282b33
+foreground = #c6c6c6
+cursor-color = #7ebebd
+cursor-text = #34373e
+selection-background = #1f2024
+selection-foreground = #c6c6c6

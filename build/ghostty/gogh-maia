@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Maia
+# Author:   
+# Variant:  dark
+
+palette = 0=#232423
+palette = 1=#ba2922
+palette = 2=#7e807e
+palette = 3=#4c4f4d
+palette = 4=#16a085
+palette = 5=#43746a
+palette = 6=#00cccc
+palette = 7=#e0e0e0
+palette = 8=#282928
+palette = 9=#cc372c
+palette = 10=#8d8f8d
+palette = 11=#4e524f
+palette = 12=#13bf9d
+palette = 13=#487d72
+palette = 14=#00d1d1
+palette = 15=#e8e8e8
+background = #31363b
+foreground = #bdc3c7
+cursor-color = #bdc3c7
+cursor-text = #232423
+selection-background = #bdc3c7
+selection-foreground = #31363b

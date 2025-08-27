@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Borland
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0000a4
+palette = 1=#ff6b60
+palette = 2=#a7ff60
+palette = 3=#b5dcfe
+palette = 4=#96cafd
+palette = 5=#ff73fd
+palette = 6=#c6c4fd
+palette = 7=#d1d1d1
+palette = 8=#989898
+palette = 9=#ffb6b0
+palette = 10=#ceffab
+palette = 11=#ffffcb
+palette = 12=#b5dcfe
+palette = 13=#ff9cfe
+palette = 14=#dfdffe
+palette = 15=#ffffff
+background = #0000a4
+foreground = #d1d1d1
+cursor-color = #d1d1d1
+cursor-text = #0000a4
+selection-background = #eeeeee
+selection-foreground = #4e4e4e

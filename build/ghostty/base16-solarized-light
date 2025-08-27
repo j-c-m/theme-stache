@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Solarized Light
+# Author:   Ethan Schoonover (modified by aramisgithub)
+# Variant:  light
+
+palette = 0=#fdf6e3
+palette = 1=#dc322f
+palette = 2=#859900
+palette = 3=#b58900
+palette = 4=#268bd2
+palette = 5=#6c71c4
+palette = 6=#2aa198
+palette = 7=#586e75
+palette = 8=#839496
+palette = 9=#dc322f
+palette = 10=#859900
+palette = 11=#b58900
+palette = 12=#268bd2
+palette = 13=#6c71c4
+palette = 14=#2aa198
+palette = 15=#002b36
+background = #fdf6e3
+foreground = #586e75
+cursor-color = #586e75
+cursor-text = #fdf6e3
+selection-background = #073642
+selection-foreground = #eee8d5

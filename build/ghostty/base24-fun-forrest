@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Fun Forrest
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#241200
+palette = 1=#d5252b
+palette = 2=#909b00
+palette = 3=#7cc9ce
+palette = 4=#4698a2
+palette = 5=#8c4231
+palette = 6=#d98112
+palette = 7=#c5ab60
+palette = 8=#957f58
+palette = 9=#e4591b
+palette = 10=#bfc659
+palette = 11=#ffca1b
+palette = 12=#7cc9ce
+palette = 13=#d16349
+palette = 14=#e6a96b
+palette = 15=#ffe9a3
+background = #241200
+foreground = #c5ab60
+cursor-color = #c5ab60
+cursor-text = #241200
+selection-background = #ddc165
+selection-foreground = #000000

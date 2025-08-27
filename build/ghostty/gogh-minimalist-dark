@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Minimalist Dark
+# Author:   Gabriel Soares (https://github.com/Gabrielsoac)
+# Variant:  dark
+
+palette = 0=#f5f5f5
+palette = 1=#b81414
+palette = 2=#1b9f6b
+palette = 3=#d28f79
+palette = 4=#aa5a24
+palette = 5=#9e40a3
+palette = 6=#fe8330
+palette = 7=#a5a2a2
+palette = 8=#5c5855
+palette = 9=#e8bbd0
+palette = 10=#006400
+palette = 11=#4a4543
+palette = 12=#a16a94
+palette = 13=#a020f0
+palette = 14=#ff69b4
+palette = 15=#cacad0
+background = #13141f
+foreground = #f5f5f5
+cursor-color = #f5f5f5
+cursor-text = #f5f5f5
+selection-background = #f5f5f5
+selection-foreground = #13141f

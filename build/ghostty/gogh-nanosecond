@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Nanosecond
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ff0000
+palette = 2=#00aa00
+palette = 3=#ffaa00
+palette = 4=#00aaff
+palette = 5=#ff00ff
+palette = 6=#00aaaa
+palette = 7=#aaaaaa
+palette = 8=#555555
+palette = 9=#ff5555
+palette = 10=#80ff80
+palette = 11=#ffff80
+palette = 12=#aaccff
+palette = 13=#ffaaff
+palette = 14=#80ffff
+palette = 15=#ffffff
+background = #112233
+foreground = #fafafa
+cursor-color = #fafafa
+cursor-text = #000000
+selection-background = #fafafa
+selection-foreground = #112233

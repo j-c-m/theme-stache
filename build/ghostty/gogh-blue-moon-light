@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Blue Moon Light
+# Author:   kyazdani42 (https://github.com/kyazdani42/blue-moon)
+# Variant:  light
+
+palette = 0=#292d3e
+palette = 1=#d06179
+palette = 2=#d0e7d0
+palette = 3=#cfcfbf
+palette = 4=#959dcb
+palette = 5=#a9a3db
+palette = 6=#89bbdd
+palette = 7=#ffffff
+palette = 8=#292d3e
+palette = 9=#d06179
+palette = 10=#d0e7d0
+palette = 11=#cfcfbf
+palette = 12=#959dcb
+palette = 13=#a9a3db
+palette = 14=#89bbdd
+palette = 15=#ffffff
+background = #32374d
+foreground = #fbfbfb
+cursor-color = #fbfbfb
+cursor-text = #292d3e
+selection-background = #fbfbfb
+selection-foreground = #32374d

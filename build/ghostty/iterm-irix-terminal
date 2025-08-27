@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    IRIX Terminal
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#191919
+palette = 1=#ff2b1d
+palette = 2=#56ff3d
+palette = 3=#fffe44
+palette = 4=#0004ff
+palette = 5=#ff2cff
+palette = 6=#55ffff
+palette = 7=#fffefe
+palette = 8=#fffe44
+palette = 9=#fffe44
+palette = 10=#fffe44
+palette = 11=#fefb72
+palette = 12=#fffe44
+palette = 13=#fffe44
+palette = 14=#fffe44
+palette = 15=#fffe44
+background = #000042
+foreground = #f2f2f2
+cursor-color = #c7c7c7
+cursor-text = #191919
+selection-background = #c1ddff
+selection-foreground = #000000

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Earthsong
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#282420
+palette = 1=#c84134
+palette = 2=#84c44b
+palette = 3=#5ed9ff
+palette = 4=#1397b9
+palette = 5=#d0623c
+palette = 6=#4f9452
+palette = 7=#c5ab93
+palette = 8=#857769
+palette = 9=#ff6459
+palette = 10=#97e035
+palette = 11=#dfd561
+palette = 12=#5ed9ff
+palette = 13=#ff9168
+palette = 14=#83ef88
+palette = 15=#f6f6ec
+background = #282420
+foreground = #c5ab93
+cursor-color = #c5ab93
+cursor-text = #282420
+selection-background = #e5c5a9
+selection-foreground = #111417

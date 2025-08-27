@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Shapeshifter
+# Author:   Tyler Benziger (http://tybenz.com)
+# Variant:  light
+
+palette = 0=#f9f9f9
+palette = 1=#e92f2f
+palette = 2=#0ed839
+palette = 3=#dddd13
+palette = 4=#3b48e3
+palette = 5=#f996e2
+palette = 6=#23edda
+palette = 7=#102015
+palette = 8=#555555
+palette = 9=#e92f2f
+palette = 10=#0ed839
+palette = 11=#dddd13
+palette = 12=#3b48e3
+palette = 13=#f996e2
+palette = 14=#23edda
+palette = 15=#000000
+background = #f9f9f9
+foreground = #102015
+cursor-color = #102015
+cursor-text = #f9f9f9
+selection-background = #040404
+selection-foreground = #e0e0e0

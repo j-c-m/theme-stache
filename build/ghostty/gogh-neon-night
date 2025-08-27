@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Neon Night
+# Author:   
+# Variant:  dark
+
+palette = 0=#20242d
+palette = 1=#ff8e8e
+palette = 2=#7efdd0
+palette = 3=#fcad3f
+palette = 4=#69b4f9
+palette = 5=#dd92f6
+palette = 6=#8ce8ff
+palette = 7=#c9cccd
+palette = 8=#20242d
+palette = 9=#ff8e8e
+palette = 10=#7efdd0
+palette = 11=#fcad3f
+palette = 12=#69b4f9
+palette = 13=#dd92f6
+palette = 14=#8ce8ff
+palette = 15=#c9cccd
+background = #20242d
+foreground = #c7c8ff
+cursor-color = #c7c8ff
+cursor-text = #20242d
+selection-background = #c7c8ff
+selection-foreground = #20242d

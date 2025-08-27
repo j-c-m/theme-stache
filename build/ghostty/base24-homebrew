@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Homebrew
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#990000
+palette = 2=#00a600
+palette = 3=#0000ff
+palette = 4=#0000b2
+palette = 5=#b200b2
+palette = 6=#00a6b2
+palette = 7=#a8a8a8
+palette = 8=#7c7c7c
+palette = 9=#e50000
+palette = 10=#00d900
+palette = 11=#e5e500
+palette = 12=#0000ff
+palette = 13=#e500e5
+palette = 14=#00e5e5
+palette = 15=#e5e5e5
+background = #000000
+foreground = #a8a8a8
+cursor-color = #a8a8a8
+cursor-text = #000000
+selection-background = #bfbfbf
+selection-foreground = #000000

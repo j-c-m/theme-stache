@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Sweet Terminal
+# Author:   
+# Variant:  dark
+
+palette = 0=#3f3f54
+palette = 1=#f60055
+palette = 2=#06c993
+palette = 3=#9700be
+palette = 4=#f69154
+palette = 5=#ec89cb
+palette = 6=#60adec
+palette = 7=#abb2bf
+palette = 8=#959dcb
+palette = 9=#f60055
+palette = 10=#06c993
+palette = 11=#9700be
+palette = 12=#f69154
+palette = 13=#ec89cb
+palette = 14=#00dded
+palette = 15=#ffffff
+background = #222235
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #3f3f54
+selection-background = #ffffff
+selection-foreground = #222235

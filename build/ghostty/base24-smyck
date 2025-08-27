@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Smyck
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1b1b1b
+palette = 1=#b74131
+palette = 2=#7da900
+palette = 3=#8dcff0
+palette = 4=#62a3c4
+palette = 5=#b98acc
+palette = 6=#207383
+palette = 7=#969696
+palette = 8=#838383
+palette = 9=#d6837b
+palette = 10=#c4f036
+palette = 11=#fee14d
+palette = 12=#8dcff0
+palette = 13=#f799ff
+palette = 14=#69d9cf
+palette = 15=#f7f7f7
+background = #1b1b1b
+foreground = #969696
+cursor-color = #969696
+cursor-text = #1b1b1b
+selection-background = #a0a0a0
+selection-foreground = #000000

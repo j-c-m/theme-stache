@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Rebecca
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#292a44
+palette = 1=#dd7655
+palette = 2=#04dbb4
+palette = 3=#69bffa
+palette = 4=#7aa5ff
+palette = 5=#be9bf8
+palette = 6=#56d3c1
+palette = 7=#c3c3d4
+palette = 8=#8585ac
+palette = 9=#ff91cd
+palette = 10=#00e9c0
+palette = 11=#fefca8
+palette = 12=#69bffa
+palette = 13=#c07ff8
+palette = 14=#8bfce1
+palette = 15=#f3f2f8
+background = #292a44
+foreground = #c3c3d4
+cursor-color = #c3c3d4
+cursor-text = #292a44
+selection-background = #e3e2e8
+selection-foreground = #12131d

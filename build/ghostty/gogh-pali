@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Pali
+# Author:   
+# Variant:  dark
+
+palette = 0=#0a0a0a
+palette = 1=#ab8f74
+palette = 2=#74ab8f
+palette = 3=#8fab74
+palette = 4=#8f74ab
+palette = 5=#ab748f
+palette = 6=#748fab
+palette = 7=#f2f2f2
+palette = 8=#5d5d5d
+palette = 9=#ff1d62
+palette = 10=#9cc3af
+palette = 11=#ffd00a
+palette = 12=#af9cc3
+palette = 13=#ff1d62
+palette = 14=#4bb8fd
+palette = 15=#a020f0
+background = #232e37
+foreground = #d9e6f2
+cursor-color = #d9e6f2
+cursor-text = #0a0a0a
+selection-background = #d9e6f2
+selection-foreground = #232e37

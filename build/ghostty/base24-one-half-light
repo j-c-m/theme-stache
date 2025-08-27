@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    One Half Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#fafafa
+palette = 1=#e45649
+palette = 2=#4fa14f
+palette = 3=#61afef
+palette = 4=#0084bc
+palette = 5=#a625a4
+palette = 6=#0996b3
+palette = 7=#cfd0d2
+palette = 8=#797c84
+palette = 9=#df6c75
+palette = 10=#98c379
+palette = 11=#e4c07a
+palette = 12=#61afef
+palette = 13=#c577dd
+palette = 14=#56b5c1
+palette = 15=#ffffff
+background = #fafafa
+foreground = #cfd0d2
+cursor-color = #cfd0d2
+cursor-text = #fafafa
+selection-background = #fafafa
+selection-foreground = #373942

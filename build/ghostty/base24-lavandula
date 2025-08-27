@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Lavandula
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#050014
+palette = 1=#7c1525
+palette = 2=#337e6f
+palette = 3=#8e86df
+palette = 4=#4f4a7f
+palette = 5=#593f7e
+palette = 6=#57767f
+palette = 7=#645d6f
+palette = 8=#463c53
+palette = 9=#df5066
+palette = 10=#52e0c4
+palette = 11=#e0c286
+palette = 12=#8e86df
+palette = 13=#a675df
+palette = 14=#9ad3df
+palette = 15=#8c91fa
+background = #050014
+foreground = #645d6f
+cursor-color = #645d6f
+cursor-text = #050014
+selection-background = #736e7d
+selection-foreground = #230045

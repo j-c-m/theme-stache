@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Tin
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#8d534e
+palette = 2=#4e8d53
+palette = 3=#888d4e
+palette = 4=#534e8d
+palette = 5=#8d4e88
+palette = 6=#4e888d
+palette = 7=#ffffff
+palette = 8=#000000
+palette = 9=#b57d78
+palette = 10=#78b57d
+palette = 11=#b0b578
+palette = 12=#7d78b5
+palette = 13=#b578b0
+palette = 14=#78b0b5
+palette = 15=#ffffff
+background = #2e2e35
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #000000
+selection-background = #ffffff
+selection-foreground = #2e2e35

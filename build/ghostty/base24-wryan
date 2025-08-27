@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Wryan
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#101010
+palette = 1=#8c4665
+palette = 2=#287373
+palette = 3=#477ab3
+palette = 4=#395573
+palette = 5=#5e468c
+palette = 6=#31658c
+palette = 7=#768488
+palette = 8=#505456
+palette = 9=#bf4d80
+palette = 10=#53a6a6
+palette = 11=#9e9ecb
+palette = 12=#477ab3
+palette = 13=#7e62b3
+palette = 14=#6096bf
+palette = 15=#c0c0c0
+background = #101010
+foreground = #768488
+cursor-color = #768488
+cursor-text = #101010
+selection-background = #899ca1
+selection-foreground = #333333

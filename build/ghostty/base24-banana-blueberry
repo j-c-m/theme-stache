@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Banana Blueberry
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#191322
+palette = 1=#ff6a7e
+palette = 2=#00bc9b
+palette = 3=#91fff3
+palette = 4=#22e8df
+palette = 5=#dc3969
+palette = 6=#55b6c1
+palette = 7=#c6c9cd
+palette = 8=#727985
+palette = 9=#fd9ea1
+palette = 10=#97c378
+palette = 11=#f9e46a
+palette = 12=#91fff3
+palette = 13=#da70d5
+palette = 14=#bcf2fe
+palette = 15=#feffff
+background = #191322
+foreground = #c6c9cd
+cursor-color = #c6c9cd
+cursor-text = #191322
+selection-background = #f1f1f1
+selection-foreground = #16141e

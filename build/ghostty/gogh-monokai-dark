@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Monokai Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#75715e
+palette = 1=#f92672
+palette = 2=#a6e22e
+palette = 3=#f4bf75
+palette = 4=#66d9ef
+palette = 5=#ae81ff
+palette = 6=#2aa198
+palette = 7=#f9f8f5
+palette = 8=#272822
+palette = 9=#f92672
+palette = 10=#a6e22e
+palette = 11=#f4bf75
+palette = 12=#66d9ef
+palette = 13=#ae81ff
+palette = 14=#2aa198
+palette = 15=#f8f8f2
+background = #272822
+foreground = #f8f8f2
+cursor-color = #f8f8f2
+cursor-text = #75715e
+selection-background = #f8f8f2
+selection-foreground = #272822

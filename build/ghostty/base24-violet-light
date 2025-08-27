@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Violet Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#fcf4dc
+palette = 1=#c94c22
+palette = 2=#85981c
+palette = 3=#2075c7
+palette = 4=#2e8bce
+palette = 5=#d13a82
+palette = 6=#32a198
+palette = 7=#afaea9
+palette = 8=#686a6a
+palette = 9=#bd3612
+palette = 10=#728903
+palette = 11=#a57704
+palette = 12=#2075c7
+palette = 13=#c61b6e
+palette = 14=#259185
+palette = 15=#c8c5bd
+background = #fcf4dc
+foreground = #afaea9
+cursor-color = #afaea9
+cursor-text = #fcf4dc
+selection-background = #d3d0c9
+selection-foreground = #56595c

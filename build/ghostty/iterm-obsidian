@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Obsidian
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#a50001
+palette = 2=#00bb00
+palette = 3=#fecc22
+palette = 4=#399bda
+palette = 5=#bb00bb
+palette = 6=#00bbbb
+palette = 7=#bbbbbb
+palette = 8=#555555
+palette = 9=#ff0003
+palette = 10=#92c763
+palette = 11=#fef773
+palette = 12=#a0d6ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+background = #273032
+foreground = #cccccc
+cursor-color = #c0cad0
+cursor-text = #000000
+selection-background = #3d4b4e
+selection-foreground = #dee1e2

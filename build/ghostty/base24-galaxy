@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Galaxy
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1c2836
+palette = 1=#f9555f
+palette = 2=#20af89
+palette = 3=#589cf5
+palette = 4=#589cf5
+palette = 5=#934d95
+palette = 6=#1e9ee6
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#fa8b8e
+palette = 10=#34bb99
+palette = 11=#ffff55
+palette = 12=#589cf5
+palette = 13=#e75598
+palette = 14=#3978bb
+palette = 15=#ffffff
+background = #1c2836
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #1c2836
+selection-background = #bbbbbb
+selection-foreground = #000000

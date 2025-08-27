@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Desert
+# Author:   
+# Variant:  dark
+
+palette = 0=#292724
+palette = 1=#816f4b
+palette = 2=#ec9255
+palette = 3=#ffb380
+palette = 4=#957e50
+palette = 5=#ec9255
+palette = 6=#ac8e53
+palette = 7=#ada594
+palette = 8=#7e7767
+palette = 9=#f29d63
+palette = 10=#3d3a34
+palette = 11=#615c51
+palette = 12=#908774
+palette = 13=#ddcba6
+palette = 14=#e58748
+palette = 15=#f2ead9
+background = #292724
+foreground = #ada594
+cursor-color = #bc672f
+cursor-text = #292724
+selection-background = #ada594
+selection-foreground = #292724

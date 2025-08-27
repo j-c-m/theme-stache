@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ayu Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#0a0e14
+palette = 1=#ff3333
+palette = 2=#c2d94c
+palette = 3=#ff8f40
+palette = 4=#59c2ff
+palette = 5=#ffee99
+palette = 6=#95e6cb
+palette = 7=#b3b1ad
+palette = 8=#4d5566
+palette = 9=#ff3333
+palette = 10=#c2d94c
+palette = 11=#ff8f40
+palette = 12=#59c2ff
+palette = 13=#ffee99
+palette = 14=#95e6cb
+palette = 15=#b3b1ad
+background = #0a0e14
+foreground = #b3b1ad
+cursor-color = #e6b450
+cursor-text = #0a0e14
+selection-background = #b3b1ad
+selection-foreground = #0a0e14

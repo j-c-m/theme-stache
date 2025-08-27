@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Treehouse
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#191919
+palette = 1=#b1270e
+palette = 2=#44a900
+palette = 3=#85cfec
+palette = 4=#578499
+palette = 5=#96363c
+palette = 6=#b2591d
+palette = 7=#695d47
+palette = 8=#4f4330
+palette = 9=#ed5c20
+palette = 10=#55f237
+palette = 11=#f1b731
+palette = 12=#85cfec
+palette = 13=#e04b5a
+palette = 14=#f07d14
+palette = 15=#ffc800
+background = #191919
+foreground = #695d47
+cursor-color = #695d47
+cursor-text = #191919
+selection-background = #776b53
+selection-foreground = #321200

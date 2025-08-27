@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Apple System Colors Light
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#1a1919
+palette = 1=#cb372e
+palette = 2=#26a339
+palette = 3=#ccab07
+palette = 4=#0769cb
+palette = 5=#9646be
+palette = 6=#479ec1
+palette = 7=#98979c
+palette = 8=#464545
+palette = 9=#fe4539
+palette = 10=#32d64a
+palette = 11=#fed609
+palette = 12=#0983fe
+palette = 13=#be59f2
+palette = 14=#75d5fe
+palette = 15=#fefefe
+background = #fdfefe
+foreground = #000000
+cursor-color = #98979c
+cursor-text = #1a1919
+selection-background = #aad8fe
+selection-foreground = #000000

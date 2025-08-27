@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mono White
+# Author:   
+# Variant:  dark
+
+palette = 0=#3b3b3b
+palette = 1=#fafafa
+palette = 2=#fafafa
+palette = 3=#fafafa
+palette = 4=#fafafa
+palette = 5=#fafafa
+palette = 6=#fafafa
+palette = 7=#fafafa
+palette = 8=#fafafa
+palette = 9=#fafafa
+palette = 10=#fafafa
+palette = 11=#fafafa
+palette = 12=#fafafa
+palette = 13=#fafafa
+palette = 14=#fafafa
+palette = 15=#fafafa
+background = #262626
+foreground = #fafafa
+cursor-color = #fafafa
+cursor-text = #3b3b3b
+selection-background = #fafafa
+selection-foreground = #262626

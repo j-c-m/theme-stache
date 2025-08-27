@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Omni
+# Author:   
+# Variant:  dark
+
+palette = 0=#191622
+palette = 1=#e96379
+palette = 2=#67e480
+palette = 3=#e89e64
+palette = 4=#78d1e1
+palette = 5=#988bc7
+palette = 6=#ff79c6
+palette = 7=#abb2bf
+palette = 8=#000000
+palette = 9=#e96379
+palette = 10=#67e480
+palette = 11=#e89e64
+palette = 12=#78d1e1
+palette = 13=#988bc7
+palette = 14=#ff79c6
+palette = 15=#ffffff
+background = #191622
+foreground = #abb2bf
+cursor-color = #abb2bf
+cursor-text = #191622
+selection-background = #abb2bf
+selection-foreground = #191622

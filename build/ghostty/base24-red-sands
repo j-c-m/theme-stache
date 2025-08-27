@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Red Sands
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#79241e
+palette = 1=#ff3f00
+palette = 2=#00bb00
+palette = 3=#0071ae
+palette = 4=#0071ff
+palette = 5=#bb00bb
+palette = 6=#00bbbb
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#bb0000
+palette = 10=#00bb00
+palette = 11=#e7b000
+palette = 12=#0071ae
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+background = #79241e
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #79241e
+selection-background = #bbbbbb
+selection-foreground = #000000

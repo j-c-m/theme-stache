@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Nord Light
+# Author:   threddast, based on fuxialexander&#x27;s doom-nord-light-theme (Doom Emacs)
+# Variant:  light
+
+palette = 0=#e5e9f0
+palette = 1=#99324b
+palette = 2=#4f894c
+palette = 3=#9a7500
+palette = 4=#3b6ea8
+palette = 5=#97365b
+palette = 6=#398eac
+palette = 7=#2e3440
+palette = 8=#aebacf
+palette = 9=#99324b
+palette = 10=#4f894c
+palette = 11=#9a7500
+palette = 12=#3b6ea8
+palette = 13=#97365b
+palette = 14=#398eac
+palette = 15=#29838d
+background = #e5e9f0
+foreground = #2e3440
+cursor-color = #2e3440
+cursor-text = #e5e9f0
+selection-background = #3b4252
+selection-foreground = #c2d0e7

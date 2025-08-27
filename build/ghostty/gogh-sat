@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Sat
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#dd0007
+palette = 2=#07dd00
+palette = 3=#ddd600
+palette = 4=#0007dd
+palette = 5=#d600dd
+palette = 6=#00ddd6
+palette = 7=#f2f2f2
+palette = 8=#7d7d7d
+palette = 9=#ff7478
+palette = 10=#78ff74
+palette = 11=#fffa74
+palette = 12=#7478ff
+palette = 13=#fa74ff
+palette = 14=#74fffa
+palette = 15=#ffffff
+background = #758480
+foreground = #23476a
+cursor-color = #23476a
+cursor-text = #000000
+selection-background = #23476a
+selection-foreground = #758480

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Google Light
+# Author:   
+# Variant:  light
+
+palette = 0=#202124
+palette = 1=#ea4335
+palette = 2=#34a853
+palette = 3=#fbbc04
+palette = 4=#4285f4
+palette = 5=#a142f4
+palette = 6=#24c1e0
+palette = 7=#e8eaed
+palette = 8=#5f6368
+palette = 9=#ea4335
+palette = 10=#34a853
+palette = 11=#fbbc05
+palette = 12=#4285f4
+palette = 13=#a142f4
+palette = 14=#24c1e0
+palette = 15=#ffffff
+background = #ffffff
+foreground = #5f6368
+cursor-color = #5f6368
+cursor-text = #202124
+selection-background = #5f6368
+selection-foreground = #ffffff

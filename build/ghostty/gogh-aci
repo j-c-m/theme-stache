@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Aci
+# Author:   
+# Variant:  dark
+
+palette = 0=#363636
+palette = 1=#ff0883
+palette = 2=#83ff08
+palette = 3=#ff8308
+palette = 4=#0883ff
+palette = 5=#8308ff
+palette = 6=#08ff83
+palette = 7=#b6b6b6
+palette = 8=#424242
+palette = 9=#ff1e8e
+palette = 10=#8eff1e
+palette = 11=#ff8e1e
+palette = 12=#1e8eff
+palette = 13=#8e1eff
+palette = 14=#1eff8e
+palette = 15=#c2c2c2
+background = #0d1926
+foreground = #b4e1fd
+cursor-color = #b4e1fd
+cursor-text = #363636
+selection-background = #b4e1fd
+selection-foreground = #0d1926

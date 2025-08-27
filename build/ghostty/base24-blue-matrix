@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Blue Matrix
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0f1115
+palette = 1=#ff567f
+palette = 2=#00ff9b
+palette = 3=#6871ff
+palette = 4=#00b0fe
+palette = 5=#d47bfe
+palette = 6=#75c1fe
+palette = 7=#afafaf
+palette = 8=#7f7f7f
+palette = 9=#ff6d67
+palette = 10=#5ff967
+palette = 11=#fefb67
+palette = 12=#6871ff
+palette = 13=#d582eb
+palette = 14=#5ffdff
+palette = 15=#feffff
+background = #0f1115
+foreground = #afafaf
+cursor-color = #afafaf
+cursor-text = #0f1115
+selection-background = #c7c7c7
+selection-foreground = #101116

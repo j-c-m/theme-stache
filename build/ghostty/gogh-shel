@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Shel
+# Author:   
+# Variant:  dark
+
+palette = 0=#2c2423
+palette = 1=#ab2463
+palette = 2=#6ca323
+palette = 3=#ab6423
+palette = 4=#2c64a2
+palette = 5=#6c24a2
+palette = 6=#2ca363
+palette = 7=#918988
+palette = 8=#918988
+palette = 9=#f588b9
+palette = 10=#c2ee86
+palette = 11=#f5ba86
+palette = 12=#8fbaec
+palette = 13=#c288ec
+palette = 14=#8feeb9
+palette = 15=#f5eeec
+background = #2a201f
+foreground = #4882cd
+cursor-color = #4882cd
+cursor-text = #2c2423
+selection-background = #4882cd
+selection-foreground = #2a201f

@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Elemental
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#3c3b30
+palette = 1=#97280f
+palette = 2=#479942
+palette = 3=#7f7110
+palette = 4=#497f7d
+palette = 5=#7e4e2e
+palette = 6=#387f58
+palette = 7=#807974
+palette = 8=#545444
+palette = 9=#df502a
+palette = 10=#60e06f
+palette = 11=#d69827
+palette = 12=#78d8d8
+palette = 13=#cd7c53
+palette = 14=#58d598
+palette = 15=#fff1e8
+background = #21211c
+foreground = #807973
+cursor-color = #facb7f
+cursor-text = #3c3b30
+selection-background = #403729
+selection-foreground = #f9cd77

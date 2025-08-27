@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Squirrelsong Dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#37291f
+palette = 1=#b94038
+palette = 2=#458336
+palette = 3=#d3b039
+palette = 4=#4394c6
+palette = 5=#845fb8
+palette = 6=#2e9793
+palette = 7=#d3b9a2
+palette = 8=#704e38
+palette = 9=#de4c42
+palette = 10=#649a4b
+palette = 11=#e8c13e
+palette = 12=#4ba4da
+palette = 13=#9c70da
+palette = 14=#5faba8
+palette = 15=#f1d3ba
+background = #37291f
+foreground = #b09b88
+cursor-color = #b09b88
+cursor-text = #37291f
+selection-background = #5b3f2e
+selection-foreground = #b09b88

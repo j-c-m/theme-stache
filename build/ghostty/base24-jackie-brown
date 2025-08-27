@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Jackie Brown
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2c1c15
+palette = 1=#ef5734
+palette = 2=#2baf2b
+palette = 3=#0000ff
+palette = 4=#246db2
+palette = 5=#cf5ec0
+palette = 6=#00acee
+palette = 7=#a8a8a8
+palette = 8=#7c7c7c
+palette = 9=#e50000
+palette = 10=#86a83e
+palette = 11=#e5e500
+palette = 12=#0000ff
+palette = 13=#e500e5
+palette = 14=#00e5e5
+palette = 15=#e5e5e5
+background = #2c1c15
+foreground = #a8a8a8
+cursor-color = #a8a8a8
+cursor-text = #2c1c15
+selection-background = #bfbfbf
+selection-foreground = #2c1d16

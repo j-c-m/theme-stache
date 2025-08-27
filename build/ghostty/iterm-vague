@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Vague
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#131315
+palette = 1=#de6781
+palette = 2=#8bb56d
+palette = 3=#f2be7c
+palette = 4=#7d98e7
+palette = 5=#c2c2d5
+palette = 6=#9ab4bc
+palette = 7=#cccccc
+palette = 8=#868686
+palette = 9=#de6781
+palette = 10=#8bb56d
+palette = 11=#f2be7c
+palette = 12=#7d98e7
+palette = 13=#c2c2d5
+palette = 14=#9ab4bc
+palette = 15=#cccccc
+background = #131315
+foreground = #cccccc
+cursor-color = #cccccc
+cursor-text = #131315
+selection-background = #868686
+selection-foreground = #cccccc

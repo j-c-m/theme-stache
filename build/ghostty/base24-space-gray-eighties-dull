@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Space Gray Eighties Dull
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#212121
+palette = 1=#b14956
+palette = 2=#91b377
+palette = 3=#5485c0
+palette = 4=#7b8fa4
+palette = 5=#a5779e
+palette = 6=#7fcccb
+palette = 7=#9a9fa6
+palette = 8=#6c6d70
+palette = 9=#ec5f67
+palette = 10=#88e985
+palette = 11=#fdc253
+palette = 12=#5485c0
+palette = 13=#bf83c0
+palette = 14=#58c2c0
+palette = 15=#ffffff
+background = #212121
+foreground = #9a9fa6
+cursor-color = #9a9fa6
+cursor-text = #212121
+selection-background = #b2b8c2
+selection-foreground = #15171c

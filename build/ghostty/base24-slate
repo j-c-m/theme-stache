@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Slate
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#212121
+palette = 1=#e1a7bf
+palette = 2=#80d778
+palette = 3=#79afd2
+palette = 4=#254a49
+palette = 5=#a380d3
+palette = 6=#14ab9c
+palette = 7=#42d3e8
+palette = 8=#c0f1f8
+palette = 9=#ffccd8
+palette = 10=#bdffa8
+palette = 11=#d0cbc9
+palette = 12=#79afd2
+palette = 13=#c4a7d8
+palette = 14=#8bdee0
+palette = 15=#e0e0e0
+background = #212121
+foreground = #42d3e8
+cursor-color = #42d3e8
+cursor-text = #212121
+selection-background = #02c4e0
+selection-foreground = #212121

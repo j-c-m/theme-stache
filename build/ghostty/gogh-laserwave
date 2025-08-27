@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Laserwave
+# Author:   
+# Variant:  dark
+
+palette = 0=#39243a
+palette = 1=#eb64b9
+palette = 2=#afd686
+palette = 3=#feae87
+palette = 4=#40b4c4
+palette = 5=#b381c5
+palette = 6=#215969
+palette = 7=#91889b
+palette = 8=#716485
+palette = 9=#fc2377
+palette = 10=#50fa7b
+palette = 11=#ffe261
+palette = 12=#74dfc4
+palette = 13=#6d75e0
+palette = 14=#b4dce7
+palette = 15=#ffffff
+background = #1f1926
+foreground = #e0e0e0
+cursor-color = #c7c7c7
+cursor-text = #39243a
+selection-background = #e0e0e0
+selection-foreground = #1f1926

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Ultra Violet
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#242728
+palette = 1=#ff0090
+palette = 2=#b5ff00
+palette = 3=#7febff
+palette = 4=#47dffb
+palette = 5=#d630ff
+palette = 6=#0effbb
+palette = 7=#c1c2c2
+palette = 8=#818484
+palette = 9=#fb57b4
+palette = 10=#deff8b
+palette = 11=#ebdf86
+palette = 12=#7febff
+palette = 13=#e681ff
+palette = 14=#68fcd2
+palette = 15=#f9f9f4
+background = #242728
+foreground = #c1c2c2
+cursor-color = #c1c2c2
+cursor-text = #242728
+selection-background = #e1e1e1
+selection-foreground = #232628

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Dracula
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#282a36
+palette = 1=#ff5555
+palette = 2=#50fa7b
+palette = 3=#f1fa8c
+palette = 4=#80bfff
+palette = 5=#ff79c6
+palette = 6=#8be9fd
+palette = 7=#f8f8f2
+palette = 8=#6272a4
+palette = 9=#f28c8c
+palette = 10=#a3f5b8
+palette = 11=#eef5a3
+palette = 12=#a3ccf5
+palette = 13=#f5a3d2
+palette = 14=#baedf7
+palette = 15=#ffffff
+background = #282a36
+foreground = #f8f8f2
+cursor-color = #f8f8f2
+cursor-text = #282a36
+selection-background = #f0f1f4
+selection-foreground = #363447

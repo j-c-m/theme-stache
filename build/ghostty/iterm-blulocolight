@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    BlulocoLight
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#373a41
+palette = 1=#d52652
+palette = 2=#239749
+palette = 3=#df621b
+palette = 4=#275fe4
+palette = 5=#823ef0
+palette = 6=#26608c
+palette = 7=#b9bac1
+palette = 8=#676a77
+palette = 9=#ff637f
+palette = 10=#3cbc66
+palette = 11=#c5a231
+palette = 12=#0099e0
+palette = 13=#ce32c0
+palette = 14=#6d92ba
+palette = 15=#d3d3d3
+background = #f9f9f9
+foreground = #373a41
+cursor-color = #f22658
+cursor-text = #373a41
+selection-background = #d9efff
+selection-foreground = #373a41

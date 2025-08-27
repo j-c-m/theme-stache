@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Lunaria Eclipse
+# Author:   
+# Variant:  dark
+
+palette = 0=#323f46
+palette = 1=#83615b
+palette = 2=#7f9781
+palette = 3=#a69875
+palette = 4=#53516f
+palette = 5=#856880
+palette = 6=#7d96b2
+palette = 7=#c9cdd7
+palette = 8=#3d4950
+palette = 9=#ba9088
+palette = 10=#bedbc1
+palette = 11=#f1dfb4
+palette = 12=#767495
+palette = 13=#be9cb8
+palette = 14=#bcdbff
+palette = 15=#dfe2ed
+background = #323f46
+foreground = #c9cdd7
+cursor-color = #c9cdd7
+cursor-text = #323f46
+selection-background = #c9cdd7
+selection-foreground = #323f46

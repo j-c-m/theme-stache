@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Gooey
+# Author:   
+# Variant:  dark
+
+palette = 0=#000009
+palette = 1=#bb4f6c
+palette = 2=#72ccae
+palette = 3=#c65e3d
+palette = 4=#58b6ca
+palette = 5=#6488c4
+palette = 6=#8d84c6
+palette = 7=#858893
+palette = 8=#1f222d
+palette = 9=#ee829f
+palette = 10=#a5ffe1
+palette = 11=#f99170
+palette = 12=#8be9fd
+palette = 13=#97bbf7
+palette = 14=#c0b7f9
+palette = 15=#ffffff
+background = #0d101b
+foreground = #ebeef9
+cursor-color = #ebeef9
+cursor-text = #000009
+selection-background = #ebeef9
+selection-foreground = #0d101b

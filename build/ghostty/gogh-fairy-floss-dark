@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Fairy Floss Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#42395d
+palette = 1=#a8757b
+palette = 2=#ff857f
+palette = 3=#e6c000
+palette = 4=#ae81ff
+palette = 5=#716799
+palette = 6=#c2ffdf
+palette = 7=#f8f8f2
+palette = 8=#75507b
+palette = 9=#ffb8d1
+palette = 10=#f1568e
+palette = 11=#d5a425
+palette = 12=#c5a3ff
+palette = 13=#8077a8
+palette = 14=#c2ffff
+palette = 15=#f8f8f0
+background = #42395d
+foreground = #c2ffdf
+cursor-color = #ffb8d1
+cursor-text = #42395d
+selection-background = #c2ffdf
+selection-foreground = #42395d

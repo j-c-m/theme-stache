@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Rippedcasts
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2b2b2b
+palette = 1=#cdaf95
+palette = 2=#a7ff60
+palette = 3=#86bdc9
+palette = 4=#75a5b0
+palette = 5=#ff73fd
+palette = 6=#59647e
+palette = 7=#a8a8a8
+palette = 8=#7c7c7c
+palette = 9=#eecbad
+palette = 10=#bcee68
+palette = 11=#e5e500
+palette = 12=#86bdc9
+palette = 13=#e500e5
+palette = 14=#8c9bc3
+palette = 15=#e5e5e5
+background = #2b2b2b
+foreground = #a8a8a8
+cursor-color = #a8a8a8
+cursor-text = #2b2b2b
+selection-background = #bfbfbf
+selection-foreground = #000000

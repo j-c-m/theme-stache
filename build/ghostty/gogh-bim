@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Bim
+# Author:   
+# Variant:  dark
+
+palette = 0=#2c2423
+palette = 1=#f557a0
+palette = 2=#a9ee55
+palette = 3=#f5a255
+palette = 4=#5ea2ec
+palette = 5=#a957ec
+palette = 6=#5eeea0
+palette = 7=#918988
+palette = 8=#918988
+palette = 9=#f579b2
+palette = 10=#bbee78
+palette = 11=#f5b378
+palette = 12=#81b3ec
+palette = 13=#bb79ec
+palette = 14=#81eeb2
+palette = 15=#f5eeec
+background = #012849
+foreground = #a9bed8
+cursor-color = #a9bed8
+cursor-text = #2c2423
+selection-background = #a9bed8
+selection-foreground = #012849

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Bluloco Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#f7f7f7
+palette = 1=#c80d41
+palette = 2=#208839
+palette = 3=#1085d9
+palette = 4=#1d44dd
+palette = 5=#6d1bed
+palette = 6=#1e4d7a
+palette = 7=#38383a
+palette = 8=#a6a7ae
+palette = 9=#fb496d
+palette = 10=#34b253
+palette = 11=#b79326
+palette = 12=#1085d9
+palette = 13=#c00cb2
+palette = 14=#5a7fac
+palette = 15=#1c1d21
+background = #f7f7f7
+foreground = #38383a
+cursor-color = #38383a
+cursor-text = #f7f7f7
+selection-background = #000000
+selection-foreground = #cbccd4

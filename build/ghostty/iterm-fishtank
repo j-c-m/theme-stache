@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    FishTank
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#03063c
+palette = 1=#c60049
+palette = 2=#abf157
+palette = 3=#fdcd5e
+palette = 4=#525fb8
+palette = 5=#976f81
+palette = 6=#968662
+palette = 7=#eceffc
+palette = 8=#6c5a30
+palette = 9=#d94a8a
+palette = 10=#daffa8
+palette = 11=#fee6a8
+palette = 12=#b1bdf9
+palette = 13=#fda4cc
+palette = 14=#a4bc86
+palette = 15=#f6ffec
+background = #222436
+foreground = #eceffd
+cursor-color = #fdcd5e
+cursor-text = #03063c
+selection-background = #fcf6e8
+selection-foreground = #222436

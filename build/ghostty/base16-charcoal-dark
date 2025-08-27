@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Charcoal Dark
+# Author:   Mubin Muhammad (https://github.com/mubin6th)
+# Variant:  dark
+
+palette = 0=#120f09
+palette = 1=#887254
+palette = 2=#927a60
+palette = 3=#c0a179
+palette = 4=#d6b891
+palette = 5=#a28662
+palette = 6=#a28662
+palette = 7=#c0a179
+palette = 8=#66553f
+palette = 9=#887254
+palette = 10=#927a60
+palette = 11=#c0a179
+palette = 12=#d6b891
+palette = 13=#a28662
+palette = 14=#a28662
+palette = 15=#292016
+background = #120f09
+foreground = #c0a179
+cursor-color = #c0a179
+cursor-text = #120f09
+selection-background = #d6b891
+selection-foreground = #1e1812

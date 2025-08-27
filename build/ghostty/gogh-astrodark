@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Astrodark
+# Author:   
+# Variant:  dark
+
+palette = 0=#111317
+palette = 1=#f8747e
+palette = 2=#75ad47
+palette = 3=#d09214
+palette = 4=#50a4e9
+palette = 5=#cc83e3
+palette = 6=#00b298
+palette = 7=#adb0bb
+palette = 8=#576176
+palette = 9=#faa5ab
+palette = 10=#a5cd84
+palette = 11=#efbd58
+palette = 12=#8dc3f1
+palette = 13=#deaeed
+palette = 14=#27ffdf
+palette = 15=#caccd3
+background = #1a1d23
+foreground = #9b9fa9
+cursor-color = #caccd3
+cursor-text = #111317
+selection-background = #9b9fa9
+selection-foreground = #1a1d23

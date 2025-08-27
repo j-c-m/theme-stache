@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Windows 95 Light
+# Author:   Fergus Collins (https://github.com/ferguscollins)
+# Variant:  light
+
+palette = 0=#fcfcfc
+palette = 1=#a80000
+palette = 2=#00a800
+palette = 3=#a85400
+palette = 4=#0000a8
+palette = 5=#a800a8
+palette = 6=#00a8a8
+palette = 7=#545454
+palette = 8=#a8a8a8
+palette = 9=#a80000
+palette = 10=#00a800
+palette = 11=#a85400
+palette = 12=#0000a8
+palette = 13=#a800a8
+palette = 14=#00a8a8
+palette = 15=#000000
+background = #fcfcfc
+foreground = #545454
+cursor-color = #545454
+cursor-text = #fcfcfc
+selection-background = #2a2a2a
+selection-foreground = #e0e0e0

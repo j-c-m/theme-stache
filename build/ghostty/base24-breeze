@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Breeze
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#31363b
+palette = 1=#ed1515
+palette = 2=#11d116
+palette = 3=#3daee9
+palette = 4=#1d99f3
+palette = 5=#9b59b6
+palette = 6=#1abc9c
+palette = 7=#d3d7d8
+palette = 8=#9ba5a6
+palette = 9=#c0392b
+palette = 10=#1cdc9a
+palette = 11=#fdbc4b
+palette = 12=#3daee9
+palette = 13=#8e44ad
+palette = 14=#16a085
+palette = 15=#fcfcfc
+background = #31363b
+foreground = #d3d7d8
+cursor-color = #d3d7d8
+cursor-text = #31363b
+selection-background = #eff0f1
+selection-foreground = #31363b

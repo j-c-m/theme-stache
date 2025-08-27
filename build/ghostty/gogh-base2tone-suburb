@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Suburb
+# Author:   
+# Variant:  dark
+
+palette = 0=#1e202f
+palette = 1=#7586f5
+palette = 2=#fb6fa9
+palette = 3=#ffb3d2
+palette = 4=#8696fd
+palette = 5=#fb6fa9
+palette = 6=#a0acfe
+palette = 7=#878ba6
+palette = 8=#4f5472
+palette = 9=#fe81b5
+palette = 10=#292c3d
+palette = 11=#444864
+palette = 12=#5b6080
+palette = 13=#d2d8fe
+palette = 14=#f764a1
+palette = 15=#ebedff
+background = #1e202f
+foreground = #878ba6
+cursor-color = #d14781
+cursor-text = #1e202f
+selection-background = #878ba6
+selection-foreground = #1e202f

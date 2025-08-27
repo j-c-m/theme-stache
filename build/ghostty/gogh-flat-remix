@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Flat Remix
+# Author:   
+# Variant:  dark
+
+palette = 0=#1f2229
+palette = 1=#d41919
+palette = 2=#5ebdab
+palette = 3=#fea44c
+palette = 4=#367bf0
+palette = 5=#bf2e5d
+palette = 6=#49aee6
+palette = 7=#e6e6e6
+palette = 8=#8c42ab
+palette = 9=#ec0101
+palette = 10=#47d4b9
+palette = 11=#ff8a18
+palette = 12=#277fff
+palette = 13=#d71655
+palette = 14=#05a1f7
+palette = 15=#ffffff
+background = #272a34
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #1f2229
+selection-background = #ffffff
+selection-foreground = #272a34

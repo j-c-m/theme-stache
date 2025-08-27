@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Oceanic-Next
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#152b34
+palette = 1=#eb5f66
+palette = 2=#99c693
+palette = 3=#fac762
+palette = 4=#6698cb
+palette = 5=#c493c4
+palette = 6=#5fb2b2
+palette = 7=#fefefe
+palette = 8=#65727d
+palette = 9=#eb5f66
+palette = 10=#99c693
+palette = 11=#fac762
+palette = 12=#6698cb
+palette = 13=#c493c4
+palette = 14=#5fb2b2
+palette = 15=#fefefe
+background = #152b34
+foreground = #c0c4cd
+cursor-color = #c0c4cd
+cursor-text = #152b34
+selection-background = #4f5a65
+selection-foreground = #c0c4cd

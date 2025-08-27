@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    London Tube
+# Author:   Jan T. Sott
+# Variant:  dark
+
+palette = 0=#231f20
+palette = 1=#ee2e24
+palette = 2=#00853e
+palette = 3=#ffd204
+palette = 4=#009ddc
+palette = 5=#98005d
+palette = 6=#85cebc
+palette = 7=#d9d8d8
+palette = 8=#737171
+palette = 9=#ee2e24
+palette = 10=#00853e
+palette = 11=#ffd204
+palette = 12=#009ddc
+palette = 13=#98005d
+palette = 14=#85cebc
+palette = 15=#ffffff
+background = #231f20
+foreground = #d9d8d8
+cursor-color = #d9d8d8
+cursor-text = #231f20
+selection-background = #e7e7e8
+selection-foreground = #1c3f95

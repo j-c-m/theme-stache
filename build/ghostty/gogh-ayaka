@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ayaka
+# Author:   Ruhannn (https://github.com/ruhannn)
+# Variant:  dark
+
+palette = 0=#36283d
+palette = 1=#71ade9
+palette = 2=#ab8cae
+palette = 3=#9ea0d3
+palette = 4=#8bb8e9
+palette = 5=#e1b4ce
+palette = 6=#cedaeb
+palette = 7=#9098a4
+palette = 8=#71ade9
+palette = 9=#ab8cae
+palette = 10=#e59db1
+palette = 11=#9ea0d3
+palette = 12=#8bb8e9
+palette = 13=#e1b4ce
+palette = 14=#cedaeb
+palette = 15=#fffefe
+background = #36283d
+foreground = #cedaeb
+cursor-color = #cedaeb
+cursor-text = #36283d
+selection-background = #cedaeb
+selection-foreground = #36283d

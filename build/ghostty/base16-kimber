@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Kimber
+# Author:   Mishka Nguyen (https://github.com/akhsiM)
+# Variant:  dark
+
+palette = 0=#222222
+palette = 1=#c88c8c
+palette = 2=#99c899
+palette = 3=#d8b56d
+palette = 4=#537c9c
+palette = 5=#86cacd
+palette = 6=#78b4b4
+palette = 7=#dedee7
+palette = 8=#644646
+palette = 9=#c88c8c
+palette = 10=#99c899
+palette = 11=#d8b56d
+palette = 12=#537c9c
+palette = 13=#86cacd
+palette = 14=#78b4b4
+palette = 15=#ffffe6
+background = #222222
+foreground = #dedee7
+cursor-color = #dedee7
+cursor-text = #222222
+selection-background = #c3c3b4
+selection-foreground = #313131

@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    IRIX Console
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#191919
+palette = 1=#d42426
+palette = 2=#36a226
+palette = 3=#c19c27
+palette = 4=#0738e1
+palette = 5=#911f9c
+palette = 6=#4496de
+palette = 7=#cccbcb
+palette = 8=#767575
+palette = 9=#f34e59
+palette = 10=#44c730
+palette = 11=#f9f1a7
+palette = 12=#3f78ff
+palette = 13=#c21ba2
+palette = 14=#6ed7d6
+palette = 15=#f2f1f1
+background = #0c0b0b
+foreground = #f2f2f2
+cursor-color = #c7c7c7
+cursor-text = #191919
+selection-background = #c1ddff
+selection-foreground = #000000

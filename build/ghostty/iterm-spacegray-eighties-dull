@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    SpaceGray Eighties Dull
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#15171c
+palette = 1=#b14956
+palette = 2=#91b377
+palette = 3=#c6725a
+palette = 4=#7b8fa4
+palette = 5=#a5779e
+palette = 6=#7fcccb
+palette = 7=#b2b8c2
+palette = 8=#555555
+palette = 9=#ec5f67
+palette = 10=#88e985
+palette = 11=#fdc253
+palette = 12=#5485c0
+palette = 13=#bf83c0
+palette = 14=#58c2c0
+palette = 15=#ffffff
+background = #212121
+foreground = #c8c5bc
+cursor-color = #bbbbbb
+cursor-text = #15171c
+selection-background = #262e36
+selection-foreground = #ffffff

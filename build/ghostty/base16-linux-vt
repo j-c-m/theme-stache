@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Linux VT
+# Author:   j-c-m (https://github.com/j-c-m/)
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#aa0000
+palette = 2=#00aa00
+palette = 3=#ffff55
+palette = 4=#5555ff
+palette = 5=#ff55ff
+palette = 6=#00aaaa
+palette = 7=#aaaaaa
+palette = 8=#555555
+palette = 9=#aa0000
+palette = 10=#00aa00
+palette = 11=#ffff55
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#00aaaa
+palette = 15=#ffffff
+background = #000000
+foreground = #aaaaaa
+cursor-color = #aaaaaa
+cursor-text = #000000
+selection-background = #cccccc
+selection-foreground = #333333

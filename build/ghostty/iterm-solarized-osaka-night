@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    solarized-osaka-night
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#15151e
+palette = 1=#f6768d
+palette = 2=#9ecd69
+palette = 3=#e0af67
+palette = 4=#79a1f7
+palette = 5=#ba99f7
+palette = 6=#7dcefe
+palette = 7=#a9b0d6
+palette = 8=#414768
+palette = 9=#f6768d
+palette = 10=#9ecd69
+palette = 11=#e0af67
+palette = 12=#79a1f7
+palette = 13=#ba99f7
+palette = 14=#7dcefe
+palette = 15=#c0c9f5
+background = #1a1a26
+foreground = #c0c9f5
+cursor-color = #c0c9f5
+cursor-text = #15151e
+selection-background = #273357
+selection-foreground = #c0c9f5

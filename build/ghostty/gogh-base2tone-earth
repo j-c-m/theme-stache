@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Earth
+# Author:   
+# Variant:  dark
+
+palette = 0=#322d29
+palette = 1=#816d5f
+palette = 2=#d9b154
+palette = 3=#fcc440
+palette = 4=#88786d
+palette = 5=#d9b154
+palette = 6=#967e6e
+palette = 7=#b5a9a1
+palette = 8=#6a5f58
+palette = 9=#e6b84d
+palette = 10=#3f3a37
+palette = 11=#5b534d
+palette = 12=#796b63
+palette = 13=#dfb99f
+palette = 14=#cda956
+palette = 15=#fff3eb
+background = #322d29
+foreground = #b5a9a1
+cursor-color = #9c8349
+cursor-text = #322d29
+selection-background = #b5a9a1
+selection-foreground = #322d29

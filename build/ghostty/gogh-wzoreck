@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Wzoreck
+# Author:   
+# Variant:  dark
+
+palette = 0=#2e3436
+palette = 1=#fc6386
+palette = 2=#a9dc76
+palette = 3=#fce94f
+palette = 4=#fb976b
+palette = 5=#75507b
+palette = 6=#34e2e2
+palette = 7=#ffffff
+palette = 8=#989595
+palette = 9=#fc6386
+palette = 10=#a9dc76
+palette = 11=#fce94f
+palette = 12=#fb976b
+palette = 13=#ab9df2
+palette = 14=#34e2e2
+palette = 15=#d1d1c0
+background = #424043
+foreground = #fcfcfa
+cursor-color = #fcfcfa
+cursor-text = #2e3436
+selection-background = #fcfcfa
+selection-foreground = #424043

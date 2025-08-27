@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Monokai Pro Spectrum
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#212121
+palette = 1=#fb618d
+palette = 2=#7bd78e
+palette = 3=#fbe566
+palette = 4=#fc9253
+palette = 5=#948ae2
+palette = 6=#5ad3e5
+palette = 7=#f7f0ff
+palette = 8=#69666c
+palette = 9=#fb618d
+palette = 10=#7bd78e
+palette = 11=#fbe566
+palette = 12=#fc9253
+palette = 13=#948ae2
+palette = 14=#5ad3e5
+palette = 15=#f7f0ff
+background = #212121
+foreground = #f7f0ff
+cursor-color = #b9b6c0
+cursor-text = #212121
+selection-background = #525053
+selection-foreground = #f7f0ff

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Cai
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ca274d
+palette = 2=#4dca27
+palette = 3=#caa427
+palette = 4=#274dca
+palette = 5=#a427ca
+palette = 6=#27caa4
+palette = 7=#808080
+palette = 8=#808080
+palette = 9=#e98da3
+palette = 10=#a3e98d
+palette = 11=#e9d48d
+palette = 12=#8da3e9
+palette = 13=#d48de9
+palette = 14=#8de9d4
+palette = 15=#ffffff
+background = #09111a
+foreground = #d9e6f2
+cursor-color = #d9e6f2
+cursor-text = #000000
+selection-background = #d9e6f2
+selection-foreground = #09111a

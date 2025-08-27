@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Ghostty Default StyleDark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#1c1f21
+palette = 1=#cc6566
+palette = 2=#b5bd68
+palette = 3=#efc674
+palette = 4=#81a1bd
+palette = 5=#b193ba
+palette = 6=#89beb7
+palette = 7=#c4c8c5
+palette = 8=#666565
+palette = 9=#d44d52
+palette = 10=#b8c94a
+palette = 11=#e6c447
+palette = 12=#79a6da
+palette = 13=#c297d8
+palette = 14=#70bfb0
+palette = 15=#eae9e9
+background = #282c33
+foreground = #fefefe
+cursor-color = #fefefe
+cursor-text = #1c1f21
+selection-background = #fefefe
+selection-foreground = #282c33

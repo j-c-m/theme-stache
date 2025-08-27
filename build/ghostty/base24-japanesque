@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Japanesque
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1d1d1d
+palette = 1=#ce3e60
+palette = 2=#7bb75b
+palette = 3=#135879
+palette = 4=#4c99d3
+palette = 5=#a57fc4
+palette = 6=#389aac
+palette = 7=#d0d2ce
+palette = 8=#80827f
+palette = 9=#d18ea6
+palette = 10=#767e2b
+palette = 11=#77592e
+palette = 12=#135879
+palette = 13=#5f4190
+palette = 14=#76bbca
+palette = 15=#b1b5ae
+background = #1d1d1d
+foreground = #d0d2ce
+cursor-color = #d0d2ce
+cursor-text = #1d1d1d
+selection-background = #f9faf6
+selection-foreground = #343835

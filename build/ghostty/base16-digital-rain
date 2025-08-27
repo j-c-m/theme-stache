@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Digital Rain
+# Author:   Nathan Byrd (https://github.com/cognitivegears)
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#c85a46
+palette = 2=#64c83c
+palette = 3=#a67a50
+palette = 4=#5482af
+palette = 5=#9472b4
+palette = 6=#468c78
+palette = 7=#00ff00
+palette = 8=#7c8d7c
+palette = 9=#c85a46
+palette = 10=#64c83c
+palette = 11=#a67a50
+palette = 12=#5482af
+palette = 13=#9472b4
+palette = 14=#468c78
+palette = 15=#d8e2dc
+background = #000000
+foreground = #00ff00
+cursor-color = #00ff00
+cursor-text = #000000
+selection-background = #c4cec4
+selection-foreground = #4a806c

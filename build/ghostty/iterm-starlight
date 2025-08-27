@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    starlight
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#242323
+palette = 1=#f52b59
+palette = 2=#47b312
+palette = 3=#e3c400
+palette = 4=#24abd4
+palette = 5=#f1aefd
+palette = 6=#13c198
+palette = 7=#e6e5e5
+palette = 8=#616060
+palette = 9=#fe4d50
+palette = 10=#35d34f
+palette = 11=#e9e735
+palette = 12=#5dc4f8
+palette = 13=#fdaaf2
+palette = 14=#24dec4
+palette = 15=#fefefe
+background = #242323
+foreground = #fefefe
+cursor-color = #fefefe
+cursor-text = #242323
+selection-background = #fefefe
+selection-foreground = #242323

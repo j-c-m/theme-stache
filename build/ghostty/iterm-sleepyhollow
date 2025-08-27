@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    SleepyHollow
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#572000
+palette = 1=#b93934
+palette = 2=#90773e
+palette = 3=#b45600
+palette = 4=#5e62b4
+palette = 5=#a07c7b
+palette = 6=#8eaea9
+palette = 7=#af9a91
+palette = 8=#4e4b60
+palette = 9=#d9443e
+palette = 10=#d6b04e
+palette = 11=#f66713
+palette = 12=#8085ef
+palette = 13=#e1c2ba
+palette = 14=#a4dbe7
+palette = 15=#d1c7a9
+background = #121213
+foreground = #af9a91
+cursor-color = #af9a91
+cursor-text = #572000
+selection-background = #575155
+selection-foreground = #d1c7a9

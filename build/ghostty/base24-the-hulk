@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    The Hulk
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1b1d1e
+palette = 1=#259d1a
+palette = 2=#13ce2f
+palette = 3=#4f6a95
+palette = 4=#2424f4
+palette = 5=#641e73
+palette = 6=#378ca9
+palette = 7=#b6b6b1
+palette = 8=#727473
+palette = 9=#8dff2a
+palette = 10=#48ff76
+palette = 11=#3afe15
+palette = 12=#4f6a95
+palette = 13=#72579d
+palette = 14=#3f85a5
+palette = 15=#e5e5e0
+background = #1b1d1e
+foreground = #b6b6b1
+cursor-color = #b6b6b1
+cursor-text = #1b1d1e
+selection-background = #d8d8d0
+selection-foreground = #1b1d1e

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Kanagawa Dragon
+# Author:   Tommaso Laurenzi (https://github.com/rebelot)
+# Variant:  dark
+
+palette = 0=#0d0c0c
+palette = 1=#c4746e
+palette = 2=#87a987
+palette = 3=#c4b28a
+palette = 4=#8ba4b0
+palette = 5=#8992a7
+palette = 6=#8ea4a2
+palette = 7=#c5c9c5
+palette = 8=#737c73
+palette = 9=#c4746e
+palette = 10=#87a987
+palette = 11=#c4b28a
+palette = 12=#8ba4b0
+palette = 13=#8992a7
+palette = 14=#8ea4a2
+palette = 15=#c5c9c5
+background = #0d0c0c
+foreground = #c5c9c5
+cursor-color = #c5c9c5
+cursor-text = #0d0c0c
+selection-background = #7a8382
+selection-foreground = #1d1c19

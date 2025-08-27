@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Havn Skumring
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#242c46
+palette = 1=#ea553e
+palette = 2=#6dac7a
+palette = 3=#f8b330
+palette = 4=#596bf7
+palette = 5=#7b719d
+palette = 6=#d488c1
+palette = 7=#dce0ee
+palette = 8=#1f2841
+palette = 9=#d07263
+palette = 10=#8b9d8e
+palette = 11=#eac48b
+palette = 12=#5086cb
+palette = 13=#9a7bee
+palette = 14=#d079b5
+palette = 15=#fef5e0
+background = #111521
+foreground = #d6dbeb
+cursor-color = #27796e
+cursor-text = #242c46
+selection-background = #2b514a
+selection-foreground = #dbdfef

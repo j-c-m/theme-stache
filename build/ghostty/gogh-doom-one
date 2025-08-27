@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Doom One
+# Author:   Henrik Lissner
+# Variant:  dark
+
+palette = 0=#1b2229
+palette = 1=#ff6c6b
+palette = 2=#98be65
+palette = 3=#ecbe7b
+palette = 4=#2257a0
+palette = 5=#a9a1e1
+palette = 6=#5699af
+palette = 7=#5b6268
+palette = 8=#3f444a
+palette = 9=#da8548
+palette = 10=#4db5bd
+palette = 11=#ecbe7b
+palette = 12=#51afef
+palette = 13=#c678dd
+palette = 14=#46d9ff
+palette = 15=#bbc2cf
+background = #21242b
+foreground = #5b6268
+cursor-color = #5b6268
+cursor-text = #1b2229
+selection-background = #5b6268
+selection-foreground = #21242b

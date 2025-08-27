@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Monokai Pro Octagon
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#282a3a
+palette = 1=#ff6579
+palette = 2=#b9d661
+palette = 3=#ffd66d
+palette = 4=#ff9b5e
+palette = 5=#c399c8
+palette = 6=#9cd0ba
+palette = 7=#e9f1f0
+palette = 8=#696d77
+palette = 9=#ff6579
+palette = 10=#b9d661
+palette = 11=#ffd66d
+palette = 12=#ff9b5e
+palette = 13=#c399c8
+palette = 14=#9cd0ba
+palette = 15=#e9f1f0
+background = #282a3a
+foreground = #e9f1f0
+cursor-color = #b2b9bd
+cursor-text = #282a3a
+selection-background = #535762
+selection-foreground = #e9f1f0

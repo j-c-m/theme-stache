@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ura
+# Author:   
+# Variant:  light
+
+palette = 0=#000000
+palette = 1=#c21b6f
+palette = 2=#6fc21b
+palette = 3=#c26f1b
+palette = 4=#1b6fc2
+palette = 5=#6f1bc2
+palette = 6=#1bc26f
+palette = 7=#808080
+palette = 8=#808080
+palette = 9=#ee84b9
+palette = 10=#b9ee84
+palette = 11=#eeb984
+palette = 12=#84b9ee
+palette = 13=#b984ee
+palette = 14=#84eeb9
+palette = 15=#e5e5e5
+background = #feffee
+foreground = #23476a
+cursor-color = #23476a
+cursor-text = #000000
+selection-background = #23476a
+selection-foreground = #feffee

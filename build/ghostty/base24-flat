@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Flat
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#082845
+palette = 1=#a82320
+palette = 2=#2d9440
+palette = 3=#3c7dd2
+palette = 4=#3167ac
+palette = 5=#781aa0
+palette = 6=#2c9370
+palette = 7=#8c939a
+palette = 8=#444e5b
+palette = 9=#d4312e
+palette = 10=#32a548
+palette = 11=#e5be0c
+palette = 12=#3c7dd2
+palette = 13=#8230a7
+palette = 14=#35b387
+palette = 15=#e7eced
+background = #082845
+foreground = #8c939a
+cursor-color = #8c939a
+cursor-text = #082845
+selection-background = #b0b6ba
+selection-foreground = #1d2845

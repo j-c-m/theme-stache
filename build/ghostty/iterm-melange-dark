@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Melange_dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#33302b
+palette = 1=#bd8183
+palette = 2=#78997a
+palette = 3=#e39a5c
+palette = 4=#7e90b1
+palette = 5=#b380af
+palette = 6=#7a9695
+palette = 7=#c1a68e
+palette = 8=#857362
+palette = 9=#d47766
+palette = 10=#84b695
+palette = 11=#eac06d
+palette = 12=#a3a9cd
+palette = 13=#ce9ac1
+palette = 14=#88b3b6
+palette = 15=#ebe0d6
+background = #282521
+foreground = #ebe0d6
+cursor-color = #ebe0d6
+cursor-text = #33302b
+selection-background = #ebe0d6
+selection-foreground = #3f3a35

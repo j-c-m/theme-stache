@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Grape
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#161423
+palette = 1=#ec2160
+palette = 2=#1fa91b
+palette = 3=#a9bbeb
+palette = 4=#487cf4
+palette = 5=#8c35c8
+palette = 6=#3added
+palette = 7=#8c8a92
+palette = 8=#696377
+palette = 9=#f0719a
+palette = 10=#52a95d
+palette = 11=#b2dc87
+palette = 12=#a9bbeb
+palette = 13=#ac81c1
+palette = 14=#9ce3ea
+palette = 15=#a188f7
+background = #161423
+foreground = #8c8a92
+cursor-color = #8c8a92
+cursor-text = #161423
+selection-background = #9e9ea0
+selection-foreground = #2d283e

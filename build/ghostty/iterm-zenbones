@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    zenbones
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#f0edec
+palette = 1=#a8334c
+palette = 2=#4f6c31
+palette = 3=#944926
+palette = 4=#286386
+palette = 5=#88507c
+palette = 6=#3b8992
+palette = 7=#2b353b
+palette = 8=#cfc1ba
+palette = 9=#94253e
+palette = 10=#3f5a21
+palette = 11=#803c1b
+palette = 12=#1c5573
+palette = 13=#7b3b70
+palette = 14=#2b747c
+palette = 15=#4f5e68
+background = #f0edec
+foreground = #2b353b
+cursor-color = #2b353b
+cursor-text = #f0edec
+selection-background = #cbd9e3
+selection-foreground = #2b353b

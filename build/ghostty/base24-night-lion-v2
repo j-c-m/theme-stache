@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Night Lion V2
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#171717
+palette = 1=#bb0000
+palette = 2=#03f622
+palette = 3=#62cae7
+palette = 4=#63d0f0
+palette = 5=#ce6fda
+palette = 6=#00d9df
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#ff5555
+palette = 10=#7df61c
+palette = 11=#ffff55
+palette = 12=#62cae7
+palette = 13=#ff9af5
+palette = 14=#00ccd7
+palette = 15=#ffffff
+background = #171717
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #171717
+selection-background = #bbbbbb
+selection-foreground = #4c4c4c

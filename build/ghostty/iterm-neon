@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Neon
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ff3045
+palette = 2=#5ff974
+palette = 3=#fffc7e
+palette = 4=#0208cb
+palette = 5=#f923e6
+palette = 6=#00fffc
+palette = 7=#c7c7c7
+palette = 8=#676767
+palette = 9=#ff5a5a
+palette = 10=#75ff87
+palette = 11=#fffc95
+palette = 12=#3b40ca
+palette = 13=#f15ae4
+palette = 14=#88fffd
+palette = 15=#fffefe
+background = #14161a
+foreground = #00fffc
+cursor-color = #c7c7c7
+cursor-text = #000000
+selection-background = #0012ff
+selection-foreground = #08d1cf

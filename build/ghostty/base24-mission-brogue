@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Mission Brogue
+# Author:   Thomas Leon Highbaugh
+# Variant:  dark
+
+palette = 0=#283139
+palette = 1=#efa9a9
+palette = 2=#8cd4b0
+palette = 3=#e0b88a
+palette = 4=#a2c5fd
+palette = 5=#ccb7db
+palette = 6=#93dfec
+palette = 7=#93a5b4
+palette = 8=#60778a
+palette = 9=#f6bfbf
+palette = 10=#b5e090
+palette = 11=#fff0b2
+palette = 12=#c3d9fd
+palette = 13=#e3c3e6
+palette = 14=#b2f0fd
+palette = 15=#e7ebee
+background = #283139
+foreground = #93a5b4
+cursor-color = #93a5b4
+cursor-text = #283139
+selection-background = #abb9c4
+selection-foreground = #3b4954

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Summer Pop
+# Author:   
+# Variant:  dark
+
+palette = 0=#666666
+palette = 1=#ff1e8e
+palette = 2=#8eff1e
+palette = 3=#fffb00
+palette = 4=#1e8eff
+palette = 5=#e500e5
+palette = 6=#00e5e5
+palette = 7=#e5e5e5
+palette = 8=#666666
+palette = 9=#ff1e8e
+palette = 10=#8eff1e
+palette = 11=#fffb00
+palette = 12=#1e8eff
+palette = 13=#e500e5
+palette = 14=#00e5e5
+palette = 15=#e5e5e5
+background = #272822
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #666666
+selection-background = #ffffff
+selection-foreground = #272822

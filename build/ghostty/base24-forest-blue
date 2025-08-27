@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Forest Blue
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#051519
+palette = 1=#f8818e
+palette = 2=#92d3a2
+palette = 3=#39a7a2
+palette = 4=#8ed0ce
+palette = 5=#5e468c
+palette = 6=#31658c
+palette = 7=#b8b1a9
+palette = 8=#666361
+palette = 9=#fb3d66
+palette = 10=#6bb48d
+palette = 11=#2fc859
+palette = 12=#39a7a2
+palette = 13=#7e62b3
+palette = 14=#6096bf
+palette = 15=#e2d8cd
+background = #051519
+foreground = #b8b1a9
+cursor-color = #b8b1a9
+cursor-text = #051519
+selection-background = #e2d8cd
+selection-foreground = #333333

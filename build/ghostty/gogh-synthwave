@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Synthwave
+# Author:   
+# Variant:  dark
+
+palette = 0=#011627
+palette = 1=#fe4450
+palette = 2=#72f1b8
+palette = 3=#fede5d
+palette = 4=#03edf9
+palette = 5=#ff7edb
+palette = 6=#03edf9
+palette = 7=#ffffff
+palette = 8=#575656
+palette = 9=#fe4450
+palette = 10=#72f1b8
+palette = 11=#fede5d
+palette = 12=#03edf9
+palette = 13=#ff7edb
+palette = 14=#03edf9
+palette = 15=#ffffff
+background = #262335
+foreground = #ffffff
+cursor-color = #03edf9
+cursor-text = #011627
+selection-background = #ffffff
+selection-foreground = #262335

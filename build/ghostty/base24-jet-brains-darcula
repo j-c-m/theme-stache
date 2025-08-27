@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Jet Brains Darcula
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#202020
+palette = 1=#fa5355
+palette = 2=#126e00
+palette = 3=#6d9df1
+palette = 4=#4581eb
+palette = 5=#fa54ff
+palette = 6=#33c2c1
+palette = 7=#979797
+palette = 8=#6b6b6b
+palette = 9=#fb7172
+palette = 10=#67ff4f
+palette = 11=#ffff00
+palette = 12=#6d9df1
+palette = 13=#fb82ff
+palette = 14=#60d3d1
+palette = 15=#eeeeee
+background = #202020
+foreground = #979797
+cursor-color = #979797
+cursor-text = #202020
+selection-background = #adadad
+selection-foreground = #000000

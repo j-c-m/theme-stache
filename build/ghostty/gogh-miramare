@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Miramare
+# Author:   
+# Variant:  dark
+
+palette = 0=#242021
+palette = 1=#e68183
+palette = 2=#a7c080
+palette = 3=#d9bb80
+palette = 4=#89beba
+palette = 5=#d3a0bc
+palette = 6=#87c095
+palette = 7=#d8caac
+palette = 8=#444444
+palette = 9=#e39b7b
+palette = 10=#a7c080
+palette = 11=#d9bb80
+palette = 12=#89beba
+palette = 13=#d3a0bc
+palette = 14=#87c095
+palette = 15=#e6d6ac
+background = #2a2426
+foreground = #e6d6ac
+cursor-color = #e6d6ac
+cursor-text = #242021
+selection-background = #e6d6ac
+selection-foreground = #2a2426

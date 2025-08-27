@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Monokai Classic
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#272821
+palette = 1=#f82571
+palette = 2=#a6e12e
+palette = 3=#e5da74
+palette = 4=#fc961f
+palette = 5=#ae80ff
+palette = 6=#66d9ef
+palette = 7=#fcfff0
+palette = 8=#6d7066
+palette = 9=#f82571
+palette = 10=#a6e12e
+palette = 11=#e5da74
+palette = 12=#fc961f
+palette = 13=#ae80ff
+palette = 14=#66d9ef
+palette = 15=#fcfff0
+background = #272821
+foreground = #fcfff0
+cursor-color = #c0c1b5
+cursor-text = #272821
+selection-background = #57574f
+selection-foreground = #fcfff0

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Palenight
+# Author:   
+# Variant:  dark
+
+palette = 0=#292d3e
+palette = 1=#f07178
+palette = 2=#c3e88d
+palette = 3=#ffcb6b
+palette = 4=#82aaff
+palette = 5=#c792ea
+palette = 6=#60adec
+palette = 7=#abb2bf
+palette = 8=#959dcb
+palette = 9=#f07178
+palette = 10=#c3e88d
+palette = 11=#ff5572
+palette = 12=#82aaff
+palette = 13=#ffcb6b
+palette = 14=#676e95
+palette = 15=#fffefe
+background = #292d3e
+foreground = #bfc7d5
+cursor-color = #bfc7d5
+cursor-text = #292d3e
+selection-background = #bfc7d5
+selection-foreground = #292d3e

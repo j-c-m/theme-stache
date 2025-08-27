@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Flat
+# Author:   
+# Variant:  dark
+
+palette = 0=#2c3e50
+palette = 1=#c0392b
+palette = 2=#27ae60
+palette = 3=#f39c12
+palette = 4=#2980b9
+palette = 5=#8e44ad
+palette = 6=#16a085
+palette = 7=#bdc3c7
+palette = 8=#34495e
+palette = 9=#e74c3c
+palette = 10=#2ecc71
+palette = 11=#f1c40f
+palette = 12=#3498db
+palette = 13=#9b59b6
+palette = 14=#2aa198
+palette = 15=#ecf0f1
+background = #1f2d3a
+foreground = #1abc9c
+cursor-color = #1abc9c
+cursor-text = #2c3e50
+selection-background = #1abc9c
+selection-foreground = #1f2d3a

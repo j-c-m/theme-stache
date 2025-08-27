@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Dracula
+# Author:   Dracula (https://draculatheme.com)
+# Variant:  dark
+
+palette = 0=#262626
+palette = 1=#e64747
+palette = 2=#42e66c
+palette = 3=#e4f34a
+palette = 4=#9b6bdf
+palette = 5=#e356a7
+palette = 6=#75d7ec
+palette = 7=#f8f8f2
+palette = 8=#7a7a7a
+palette = 9=#ff5555
+palette = 10=#50fa7b
+palette = 11=#f1fa8c
+palette = 12=#bd93f9
+palette = 13=#ff79c6
+palette = 14=#8be9fd
+palette = 15=#f9f9fb
+background = #282a36
+foreground = #f8f8f2
+cursor-color = #f8f8f2
+cursor-text = #262626
+selection-background = #f8f8f2
+selection-foreground = #282a36

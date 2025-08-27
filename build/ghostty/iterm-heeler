@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    heeler
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#e44b2e
+palette = 2=#bdd000
+palette = 3=#f4cd64
+palette = 4=#5ba4f2
+palette = 5=#fe94c2
+palette = 6=#fe9763
+palette = 7=#fefefe
+palette = 8=#000000
+palette = 9=#e44b2e
+palette = 10=#bdd000
+palette = 11=#f4cd64
+palette = 12=#0088fe
+palette = 13=#fe94c2
+palette = 14=#8da5e3
+palette = 15=#fefefe
+background = #211e46
+foreground = #fcfcfc
+cursor-color = #fefefe
+cursor-text = #000000
+selection-background = #2b2b41
+selection-foreground = #2efe58

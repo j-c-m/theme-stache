@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Chameleon
+# Author:   
+# Variant:  dark
+
+palette = 0=#2c2c2c
+palette = 1=#cc231c
+palette = 2=#689d69
+palette = 3=#d79922
+palette = 4=#366b71
+palette = 5=#4e5165
+palette = 6=#458587
+palette = 7=#c8bb97
+palette = 8=#777777
+palette = 9=#cc231c
+palette = 10=#689d69
+palette = 11=#d79922
+palette = 12=#366b71
+palette = 13=#4e5165
+palette = 14=#458587
+palette = 15=#c8bb97
+background = #2c2c2c
+foreground = #dedede
+cursor-color = #dedede
+cursor-text = #2c2c2c
+selection-background = #dedede
+selection-foreground = #2c2c2c

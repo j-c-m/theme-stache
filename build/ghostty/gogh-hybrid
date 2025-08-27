@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Hybrid
+# Author:   
+# Variant:  dark
+
+palette = 0=#282a2e
+palette = 1=#a54242
+palette = 2=#8c9440
+palette = 3=#de935f
+palette = 4=#5f819d
+palette = 5=#85678f
+palette = 6=#5e8d87
+palette = 7=#969896
+palette = 8=#373b41
+palette = 9=#cc6666
+palette = 10=#b5bd68
+palette = 11=#f0c674
+palette = 12=#81a2be
+palette = 13=#b294bb
+palette = 14=#8abeb7
+palette = 15=#c5c8c6
+background = #141414
+foreground = #94a3a5
+cursor-color = #94a3a5
+cursor-text = #282a2e
+selection-background = #94a3a5
+selection-foreground = #141414

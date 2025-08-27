@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Geohot
+# Author:   
+# Variant:  dark
+
+palette = 0=#f9f5f5
+palette = 1=#cc0000
+palette = 2=#1f1e1f
+palette = 3=#ada110
+palette = 4=#ff004e
+palette = 5=#75507b
+palette = 6=#06919a
+palette = 7=#ffffff
+palette = 8=#555753
+palette = 9=#ef2929
+palette = 10=#ff0000
+palette = 11=#ada110
+palette = 12=#5f4aa6
+palette = 13=#b74438
+palette = 14=#408f0c
+palette = 15=#ffffff
+background = #1f1e1f
+foreground = #ffffff
+cursor-color = #ffffff
+cursor-text = #f9f5f5
+selection-background = #ffffff
+selection-foreground = #1f1e1f

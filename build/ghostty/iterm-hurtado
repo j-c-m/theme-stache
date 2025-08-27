@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Hurtado
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#575757
+palette = 1=#ff1b00
+palette = 2=#a5df55
+palette = 3=#fbe74a
+palette = 4=#486387
+palette = 5=#fc5ef0
+palette = 6=#85e9fe
+palette = 7=#cbcbcb
+palette = 8=#252525
+palette = 9=#d41c00
+palette = 10=#a5df55
+palette = 11=#fbe749
+palette = 12=#89bdff
+palette = 13=#bf00c0
+palette = 14=#85e9fe
+palette = 15=#dbdbdb
+background = #000000
+foreground = #dadbda
+cursor-color = #bbbbbb
+cursor-text = #575757
+selection-background = #b4d5ff
+selection-foreground = #000000

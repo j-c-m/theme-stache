@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Motel
+# Author:   
+# Variant:  dark
+
+palette = 0=#242323
+palette = 1=#956f76
+palette = 2=#f8917c
+palette = 3=#ffc8bd
+palette = 4=#a7868b
+palette = 5=#f8917c
+palette = 6=#b89da2
+palette = 7=#a5979a
+palette = 8=#766b6c
+palette = 9=#ffa28f
+palette = 10=#373434
+palette = 11=#5a5354
+palette = 12=#86797b
+palette = 13=#dec9cc
+palette = 14=#f77c64
+palette = 15=#f0dbdf
+background = #242323
+foreground = #a5979a
+cursor-color = #e24f32
+cursor-text = #242323
+selection-background = #a5979a
+selection-foreground = #242323

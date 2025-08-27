@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Heetch Dark
+# Author:   Geoffrey Teale (tealeg@gmail.com)
+# Variant:  dark
+
+palette = 0=#190134
+palette = 1=#27d9d5
+palette = 2=#c33678
+palette = 3=#8f6c97
+palette = 4=#bd0152
+palette = 5=#82034c
+palette = 6=#f80059
+palette = 7=#bdb6c5
+palette = 8=#7b6d8b
+palette = 9=#27d9d5
+palette = 10=#c33678
+palette = 11=#8f6c97
+palette = 12=#bd0152
+palette = 13=#82034c
+palette = 14=#f80059
+palette = 15=#feffff
+background = #190134
+foreground = #bdb6c5
+cursor-color = #bdb6c5
+cursor-text = #190134
+selection-background = #dedae2
+selection-foreground = #392551

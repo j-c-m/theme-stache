@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Lunaria Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#36464e
+palette = 1=#846560
+palette = 2=#809984
+palette = 3=#a79a79
+palette = 4=#555673
+palette = 5=#866c83
+palette = 6=#7e98b4
+palette = 7=#caced8
+palette = 8=#404f56
+palette = 9=#bb928b
+palette = 10=#bfdcc2
+palette = 11=#f1dfb6
+palette = 12=#777798
+palette = 13=#bf9db9
+palette = 14=#bddcff
+palette = 15=#dfe2ed
+background = #36464e
+foreground = #caced8
+cursor-color = #caced8
+cursor-text = #36464e
+selection-background = #caced8
+selection-foreground = #36464e

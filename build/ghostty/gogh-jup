@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Jup
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#dd006f
+palette = 2=#6fdd00
+palette = 3=#dd6f00
+palette = 4=#006fdd
+palette = 5=#6f00dd
+palette = 6=#00dd6f
+palette = 7=#f2f2f2
+palette = 8=#7d7d7d
+palette = 9=#ff74b9
+palette = 10=#b9ff74
+palette = 11=#ffb974
+palette = 12=#74b9ff
+palette = 13=#b974ff
+palette = 14=#74ffb9
+palette = 15=#ffffff
+background = #758480
+foreground = #23476a
+cursor-color = #23476a
+cursor-text = #000000
+selection-background = #23476a
+selection-foreground = #758480

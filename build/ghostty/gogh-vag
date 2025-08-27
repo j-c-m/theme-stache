@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Vag
+# Author:   
+# Variant:  dark
+
+palette = 0=#303030
+palette = 1=#a87139
+palette = 2=#39a871
+palette = 3=#71a839
+palette = 4=#7139a8
+palette = 5=#a83971
+palette = 6=#3971a8
+palette = 7=#8a8a8a
+palette = 8=#494949
+palette = 9=#b0763b
+palette = 10=#3bb076
+palette = 11=#76b03b
+palette = 12=#763bb0
+palette = 13=#b03b76
+palette = 14=#3b76b0
+palette = 15=#cfcfcf
+background = #191f1d
+foreground = #d9e6f2
+cursor-color = #d9e6f2
+cursor-text = #303030
+selection-background = #d9e6f2
+selection-foreground = #191f1d

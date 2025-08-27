@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Obsidian
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#273032
+palette = 1=#a50001
+palette = 2=#00bb00
+palette = 3=#a0d6ff
+palette = 4=#399bda
+palette = 5=#bb00bb
+palette = 6=#00bbbb
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#ff0003
+palette = 10=#92c763
+palette = 11=#fef773
+palette = 12=#a0d6ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+background = #273032
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #273032
+selection-background = #bbbbbb
+selection-foreground = #000000

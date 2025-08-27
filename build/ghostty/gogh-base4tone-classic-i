@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base4Tone Classic I
+# Author:   
+# Variant:  dark
+
+palette = 0=#1d201d
+palette = 1=#5c6feb
+palette = 2=#91a404
+palette = 3=#c5dc18
+palette = 4=#24cc38
+palette = 5=#23b4c7
+palette = 6=#adc115
+palette = 7=#e8ede9
+palette = 8=#080d08
+palette = 9=#929ff7
+palette = 10=#cee61a
+palette = 11=#e6f28c
+palette = 12=#b5f2bc
+palette = 13=#3ccadd
+palette = 14=#97eda1
+palette = 15=#f6f9f6
+background = #1d201d
+foreground = #949e95
+cursor-color = #83856f
+cursor-text = #1d201d
+selection-background = #949e95
+selection-foreground = #1d201d

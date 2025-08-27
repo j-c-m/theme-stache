@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Edge Light
+# Author:   cjayross (https://github.com/cjayross)
+# Variant:  light
+
+palette = 0=#fafafa
+palette = 1=#db7070
+palette = 2=#7c9f4b
+palette = 3=#d69822
+palette = 4=#6587bf
+palette = 5=#b870ce
+palette = 6=#509c93
+palette = 7=#5e646f
+palette = 8=#5e646f
+palette = 9=#db7070
+palette = 10=#7c9f4b
+palette = 11=#d69822
+palette = 12=#6587bf
+palette = 13=#b870ce
+palette = 14=#509c93
+palette = 15=#5e646f
+background = #fafafa
+foreground = #5e646f
+cursor-color = #5e646f
+cursor-text = #fafafa
+selection-background = #b870ce
+selection-foreground = #7c9f4b

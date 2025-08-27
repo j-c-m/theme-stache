@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Sparky
+# Author:   
+# Variant:  dark
+
+palette = 0=#212322
+palette = 1=#ff585d
+palette = 2=#78d64b
+palette = 3=#fbdd40
+palette = 4=#4698cb
+palette = 5=#d59ed7
+palette = 6=#2dccd3
+palette = 7=#dee6de
+palette = 8=#4b4f54
+palette = 9=#ff7276
+palette = 10=#8edd65
+palette = 11=#f6eb61
+palette = 12=#69b3e7
+palette = 13=#f99fc9
+palette = 14=#00c1d5
+palette = 15=#d9e1e2
+background = #072b31
+foreground = #f4f5f0
+cursor-color = #f4f5f0
+cursor-text = #212322
+selection-background = #f4f5f0
+selection-foreground = #072b31

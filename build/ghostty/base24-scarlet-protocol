@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Scarlet Protocol
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1b153c
+palette = 1=#ff0051
+palette = 2=#00dc84
+palette = 3=#6871ff
+palette = 4=#0271b6
+palette = 5=#c930c7
+palette = 6=#00c5c7
+palette = 7=#afafaf
+palette = 8=#7f7f7f
+palette = 9=#ff6d67
+palette = 10=#5ff967
+palette = 11=#fefb67
+palette = 12=#6871ff
+palette = 13=#bc35eb
+palette = 14=#5ffdff
+palette = 15=#feffff
+background = #1b153c
+foreground = #afafaf
+cursor-color = #afafaf
+cursor-text = #1b153c
+selection-background = #c7c7c7
+selection-foreground = #101116

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Cobalt Neon
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#142838
+palette = 1=#ff2320
+palette = 2=#3aa5ff
+palette = 3=#3c7dd2
+palette = 4=#8ff586
+palette = 5=#781aa0
+palette = 6=#8ff586
+palette = 7=#cc72a6
+palette = 8=#eeca92
+palette = 9=#d4312e
+palette = 10=#8ff586
+palette = 11=#e9f06d
+palette = 12=#3c7dd2
+palette = 13=#8230a7
+palette = 14=#6cbc67
+palette = 15=#8ff586
+background = #142838
+foreground = #cc72a6
+cursor-color = #cc72a6
+cursor-text = #142838
+selection-background = #ba45b1
+selection-foreground = #142630

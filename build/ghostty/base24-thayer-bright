@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Thayer Bright
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1b1d1e
+palette = 1=#f92672
+palette = 2=#4df740
+palette = 3=#3f78ff
+palette = 4=#2656d6
+palette = 5=#8c54fe
+palette = 6=#37c8b4
+palette = 7=#adada9
+palette = 8=#6f7170
+palette = 9=#ff5995
+palette = 10=#b6e354
+palette = 11=#feed6c
+palette = 12=#3f78ff
+palette = 13=#9e6ffe
+palette = 14=#23ced4
+palette = 15=#f8f8f2
+background = #1b1d1e
+foreground = #adada9
+cursor-color = #adada9
+cursor-text = #1b1d1e
+selection-background = #ccccc6
+selection-foreground = #1b1d1e

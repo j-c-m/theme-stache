@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Panda
+# Author:   
+# Variant:  dark
+
+palette = 0=#1f1f20
+palette = 1=#fb055a
+palette = 2=#26ffd4
+palette = 3=#fdaa5a
+palette = 4=#5c9fff
+palette = 5=#fc59a6
+palette = 6=#26ffd4
+palette = 7=#f0f0f0
+palette = 8=#5c6370
+palette = 9=#fb055a
+palette = 10=#26ffd4
+palette = 11=#febe7e
+palette = 12=#55adff
+palette = 13=#fd95d0
+palette = 14=#26ffd4
+palette = 15=#f0f0f0
+background = #1d1e20
+foreground = #f0f0f0
+cursor-color = #f0f0f0
+cursor-text = #1f1f20
+selection-background = #f0f0f0
+selection-foreground = #1d1e20

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Square
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1a1a1a
+palette = 1=#e9897c
+palette = 2=#b6377d
+palette = 3=#b6defb
+palette = 4=#a9cdeb
+palette = 5=#75507b
+palette = 6=#c9caec
+palette = 7=#bababa
+palette = 8=#4b4b4b
+palette = 9=#f99286
+palette = 10=#c3f786
+palette = 11=#fcfbcc
+palette = 12=#b6defb
+palette = 13=#ad7fa8
+palette = 14=#d7d9fc
+palette = 15=#e2e2e2
+background = #1a1a1a
+foreground = #bababa
+cursor-color = #bababa
+cursor-text = #1a1a1a
+selection-background = #f2f2f2
+selection-foreground = #050505

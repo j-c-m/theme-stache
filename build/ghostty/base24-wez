@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Wez
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#cc5555
+palette = 2=#55cc55
+palette = 3=#5555ff
+palette = 4=#5455cb
+palette = 5=#cc55cc
+palette = 6=#7acaca
+palette = 7=#aeaeae
+palette = 8=#727272
+palette = 9=#ff5555
+palette = 10=#55ff55
+palette = 11=#ffff55
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+background = #000000
+foreground = #aeaeae
+cursor-color = #aeaeae
+cursor-text = #000000
+selection-background = #cccccc
+selection-foreground = #000000

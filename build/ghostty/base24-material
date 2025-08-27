@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Material
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#eaeaea
+palette = 1=#b7141e
+palette = 2=#457b23
+palette = 3=#53a4f3
+palette = 4=#134eb2
+palette = 5=#550087
+palette = 6=#0e707c
+palette = 7=#c3c3c3
+palette = 8=#6d6d6d
+palette = 9=#e83a3f
+palette = 10=#7aba39
+palette = 11=#fee92e
+palette = 12=#53a4f3
+palette = 13=#a94dbb
+palette = 14=#26bad1
+palette = 15=#d8d8d8
+background = #eaeaea
+foreground = #c3c3c3
+cursor-color = #c3c3c3
+cursor-text = #eaeaea
+selection-background = #eeeeee
+selection-foreground = #212121

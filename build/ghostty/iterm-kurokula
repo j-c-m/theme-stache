@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    kurokula
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#333232
+palette = 1=#c35951
+palette = 2=#78b2a8
+palette = 3=#e1b917
+palette = 4=#5b91dc
+palette = 5=#8a79a6
+palette = 6=#867267
+palette = 7=#dfcfc2
+palette = 8=#515050
+palette = 9=#fec34c
+palette = 10=#aefea4
+palette = 11=#fef600
+palette = 12=#90dafe
+palette = 13=#ad93fe
+palette = 14=#feccb5
+palette = 15=#fefefe
+background = #131515
+foreground = #dfcfc2
+cursor-color = #791c1b
+cursor-text = #333232
+selection-background = #515050
+selection-foreground = #fec34c

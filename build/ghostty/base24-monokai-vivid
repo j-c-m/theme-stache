@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Monokai Vivid
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#121212
+palette = 1=#fa2834
+palette = 2=#97e123
+palette = 3=#0442fe
+palette = 4=#0442fe
+palette = 5=#f800f8
+palette = 6=#01b6ed
+palette = 7=#dfdfdf
+palette = 8=#a1a1a1
+palette = 9=#f5669c
+palette = 10=#b0e05e
+palette = 11=#fef26c
+palette = 12=#0442fe
+palette = 13=#f200f5
+palette = 14=#50cdfe
+palette = 15=#ffffff
+background = #121212
+foreground = #dfdfdf
+cursor-color = #dfdfdf
+cursor-text = #121212
+selection-background = #fffefe
+selection-foreground = #121212

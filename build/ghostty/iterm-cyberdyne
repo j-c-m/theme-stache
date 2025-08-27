@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Cyberdyne
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#080808
+palette = 1=#ff8272
+palette = 2=#00c172
+palette = 3=#d2a700
+palette = 4=#0071cf
+palette = 5=#ff8ffd
+palette = 6=#6bffdc
+palette = 7=#f1f1f1
+palette = 8=#2d2d2d
+palette = 9=#ffc4bd
+palette = 10=#d6fcb9
+palette = 11=#fefdd5
+palette = 12=#c1e3fe
+palette = 13=#ffb1fe
+palette = 14=#e5e6fe
+palette = 15=#feffff
+background = #151144
+foreground = #00ff92
+cursor-color = #00ff9c
+cursor-text = #080808
+selection-background = #454d95
+selection-foreground = #f4f4f4

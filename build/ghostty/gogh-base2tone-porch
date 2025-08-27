@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Porch
+# Author:   
+# Variant:  dark
+
+palette = 0=#221e24
+palette = 1=#9466a3
+palette = 2=#f39b68
+palette = 3=#ffc29e
+palette = 4=#a77cb6
+palette = 5=#f39b68
+palette = 6=#ba95c6
+palette = 7=#9f95a3
+palette = 8=#645a68
+palette = 9=#f8aa7c
+palette = 10=#302a32
+palette = 11=#574e5a
+palette = 12=#716774
+palette = 13=#dfcbe6
+palette = 14=#ec8d55
+palette = 15=#f2e3f7
+background = #221e24
+foreground = #9f95a3
+cursor-color = #c46731
+cursor-text = #221e24
+selection-background = #9f95a3
+selection-foreground = #221e24

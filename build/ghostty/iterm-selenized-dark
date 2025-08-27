@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    selenized-dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#174956
+palette = 1=#fa574f
+palette = 2=#74b937
+palette = 3=#dab32d
+palette = 4=#4594f6
+palette = 5=#f174be
+palette = 6=#40c7b9
+palette = 7=#72898f
+palette = 8=#2d5b69
+palette = 9=#ff665c
+palette = 10=#83c746
+palette = 11=#ebc13c
+palette = 12=#58a2ff
+palette = 13=#ff83cc
+palette = 14=#53d5c7
+palette = 15=#cad8d9
+background = #0f3c48
+foreground = #acbcbc
+cursor-color = #acbcbc
+cursor-text = #174956
+selection-background = #174956
+selection-foreground = #53d5c7

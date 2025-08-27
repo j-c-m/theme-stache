@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Tokyo Night Light
+# Author:   
+# Variant:  light
+
+palette = 0=#0f0f14
+palette = 1=#8c4351
+palette = 2=#485e30
+palette = 3=#8f5e15
+palette = 4=#34548a
+palette = 5=#5a4a78
+palette = 6=#0f4b6e
+palette = 7=#343b58
+palette = 8=#9699a3
+palette = 9=#8c4351
+palette = 10=#485e30
+palette = 11=#8f5e15
+palette = 12=#34548a
+palette = 13=#5a4a78
+palette = 14=#0f4b6e
+palette = 15=#343b58
+background = #d5d6db
+foreground = #565a6e
+cursor-color = #565a6e
+cursor-text = #0f0f14
+selection-background = #565a6e
+selection-foreground = #d5d6db

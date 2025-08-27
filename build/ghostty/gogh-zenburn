@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Zenburn
+# Author:   
+# Variant:  dark
+
+palette = 0=#333333
+palette = 1=#cc9393
+palette = 2=#efef87
+palette = 3=#ffd7a7
+palette = 4=#c3bf97
+palette = 5=#bca3a3
+palette = 6=#93b3a3
+palette = 7=#f0efd0
+palette = 8=#757575
+palette = 9=#dfaf87
+palette = 10=#ffff87
+palette = 11=#ffcfaf
+palette = 12=#d7d7af
+palette = 13=#d7afaf
+palette = 14=#93bea3
+palette = 15=#dcdccc
+background = #3a3a3a
+foreground = #dcdccc
+cursor-color = #dcdccc
+cursor-text = #333333
+selection-background = #dcdccc
+selection-foreground = #3a3a3a

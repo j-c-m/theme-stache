@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Builtin Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#ffffff
+palette = 1=#bb0000
+palette = 2=#00bb00
+palette = 3=#5555ff
+palette = 4=#0000bb
+palette = 5=#bb00bb
+palette = 6=#00bbbb
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#ff5555
+palette = 10=#55ff55
+palette = 11=#ffff55
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
+background = #ffffff
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #ffffff
+selection-background = #bbbbbb
+selection-foreground = #000000

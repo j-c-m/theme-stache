@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    rebecca
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#12131d
+palette = 1=#dd7655
+palette = 2=#04dbb4
+palette = 3=#f2e7b7
+palette = 4=#7aa5ff
+palette = 5=#be9bf8
+palette = 6=#56d3c1
+palette = 7=#e3e2e8
+palette = 8=#666699
+palette = 9=#ff91cd
+palette = 10=#00e9c0
+palette = 11=#fefca8
+palette = 12=#69bffa
+palette = 13=#c07ff8
+palette = 14=#8bfce1
+palette = 15=#f3f2f8
+background = #292a44
+foreground = #e7e6ec
+cursor-color = #b79bf8
+cursor-text = #12131d
+selection-background = #663399
+selection-foreground = #f3f2f8

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Birds Of Paradise
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2a1e1d
+palette = 1=#be2d26
+palette = 2=#6ba08a
+palette = 3=#b8d3ed
+palette = 4=#5a86ac
+palette = 5=#ab80a6
+palette = 6=#74a5ac
+palette = 7=#cdbe9b
+palette = 8=#ab8664
+palette = 9=#e84526
+palette = 10=#94d7ba
+palette = 11=#d0d04f
+palette = 12=#b8d3ed
+palette = 13=#d09dca
+palette = 14=#92ced6
+palette = 15=#fff9d4
+background = #2a1e1d
+foreground = #cdbe9b
+cursor-color = #cdbe9b
+cursor-text = #2a1e1d
+selection-background = #dfdab7
+selection-foreground = #573d25

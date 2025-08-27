@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Tomorrow Night Burns
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#252525
+palette = 1=#832e31
+palette = 2=#a63b3f
+palette = 3=#d2494e
+palette = 4=#fc595f
+palette = 5=#df9395
+palette = 6=#b98486
+palette = 7=#f5f5f5
+palette = 8=#5d6f71
+palette = 9=#832e31
+palette = 10=#a63c3f
+palette = 11=#d2484d
+palette = 12=#fc595f
+palette = 13=#df9395
+palette = 14=#b98486
+palette = 15=#f5f5f5
+background = #151515
+foreground = #a1b0b8
+cursor-color = #ff443e
+cursor-text = #252525
+selection-background = #afbec5
+selection-foreground = #292c31

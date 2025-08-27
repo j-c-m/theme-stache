@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Dehydration
+# Author:   
+# Variant:  dark
+
+palette = 0=#333333
+palette = 1=#ff5555
+palette = 2=#5fd38d
+palette = 3=#ff9955
+palette = 4=#3771c8
+palette = 5=#bc5fd3
+palette = 6=#5fd3bc
+palette = 7=#999999
+palette = 8=#666666
+palette = 9=#ff8080
+palette = 10=#87deaa
+palette = 11=#ffb380
+palette = 12=#5f8dd3
+palette = 13=#cd87de
+palette = 14=#87decd
+palette = 15=#cccccc
+background = #333333
+foreground = #cccccc
+cursor-color = #cccccc
+cursor-text = #333333
+selection-background = #cccccc
+selection-foreground = #333333

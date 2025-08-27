@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Nord Light
+# Author:   
+# Variant:  light
+
+palette = 0=#003b4e
+palette = 1=#e64569
+palette = 2=#069f5f
+palette = 3=#dab752
+palette = 4=#439ecf
+palette = 5=#d961dc
+palette = 6=#00b1be
+palette = 7=#b3b3b3
+palette = 8=#3e89a1
+palette = 9=#e4859a
+palette = 10=#a2cca1
+palette = 11=#e1e387
+palette = 12=#6fbbe2
+palette = 13=#e586e7
+palette = 14=#96dcda
+palette = 15=#dedede
+background = #ebeaf2
+foreground = #004f7c
+cursor-color = #439ecf
+cursor-text = #003b4e
+selection-background = #004f7c
+selection-foreground = #ebeaf2

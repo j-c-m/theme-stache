@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Monokai Pro Light Sun
+# Author:   
+# Variant:  light
+
+palette = 0=#fdf7f3
+palette = 1=#ce4770
+palette = 2=#218871
+palette = 3=#b16803
+palette = 4=#d4572b
+palette = 5=#6851a2
+palette = 6=#2473b6
+palette = 7=#2c232e
+palette = 8=#595451
+palette = 9=#ce4770
+palette = 10=#218871
+palette = 11=#b16803
+palette = 12=#d4572b
+palette = 13=#6851a2
+palette = 14=#2473b6
+palette = 15=#2c232e
+background = #fdf7f3
+foreground = #2c232e
+cursor-color = #2c232e
+cursor-text = #fdf7f3
+selection-background = #2c232e
+selection-foreground = #fdf7f3

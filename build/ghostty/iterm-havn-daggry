@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Havn Daggry
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#1f2841
+palette = 1=#985247
+palette = 2=#567059
+palette = 3=#be6a00
+palette = 4=#39567d
+palette = 5=#7b5b96
+palette = 6=#925780
+palette = 7=#d6dbeb
+palette = 8=#1f2841
+palette = 9=#cc4a35
+palette = 10=#719678
+palette = 11=#feb133
+palette = 12=#6089c0
+palette = 13=#7c7295
+palette = 14=#a9859d
+palette = 15=#d6dbeb
+background = #f7f9fb
+foreground = #3a4a7a
+cursor-color = #226b4f
+cursor-text = #1f2841
+selection-background = #cfe8dd
+selection-foreground = #303c63

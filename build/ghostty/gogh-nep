@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Nep
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#dd6f00
+palette = 2=#00dd6f
+palette = 3=#6fdd00
+palette = 4=#6f00dd
+palette = 5=#dd006f
+palette = 6=#006fdd
+palette = 7=#f2f2f2
+palette = 8=#7d7d7d
+palette = 9=#ffb974
+palette = 10=#74ffb9
+palette = 11=#b9ff74
+palette = 12=#b974ff
+palette = 13=#ff74b9
+palette = 14=#74b9ff
+palette = 15=#ffffff
+background = #758480
+foreground = #23476a
+cursor-color = #23476a
+cursor-text = #000000
+selection-background = #23476a
+selection-foreground = #758480

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Atelier Cave
+# Author:   Bram de Haan (http://atelierbramdehaan.nl)
+# Variant:  dark
+
+palette = 0=#19171c
+palette = 1=#be4678
+palette = 2=#2a9292
+palette = 3=#a06e3b
+palette = 4=#576ddb
+palette = 5=#955ae7
+palette = 6=#398bc6
+palette = 7=#8b8792
+palette = 8=#655f6d
+palette = 9=#be4678
+palette = 10=#2a9292
+palette = 11=#a06e3b
+palette = 12=#576ddb
+palette = 13=#955ae7
+palette = 14=#398bc6
+palette = 15=#efecf4
+background = #19171c
+foreground = #8b8792
+cursor-color = #8b8792
+cursor-text = #19171c
+selection-background = #e2dfe7
+selection-foreground = #26232a

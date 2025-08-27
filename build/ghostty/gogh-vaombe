@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Vaombe
+# Author:   Daniel Perez (https://www.github.com/sysaloe)
+# Variant:  Dark
+
+palette = 0=#111413
+palette = 1=#8f3232
+palette = 2=#3b5c3b
+palette = 3=#7a6322
+palette = 4=#28405c
+palette = 5=#46285c
+palette = 6=#346666
+palette = 7=#d1d1d1
+palette = 8=#212927
+palette = 9=#b84242
+palette = 10=#57a355
+palette = 11=#dbbb60
+palette = 12=#5183b8
+palette = 13=#935fb8
+palette = 14=#51b8b0
+palette = 15=#f5fffd
+background = #010a08
+foreground = #f5fffd
+cursor-color = #9df5e2
+cursor-text = #111413
+selection-background = #f5fffd
+selection-foreground = #010a08

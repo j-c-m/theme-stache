@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Github Light
+# Author:   Tinted Theming (https://github.com/tinted-theming)
+# Variant:  light
+
+palette = 0=#eaeef2
+palette = 1=#fa4549
+palette = 2=#2da44e
+palette = 3=#bf8700
+palette = 4=#218bff
+palette = 5=#a475f9
+palette = 6=#339d9b
+palette = 7=#424a53
+palette = 8=#8c959f
+palette = 9=#ff8182
+palette = 10=#4ac26b
+palette = 11=#d4a72c
+palette = 12=#54aeff
+palette = 13=#c297ff
+palette = 14=#49bcb7
+palette = 15=#1f2328
+background = #eaeef2
+foreground = #424a53
+cursor-color = #424a53
+cursor-text = #eaeef2
+selection-background = #32383f
+selection-foreground = #d0d7de

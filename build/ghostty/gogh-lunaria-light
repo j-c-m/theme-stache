@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Lunaria Light
+# Author:   
+# Variant:  light
+
+palette = 0=#3e3c3d
+palette = 1=#783c1f
+palette = 2=#497d46
+palette = 3=#8f750b
+palette = 4=#3f3566
+palette = 5=#793f62
+palette = 6=#3778a9
+palette = 7=#d5cfcc
+palette = 8=#484646
+palette = 9=#b06240
+palette = 10=#7bc175
+palette = 11=#dcb735
+palette = 12=#5c4f89
+palette = 13=#b56895
+palette = 14=#64baff
+palette = 15=#ebe4e1
+background = #ebe4e1
+foreground = #484646
+cursor-color = #484646
+cursor-text = #3e3c3d
+selection-background = #484646
+selection-foreground = #ebe4e1

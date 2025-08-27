@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mono Yellow
+# Author:   
+# Variant:  dark
+
+palette = 0=#403500
+palette = 1=#ffd300
+palette = 2=#ffd300
+palette = 3=#ffd300
+palette = 4=#ffd300
+palette = 5=#ffd300
+palette = 6=#ffd300
+palette = 7=#ffd300
+palette = 8=#ffd300
+palette = 9=#ffd300
+palette = 10=#ffd300
+palette = 11=#ffd300
+palette = 12=#ffd300
+palette = 13=#ffd300
+palette = 14=#ffd300
+palette = 15=#ffd300
+background = #2b2400
+foreground = #ffd300
+cursor-color = #ffd300
+cursor-text = #403500
+selection-background = #ffd300
+selection-foreground = #2b2400

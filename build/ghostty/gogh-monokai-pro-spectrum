@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Monokai Pro Spectrum
+# Author:   
+# Variant:  dark
+
+palette = 0=#363537
+palette = 1=#fc618d
+palette = 2=#7bd88f
+palette = 3=#fce566
+palette = 4=#fd9353
+palette = 5=#948ae3
+palette = 6=#5ad4e6
+palette = 7=#f7f1ff
+palette = 8=#a1a1a1
+palette = 9=#fc618d
+palette = 10=#7bd88f
+palette = 11=#fce566
+palette = 12=#fd9353
+palette = 13=#948ae3
+palette = 14=#5ad4e6
+palette = 15=#f7f1ff
+background = #363537
+foreground = #f7f1ff
+cursor-color = #f7f1ff
+cursor-text = #363537
+selection-background = #f7f1ff
+selection-foreground = #363537

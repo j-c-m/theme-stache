@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    IC_Green_PPL
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#014401
+palette = 1=#fe2635
+palette = 2=#41a638
+palette = 3=#76a830
+palette = 4=#2ec3b9
+palette = 5=#50a096
+palette = 6=#3ca078
+palette = 7=#e6fef2
+palette = 8=#025c02
+palette = 9=#b4fa5c
+palette = 10=#aefa86
+palette = 11=#dafa87
+palette = 12=#2efaeb
+palette = 13=#50fafa
+palette = 14=#3cfac8
+palette = 15=#e0f1dc
+background = #2c2c2c
+foreground = #e0f1dc
+cursor-color = #46f96b
+cursor-text = #014401
+selection-background = #116b41
+selection-foreground = #e0f1dc

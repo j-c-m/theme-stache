@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Drawbridge
+# Author:   
+# Variant:  dark
+
+palette = 0=#1b1f32
+palette = 1=#627af4
+palette = 2=#67c9e4
+palette = 3=#99e9ff
+palette = 4=#7289fd
+palette = 5=#67c9e4
+palette = 6=#8b9efd
+palette = 7=#9094a7
+palette = 8=#51587b
+palette = 9=#75d5f0
+palette = 10=#252a41
+palette = 11=#444b6f
+palette = 12=#5e6587
+palette = 13=#c3cdfe
+palette = 14=#5cbcd6
+palette = 15=#e1e6ff
+background = #1b1f32
+foreground = #9094a7
+cursor-color = #289dbd
+cursor-text = #1b1f32
+selection-background = #9094a7
+selection-foreground = #1b1f32

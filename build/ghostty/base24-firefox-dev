@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Firefox Dev
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0e1011
+palette = 1=#e63853
+palette = 2=#5eb83c
+palette = 3=#006fc0
+palette = 4=#359ddf
+palette = 5=#d75cff
+palette = 6=#4b73a2
+palette = 7=#a5acae
+palette = 8=#374d53
+palette = 9=#e1003f
+palette = 10=#1d9000
+palette = 11=#cc9308
+palette = 12=#006fc0
+palette = 13=#a200da
+palette = 14=#005794
+palette = 15=#e2e2e2
+background = #0e1011
+foreground = #a5acae
+cursor-color = #a5acae
+cursor-text = #0e1011
+selection-background = #dcdcdc
+selection-foreground = #002731

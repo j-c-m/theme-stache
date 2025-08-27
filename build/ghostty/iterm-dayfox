@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    dayfox
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#342b24
+palette = 1=#a4212f
+palette = 2=#396747
+palette = 3=#ac5302
+palette = 4=#2847a9
+palette = 5=#6e33cd
+palette = 6=#287980
+palette = 7=#f2e9e0
+palette = 8=#524b45
+palette = 9=#b3434e
+palette = 10=#577e63
+palette = 11=#b76e28
+palette = 12=#4763b6
+palette = 13=#8451d5
+palette = 14=#478d92
+palette = 15=#f4ebe6
+background = #f5f2ed
+foreground = #3d2a5a
+cursor-color = #3d2a5a
+cursor-text = #342b24
+selection-background = #e7d2be
+selection-foreground = #3d2a5a

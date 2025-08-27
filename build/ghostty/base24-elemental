@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Elemental
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#21211c
+palette = 1=#97280f
+palette = 2=#479942
+palette = 3=#78d8d8
+palette = 4=#497f7d
+palette = 5=#7e4e2e
+palette = 6=#387f58
+palette = 7=#756f68
+palette = 8=#5f5d50
+palette = 9=#df502a
+palette = 10=#60e06f
+palette = 11=#d69827
+palette = 12=#78d8d8
+palette = 13=#cd7c53
+palette = 14=#58d598
+palette = 15=#fff1e8
+background = #21211c
+foreground = #756f68
+cursor-color = #756f68
+cursor-text = #21211c
+selection-background = #807974
+selection-foreground = #3c3b30

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Warm Neon
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#3f3f3f
+palette = 1=#e24345
+palette = 2=#38b139
+palette = 3=#7a90d5
+palette = 4=#4260c5
+palette = 5=#f81ffb
+palette = 6=#29bad3
+palette = 7=#dcc9ba
+palette = 8=#f2ebe6
+palette = 9=#e86f71
+palette = 10=#9bc08f
+palette = 11=#ddd979
+palette = 12=#7a90d5
+palette = 13=#f674b9
+palette = 14=#5ed1e4
+palette = 15=#d8c8bb
+background = #3f3f3f
+foreground = #dcc9ba
+cursor-color = #dcc9ba
+cursor-text = #3f3f3f
+selection-background = #d0b8a3
+selection-foreground = #000000

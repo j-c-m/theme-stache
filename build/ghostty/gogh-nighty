@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Nighty
+# Author:   
+# Variant:  dark
+
+palette = 0=#373d48
+palette = 1=#9b3e46
+palette = 2=#095b32
+palette = 3=#808020
+palette = 4=#1d3e6f
+palette = 5=#823065
+palette = 6=#3a7458
+palette = 7=#828282
+palette = 8=#5c6370
+palette = 9=#d0555f
+palette = 10=#119955
+palette = 11=#dfe048
+palette = 12=#4674b8
+palette = 13=#ed86c9
+palette = 14=#70d2a4
+palette = 15=#dfdfdf
+background = #2f2f2f
+foreground = #dfdfdf
+cursor-color = #dfdfdf
+cursor-text = #373d48
+selection-background = #dfdfdf
+selection-foreground = #2f2f2f

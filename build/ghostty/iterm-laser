@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Laser
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#616161
+palette = 1=#ff8272
+palette = 2=#b4fa72
+palette = 3=#09b4bd
+palette = 4=#fed300
+palette = 5=#ff8ffd
+palette = 6=#d0d1fe
+palette = 7=#f1f1f1
+palette = 8=#8e8e8e
+palette = 9=#ffc4bd
+palette = 10=#d6fcb9
+palette = 11=#fefdd5
+palette = 12=#f92883
+palette = 13=#ffb1fe
+palette = 14=#e5e6fe
+palette = 15=#feffff
+background = #030d18
+foreground = #f106e3
+cursor-color = #00ff9c
+cursor-text = #616161
+selection-background = #2d1f69
+selection-foreground = #f4f4f4

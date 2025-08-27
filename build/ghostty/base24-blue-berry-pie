@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Blue Berry Pie
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1c0b28
+palette = 1=#99236d
+palette = 2=#5bb0b2
+palette = 3=#38163d
+palette = 4=#90a5bc
+palette = 5=#9d53a7
+palette = 6=#7e82cc
+palette = 7=#bbb2ad
+palette = 8=#534a5e
+palette = 9=#c77171
+palette = 10=#0a6b7e
+palette = 11=#793188
+palette = 12=#38163d
+palette = 13=#bc93b6
+palette = 14=#5d5f71
+palette = 15=#0a6b7e
+background = #1c0b28
+foreground = #bbb2ad
+cursor-color = #bbb2ad
+cursor-text = #1c0b28
+selection-background = #f0e7d5
+selection-foreground = #0a4b61

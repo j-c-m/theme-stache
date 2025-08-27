@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Synth Midnight Terminal Light
+# Author:   Michaël Ball (http://github.com/michael-ball/)
+# Variant:  light
+
+palette = 0=#dddfe0
+palette = 1=#b53b50
+palette = 2=#06ea61
+palette = 3=#c9d364
+palette = 4=#03aeff
+palette = 5=#ea5ce2
+palette = 6=#42fff9
+palette = 7=#28292a
+palette = 8=#a3a5a6
+palette = 9=#b53b50
+palette = 10=#06ea61
+palette = 11=#c9d364
+palette = 12=#03aeff
+palette = 13=#ea5ce2
+palette = 14=#42fff9
+palette = 15=#050608
+background = #dddfe0
+foreground = #28292a
+cursor-color = #28292a
+cursor-text = #dddfe0
+selection-background = #1a1b1c
+selection-foreground = #cfd1d2

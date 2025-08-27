@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Embarcadero
+# Author:   Thomas Leon Highbaugh
+# Variant:  dark
+
+palette = 0=#252a2f
+palette = 1=#ed5d86
+palette = 2=#20c290
+palette = 3=#eb824d
+palette = 4=#4080d0
+palette = 5=#a070d0
+palette = 6=#02efef
+palette = 7=#bcbdc0
+palette = 8=#7f8285
+palette = 9=#f57d9a
+palette = 10=#a0d0a0
+palette = 11=#ffe089
+palette = 12=#80b0f0
+palette = 13=#c090f0
+palette = 14=#40c0c0
+palette = 15=#f8f8f8
+background = #252a2f
+foreground = #bcbdc0
+cursor-color = #bcbdc0
+cursor-text = #252a2f
+selection-background = #dadbdb
+selection-foreground = #43474c

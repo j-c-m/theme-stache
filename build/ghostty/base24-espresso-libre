@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Espresso Libre
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2a211c
+palette = 1=#cc0000
+palette = 2=#1a921c
+palette = 3=#43a8ed
+palette = 4=#0066ff
+palette = 5=#c5656b
+palette = 6=#05989a
+palette = 7=#b3b7b0
+palette = 8=#737772
+palette = 9=#ef2828
+palette = 10=#9aff87
+palette = 11=#fffa5c
+palette = 12=#43a8ed
+palette = 13=#ff8089
+palette = 14=#34e2e2
+palette = 15=#ededec
+background = #2a211c
+foreground = #b3b7b0
+cursor-color = #b3b7b0
+cursor-text = #2a211c
+selection-background = #d3d7cf
+selection-foreground = #000000

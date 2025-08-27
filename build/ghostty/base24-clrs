@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    CLRS
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#ffffff
+palette = 1=#f72729
+palette = 2=#32895c
+palette = 3=#156ffe
+palette = 4=#125ccf
+palette = 5=#9f00bc
+palette = 6=#32c2c0
+palette = 7=#9a9b9a
+palette = 8=#6b6d6a
+palette = 9=#fb0416
+palette = 10=#2cc631
+palette = 11=#fcd627
+palette = 12=#156ffe
+palette = 13=#e800b0
+palette = 14=#39d5ce
+palette = 15=#ededec
+background = #ffffff
+foreground = #9a9b9a
+cursor-color = #9a9b9a
+cursor-text = #ffffff
+selection-background = #b2b2b2
+selection-foreground = #000000

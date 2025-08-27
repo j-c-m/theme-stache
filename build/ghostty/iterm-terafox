@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    terafox
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#2f3239
+palette = 1=#e85b51
+palette = 2=#7aa3a1
+palette = 3=#fda37e
+palette = 4=#5a92aa
+palette = 5=#ad5b7b
+palette = 6=#a1ccd7
+palette = 7=#eaeaea
+palette = 8=#4e5157
+palette = 9=#ea736a
+palette = 10=#8eb1ae
+palette = 11=#fdb191
+palette = 12=#72a3b7
+palette = 13=#b8738f
+palette = 14=#aed4de
+palette = 15=#ededed
+background = #152528
+foreground = #e6eaea
+cursor-color = #e6eaea
+cursor-text = #2f3239
+selection-background = #283d3f
+selection-foreground = #e6eaea

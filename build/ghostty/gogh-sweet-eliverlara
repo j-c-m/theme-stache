@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Sweet Eliverlara
+# Author:   
+# Variant:  dark
+
+palette = 0=#282c34
+palette = 1=#ed254e
+palette = 2=#71f79f
+palette = 3=#f9dc5c
+palette = 4=#7cb7ff
+palette = 5=#c74ded
+palette = 6=#00c1e4
+palette = 7=#dcdfe4
+palette = 8=#282c34
+palette = 9=#ed254e
+palette = 10=#71f79f
+palette = 11=#f9dc5c
+palette = 12=#7cb7ff
+palette = 13=#c74ded
+palette = 14=#00c1e4
+palette = 15=#dcdfe4
+background = #282c34
+foreground = #c3c7d1
+cursor-color = #c3c7d1
+cursor-text = #282c34
+selection-background = #c3c7d1
+selection-foreground = #282c34

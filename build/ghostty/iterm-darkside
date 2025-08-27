@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Darkside
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#e8341c
+palette = 2=#68c256
+palette = 3=#f2d32c
+palette = 4=#1c98e8
+palette = 5=#8e69c9
+palette = 6=#1c98e8
+palette = 7=#bababa
+palette = 8=#000000
+palette = 9=#df5a4f
+palette = 10=#76b768
+palette = 11=#eed64a
+palette = 12=#387bd2
+palette = 13=#957bbd
+palette = 14=#3d96e2
+palette = 15=#bababa
+background = #222324
+foreground = #bababa
+cursor-color = #bbbbbb
+cursor-text = #000000
+selection-background = #303333
+selection-foreground = #bababa

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Quiet
+# Author:   
+# Variant:  dark
+
+palette = 0=#141414
+palette = 1=#c16262
+palette = 2=#49b685
+palette = 3=#c5b76d
+palette = 4=#4992b6
+palette = 5=#815bbe
+palette = 6=#41a4a4
+palette = 7=#c5c5c5
+palette = 8=#505050
+palette = 9=#ed5e7a
+palette = 10=#7ece7e
+palette = 11=#dbdb70
+palette = 12=#4dbfff
+palette = 13=#c067e4
+palette = 14=#70dbd8
+palette = 15=#f0f0f0
+background = #141414
+foreground = #b9b9b9
+cursor-color = #a0a0a0
+cursor-text = #141414
+selection-background = #b9b9b9
+selection-foreground = #141414

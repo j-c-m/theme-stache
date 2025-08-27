@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    BlueDolphin
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#292d3e
+palette = 1=#ff8188
+palette = 2=#b4e88d
+palette = 3=#f4d69e
+palette = 4=#82aaff
+palette = 5=#e8c0ff
+palette = 6=#89ebff
+palette = 7=#d0d0d0
+palette = 8=#434758
+palette = 9=#ff8b92
+palette = 10=#ddffa7
+palette = 11=#ffe585
+palette = 12=#9cc4ff
+palette = 13=#dcaff5
+palette = 14=#a3f7ff
+palette = 15=#fefefe
+background = #006884
+foreground = #c5f1ff
+cursor-color = #ffcc00
+cursor-text = #292d3e
+selection-background = #2aadc9
+selection-foreground = #eceef0

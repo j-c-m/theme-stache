@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Tango Half Adapted
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#fffefe
+palette = 1=#ff0000
+palette = 2=#4cc300
+palette = 3=#75beff
+palette = 4=#008df5
+palette = 5=#a86bb2
+palette = 6=#00bdc3
+palette = 7=#c6cac1
+palette = 8=#92968e
+palette = 9=#ff0012
+palette = 10=#8af600
+palette = 11=#ffeb00
+palette = 12=#75beff
+palette = 13=#d798d0
+palette = 14=#00f6fa
+palette = 15=#f3f3f1
+background = #fffefe
+foreground = #c6cac1
+cursor-color = #c6cac1
+cursor-text = #fffefe
+selection-background = #e0e4db
+selection-foreground = #000000

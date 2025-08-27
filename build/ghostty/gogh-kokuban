@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Kokuban
+# Author:   
+# Variant:  dark
+
+palette = 0=#2e8744
+palette = 1=#d84e4c
+palette = 2=#95da5a
+palette = 3=#d6e264
+palette = 4=#4b9ed7
+palette = 5=#945fc5
+palette = 6=#d89b25
+palette = 7=#d8e2d7
+palette = 8=#34934f
+palette = 9=#ff4f59
+palette = 10=#aff56a
+palette = 11=#fcff75
+palette = 12=#57aeff
+palette = 13=#ae63e9
+palette = 14=#ffaa2b
+palette = 15=#fffefe
+background = #0d4a08
+foreground = #d8e2d7
+cursor-color = #d8e2d7
+cursor-text = #2e8744
+selection-background = #d8e2d7
+selection-foreground = #0d4a08

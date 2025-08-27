@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Atlas
+# Author:   Alex Lende (https://ajlende.com)
+# Variant:  dark
+
+palette = 0=#002635
+palette = 1=#ff5a67
+palette = 2=#7fc06e
+palette = 3=#ffcc1b
+palette = 4=#14747e
+palette = 5=#9a70a4
+palette = 6=#5dd7b9
+palette = 7=#a1a19a
+palette = 8=#6c8b91
+palette = 9=#ff5a67
+palette = 10=#7fc06e
+palette = 11=#ffcc1b
+palette = 12=#14747e
+palette = 13=#9a70a4
+palette = 14=#5dd7b9
+palette = 15=#fafaf8
+background = #002635
+foreground = #a1a19a
+cursor-color = #a1a19a
+cursor-text = #002635
+selection-background = #e6e6dc
+selection-foreground = #00384d

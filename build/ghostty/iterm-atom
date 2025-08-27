@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Atom
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#fc5ef0
+palette = 2=#87c38a
+palette = 3=#ffd7b1
+palette = 4=#85befd
+palette = 5=#b9b5fc
+palette = 6=#85befd
+palette = 7=#dfdfdf
+palette = 8=#000000
+palette = 9=#fc5ef0
+palette = 10=#94f936
+palette = 11=#f5ffa7
+palette = 12=#96cbfe
+palette = 13=#b9b5fc
+palette = 14=#85befd
+palette = 15=#dfdfdf
+background = #161718
+foreground = #c5c8c6
+cursor-color = #d0d0d0
+cursor-text = #000000
+selection-background = #444444
+selection-foreground = #c5c8c6

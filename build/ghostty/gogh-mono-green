@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mono Green
+# Author:   
+# Variant:  dark
+
+palette = 0=#034000
+palette = 1=#0bff00
+palette = 2=#0bff00
+palette = 3=#0bff00
+palette = 4=#0bff00
+palette = 5=#0bff00
+palette = 6=#0bff00
+palette = 7=#0bff00
+palette = 8=#0bff00
+palette = 9=#0bff00
+palette = 10=#0bff00
+palette = 11=#0bff00
+palette = 12=#0bff00
+palette = 13=#0bff00
+palette = 14=#0bff00
+palette = 15=#0bff00
+background = #022b00
+foreground = #0bff00
+cursor-color = #0bff00
+cursor-text = #034000
+selection-background = #0bff00
+selection-foreground = #022b00

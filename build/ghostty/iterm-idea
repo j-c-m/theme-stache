@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    idea
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#acacac
+palette = 1=#fb5255
+palette = 2=#98b61b
+palette = 3=#ccb343
+palette = 4=#437ee6
+palette = 5=#9d73b0
+palette = 6=#248886
+palette = 7=#171717
+palette = 8=#fffefe
+palette = 9=#fc6f72
+palette = 10=#98b61b
+palette = 11=#ffff0a
+palette = 12=#6c9bed
+palette = 13=#fc7efe
+palette = 14=#248886
+palette = 15=#171717
+background = #202020
+foreground = #acacac
+cursor-color = #bbbbbb
+cursor-text = #acacac
+selection-background = #44475a
+selection-foreground = #ffffff

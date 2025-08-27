@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    One Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#e7e7e9
+palette = 1=#ca1243
+palette = 2=#50a14f
+palette = 3=#febb2a
+palette = 4=#4078f2
+palette = 5=#a626a4
+palette = 6=#0184bc
+palette = 7=#383a42
+palette = 8=#a0a1a7
+palette = 9=#ec2258
+palette = 10=#6db76c
+palette = 11=#f4a701
+palette = 12=#709af5
+palette = 13=#d02fcd
+palette = 14=#01a7ef
+palette = 15=#090a0b
+background = #e7e7e9
+foreground = #383a42
+cursor-color = #383a42
+cursor-text = #e7e7e9
+selection-background = #202227
+selection-foreground = #dfdfe1

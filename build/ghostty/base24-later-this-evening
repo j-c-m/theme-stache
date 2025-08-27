@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Later This Evening
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#212121
+palette = 1=#d35a5f
+palette = 2=#afba66
+palette = 3=#6599d5
+palette = 4=#a0b9d5
+palette = 5=#bf92d5
+palette = 6=#91beb6
+palette = 7=#3e3f3f
+palette = 8=#424545
+palette = 9=#d3222e
+palette = 10=#aabb39
+palette = 11=#e4bd39
+palette = 12=#6599d5
+palette = 13=#aa52d5
+palette = 14=#5fbfad
+palette = 15=#c0c2c2
+background = #212121
+foreground = #3e3f3f
+cursor-color = #3e3f3f
+cursor-text = #212121
+selection-background = #3b3c3c
+selection-foreground = #2b2b2b

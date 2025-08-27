@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Crayon Pony Fish
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#140607
+palette = 1=#90002a
+palette = 2=#579523
+palette = 3=#cfc9ff
+palette = 4=#8b87af
+palette = 5=#682e50
+palette = 6=#e8a766
+palette = 7=#5d484e
+palette = 8=#473438
+palette = 9=#c5245c
+palette = 10=#8dff56
+palette = 11=#c7371d
+palette = 12=#cfc9ff
+palette = 13=#fb6cb9
+palette = 14=#ffceae
+palette = 15=#af949d
+background = #140607
+foreground = #5d484e
+cursor-color = #5d484e
+cursor-text = #140607
+selection-background = #685259
+selection-foreground = #2a1a1c

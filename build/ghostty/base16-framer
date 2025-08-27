@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Framer
+# Author:   Framer (Maintained by Jesse Hoyos)
+# Variant:  dark
+
+palette = 0=#181818
+palette = 1=#fd886b
+palette = 2=#32ccdc
+palette = 3=#fecb6e
+palette = 4=#20bcfc
+palette = 5=#ba8cfc
+palette = 6=#acddfd
+palette = 7=#d0d0d0
+palette = 8=#747474
+palette = 9=#fd886b
+palette = 10=#32ccdc
+palette = 11=#fecb6e
+palette = 12=#20bcfc
+palette = 13=#ba8cfc
+palette = 14=#acddfd
+palette = 15=#eeeeee
+background = #181818
+foreground = #d0d0d0
+cursor-color = #d0d0d0
+cursor-text = #181818
+selection-background = #e8e8e8
+selection-foreground = #151515

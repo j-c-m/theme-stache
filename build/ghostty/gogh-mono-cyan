@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mono Cyan
+# Author:   
+# Variant:  dark
+
+palette = 0=#003340
+palette = 1=#00ccff
+palette = 2=#00ccff
+palette = 3=#00ccff
+palette = 4=#00ccff
+palette = 5=#00ccff
+palette = 6=#00ccff
+palette = 7=#00ccff
+palette = 8=#00ccff
+palette = 9=#00ccff
+palette = 10=#00ccff
+palette = 11=#00ccff
+palette = 12=#00ccff
+palette = 13=#00ccff
+palette = 14=#00ccff
+palette = 15=#00ccff
+background = #00222b
+foreground = #00ccff
+cursor-color = #00ccff
+cursor-text = #003340
+selection-background = #00ccff
+selection-foreground = #00222b

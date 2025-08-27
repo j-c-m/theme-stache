@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ibm3270
+# Author:   
+# Variant:  dark
+
+palette = 0=#222222
+palette = 1=#f01818
+palette = 2=#24d830
+palette = 3=#f0d824
+palette = 4=#7890f0
+palette = 5=#f078d8
+palette = 6=#54e4e4
+palette = 7=#a5a5a5
+palette = 8=#888888
+palette = 9=#ef8383
+palette = 10=#7ed684
+palette = 11=#efe28b
+palette = 12=#b3bfef
+palette = 13=#efb3e3
+palette = 14=#9ce2e2
+palette = 15=#ffffff
+background = #000000
+foreground = #fdfdfd
+cursor-color = #fdfdfd
+cursor-text = #222222
+selection-background = #fdfdfd
+selection-foreground = #000000

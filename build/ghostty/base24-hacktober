@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Hacktober
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#141414
+palette = 1=#b34538
+palette = 2=#587744
+palette = 3=#5389c5
+palette = 4=#206ec5
+palette = 5=#864651
+palette = 6=#ac9166
+palette = 7=#bfbdb7
+palette = 8=#5d5b59
+palette = 9=#b33323
+palette = 10=#42824a
+palette = 11=#c75a22
+palette = 12=#5389c5
+palette = 13=#e795a5
+palette = 14=#ebc587
+palette = 15=#ffffff
+background = #141414
+foreground = #bfbdb7
+cursor-color = #bfbdb7
+cursor-text = #141414
+selection-background = #f1eee7
+selection-foreground = #191918

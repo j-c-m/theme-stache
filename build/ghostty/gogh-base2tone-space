@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Space
+# Author:   
+# Variant:  dark
+
+palette = 0=#24242e
+palette = 1=#7676f4
+palette = 2=#ec7336
+palette = 3=#fe8c52
+palette = 4=#767693
+palette = 5=#ec7336
+palette = 6=#8a8aad
+palette = 7=#a1a1b5
+palette = 8=#5b5b76
+palette = 9=#f37b3f
+palette = 10=#333342
+palette = 11=#515167
+palette = 12=#737391
+palette = 13=#cecee3
+palette = 14=#e66e33
+palette = 15=#ebebff
+background = #24242e
+foreground = #a1a1b5
+cursor-color = #b25424
+cursor-text = #24242e
+selection-background = #a1a1b5
+selection-foreground = #24242e

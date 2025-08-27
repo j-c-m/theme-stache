@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Hemisu Dark
+# Author:   
+# Variant:  dark
+
+palette = 0=#444444
+palette = 1=#ff0054
+palette = 2=#b1d630
+palette = 3=#9d895e
+palette = 4=#67bee3
+palette = 5=#b576bc
+palette = 6=#569a9f
+palette = 7=#ededed
+palette = 8=#777777
+palette = 9=#d65e75
+palette = 10=#baffaa
+palette = 11=#ece1c8
+palette = 12=#9fd3e5
+palette = 13=#deb3df
+palette = 14=#b6e0e5
+palette = 15=#ffffff
+background = #000000
+foreground = #ffffff
+cursor-color = #baffaa
+cursor-text = #444444
+selection-background = #ffffff
+selection-foreground = #000000

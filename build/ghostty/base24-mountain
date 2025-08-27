@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Mountain
+# Author:   Stefan Weigl-Bosker (https://github.com/sweiglbosker), based on Mountain Theme (https://github.com/mountain-theme/Mountain)
+# Variant:  dark
+
+palette = 0=#0f0f0f
+palette = 1=#ac8a8c
+palette = 2=#8aac8b
+palette = 3=#aca98a
+palette = 4=#8f8aac
+palette = 5=#ac8aac
+palette = 6=#8aabac
+palette = 7=#cacaca
+palette = 8=#393939
+palette = 9=#c49ea0
+palette = 10=#9ec49f
+palette = 11=#c4c19e
+palette = 12=#a39ec4
+palette = 13=#c49ec4
+palette = 14=#9ec3c4
+palette = 15=#f0f0f0
+background = #0f0f0f
+foreground = #cacaca
+cursor-color = #cacaca
+cursor-text = #0f0f0f
+selection-background = #e7e7e7
+selection-foreground = #191919

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Seafoam Pastel
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#243434
+palette = 1=#825d4d
+palette = 2=#718c61
+palette = 3=#79c3cf
+palette = 4=#4d7b82
+palette = 5=#8a7167
+palette = 6=#719393
+palette = 7=#cacaca
+palette = 8=#9f9f9f
+palette = 9=#cf9379
+palette = 10=#98d9aa
+palette = 11=#fae79d
+palette = 12=#79c3cf
+palette = 13=#d6b2a1
+palette = 14=#ade0e0
+palette = 15=#e0e0e0
+background = #243434
+foreground = #cacaca
+cursor-color = #cacaca
+cursor-text = #243434
+selection-background = #e0e0e0
+selection-foreground = #757575

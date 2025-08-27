@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Toy Chest
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#23364a
+palette = 1=#be2d26
+palette = 2=#199171
+palette = 3=#33a5d9
+palette = 4=#325d96
+palette = 5=#8a5ddb
+palette = 6=#35a08f
+palette = 7=#27b684
+palette = 8=#2f8288
+palette = 9=#dd5943
+palette = 10=#30cf7b
+palette = 11=#e7d74b
+palette = 12=#33a5d9
+palette = 13=#ad6bdc
+palette = 14=#41c3ad
+palette = 15=#d4d4d4
+background = #23364a
+foreground = #27b684
+cursor-color = #27b684
+cursor-text = #23364a
+selection-background = #23d082
+selection-foreground = #2c3f57

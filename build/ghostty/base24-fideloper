@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Fideloper
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#282f32
+palette = 1=#ca1d2c
+palette = 2=#edb7ab
+palette = 3=#7c84c4
+palette = 4=#2e78c1
+palette = 5=#c0226e
+palette = 6=#309185
+palette = 7=#b1b1a3
+palette = 8=#415050
+palette = 9=#d35f5a
+palette = 10=#d35f5a
+palette = 11=#a86571
+palette = 12=#7c84c4
+palette = 13=#5b5db2
+palette = 14=#81908f
+palette = 15=#fcf4de
+background = #282f32
+foreground = #b1b1a3
+cursor-color = #b1b1a3
+cursor-text = #282f32
+selection-background = #e9e2cd
+selection-foreground = #282f32

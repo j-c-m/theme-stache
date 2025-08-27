@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Moonlight
+# Author:   Jeremy Swinarton (https://github.com/jswinarton)
+# Variant:  dark
+
+palette = 0=#212337
+palette = 1=#ff5370
+palette = 2=#2df4c0
+palette = 3=#ffc777
+palette = 4=#40ffff
+palette = 5=#b994f1
+palette = 6=#04d1f9
+palette = 7=#a3ace1
+palette = 8=#748cd6
+palette = 9=#ff5370
+palette = 10=#2df4c0
+palette = 11=#ffc777
+palette = 12=#40ffff
+palette = 13=#b994f1
+palette = 14=#04d1f9
+palette = 15=#ef43fa
+background = #212337
+foreground = #a3ace1
+cursor-color = #a3ace1
+cursor-text = #212337
+selection-background = #b4a4f4
+selection-foreground = #403c64

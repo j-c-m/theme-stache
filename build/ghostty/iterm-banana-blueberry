@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Banana Blueberry
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#16141e
+palette = 1=#ff6a7e
+palette = 2=#00bc9b
+palette = 3=#e5c62f
+palette = 4=#22e8df
+palette = 5=#dc3969
+palette = 6=#55b6c1
+palette = 7=#f1f1f1
+palette = 8=#485161
+palette = 9=#fd9ea1
+palette = 10=#97c378
+palette = 11=#f9e46a
+palette = 12=#91fff3
+palette = 13=#da70d5
+palette = 14=#bcf2fe
+palette = 15=#feffff
+background = #191322
+foreground = #cbcccb
+cursor-color = #df7d13
+cursor-text = #16141e
+selection-background = #220524
+selection-foreground = #f4f4f4

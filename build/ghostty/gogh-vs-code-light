@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Vs Code Light+
+# Author:   
+# Variant:  light
+
+palette = 0=#020202
+palette = 1=#cd3232
+palette = 2=#00bc00
+palette = 3=#a5a900
+palette = 4=#0752a8
+palette = 5=#bc05bc
+palette = 6=#0598bc
+palette = 7=#343434
+palette = 8=#5e5e5e
+palette = 9=#cd3333
+palette = 10=#1bce1a
+palette = 11=#adbb5b
+palette = 12=#0752a8
+palette = 13=#c451ce
+palette = 14=#52a8c7
+palette = 15=#a6a3a6
+background = #f9f9f9
+foreground = #020202
+cursor-color = #020202
+cursor-text = #020202
+selection-background = #020202
+selection-foreground = #f9f9f9

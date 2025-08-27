@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    detuned
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#161616
+palette = 1=#fd4285
+palette = 2=#a6e22d
+palette = 3=#e5da72
+palette = 4=#0094d8
+palette = 5=#9a37fe
+palette = 6=#50b6d8
+palette = 7=#c7c7c7
+palette = 8=#676767
+palette = 9=#f97fac
+palette = 10=#bde271
+palette = 11=#fef27f
+palette = 12=#00bdfe
+palette = 13=#bd9efe
+palette = 14=#5ed6fe
+palette = 15=#fefefe
+background = #000000
+foreground = #c7c7c7
+cursor-color = #c7c7c7
+cursor-text = #161616
+selection-background = #c1ddfe
+selection-foreground = #000000

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    DanQing
+# Author:   Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)
+# Variant:  dark
+
+palette = 0=#2d302f
+palette = 1=#f9906f
+palette = 2=#8ab361
+palette = 3=#f0c239
+palette = 4=#b0a4e3
+palette = 5=#cca4e3
+palette = 6=#30dff3
+palette = 7=#e0f0ef
+palette = 8=#9da8a3
+palette = 9=#f9906f
+palette = 10=#8ab361
+palette = 11=#f0c239
+palette = 12=#b0a4e3
+palette = 13=#cca4e3
+palette = 14=#30dff3
+palette = 15=#fcfefd
+background = #2d302f
+foreground = #e0f0ef
+cursor-color = #e0f0ef
+cursor-text = #2d302f
+selection-background = #ecf6f2
+selection-foreground = #434846

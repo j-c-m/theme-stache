@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Laser
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#030d18
+palette = 1=#ff8272
+palette = 2=#b4fa72
+palette = 3=#f92883
+palette = 4=#fed300
+palette = 5=#ff8ffd
+palette = 6=#d0d1fe
+palette = 7=#d8d8d8
+palette = 8=#a6a6a6
+palette = 9=#ffc4bd
+palette = 10=#d6fcb9
+palette = 11=#fefdd5
+palette = 12=#f92883
+palette = 13=#ffb1fe
+palette = 14=#e5e6fe
+palette = 15=#feffff
+background = #030d18
+foreground = #d8d8d8
+cursor-color = #d8d8d8
+cursor-text = #030d18
+selection-background = #f1f1f1
+selection-foreground = #616161

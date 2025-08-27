@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Terminal Basic
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#ffffff
+palette = 1=#990000
+palette = 2=#00a600
+palette = 3=#0000ff
+palette = 4=#0000b2
+palette = 5=#b200b2
+palette = 6=#00a6b2
+palette = 7=#a8a8a8
+palette = 8=#7c7c7c
+palette = 9=#e50000
+palette = 10=#00d900
+palette = 11=#e5e500
+palette = 12=#0000ff
+palette = 13=#e500e5
+palette = 14=#00e5e5
+palette = 15=#e5e5e5
+background = #ffffff
+foreground = #a8a8a8
+cursor-color = #a8a8a8
+cursor-text = #ffffff
+selection-background = #bfbfbf
+selection-foreground = #000000

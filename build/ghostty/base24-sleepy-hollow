@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Sleepy Hollow
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#121213
+palette = 1=#b93934
+palette = 2=#90773e
+palette = 3=#8085ef
+palette = 4=#5e62b4
+palette = 5=#a07c7b
+palette = 6=#8eaea9
+palette = 7=#968684
+palette = 8=#665e6c
+palette = 9=#d9443e
+palette = 10=#d6b04e
+palette = 11=#f66713
+palette = 12=#8085ef
+palette = 13=#e1c2ba
+palette = 14=#a4dbe7
+palette = 15=#d1c7a9
+background = #121213
+foreground = #968684
+cursor-color = #968684
+cursor-text = #121213
+selection-background = #af9a91
+selection-foreground = #572000

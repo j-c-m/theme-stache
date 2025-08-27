@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Adwaita
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#241f31
+palette = 1=#bf1b28
+palette = 2=#2ec27d
+palette = 3=#f5c211
+palette = 4=#1d78e3
+palette = 5=#9840ba
+palette = 6=#09b9db
+palette = 7=#bfbebc
+palette = 8=#5d5c64
+palette = 9=#ec333b
+palette = 10=#57e389
+palette = 11=#f7e35c
+palette = 12=#50a1ff
+palette = 13=#bf61cb
+palette = 14=#4ed1fd
+palette = 15=#f5f5f4
+background = #ffffff
+foreground = #000000
+cursor-color = #000000
+cursor-text = #241f31
+selection-background = #bfbebc
+selection-foreground = #000000

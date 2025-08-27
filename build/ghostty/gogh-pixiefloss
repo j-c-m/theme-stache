@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Pixiefloss
+# Author:   
+# Variant:  dark
+
+palette = 0=#2f2942
+palette = 1=#ff857f
+palette = 2=#48b685
+palette = 3=#e6c000
+palette = 4=#ae81ff
+palette = 5=#ef6155
+palette = 6=#c2ffdf
+palette = 7=#f8f8f2
+palette = 8=#75507b
+palette = 9=#f1568e
+palette = 10=#5adba2
+palette = 11=#d5a425
+palette = 12=#c5a3ff
+palette = 13=#ef6155
+palette = 14=#c2ffff
+palette = 15=#f8f8f0
+background = #241f33
+foreground = #d1cae8
+cursor-color = #d1cae8
+cursor-text = #2f2942
+selection-background = #d1cae8
+selection-foreground = #241f33

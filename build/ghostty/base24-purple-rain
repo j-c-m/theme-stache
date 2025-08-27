@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Purple Rain
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#20084a
+palette = 1=#ff260d
+palette = 2=#9ae204
+palette = 3=#00a5ff
+palette = 4=#00a1f9
+palette = 5=#805bb5
+palette = 6=#00ddef
+palette = 7=#d3d4d4
+palette = 8=#7f7f7f
+palette = 9=#ff4250
+palette = 10=#b8e36d
+palette = 11=#ffd852
+palette = 12=#00a5ff
+palette = 13=#ab7aef
+palette = 14=#74fcf3
+palette = 15=#feffff
+background = #20084a
+foreground = #d3d4d4
+cursor-color = #d3d4d4
+cursor-text = #20084a
+selection-background = #feffff
+selection-foreground = #000000

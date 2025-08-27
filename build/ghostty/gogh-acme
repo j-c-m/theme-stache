@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Acme
+# Author:   plan9-for-vimspace (https://github.com/plan9-for-vimspace/acme-colors)
+# Variant:  light
+
+palette = 0=#101010
+palette = 1=#303030
+palette = 2=#cccc7c
+palette = 3=#ffffca
+palette = 4=#eaffff
+palette = 5=#505050
+palette = 6=#aeeeee
+palette = 7=#fcfcce
+palette = 8=#101010
+palette = 9=#303030
+palette = 10=#cccc7c
+palette = 11=#ffffca
+palette = 12=#eaffff
+palette = 13=#505050
+palette = 14=#aeeeee
+palette = 15=#fcfcce
+background = #ffffea
+foreground = #000000
+cursor-color = #000000
+cursor-text = #101010
+selection-background = #000000
+selection-foreground = #ffffea

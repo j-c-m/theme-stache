@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Sea
+# Author:   
+# Variant:  dark
+
+palette = 0=#1d262f
+palette = 1=#34659d
+palette = 2=#0fc78a
+palette = 3=#47ebb4
+palette = 4=#57718e
+palette = 5=#0fc78a
+palette = 6=#6e9bcf
+palette = 7=#a1aab5
+palette = 8=#4a5f78
+palette = 9=#14e19d
+palette = 10=#27323f
+palette = 11=#405368
+palette = 12=#738191
+palette = 13=#afd4fe
+palette = 14=#0db57d
+palette = 15=#ebf4ff
+background = #1d262f
+foreground = #a1aab5
+cursor-color = #067953
+cursor-text = #1d262f
+selection-background = #a1aab5
+selection-foreground = #1d262f

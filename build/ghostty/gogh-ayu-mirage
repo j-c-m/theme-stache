@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Ayu Mirage
+# Author:   
+# Variant:  dark
+
+palette = 0=#1f2430
+palette = 1=#ff3333
+palette = 2=#bae67e
+palette = 3=#ffa759
+palette = 4=#73d0ff
+palette = 5=#d4bfff
+palette = 6=#95e6cb
+palette = 7=#cbccc6
+palette = 8=#707a8c
+palette = 9=#ff3333
+palette = 10=#bae67e
+palette = 11=#ffa759
+palette = 12=#73d0ff
+palette = 13=#d4bfff
+palette = 14=#95e6cb
+palette = 15=#cbccc6
+background = #1f2430
+foreground = #cbccc6
+cursor-color = #ffcc66
+cursor-text = #1f2430
+selection-background = #cbccc6
+selection-foreground = #1f2430

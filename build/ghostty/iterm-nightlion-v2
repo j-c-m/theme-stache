@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    NightLion v2
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#4c4c4c
+palette = 1=#bb0000
+palette = 2=#03f622
+palette = 3=#f2f067
+palette = 4=#63d0f0
+palette = 5=#ce6fda
+palette = 6=#00d9df
+palette = 7=#bbbbbb
+palette = 8=#555555
+palette = 9=#ff5555
+palette = 10=#7df61c
+palette = 11=#ffff55
+palette = 12=#62cae7
+palette = 13=#ff9af5
+palette = 14=#00ccd7
+palette = 15=#ffffff
+background = #171717
+foreground = #bbbbbb
+cursor-color = #bbbbbb
+cursor-text = #4c4c4c
+selection-background = #b4d5ff
+selection-foreground = #000000

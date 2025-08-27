@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Atelier Cave Light
+# Author:   Bram de Haan (http://atelierbramdehaan.nl)
+# Variant:  light
+
+palette = 0=#efecf4
+palette = 1=#be4678
+palette = 2=#2a9292
+palette = 3=#a06e3b
+palette = 4=#576ddb
+palette = 5=#955ae7
+palette = 6=#398bc6
+palette = 7=#585260
+palette = 8=#7e7887
+palette = 9=#be4678
+palette = 10=#2a9292
+palette = 11=#a06e3b
+palette = 12=#576ddb
+palette = 13=#955ae7
+palette = 14=#398bc6
+palette = 15=#19171c
+background = #efecf4
+foreground = #585260
+cursor-color = #585260
+cursor-text = #efecf4
+selection-background = #26232a
+selection-foreground = #e2dfe7

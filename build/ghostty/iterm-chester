@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Chester
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#080200
+palette = 1=#fa5e5b
+palette = 2=#16c98d
+palette = 3=#ffc83f
+palette = 4=#288ad6
+palette = 5=#d34590
+palette = 6=#28ddde
+palette = 7=#e7e7e7
+palette = 8=#6f6b67
+palette = 9=#fa5e5b
+palette = 10=#16c98d
+palette = 11=#feef6d
+palette = 12=#278ad6
+palette = 13=#d34590
+palette = 14=#27dede
+palette = 15=#ffffff
+background = #2c3643
+foreground = #ffffff
+cursor-color = #b4b1b1
+cursor-text = #080200
+selection-background = #67747c
+selection-foreground = #ffffff

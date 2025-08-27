@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Hemisu Light
+# Author:   
+# Variant:  light
+
+palette = 0=#777777
+palette = 1=#ff0055
+palette = 2=#739100
+palette = 3=#503d15
+palette = 4=#538091
+palette = 5=#5b345e
+palette = 6=#538091
+palette = 7=#999999
+palette = 8=#999999
+palette = 9=#d65e76
+palette = 10=#9cc700
+palette = 11=#947555
+palette = 12=#9db3cd
+palette = 13=#a184a4
+palette = 14=#85b2aa
+palette = 15=#bababa
+background = #efefef
+foreground = #444444
+cursor-color = #ff0054
+cursor-text = #777777
+selection-background = #444444
+selection-foreground = #efefef

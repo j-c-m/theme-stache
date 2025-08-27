@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Tearout
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#675741
+palette = 1=#cc957b
+palette = 2=#97976d
+palette = 3=#6b9861
+palette = 4=#b4945d
+palette = 5=#c8a553
+palette = 6=#d6c382
+palette = 7=#b4945d
+palette = 8=#675741
+palette = 9=#cc957b
+palette = 10=#97976d
+palette = 11=#6b9861
+palette = 12=#b4945d
+palette = 13=#c8a553
+palette = 14=#d6c382
+palette = 15=#b4945d
+background = #33382d
+foreground = #f4d1ae
+cursor-color = #d6c382
+cursor-text = #675741
+selection-background = #e3c379
+selection-foreground = #000000

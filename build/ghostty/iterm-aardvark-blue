@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Aardvark Blue
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#191919
+palette = 1=#aa332d
+palette = 2=#4a8c0f
+palette = 3=#dbb900
+palette = 4=#126fd3
+palette = 5=#c33ac2
+palette = 6=#008db0
+palette = 7=#bebebe
+palette = 8=#444444
+palette = 9=#f05a50
+palette = 10=#94dc54
+palette = 11=#ffe762
+palette = 12=#60a3ec
+palette = 13=#e16ae1
+palette = 14=#60b6cb
+palette = 15=#f7f7f7
+background = #102040
+foreground = #dcdcdc
+cursor-color = #007acc
+cursor-text = #191919
+selection-background = #bfdbfe
+selection-foreground = #000000

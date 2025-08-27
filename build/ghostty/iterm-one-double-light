@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    One Double Light
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#444b58
+palette = 1=#f6473f
+palette = 2=#24a343
+palette = 3=#cb8000
+palette = 4=#0086c1
+palette = 5=#b50da9
+palette = 6=#0099b6
+palette = 7=#ebd8d8
+palette = 8=#0d131e
+palette = 9=#fe3611
+palette = 10=#00b90d
+palette = 11=#eb9900
+palette = 12=#1064dd
+palette = 13=#e500d7
+palette = 14=#00b4dc
+palette = 15=#fefefe
+background = #faf9f9
+foreground = #373a42
+cursor-color = #191919
+cursor-text = #444b58
+selection-background = #454e5e
+selection-foreground = #191919

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Purplepeter
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2a1a4a
+palette = 1=#ff786c
+palette = 2=#98b481
+palette = 3=#79daed
+palette = 4=#66d9ef
+palette = 5=#e68ecd
+palette = 6=#b98cff
+palette = 7=#c38e69
+palette = 8=#4b3639
+palette = 9=#f89f92
+palette = 10=#b4bd8e
+palette = 11=#f1e9bf
+palette = 12=#79daed
+palette = 13=#b991d4
+palette = 14=#a0a0d6
+palette = 15=#b9aed3
+background = #2a1a4a
+foreground = #c38e69
+cursor-color = #c38e69
+cursor-text = #2a1a4a
+selection-background = #ffba81
+selection-foreground = #0a041f

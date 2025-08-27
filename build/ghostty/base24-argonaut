@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Argonaut
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0d0f18
+palette = 1=#ff000f
+palette = 2=#8ce00a
+palette = 3=#0092ff
+palette = 4=#008df8
+palette = 5=#6c43a5
+palette = 6=#00d7eb
+palette = 7=#d0d0d0
+palette = 8=#727272
+palette = 9=#ff273f
+palette = 10=#abe05a
+palette = 11=#ffd141
+palette = 12=#0092ff
+palette = 13=#9a5feb
+palette = 14=#67ffef
+palette = 15=#ffffff
+background = #0d0f18
+foreground = #d0d0d0
+cursor-color = #d0d0d0
+cursor-text = #0d0f18
+selection-background = #ffffff
+selection-foreground = #222222

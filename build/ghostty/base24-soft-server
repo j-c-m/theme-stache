@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Soft Server
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#242626
+palette = 1=#a16869
+palette = 2=#99a569
+palette = 3=#62b1df
+palette = 4=#6a8fa3
+palette = 5=#6971a3
+palette = 6=#6ba48f
+palette = 7=#8c9594
+palette = 8=#727978
+palette = 9=#dc5b5f
+palette = 10=#bfde54
+palette = 11=#deb35f
+palette = 12=#62b1df
+palette = 13=#5f6ede
+palette = 14=#64e39c
+palette = 15=#d1dfde
+background = #242626
+foreground = #8c9594
+cursor-color = #8c9594
+cursor-text = #242626
+selection-background = #99a3a2
+selection-foreground = #000000

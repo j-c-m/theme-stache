@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Desert
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#333333
+palette = 1=#ff2b2b
+palette = 2=#98fb98
+palette = 3=#87ceff
+palette = 4=#cd853f
+palette = 5=#ffdead
+palette = 6=#ffa0a0
+palette = 7=#cdbb9b
+palette = 8=#7d776c
+palette = 9=#ff5555
+palette = 10=#55ff55
+palette = 11=#ffff55
+palette = 12=#87ceff
+palette = 13=#ff55ff
+palette = 14=#ffd700
+palette = 15=#ffffff
+background = #333333
+foreground = #cdbb9b
+cursor-color = #cdbb9b
+cursor-text = #333333
+selection-background = #f5deb3
+selection-foreground = #4d4d4d

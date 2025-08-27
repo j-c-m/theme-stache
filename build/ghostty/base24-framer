@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Framer
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#111111
+palette = 1=#ff5555
+palette = 2=#98ec65
+palette = 3=#33bbff
+palette = 4=#00aaff
+palette = 5=#aa88ff
+palette = 6=#88ddff
+palette = 7=#a9a9a9
+palette = 8=#636363
+palette = 9=#ff8888
+palette = 10=#b6f292
+palette = 11=#ffd966
+palette = 12=#33bbff
+palette = 13=#cebbff
+palette = 14=#bbecff
+palette = 15=#ffffff
+background = #111111
+foreground = #a9a9a9
+cursor-color = #a9a9a9
+cursor-text = #111111
+selection-background = #cccccc
+selection-foreground = #141414

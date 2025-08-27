@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Builtin Tango Light
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  light
+
+palette = 0=#ffffff
+palette = 1=#cc0000
+palette = 2=#4e9a05
+palette = 3=#719ecf
+palette = 4=#3464a4
+palette = 5=#74507a
+palette = 6=#05989a
+palette = 7=#b3b7b0
+palette = 8=#737772
+palette = 9=#ef2828
+palette = 10=#8ae234
+palette = 11=#fce94e
+palette = 12=#719ecf
+palette = 13=#ad7ea7
+palette = 14=#34e2e2
+palette = 15=#ededec
+background = #ffffff
+foreground = #b3b7b0
+cursor-color = #b3b7b0
+cursor-text = #ffffff
+selection-background = #d3d7cf
+selection-foreground = #000000

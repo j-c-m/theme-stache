@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    CobaltNext-Dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#262f36
+palette = 1=#f94866
+palette = 2=#8bc88e
+palette = 3=#fec54c
+palette = 4=#409dd3
+palette = 5=#cba3c7
+palette = 6=#37b5b4
+palette = 7=#d6deea
+palette = 8=#61737f
+palette = 9=#e37d8a
+palette = 10=#baddbb
+palette = 11=#fedc90
+palette = 12=#7abfeb
+palette = 13=#f3cbef
+palette = 14=#83e4e3
+palette = 15=#fefefe
+background = #0a1c23
+foreground = #d6deea
+cursor-color = #fec54c
+cursor-text = #262f36
+selection-background = #37b5b4
+selection-foreground = #fefefe

@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Tomorrow Night Blue
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ff9da3
+palette = 2=#d1f1a9
+palette = 3=#ffeead
+palette = 4=#bbdaff
+palette = 5=#ebbbff
+palette = 6=#99ffff
+palette = 7=#fffefe
+palette = 8=#000000
+palette = 9=#ff9ca3
+palette = 10=#d0f0a8
+palette = 11=#ffedac
+palette = 12=#badaff
+palette = 13=#ebbaff
+palette = 14=#99ffff
+palette = 15=#fffefe
+background = #002451
+foreground = #fffefe
+cursor-color = #fffefe
+cursor-text = #000000
+selection-background = #003f8e
+selection-foreground = #fffefe

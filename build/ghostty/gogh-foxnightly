@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Foxnightly
+# Author:   
+# Variant:  dark
+
+palette = 0=#2a2a2e
+palette = 1=#b98eff
+palette = 2=#ff7de9
+palette = 3=#729fcf
+palette = 4=#66a05b
+palette = 5=#75507b
+palette = 6=#acacae
+palette = 7=#ffffff
+palette = 8=#a40000
+palette = 9=#bf4040
+palette = 10=#66a05b
+palette = 11=#ffb86c
+palette = 12=#729fcf
+palette = 13=#8f5902
+palette = 14=#c4a000
+palette = 15=#5c3566
+background = #2a2a2e
+foreground = #d7d7db
+cursor-color = #d7d7db
+cursor-text = #2a2a2e
+selection-background = #d7d7db
+selection-foreground = #2a2a2e

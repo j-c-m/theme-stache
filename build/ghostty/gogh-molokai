@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Molokai
+# Author:   
+# Variant:  dark
+
+palette = 0=#1b1d1e
+palette = 1=#7325fa
+palette = 2=#23e298
+palette = 3=#60d4df
+palette = 4=#d08010
+palette = 5=#ff0087
+palette = 6=#d0a843
+palette = 7=#bbbbbb
+palette = 8=#555555
+palette = 9=#9d66f6
+palette = 10=#5fe0b1
+palette = 11=#6df2ff
+palette = 12=#ffaf00
+palette = 13=#ff87af
+palette = 14=#ffce51
+palette = 15=#ffffff
+background = #1b1d1e
+foreground = #bbbbbb
+cursor-color = #bbbbbb
+cursor-text = #1b1d1e
+selection-background = #bbbbbb
+selection-foreground = #1b1d1e

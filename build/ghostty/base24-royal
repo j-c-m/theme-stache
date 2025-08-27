@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Royal
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#100814
+palette = 1=#90274b
+palette = 2=#23801c
+palette = 3=#8fb9f9
+palette = 4=#6480af
+palette = 5=#664d96
+palette = 6=#8aaabd
+palette = 7=#49425a
+palette = 8=#393446
+palette = 9=#d4346c
+palette = 10=#2cd845
+palette = 11=#fde83a
+palette = 12=#8fb9f9
+palette = 13=#a479e2
+palette = 14=#abd3eb
+palette = 15=#9d8bbd
+background = #100814
+foreground = #49425a
+cursor-color = #49425a
+cursor-text = #100814
+selection-background = #514965
+selection-foreground = #241f2a

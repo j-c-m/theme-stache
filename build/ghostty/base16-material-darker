@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Material Darker
+# Author:   Nate Peterson
+# Variant:  dark
+
+palette = 0=#212121
+palette = 1=#f07178
+palette = 2=#c3e88d
+palette = 3=#ffcb6b
+palette = 4=#82aaff
+palette = 5=#c792ea
+palette = 6=#89ddff
+palette = 7=#eeffff
+palette = 8=#4a4a4a
+palette = 9=#f07178
+palette = 10=#c3e88d
+palette = 11=#ffcb6b
+palette = 12=#82aaff
+palette = 13=#c792ea
+palette = 14=#89ddff
+palette = 15=#ffffff
+background = #212121
+foreground = #eeffff
+cursor-color = #eeffff
+cursor-text = #212121
+selection-background = #eeffff
+selection-foreground = #303030

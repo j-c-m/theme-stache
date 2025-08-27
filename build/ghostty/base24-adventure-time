@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Adventure Time
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1e1c44
+palette = 1=#bc0013
+palette = 2=#49b117
+palette = 3=#1896c6
+palette = 4=#0f49c6
+palette = 5=#665992
+palette = 6=#6fa497
+palette = 7=#cdc3bf
+palette = 8=#7893bf
+palette = 9=#fc5e59
+palette = 10=#9dff6e
+palette = 11=#efc11a
+palette = 12=#1896c6
+palette = 13=#9a5952
+palette = 14=#c8f9f3
+palette = 15=#f5f4fb
+background = #1e1c44
+foreground = #cdc3bf
+cursor-color = #cdc3bf
+cursor-text = #1e1c44
+selection-background = #f8dbc0
+selection-foreground = #050404

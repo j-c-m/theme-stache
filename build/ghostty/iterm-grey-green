@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Grey-green
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#fd1414
+palette = 2=#73ff00
+palette = 3=#f0ff01
+palette = 4=#00ddff
+palette = 5=#ff00ef
+palette = 6=#00ffbb
+palette = 7=#ffffff
+palette = 8=#666666
+palette = 9=#ff3939
+palette = 10=#00ff43
+palette = 11=#ffd100
+palette = 12=#00aeff
+palette = 13=#ff008a
+palette = 14=#00ffd2
+palette = 15=#f4ecec
+background = #002a1a
+foreground = #ffffff
+cursor-color = #fff300
+cursor-text = #000000
+selection-background = #507e4f
+selection-foreground = #e1e1e1

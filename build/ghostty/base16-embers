@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Embers
+# Author:   Jannik Siebert (https://github.com/janniks)
+# Variant:  dark
+
+palette = 0=#16130f
+palette = 1=#826d57
+palette = 2=#57826d
+palette = 3=#6d8257
+palette = 4=#6d5782
+palette = 5=#82576d
+palette = 6=#576d82
+palette = 7=#a39a90
+palette = 8=#5a5047
+palette = 9=#826d57
+palette = 10=#57826d
+palette = 11=#6d8257
+palette = 12=#6d5782
+palette = 13=#82576d
+palette = 14=#576d82
+palette = 15=#dbd6d1
+background = #16130f
+foreground = #a39a90
+cursor-color = #a39a90
+cursor-text = #16130f
+selection-background = #beb6ae
+selection-foreground = #2c2620

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    XCode Dusk
+# Author:   Elsa Gonsiorowski (https://github.com/gonsie)
+# Variant:  dark
+
+palette = 0=#282b35
+palette = 1=#b21889
+palette = 2=#df0002
+palette = 3=#438288
+palette = 4=#790ead
+palette = 5=#b21889
+palette = 6=#00a0be
+palette = 7=#939599
+palette = 8=#686a71
+palette = 9=#b21889
+palette = 10=#df0002
+palette = 11=#438288
+palette = 12=#790ead
+palette = 13=#b21889
+palette = 14=#00a0be
+palette = 15=#bebfc2
+background = #282b35
+foreground = #939599
+cursor-color = #939599
+cursor-text = #282b35
+selection-background = #a9aaae
+selection-foreground = #3d4048

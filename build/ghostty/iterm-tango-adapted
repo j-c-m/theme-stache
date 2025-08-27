@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Tango Adapted
+# Author:   unknown
+# Variant:  light
+
+palette = 0=#000000
+palette = 1=#ff0000
+palette = 2=#59d500
+palette = 3=#efca00
+palette = 4=#00a1ff
+palette = 5=#c17ecb
+palette = 6=#00d0d6
+palette = 7=#e6eae1
+palette = 8=#8e928a
+palette = 9=#ff0012
+palette = 10=#93fe00
+palette = 11=#fff021
+palette = 12=#88c9ff
+palette = 13=#e8a6e1
+palette = 14=#00fdff
+palette = 15=#f6f6f4
+background = #fffefe
+foreground = #000000
+cursor-color = #000000
+cursor-text = #000000
+selection-background = #c1ddff
+selection-foreground = #000000

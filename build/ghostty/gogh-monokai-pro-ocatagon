@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Monokai Pro Ocatagon
+# Author:   
+# Variant:  dark
+
+palette = 0=#3a3d4b
+palette = 1=#ff657a
+palette = 2=#bad761
+palette = 3=#ffd76d
+palette = 4=#ff9b5e
+palette = 5=#c39ac9
+palette = 6=#9cd1bb
+palette = 7=#eaf2f1
+palette = 8=#adaeb4
+palette = 9=#ff657a
+palette = 10=#bad761
+palette = 11=#ffd76d
+palette = 12=#ff9b5e
+palette = 13=#c39ac9
+palette = 14=#9cd1bb
+palette = 15=#eaf2f1
+background = #3a3d4b
+foreground = #eaf2f1
+cursor-color = #eaf2f1
+cursor-text = #3a3d4b
+selection-background = #eaf2f1
+selection-foreground = #3a3d4b

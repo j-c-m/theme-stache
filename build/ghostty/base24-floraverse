@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Floraverse
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0e0c15
+palette = 1=#64002c
+palette = 2=#5d731a
+palette = 3=#40a4cf
+palette = 4=#1d6da1
+palette = 5=#b7077e
+palette = 6=#42a38c
+palette = 7=#c3af9d
+palette = 8=#634e67
+palette = 9=#d02063
+palette = 10=#b4ce59
+palette = 11=#fac357
+palette = 12=#40a4cf
+palette = 13=#f12aae
+palette = 14=#62caa8
+palette = 15=#fff5db
+background = #0e0c15
+foreground = #c3af9d
+cursor-color = #c3af9d
+cursor-text = #0e0c15
+selection-background = #f3e0b8
+selection-foreground = #08002e

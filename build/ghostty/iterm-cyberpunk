@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    cyberpunk
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#ff7092
+palette = 2=#00faac
+palette = 3=#fef96a
+palette = 4=#00beff
+palette = 5=#de95ff
+palette = 6=#85cbfd
+palette = 7=#ffffff
+palette = 8=#000000
+palette = 9=#ff89a3
+palette = 10=#20f6bb
+palette = 11=#fff687
+palette = 12=#1bcbfc
+palette = 13=#e5adfd
+palette = 14=#99d6fc
+palette = 15=#feffff
+background = #322957
+foreground = #e5e5e5
+cursor-color = #20f6bb
+cursor-text = #000000
+selection-background = #c1ddff
+selection-foreground = #000000

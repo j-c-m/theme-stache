@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Snazzy
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#fb4245
+palette = 2=#50fa7b
+palette = 3=#f0fa8b
+palette = 4=#49b9fe
+palette = 5=#fb4cb3
+palette = 6=#8be9fd
+palette = 7=#ededec
+palette = 8=#555555
+palette = 9=#fb4245
+palette = 10=#50fa7b
+palette = 11=#f0fa8b
+palette = 12=#49b9fe
+palette = 13=#fb4cb3
+palette = 14=#8be9fd
+palette = 15=#ededec
+background = #1e1f28
+foreground = #ebece6
+cursor-color = #e4e4e4
+cursor-text = #000000
+selection-background = #80adc5
+selection-foreground = #000000

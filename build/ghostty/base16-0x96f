@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    0x96f
+# Author:   Filip Janevski (https://0x96f.dev/theme)
+# Variant:  dark
+
+palette = 0=#262427
+palette = 1=#ff7272
+palette = 2=#bcdf59
+palette = 3=#ffca58
+palette = 4=#49cae4
+palette = 5=#a093e2
+palette = 6=#aee8f4
+palette = 7=#fcfcfc
+palette = 8=#676567
+palette = 9=#ff7272
+palette = 10=#bcdf59
+palette = 11=#ffca58
+palette = 12=#49cae4
+palette = 13=#a093e2
+palette = 14=#aee8f4
+palette = 15=#fcfcfc
+background = #262427
+foreground = #fcfcfc
+cursor-color = #fcfcfc
+cursor-text = #262427
+selection-background = #eae9eb
+selection-foreground = #3b393c

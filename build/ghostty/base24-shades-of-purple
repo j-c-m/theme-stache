@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Shades Of Purple
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1e1d40
+palette = 1=#d90429
+palette = 2=#3ad900
+palette = 3=#6871ff
+palette = 4=#6943ff
+palette = 5=#ff2b70
+palette = 6=#00c5c7
+palette = 7=#afafaf
+palette = 8=#7f7f7f
+palette = 9=#f9291b
+palette = 10=#42d425
+palette = 11=#f1d000
+palette = 12=#6871ff
+palette = 13=#ff76ff
+palette = 14=#79e7fa
+palette = 15=#feffff
+background = #1e1d40
+foreground = #afafaf
+cursor-color = #afafaf
+cursor-text = #1e1d40
+selection-background = #c7c7c7
+selection-foreground = #000000

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Hybrid
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#161718
+palette = 1=#b74d50
+palette = 2=#b3be5a
+palette = 3=#4b6b88
+palette = 4=#6d90b0
+palette = 5=#a07eab
+palette = 6=#7fbeb3
+palette = 7=#8f9190
+palette = 8=#434446
+palette = 9=#8c2d32
+palette = 10=#788331
+palette = 11=#e5894f
+palette = 12=#4b6b88
+palette = 13=#6e4f79
+palette = 14=#4d7b73
+palette = 15=#5a6169
+background = #161718
+foreground = #8f9190
+cursor-color = #8f9190
+cursor-text = #161718
+selection-background = #b5b8b6
+selection-foreground = #2a2e33

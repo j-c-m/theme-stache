@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    iTerm2 Tango Dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#d71e00
+palette = 2=#5da602
+palette = 3=#cfad00
+palette = 4=#417ab3
+palette = 5=#88658d
+palette = 6=#00a7aa
+palette = 7=#dbded8
+palette = 8=#676965
+palette = 9=#f44135
+palette = 10=#98e342
+palette = 11=#fcea60
+palette = 12=#83afd8
+palette = 13=#bc93b6
+palette = 14=#37e5e7
+palette = 15=#f1f1ef
+background = #000000
+foreground = #fffeff
+cursor-color = #fffeff
+cursor-text = #000000
+selection-background = #c1ddff
+selection-foreground = #000000

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    City Lights
+# Author:   
+# Variant:  dark
+
+palette = 0=#41505e
+palette = 1=#d95468
+palette = 2=#8bd49c
+palette = 3=#ebbf83
+palette = 4=#539afc
+palette = 5=#b62d65
+palette = 6=#70e1e8
+palette = 7=#ffffff
+palette = 8=#41505e
+palette = 9=#d95468
+palette = 10=#8bd49c
+palette = 11=#ebbf83
+palette = 12=#539afc
+palette = 13=#b62d65
+palette = 14=#70e1e8
+palette = 15=#ffffff
+background = #171d23
+foreground = #ffffff
+cursor-color = #008b94
+cursor-text = #41505e
+selection-background = #ffffff
+selection-foreground = #171d23

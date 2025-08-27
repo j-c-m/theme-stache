@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mar
+# Author:   
+# Variant:  light
+
+palette = 0=#000000
+palette = 1=#b5407b
+palette = 2=#7bb540
+palette = 3=#b57b40
+palette = 4=#407bb5
+palette = 5=#7b40b5
+palette = 6=#40b57b
+palette = 7=#f8f8f8
+palette = 8=#737373
+palette = 9=#cd73a0
+palette = 10=#a0cd73
+palette = 11=#cda073
+palette = 12=#73a0cd
+palette = 13=#a073cd
+palette = 14=#73cda0
+palette = 15=#ffffff
+background = #ffffff
+foreground = #23476a
+cursor-color = #23476a
+cursor-text = #000000
+selection-background = #23476a
+selection-foreground = #ffffff

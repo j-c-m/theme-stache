@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Monokai Pro Ristretto
+# Author:   
+# Variant:  dark
+
+palette = 0=#3e3838
+palette = 1=#df7484
+palette = 2=#bbd87e
+palette = 3=#edce73
+palette = 4=#dc9373
+palette = 5=#a9aae9
+palette = 6=#a4d7cc
+palette = 7=#fbf2f3
+palette = 8=#70696a
+palette = 9=#df7484
+palette = 10=#bbd87e
+palette = 11=#edce73
+palette = 12=#dc9373
+palette = 13=#a9aae9
+palette = 14=#a4d7cc
+palette = 15=#fbf2f3
+background = #3e3838
+foreground = #fbf2f3
+cursor-color = #fbf2f3
+cursor-text = #3e3838
+selection-background = #fbf2f3
+selection-foreground = #3e3838

@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Fahrenheit
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#1c1c1c
+palette = 1=#cc9f74
+palette = 2=#9e744c
+palette = 3=#fdcf74
+palette = 4=#720001
+palette = 5=#734b4c
+palette = 6=#979797
+palette = 7=#ffffcd
+palette = 8=#000000
+palette = 9=#fdce9f
+palette = 10=#cb724c
+palette = 11=#fd9f4d
+palette = 12=#cb4905
+palette = 13=#4d729f
+palette = 14=#fecf4d
+palette = 15=#ffffff
+background = #000000
+foreground = #ffffcd
+cursor-color = #bbbbbb
+cursor-text = #1c1c1c
+selection-background = #4d729f
+selection-foreground = #ffffcd

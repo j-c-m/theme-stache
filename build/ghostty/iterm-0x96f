@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    0x96f
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#262327
+palette = 1=#fe666c
+palette = 2=#b2e039
+palette = 3=#fec739
+palette = 4=#00cde7
+palette = 5=#a292e7
+palette = 6=#9ceaf6
+palette = 7=#fcfbf9
+palette = 8=#545351
+palette = 9=#fe7e83
+palette = 10=#bee55e
+palette = 11=#fecf5d
+palette = 12=#1bd5eb
+palette = 13=#b0a2eb
+palette = 14=#acecf7
+palette = 15=#fcfbf9
+background = #262327
+foreground = #fcfbf9
+cursor-color = #fcfbf9
+cursor-text = #262327
+selection-background = #fcfbf9
+selection-foreground = #262327

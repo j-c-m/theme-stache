@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    violite
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#241b36
+palette = 1=#ec7878
+palette = 2=#78ecb3
+palette = 3=#ece278
+palette = 4=#a878ec
+palette = 5=#ec78ec
+palette = 6=#78ecec
+palette = 7=#edf4f5
+palette = 8=#49376d
+palette = 9=#ef8f8f
+palette = 10=#9eefbe
+palette = 11=#efe78f
+palette = 12=#b68fef
+palette = 13=#ef8fcf
+palette = 14=#9eefef
+palette = 15=#f7fafb
+background = #241b36
+foreground = #edf4f5
+cursor-color = #edf4f5
+cursor-text = #241b36
+selection-background = #49376d
+selection-foreground = #edf4f5

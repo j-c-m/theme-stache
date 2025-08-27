@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Kibble
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0e100a
+palette = 1=#c70031
+palette = 2=#29cf13
+palette = 3=#97a4f7
+palette = 4=#3449d1
+palette = 5=#8400ff
+palette = 6=#0798ab
+palette = 7=#c0b3c0
+palette = 8=#7c777c
+palette = 9=#f01578
+palette = 10=#6ce05c
+palette = 11=#f3f79e
+palette = 12=#97a4f7
+palette = 13=#c495f0
+palette = 14=#68f2e0
+palette = 15=#ffffff
+background = #0e100a
+foreground = #c0b3c0
+cursor-color = #c0b3c0
+cursor-text = #0e100a
+selection-background = #e2d1e3
+selection-foreground = #4d4d4d

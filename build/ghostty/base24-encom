@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    ENCOM
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#9f0000
+palette = 2=#008b00
+palette = 3=#0000ff
+palette = 4=#0081ff
+palette = 5=#bc00ca
+palette = 6=#008b8b
+palette = 7=#a1a1a1
+palette = 8=#6e6e6e
+palette = 9=#ff0000
+palette = 10=#00ee00
+palette = 11=#ffff00
+palette = 12=#0000ff
+palette = 13=#ff00ff
+palette = 14=#00cdcd
+palette = 15=#ffffff
+background = #000000
+foreground = #a1a1a1
+cursor-color = #a1a1a1
+cursor-text = #000000
+selection-background = #bbbbbb
+selection-foreground = #000000

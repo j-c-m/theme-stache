@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Blue Moon
+# Author:   kyazdani42 (https://github.com/kyazdani42/blue-moon)
+# Variant:  dark
+
+palette = 0=#353b52
+palette = 1=#d06178
+palette = 2=#b4c4b4
+palette = 3=#cfcfbf
+palette = 4=#959dcb
+palette = 5=#b9a3eb
+palette = 6=#89bbdd
+palette = 7=#ffffff
+palette = 8=#8796b0
+palette = 9=#e61f44
+palette = 10=#acfab4
+palette = 11=#dfdf9f
+palette = 12=#b8bcf3
+palette = 13=#b9a3eb
+palette = 14=#89ddff
+palette = 15=#ffffff
+background = #1b1e2b
+foreground = #676e96
+cursor-color = #676e96
+cursor-text = #353b52
+selection-background = #676e96
+selection-foreground = #1b1e2b

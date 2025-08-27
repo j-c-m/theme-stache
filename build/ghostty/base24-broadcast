@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Broadcast
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#2b2b2b
+palette = 1=#da4939
+palette = 2=#519f50
+palette = 3=#9fcef0
+palette = 4=#6d9cbe
+palette = 5=#d0d0ff
+palette = 6=#6e9cbe
+palette = 7=#cbcbcb
+palette = 8=#656565
+palette = 9=#ff7b6b
+palette = 10=#83d182
+palette = 11=#ffff7c
+palette = 12=#9fcef0
+palette = 13=#ffffff
+palette = 14=#a0cef0
+palette = 15=#ffffff
+background = #2b2b2b
+foreground = #cbcbcb
+cursor-color = #cbcbcb
+cursor-text = #2b2b2b
+selection-background = #ffffff
+selection-foreground = #000000

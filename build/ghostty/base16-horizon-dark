@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Horizon Dark
+# Author:   Michaël Ball (http://github.com/michael-ball/)
+# Variant:  dark
+
+palette = 0=#1c1e26
+palette = 1=#e93c58
+palette = 2=#efaf8e
+palette = 3=#efb993
+palette = 4=#df5273
+palette = 5=#b072d1
+palette = 6=#24a8b4
+palette = 7=#cbced0
+palette = 8=#6f6f70
+palette = 9=#e93c58
+palette = 10=#efaf8e
+palette = 11=#efb993
+palette = 12=#df5273
+palette = 13=#b072d1
+palette = 14=#24a8b4
+palette = 15=#e3e6ee
+background = #1c1e26
+foreground = #cbced0
+cursor-color = #cbced0
+cursor-text = #1c1e26
+selection-background = #dcdfe4
+selection-foreground = #232530

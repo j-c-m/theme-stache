@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Smyck
+# Author:   
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#c75646
+palette = 2=#8eb33b
+palette = 3=#d0b03c
+palette = 4=#72b3cc
+palette = 5=#c8a0d1
+palette = 6=#218693
+palette = 7=#b0b0b0
+palette = 8=#5d5d5d
+palette = 9=#e09690
+palette = 10=#cdee69
+palette = 11=#ffe377
+palette = 12=#9cd9f0
+palette = 13=#fbb1f9
+palette = 14=#77dfd8
+palette = 15=#f7f7f7
+background = #242424
+foreground = #f7f7f7
+cursor-color = #f7f7f7
+cursor-text = #000000
+selection-background = #f7f7f7
+selection-foreground = #242424

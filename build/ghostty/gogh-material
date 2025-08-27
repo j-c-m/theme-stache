@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Material
+# Author:   
+# Variant:  dark
+
+palette = 0=#073641
+palette = 1=#eb606b
+palette = 2=#c3e88d
+palette = 3=#f7eb95
+palette = 4=#80cbc3
+palette = 5=#ff2490
+palette = 6=#aeddff
+palette = 7=#ffffff
+palette = 8=#002b36
+palette = 9=#eb606b
+palette = 10=#c3e88d
+palette = 11=#f7eb95
+palette = 12=#7dc6bf
+palette = 13=#6c71c3
+palette = 14=#34434d
+palette = 15=#ffffff
+background = #1e282c
+foreground = #c3c7d1
+cursor-color = #657b83
+cursor-text = #073641
+selection-background = #c3c7d1
+selection-foreground = #1e282c

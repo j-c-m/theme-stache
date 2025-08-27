@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Sonokai
+# Author:   
+# Variant:  dark
+
+palette = 0=#2c2e34
+palette = 1=#fc5d7c
+palette = 2=#9ed072
+palette = 3=#e7c664
+palette = 4=#f39660
+palette = 5=#b39df3
+palette = 6=#76cce0
+palette = 7=#e2e2e3
+palette = 8=#7f8490
+palette = 9=#fc5d7c
+palette = 10=#9ed072
+palette = 11=#e7c664
+palette = 12=#f39660
+palette = 13=#b39df3
+palette = 14=#76cce0
+palette = 15=#e2e2e3
+background = #2c2e34
+foreground = #e2e2e3
+cursor-color = #e2e2e3
+cursor-text = #2c2e34
+selection-background = #e2e2e3
+selection-foreground = #2c2e34

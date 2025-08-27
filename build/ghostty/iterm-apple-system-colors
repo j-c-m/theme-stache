@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Apple System Colors
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#1a1a1a
+palette = 1=#cb372e
+palette = 2=#26a339
+palette = 3=#ccab08
+palette = 4=#0769cb
+palette = 5=#9646be
+palette = 6=#479ec1
+palette = 7=#98989d
+palette = 8=#464646
+palette = 9=#ff453a
+palette = 10=#32d74b
+palette = 11=#ffd60a
+palette = 12=#0a84ff
+palette = 13=#bf5af2
+palette = 14=#75d5ff
+palette = 15=#ffffff
+background = #1e1e1e
+foreground = #ffffff
+cursor-color = #98989d
+cursor-text = #1a1a1a
+selection-background = #3f638b
+selection-foreground = #ffffff

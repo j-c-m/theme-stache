@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Pool
+# Author:   
+# Variant:  dark
+
+palette = 0=#2a2433
+palette = 1=#aa75f5
+palette = 2=#f87972
+palette = 3=#ffb6b3
+palette = 4=#b886fd
+palette = 5=#f87972
+palette = 6=#c7a0fe
+palette = 7=#9a90a7
+palette = 8=#635775
+palette = 9=#fc8983
+palette = 10=#372f42
+palette = 11=#574b68
+palette = 12=#706383
+palette = 13=#e4d2fe
+palette = 14=#f36f68
+palette = 15=#f3ebff
+background = #2a2433
+foreground = #9a90a7
+cursor-color = #cf504a
+cursor-text = #2a2433
+selection-background = #9a90a7
+selection-foreground = #2a2433

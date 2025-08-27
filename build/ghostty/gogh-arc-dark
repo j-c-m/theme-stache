@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Arc Dark
+# Author:   https://hesamrad.com
+# Variant:  Dark
+
+palette = 0=#0d1117
+palette = 1=#c32424
+palette = 2=#24c391
+palette = 3=#c3a924
+palette = 4=#2455c3
+palette = 5=#c224c3
+palette = 6=#24bac3
+palette = 7=#e8ecf2
+palette = 8=#3b4d68
+palette = 9=#d93030
+palette = 10=#30d9a4
+palette = 11=#d9bd30
+palette = 12=#3063d9
+palette = 13=#d930d9
+palette = 14=#30d1d9
+palette = 15=#ffffff
+background = #0d1117
+foreground = #9198a1
+cursor-color = #00ff00
+cursor-text = #0d1117
+selection-background = #9198a1
+selection-foreground = #0d1117

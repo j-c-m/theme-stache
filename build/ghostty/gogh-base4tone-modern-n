@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base4Tone Modern N
+# Author:   
+# Variant:  dark
+
+palette = 0=#1a2023
+palette = 1=#d53975
+palette = 2=#a48f04
+palette = 3=#dcc218
+palette = 4=#47b5f5
+palette = 5=#8493f6
+palette = 6=#c1aa15
+palette = 7=#e8ebee
+palette = 8=#070b0d
+palette = 9=#eb75a2
+palette = 10=#e6ca1a
+palette = 11=#f2e58c
+palette = 12=#bbe4fb
+palette = 13=#a0acf8
+palette = 14=#b1e0fb
+palette = 15=#f6f8f9
+background = #1a2023
+foreground = #8a9da8
+cursor-color = #85826f
+cursor-text = #1a2023
+selection-background = #8a9da8
+selection-foreground = #1a2023

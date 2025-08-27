@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Predawn
+# Author:   
+# Variant:  dark
+
+palette = 0=#f18260
+palette = 1=#b51a20
+palette = 2=#a6cc75
+palette = 3=#fed33a
+palette = 4=#81b2b1
+palette = 5=#eb6c4e
+palette = 6=#81b2b1
+palette = 7=#eaeaea
+palette = 8=#666666
+palette = 9=#ff000b
+palette = 10=#c4ee94
+palette = 11=#e8e06d
+palette = 12=#a5ebea
+palette = 13=#ef8a50
+palette = 14=#a5ebea
+palette = 15=#ffffff
+background = #282828
+foreground = #f1f1f1
+cursor-color = #f1f1f1
+cursor-text = #f18260
+selection-background = #f1f1f1
+selection-foreground = #282828

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Chicago Day
+# Author:   Wendell, Ryan &lt;ryanjwendell@gmail.com&gt;
+# Variant:  light
+
+palette = 0=#e8f0ea
+palette = 1=#c60c30
+palette = 2=#009b3a
+palette = 3=#968400
+palette = 4=#522398
+palette = 5=#e27ea6
+palette = 6=#00a1de
+palette = 7=#364c40
+palette = 8=#8a9a91
+palette = 9=#c60c30
+palette = 10=#009b3a
+palette = 11=#968400
+palette = 12=#522398
+palette = 13=#e27ea6
+palette = 14=#00a1de
+palette = 15=#1e2a24
+background = #e8f0ea
+foreground = #364c40
+cursor-color = #364c40
+cursor-text = #e8f0ea
+selection-background = #2a3b32
+selection-foreground = #d1e0d7

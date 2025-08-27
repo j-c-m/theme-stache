@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    gruvbox-material
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#131617
+palette = 1=#e96925
+palette = 2=#c1d040
+palette = 3=#edcf74
+palette = 4=#6da2ec
+palette = 5=#fd9ac1
+palette = 6=#fe9d6e
+palette = 7=#ffffff
+palette = 8=#000000
+palette = 9=#d3573b
+palette = 10=#c1d040
+palette = 11=#edcf74
+palette = 12=#2b86ff
+palette = 13=#fd9ac1
+palette = 14=#91a5de
+palette = 15=#ffffff
+background = #1c2020
+foreground = #d4be98
+cursor-color = #ffffff
+cursor-text = #131617
+selection-background = #2a2b3f
+selection-foreground = #7cfa6f

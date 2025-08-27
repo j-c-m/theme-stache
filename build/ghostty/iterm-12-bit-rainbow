@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    12-bit Rainbow
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#000000
+palette = 1=#a02f4f
+palette = 2=#40d080
+palette = 3=#df8f40
+palette = 4=#2f60b0
+palette = 5=#602f8f
+palette = 6=#008fbf
+palette = 7=#daded8
+palette = 8=#675656
+palette = 9=#bf6060
+palette = 10=#8fd04f
+palette = 11=#dfd000
+palette = 12=#00b0bf
+palette = 13=#800f6f
+palette = 14=#20b0bf
+palette = 15=#ffffff
+background = #040404
+foreground = #feffff
+cursor-color = #dfd000
+cursor-text = #000000
+selection-background = #606060
+selection-foreground = #ffffff

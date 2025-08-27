@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Catppuccin Latte
+# Author:   https://github.com/catppuccin/catppuccin
+# Variant:  light
+
+palette = 0=#eff1f5
+palette = 1=#d20f39
+palette = 2=#40a02b
+palette = 3=#df8e1d
+palette = 4=#1e66f5
+palette = 5=#8839ef
+palette = 6=#179299
+palette = 7=#4c4f69
+palette = 8=#bcc0cc
+palette = 9=#e64553
+palette = 10=#40a02b
+palette = 11=#dc8a78
+palette = 12=#209fb5
+palette = 13=#ea76cb
+palette = 14=#04a5e5
+palette = 15=#7287fd
+background = #eff1f5
+foreground = #4c4f69
+cursor-color = #4c4f69
+cursor-text = #eff1f5
+selection-background = #dc8a78
+selection-foreground = #e6e9ef

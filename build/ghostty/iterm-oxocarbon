@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Oxocarbon
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#161515
+palette = 1=#00deda
+palette = 2=#00b4fe
+palette = 3=#fe4197
+palette = 4=#00c159
+palette = 5=#c592fe
+palette = 6=#fe74b7
+palette = 7=#f1f4f8
+palette = 8=#585757
+palette = 9=#00deda
+palette = 10=#00b4fe
+palette = 11=#fe4197
+palette = 12=#00c159
+palette = 13=#c592fe
+palette = 14=#fe74b7
+palette = 15=#f1f4f8
+background = #161515
+foreground = #f1f4f8
+cursor-color = #fefefe
+cursor-text = #161515
+selection-background = #393838
+selection-foreground = #161515

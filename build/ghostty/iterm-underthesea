@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    UnderTheSea
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#022026
+palette = 1=#b12f2c
+palette = 2=#00a940
+palette = 3=#58809c
+palette = 4=#449985
+palette = 5=#00599c
+palette = 6=#5c7e19
+palette = 7=#405554
+palette = 8=#374350
+palette = 9=#ff4242
+palette = 10=#2aea5e
+palette = 11=#8dd3fd
+palette = 12=#61d4b9
+palette = 13=#1298ff
+palette = 14=#98cf28
+palette = 15=#58fad6
+background = #001015
+foreground = #fffefe
+cursor-color = #49fcd5
+cursor-text = #022026
+selection-background = #415554
+selection-foreground = #4dffd9

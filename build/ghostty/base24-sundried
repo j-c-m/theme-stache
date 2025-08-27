@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Sundried
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#1a1818
+palette = 1=#a6463d
+palette = 2=#577644
+palette = 3=#7898f7
+palette = 4=#485a98
+palette = 5=#854551
+palette = 6=#9c814e
+palette = 7=#a9a9a7
+palette = 8=#6b6b67
+palette = 9=#aa000c
+palette = 10=#128c20
+palette = 11=#fc6a20
+palette = 12=#7898f7
+palette = 13=#fc89a0
+palette = 14=#fad384
+palette = 15=#fffefe
+background = #1a1818
+foreground = #a9a9a7
+cursor-color = #a9a9a7
+cursor-text = #1a1818
+selection-background = #c8c8c8
+selection-foreground = #302b2a

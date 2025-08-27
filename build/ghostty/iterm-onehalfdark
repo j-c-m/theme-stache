@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    OneHalfDark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#272c33
+palette = 1=#df6c75
+palette = 2=#98c379
+palette = 3=#e4c07a
+palette = 4=#61afef
+palette = 5=#c577dd
+palette = 6=#56b5c1
+palette = 7=#dbdfe4
+palette = 8=#272c33
+palette = 9=#df6c75
+palette = 10=#98c379
+palette = 11=#e4c07a
+palette = 12=#61afef
+palette = 13=#c577dd
+palette = 14=#56b5c1
+palette = 15=#dbdfe4
+background = #272c33
+foreground = #dbdfe4
+cursor-color = #a3b3cc
+cursor-text = #272c33
+selection-background = #464d5d
+selection-foreground = #dbdfe4

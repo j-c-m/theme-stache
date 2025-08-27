@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Meadow
+# Author:   
+# Variant:  dark
+
+palette = 0=#192834
+palette = 1=#277fbe
+palette = 2=#80bf40
+palette = 3=#a6f655
+palette = 4=#4299d7
+palette = 5=#80bf40
+palette = 6=#47adf5
+palette = 7=#7b9eb7
+palette = 8=#3d5e76
+palette = 9=#8cdd3c
+palette = 10=#223644
+palette = 11=#335166
+palette = 12=#466b86
+palette = 13=#afddfe
+palette = 14=#73b234
+palette = 15=#d1ecff
+background = #192834
+foreground = #7b9eb7
+cursor-color = #4d8217
+cursor-text = #192834
+selection-background = #7b9eb7
+selection-foreground = #192834

@@ -1,0 +1,27 @@
+# Source:   base24
+# Theme:    Nocturnal Winter
+# Author:   FredHappyface (https://github.com/fredHappyface)
+# Variant:  dark
+
+palette = 0=#0d0d17
+palette = 1=#f12d52
+palette = 2=#08cd7d
+palette = 3=#6095fe
+palette = 4=#3081df
+palette = 5=#fe2a6c
+palette = 6=#09c87a
+palette = 7=#dcdcdc
+palette = 8=#9e9e9e
+palette = 9=#f16c85
+palette = 10=#0ae78d
+palette = 11=#fefb67
+palette = 12=#6095fe
+palette = 13=#ff78a2
+palette = 14=#0ae78d
+palette = 15=#ffffff
+background = #0d0d17
+foreground = #dcdcdc
+cursor-color = #dcdcdc
+cursor-text = #0d0d17
+selection-background = #fbfbfb
+selection-foreground = #4c4c4c

@@ -1,0 +1,27 @@
+# Source:   base16
+# Theme:    Penumbra Dark Contrast Plus Plus
+# Author:   Zachary Weiss (https://github.com/zacharyweiss)
+# Variant:  dark
+
+palette = 0=#0d0f13
+palette = 1=#f58c81
+palette = 2=#54c794
+palette = 3=#a9b852
+palette = 4=#6eb2fd
+palette = 5=#b69cf6
+palette = 6=#00c4d7
+palette = 7=#dedede
+palette = 8=#636363
+palette = 9=#f58c81
+palette = 10=#54c794
+palette = 11=#a9b852
+palette = 12=#6eb2fd
+palette = 13=#b69cf6
+palette = 14=#00c4d7
+palette = 15=#fffdfb
+background = #0d0f13
+foreground = #dedede
+cursor-color = #dedede
+cursor-text = #0d0f13
+selection-background = #fff7ed
+selection-foreground = #181b1f

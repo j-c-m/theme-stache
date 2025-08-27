@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Garden
+# Author:   
+# Variant:  dark
+
+palette = 0=#1e1f1e
+palette = 1=#3fac39
+palette = 2=#db9257
+palette = 3=#e0cab8
+palette = 4=#4cb946
+palette = 5=#db9257
+palette = 6=#6bcc66
+palette = 7=#969c96
+palette = 8=#5d605c
+palette = 9=#dba070
+palette = 10=#2b2c2a
+palette = 11=#505350
+palette = 12=#696d69
+palette = 13=#b7e3b5
+palette = 14=#dd843c
+palette = 15=#dcf0db
+background = #1e1f1e
+foreground = #969c96
+cursor-color = #bd5d0f
+cursor-text = #1e1f1e
+selection-background = #969c96
+selection-foreground = #1e1f1e

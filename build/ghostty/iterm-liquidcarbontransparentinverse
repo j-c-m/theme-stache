@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    LiquidCarbonTransparentInverse
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#bbcbcc
+palette = 1=#ff2f2f
+palette = 2=#549a6f
+palette = 3=#ccac00
+palette = 4=#0099cc
+palette = 5=#cc68c8
+palette = 6=#79c4cc
+palette = 7=#000000
+palette = 8=#ffffff
+palette = 9=#ff2f2f
+palette = 10=#549a6f
+palette = 11=#ccac00
+palette = 12=#0099cc
+palette = 13=#cc68c8
+palette = 14=#79c4cc
+palette = 15=#000000
+background = #000000
+foreground = #afc2c2
+cursor-color = #ffffff
+cursor-text = #bbcbcc
+selection-background = #7cbeff
+selection-foreground = #000000

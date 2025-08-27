@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Monokai Pro
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#2c2a2e
+palette = 1=#ff6187
+palette = 2=#a8db75
+palette = 3=#ffd766
+palette = 4=#fb9866
+palette = 5=#ab9cf1
+palette = 6=#78dbe8
+palette = 7=#fbfbfa
+palette = 8=#717071
+palette = 9=#ff6187
+palette = 10=#a8db75
+palette = 11=#ffd766
+palette = 12=#fb9866
+palette = 13=#ab9cf1
+palette = 14=#78dbe8
+palette = 15=#fbfbfa
+background = #2c2a2e
+foreground = #fbfbfa
+cursor-color = #c1c0c0
+cursor-text = #2c2a2e
+selection-background = #5b585b
+selection-foreground = #fbfbfa

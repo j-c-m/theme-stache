@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Adventure
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#040404
+palette = 1=#d74a33
+palette = 2=#5da602
+palette = 3=#edbb6d
+palette = 4=#417ab3
+palette = 5=#e5c498
+palette = 6=#bdcfe4
+palette = 7=#dbded8
+palette = 8=#685655
+palette = 9=#d76a41
+palette = 10=#98b52c
+palette = 11=#ffb56f
+palette = 12=#96d7ef
+palette = 13=#aa7800
+palette = 14=#bdcfe4
+palette = 15=#e3d5c7
+background = #040404
+foreground = #feffff
+cursor-color = #feffff
+cursor-text = #040404
+selection-background = #5f5f5f
+selection-foreground = #feffff

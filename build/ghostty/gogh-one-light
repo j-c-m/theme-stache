@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    One Light
+# Author:   
+# Variant:  light
+
+palette = 0=#000000
+palette = 1=#da3e39
+palette = 2=#41933e
+palette = 3=#855504
+palette = 4=#315eee
+palette = 5=#930092
+palette = 6=#0e6fad
+palette = 7=#8e8f96
+palette = 8=#2a2b32
+palette = 9=#da3e39
+palette = 10=#41933e
+palette = 11=#855504
+palette = 12=#315eee
+palette = 13=#930092
+palette = 14=#0e6fad
+palette = 15=#fffefe
+background = #f8f8f8
+foreground = #2a2b32
+cursor-color = #2a2b32
+cursor-text = #000000
+selection-background = #2a2b32
+selection-foreground = #f8f8f8

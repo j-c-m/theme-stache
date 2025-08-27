@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Atelier Seaside
+# Author:   Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)
+# Variant:  dark
+
+palette = 0=#131513
+palette = 1=#e6193c
+palette = 2=#29a329
+palette = 3=#98981b
+palette = 4=#3d62f5
+palette = 5=#ad2bee
+palette = 6=#1999b3
+palette = 7=#8ca68c
+palette = 8=#687d68
+palette = 9=#87711d
+palette = 10=#29a329
+palette = 11=#98981b
+palette = 12=#3d62f5
+palette = 13=#ad2bee
+palette = 14=#1999b3
+palette = 15=#f4fbf4
+background = #131513
+foreground = #809980
+cursor-color = #809980
+cursor-text = #131513
+selection-background = #809980
+selection-foreground = #131513

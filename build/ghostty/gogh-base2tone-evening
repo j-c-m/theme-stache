@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Base2Tone Evening
+# Author:   
+# Variant:  dark
+
+palette = 0=#2a2734
+palette = 1=#8a75f5
+palette = 2=#ffad5c
+palette = 3=#ffcc99
+palette = 4=#9a86fd
+palette = 5=#ffad5c
+palette = 6=#afa0fe
+palette = 7=#a4a1b5
+palette = 8=#6c6783
+palette = 9=#ffb870
+palette = 10=#363342
+palette = 11=#545167
+palette = 12=#787391
+palette = 13=#d9d2fe
+palette = 14=#ffa142
+palette = 15=#eeebff
+background = #2a2734
+foreground = #a4a1b5
+cursor-color = #b37537
+cursor-text = #2a2734
+selection-background = #a4a1b5
+selection-foreground = #2a2734

@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Horizon Bright
+# Author:   
+# Variant:  light
+
+palette = 0=#16161c
+palette = 1=#da103f
+palette = 2=#1eb980
+palette = 3=#f6661e
+palette = 4=#26bbd9
+palette = 5=#ee64ae
+palette = 6=#1d8991
+palette = 7=#fadad1
+palette = 8=#1a1c23
+palette = 9=#f43e5c
+palette = 10=#07da8c
+palette = 11=#f77d26
+palette = 12=#3fc6de
+palette = 13=#f075b7
+palette = 14=#1eaeae
+palette = 15=#fdf0ed
+background = #fdf0ed
+foreground = #1c1e26
+cursor-color = #1c1e26
+cursor-text = #16161c
+selection-background = #1c1e26
+selection-foreground = #fdf0ed

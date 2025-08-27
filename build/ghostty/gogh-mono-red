@@ -1,0 +1,27 @@
+# Source:   gogh
+# Theme:    Mono Red
+# Author:   
+# Variant:  dark
+
+palette = 0=#401200
+palette = 1=#ff3600
+palette = 2=#ff3600
+palette = 3=#ff3600
+palette = 4=#ff3600
+palette = 5=#ff3600
+palette = 6=#ff3600
+palette = 7=#ff3600
+palette = 8=#ff3600
+palette = 9=#ff3600
+palette = 10=#ff3600
+palette = 11=#ff3600
+palette = 12=#ff3600
+palette = 13=#ff3600
+palette = 14=#ff3600
+palette = 15=#ff3600
+background = #2b0c00
+foreground = #ff3600
+cursor-color = #ff3600
+cursor-text = #401200
+selection-background = #ff3600
+selection-foreground = #2b0c00

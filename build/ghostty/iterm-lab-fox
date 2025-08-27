@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    Lab Fox
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#2e2e2e
+palette = 1=#fc6d26
+palette = 2=#3eb383
+palette = 3=#fca121
+palette = 4=#db3b21
+palette = 5=#380d75
+palette = 6=#6e49cb
+palette = 7=#feffff
+palette = 8=#454545
+palette = 9=#ff6517
+palette = 10=#52e9a8
+palette = 11=#fca012
+palette = 12=#db501f
+palette = 13=#441090
+palette = 14=#7d53e7
+palette = 15=#feffff
+background = #2e2e2e
+foreground = #feffff
+cursor-color = #7f7f7f
+cursor-text = #2e2e2e
+selection-background = #ca392d
+selection-foreground = #feffff

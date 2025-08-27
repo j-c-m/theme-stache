@@ -1,0 +1,27 @@
+# Source:   iterm
+# Theme:    One Double Dark
+# Author:   unknown
+# Variant:  dark
+
+palette = 0=#3c4452
+palette = 1=#f06372
+palette = 2=#8bc46f
+palette = 3=#ecbe6f
+palette = 4=#3fb1f4
+palette = 5=#d273e3
+palette = 6=#17b8c4
+palette = 7=#dbdfe4
+palette = 8=#515d6e
+palette = 9=#fe767a
+palette = 10=#82d782
+palette = 11=#f5bf64
+palette = 12=#6ccafe
+palette = 13=#fe7af4
+palette = 14=#00e4fa
+palette = 15=#f6f9fc
+background = #282b34
+foreground = #dbdfe4
+cursor-color = #f5dfdb
+cursor-text = #3c4452
+selection-background = #585a70
+selection-foreground = #cdd5f4
