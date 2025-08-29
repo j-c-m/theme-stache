@@ -54,7 +54,7 @@ do_osc() {
     print_osc_rgb 11 "01/16/27"
     print_osc_rgb 12 "7e/57/c2"
     print_osc_rgb 17 "5f/7e/97"
-    print_osc_rgb 19 "de/e4/ee"
+    print_osc_rgb 19 "df/e5/ee"
 }
 
 do_linux() {

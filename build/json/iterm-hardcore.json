@@ -76,12 +76,12 @@
         "hexterm": "a0/a0/a0"
     },
     "selection": {
-        "hex": "#453a39",
-        "hexterm": "45/3a/39"
+        "hex": "#453b39",
+        "hexterm": "45/3b/39"
     },
     "selection-text": {
-        "hex": "#b6bbbf",
-        "hexterm": "b6/bb/bf"
+        "hex": "#b6bbc0",
+        "hexterm": "b6/bb/c0"
     },
     "theme-author": "unknown",
     "theme-name": "Hardcore",

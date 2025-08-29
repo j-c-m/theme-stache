@@ -18,10 +18,10 @@ palette = 11=#fac761
 palette = 12=#85add6
 palette = 13=#d8b6d8
 palette = 14=#82c4c4
-palette = 15=#feffff
+palette = 15=#ffffff
 background = #343d46
 foreground = #d8dee9
-cursor-color = #fbbb6a
+cursor-color = #fcbb6a
 cursor-text = #000000
 selection-background = #4e5a65
 selection-foreground = #d8dee9

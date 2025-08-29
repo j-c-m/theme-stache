@@ -12,8 +12,8 @@
         "hexterm": "98/be/65"
     },
     "ansi-11": {
-        "hex": "#e5f871",
-        "hexterm": "e5/f8/71"
+        "hex": "#e6f972",
+        "hexterm": "e6/f9/72"
     },
     "ansi-12": {
         "hex": "#51afef",
@@ -40,8 +40,8 @@
         "hexterm": "bc/d4/2a"
     },
     "ansi-4": {
-        "hex": "#2a6bc5",
-        "hexterm": "2a/6b/c5"
+        "hex": "#2a6cc6",
+        "hexterm": "2a/6c/c6"
     },
     "ansi-5": {
         "hex": "#a9a1e1",
@@ -72,16 +72,16 @@
         "hexterm": "9c/9c/9d"
     },
     "foreground": {
-        "hex": "#ecdfcd",
-        "hexterm": "ec/df/cd"
+        "hex": "#ede0ce",
+        "hexterm": "ed/e0/ce"
     },
     "selection": {
         "hex": "#a60033",
         "hexterm": "a6/00/33"
     },
     "selection-text": {
-        "hex": "#fefefe",
-        "hexterm": "fe/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "Doom Peacock",

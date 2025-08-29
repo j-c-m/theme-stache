@@ -3,14 +3,14 @@
 # Author:   unknown
 # Variant:  dark
 
-palette = 0=#142630
+palette = 0=#142631
 palette = 1=#ff2320
-palette = 2=#3aa5ff
+palette = 2=#3ba5ff
 palette = 3=#e9e75c
 palette = 4=#8ff586
 palette = 5=#781aa0
 palette = 6=#8ff586
-palette = 7=#ba45b1
+palette = 7=#ba46b2
 palette = 8=#fff688
 palette = 9=#d4312e
 palette = 10=#8ff586
@@ -22,6 +22,6 @@ palette = 15=#8ff586
 background = #142838
 foreground = #8ff586
 cursor-color = #c4206f
-cursor-text = #142630
-selection-background = #084fb0
+cursor-text = #142631
+selection-background = #094fb1
 selection-foreground = #8ff586

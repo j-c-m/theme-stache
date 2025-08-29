@@ -41,20 +41,20 @@ do_osc() {
     print_osc4 5 "cc/66/ff"
     print_osc4 6 "00/ce/ca"
     print_osc4 7 "cb/cb/f0"
-    print_osc4 8 "62/65/66"
+    print_osc4 8 "63/66/67"
     print_osc4 9 "ff/2f/92"
     print_osc4 10 "00/d3/64"
-    print_osc4 11 "ff/d4/78"
+    print_osc4 11 "ff/d4/79"
     print_osc4 12 "00/cb/ff"
     print_osc4 13 "d7/83/ff"
     print_osc4 14 "00/d5/d4"
-    print_osc4 15 "d4/d5/f3"
+    print_osc4 15 "d5/d6/f3"
 
     print_osc_rgb 10 "cb/cb/f0"
     print_osc_rgb 11 "1d/1d/26"
     print_osc_rgb 12 "cb/cb/f0"
     print_osc_rgb 17 "ff/33/99"
-    print_osc_rgb 19 "fe/ff/ff"
+    print_osc_rgb 19 "ff/ff/ff"
 }
 
 do_linux() {
@@ -66,14 +66,14 @@ do_linux() {
     print_linux 5 "#cc66ff"
     print_linux 6 "#00ceca"
     print_linux 7 "#cbcbf0"
-    print_linux 8 "#626566"
+    print_linux 8 "#636667"
     print_linux 9 "#ff2f92"
     print_linux 10 "#00d364"
-    print_linux 11 "#ffd478"
+    print_linux 11 "#ffd479"
     print_linux 12 "#00cbff"
     print_linux 13 "#d783ff"
     print_linux 14 "#00d5d4"
-    print_linux 15 "#d4d5f3"
+    print_linux 15 "#d5d6f3"
 }
 
 case "$TERM" in

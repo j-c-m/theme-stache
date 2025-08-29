@@ -1,35 +1,35 @@
 {
     "ansi-0": {
-        "hex": "#3b3650",
-        "hexterm": "3b/36/50"
+        "hex": "#3b3750",
+        "hexterm": "3b/37/50"
     },
     "ansi-1": {
         "hex": "#cf7b98",
         "hexterm": "cf/7b/98"
     },
     "ansi-10": {
-        "hex": "#bcdd60",
-        "hexterm": "bc/dd/60"
+        "hex": "#bcdd61",
+        "hexterm": "bc/dd/61"
     },
     "ansi-11": {
-        "hex": "#86e8ea",
-        "hexterm": "86/e8/ea"
+        "hex": "#87e9ea",
+        "hexterm": "87/e9/ea"
     },
     "ansi-12": {
-        "hex": "#8b9ecc",
-        "hexterm": "8b/9e/cc"
+        "hex": "#8c9fcd",
+        "hexterm": "8c/9f/cd"
     },
     "ansi-13": {
-        "hex": "#e16b86",
-        "hexterm": "e1/6b/86"
+        "hex": "#e16c87",
+        "hexterm": "e1/6c/87"
     },
     "ansi-14": {
         "hex": "#b7c9ef",
         "hexterm": "b7/c9/ef"
     },
     "ansi-15": {
-        "hex": "#d4e5f0",
-        "hexterm": "d4/e5/f0"
+        "hex": "#d5e5f1",
+        "hexterm": "d5/e5/f1"
     },
     "ansi-2": {
         "hex": "#90a94b",
@@ -60,8 +60,8 @@
         "hexterm": "a8/74/ce"
     },
     "ansi-9": {
-        "hex": "#de8faa",
-        "hexterm": "de/8f/aa"
+        "hex": "#de90ab",
+        "hexterm": "de/90/ab"
     },
     "background": {
         "hex": "#262b33",
@@ -76,12 +76,12 @@
         "hexterm": "c3/d3/de"
     },
     "selection": {
-        "hex": "#5b5183",
-        "hexterm": "5b/51/83"
+        "hex": "#5b5184",
+        "hexterm": "5b/51/84"
     },
     "selection-text": {
-        "hex": "#1d1b2d",
-        "hexterm": "1d/1b/2d"
+        "hex": "#1e1b2e",
+        "hexterm": "1e/1b/2e"
     },
     "theme-author": "unknown",
     "theme-name": "jubi",

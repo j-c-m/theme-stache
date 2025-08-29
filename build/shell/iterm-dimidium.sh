@@ -41,19 +41,19 @@ do_osc() {
     print_osc4 5 "af/5e/d2"
     print_osc4 6 "1d/b6/bb"
     print_osc4 7 "ba/b7/b6"
-    print_osc4 8 "80/7e/7d"
+    print_osc4 8 "81/7e/7e"
     print_osc4 9 "ff/64/3b"
     print_osc4 10 "37/e5/7b"
     print_osc4 11 "fc/cd/1a"
     print_osc4 12 "68/8d/fd"
     print_osc4 13 "ed/6f/e9"
     print_osc4 14 "32/e0/fb"
-    print_osc4 15 "d2/d7/d8"
+    print_osc4 15 "d3/d8/d9"
 
     print_osc_rgb 10 "ba/b7/b6"
     print_osc_rgb 11 "14/14/14"
     print_osc_rgb 12 "37/e5/7b"
-    print_osc_rgb 17 "8c/b7/e4"
+    print_osc_rgb 17 "8d/b8/e5"
     print_osc_rgb 19 "14/14/14"
 }
 
@@ -66,14 +66,14 @@ do_linux() {
     print_linux 5 "#af5ed2"
     print_linux 6 "#1db6bb"
     print_linux 7 "#bab7b6"
-    print_linux 8 "#807e7d"
+    print_linux 8 "#817e7e"
     print_linux 9 "#ff643b"
     print_linux 10 "#37e57b"
     print_linux 11 "#fccd1a"
     print_linux 12 "#688dfd"
     print_linux 13 "#ed6fe9"
     print_linux 14 "#32e0fb"
-    print_linux 15 "#d2d7d8"
+    print_linux 15 "#d3d8d9"
 }
 
 case "$TERM" in

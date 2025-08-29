@@ -37,7 +37,7 @@ do_osc() {
     print_osc4 1 "cc/55/55"
     print_osc4 2 "55/cc/55"
     print_osc4 3 "cd/cd/55"
-    print_osc4 4 "54/55/cb"
+    print_osc4 4 "55/55/cc"
     print_osc4 5 "cc/55/cc"
     print_osc4 6 "7a/ca/ca"
     print_osc4 7 "cc/cc/cc"
@@ -52,8 +52,8 @@ do_osc() {
 
     print_osc_rgb 10 "b3/b3/b3"
     print_osc_rgb 11 "00/00/00"
-    print_osc_rgb 12 "52/ad/70"
-    print_osc_rgb 17 "4c/52/f8"
+    print_osc_rgb 12 "53/ae/71"
+    print_osc_rgb 17 "4d/52/f8"
     print_osc_rgb 19 "00/00/00"
 }
 
@@ -62,7 +62,7 @@ do_linux() {
     print_linux 1 "#cc5555"
     print_linux 2 "#55cc55"
     print_linux 3 "#cdcd55"
-    print_linux 4 "#5455cb"
+    print_linux 4 "#5555cc"
     print_linux 5 "#cc55cc"
     print_linux 6 "#7acaca"
     print_linux 7 "#b3b3b3"

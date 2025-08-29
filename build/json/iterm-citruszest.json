@@ -20,8 +20,8 @@
         "hexterm": "33/cf/ff"
     },
     "ansi-13": {
-        "hex": "#ffb1fe",
-        "hexterm": "ff/b1/fe"
+        "hex": "#ffb2fe",
+        "hexterm": "ff/b2/fe"
     },
     "ansi-14": {
         "hex": "#00fff2",
@@ -44,8 +44,8 @@
         "hexterm": "00/bf/ff"
     },
     "ansi-5": {
-        "hex": "#ff8ffd",
-        "hexterm": "ff/8f/fd"
+        "hex": "#ff90fe",
+        "hexterm": "ff/90/fe"
     },
     "ansi-6": {
         "hex": "#48d1cc",

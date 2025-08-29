@@ -12,8 +12,8 @@
         "hexterm": "00/d3/64"
     },
     "ansi-11": {
-        "hex": "#ffd478",
-        "hexterm": "ff/d4/78"
+        "hex": "#ffd479",
+        "hexterm": "ff/d4/79"
     },
     "ansi-12": {
         "hex": "#00cbff",
@@ -28,8 +28,8 @@
         "hexterm": "00/d5/d4"
     },
     "ansi-15": {
-        "hex": "#d4d5f3",
-        "hexterm": "d4/d5/f3"
+        "hex": "#d5d6f3",
+        "hexterm": "d5/d6/f3"
     },
     "ansi-2": {
         "hex": "#00d364",
@@ -56,8 +56,8 @@
         "hexterm": "cb/cb/f0"
     },
     "ansi-8": {
-        "hex": "#626566",
-        "hexterm": "62/65/66"
+        "hex": "#636667",
+        "hexterm": "63/66/67"
     },
     "ansi-9": {
         "hex": "#ff2f92",
@@ -80,8 +80,8 @@
         "hexterm": "ff/33/99"
     },
     "selection-text": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "Tinacious Design (Light)",

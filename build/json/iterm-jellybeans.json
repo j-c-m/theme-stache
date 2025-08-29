@@ -32,8 +32,8 @@
         "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#93b979",
-        "hexterm": "93/b9/79"
+        "hex": "#94b979",
+        "hexterm": "94/b9/79"
     },
     "ansi-3": {
         "hex": "#ffba7b",
@@ -68,8 +68,8 @@
         "hexterm": "12/12/12"
     },
     "cursor": {
-        "hex": "#ffa460",
-        "hexterm": "ff/a4/60"
+        "hex": "#ffa560",
+        "hexterm": "ff/a5/60"
     },
     "foreground": {
         "hex": "#dedede",
@@ -80,8 +80,8 @@
         "hexterm": "47/4e/91"
     },
     "selection-text": {
-        "hex": "#f3f3f3",
-        "hexterm": "f3/f3/f3"
+        "hex": "#f4f4f4",
+        "hexterm": "f4/f4/f4"
     },
     "theme-author": "unknown",
     "theme-name": "Jellybeans",

@@ -234,7 +234,7 @@
 		<key>Green Component</key>
 		<real>1.0</real>
 		<key>Red Component</key>
-		<real>0.996078431372549</real>
+		<real>1.0</real>
 	</dict>
 	<key>Foreground Color</key>
 	<dict>

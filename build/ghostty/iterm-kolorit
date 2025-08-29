@@ -5,12 +5,12 @@
 
 palette = 0=#1d1a1e
 palette = 1=#ff5b82
-palette = 2=#47d7a0
-palette = 3=#e7e562
-palette = 4=#5db3ee
+palette = 2=#47d7a1
+palette = 3=#e8e562
+palette = 4=#5db4ee
 palette = 5=#da6cda
-palette = 6=#56e8ea
-palette = 7=#ececec
+palette = 6=#57e9eb
+palette = 7=#ededed
 palette = 8=#1d1a1e
 palette = 9=#ff5b82
 palette = 10=#47d7a1
@@ -23,5 +23,5 @@ background = #1d1a1e
 foreground = #efecec
 cursor-color = #c7c7c7
 cursor-text = #1d1a1e
-selection-background = #e0925c
+selection-background = #e1925c
 selection-foreground = #1d1a1e

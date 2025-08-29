@@ -4,20 +4,20 @@
 # Variant:  dark
 
 palette = 0=#34373e
-palette = 1=#e06382
+palette = 1=#e06383
 palette = 2=#7ebebd
 palette = 3=#cccccc
 palette = 4=#a6c1e0
 palette = 5=#e1c1ee
 palette = 6=#5b94ab
 palette = 7=#ababab
-palette = 8=#424650
-palette = 9=#f97092
-palette = 10=#8ed6d5
-palette = 11=#d1deff
+palette = 8=#434750
+palette = 9=#fa7193
+palette = 10=#8fd7d6
+palette = 11=#d1dfff
 palette = 12=#b2cff0
-palette = 13=#eecbfc
-palette = 14=#68aac5
+palette = 13=#efccfd
+palette = 14=#69abc5
 palette = 15=#d3d3d3
 background = #282b33
 foreground = #c6c6c6

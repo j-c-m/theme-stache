@@ -28,8 +28,8 @@
         "hexterm": "32/e0/fb"
     },
     "ansi-15": {
-        "hex": "#d2d7d8",
-        "hexterm": "d2/d7/d8"
+        "hex": "#d3d8d9",
+        "hexterm": "d3/d8/d9"
     },
     "ansi-2": {
         "hex": "#60b442",
@@ -56,8 +56,8 @@
         "hexterm": "ba/b7/b6"
     },
     "ansi-8": {
-        "hex": "#807e7d",
-        "hexterm": "80/7e/7d"
+        "hex": "#817e7e",
+        "hexterm": "81/7e/7e"
     },
     "ansi-9": {
         "hex": "#ff643b",
@@ -76,8 +76,8 @@
         "hexterm": "ba/b7/b6"
     },
     "selection": {
-        "hex": "#8cb7e4",
-        "hexterm": "8c/b7/e4"
+        "hex": "#8db8e5",
+        "hexterm": "8d/b8/e5"
     },
     "selection-text": {
         "hex": "#141414",

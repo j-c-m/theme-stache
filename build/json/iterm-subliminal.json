@@ -80,8 +80,8 @@
         "hexterm": "48/4e/5b"
     },
     "selection-text": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "Subliminal",

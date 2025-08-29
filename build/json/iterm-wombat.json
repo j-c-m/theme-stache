@@ -4,12 +4,12 @@
         "hexterm": "00/00/00"
     },
     "ansi-1": {
-        "hex": "#ff605a",
-        "hexterm": "ff/60/5a"
+        "hex": "#ff615a",
+        "hexterm": "ff/61/5a"
     },
     "ansi-10": {
-        "hex": "#dcf88f",
-        "hexterm": "dc/f8/8f"
+        "hex": "#ddf88f",
+        "hexterm": "dd/f8/8f"
     },
     "ansi-11": {
         "hex": "#eee5b2",
@@ -24,20 +24,20 @@
         "hexterm": "dd/aa/ff"
     },
     "ansi-14": {
-        "hex": "#b6fff9",
-        "hexterm": "b6/ff/f9"
+        "hex": "#b7fff9",
+        "hexterm": "b7/ff/f9"
     },
     "ansi-15": {
-        "hex": "#fefffe",
-        "hexterm": "fe/ff/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#b1e869",
-        "hexterm": "b1/e8/69"
+        "hex": "#b1e969",
+        "hexterm": "b1/e9/69"
     },
     "ansi-3": {
-        "hex": "#ead89c",
-        "hexterm": "ea/d8/9c"
+        "hex": "#ebd99c",
+        "hexterm": "eb/d9/9c"
     },
     "ansi-4": {
         "hex": "#5da9f6",
@@ -48,20 +48,20 @@
         "hexterm": "e8/6a/ff"
     },
     "ansi-6": {
-        "hex": "#82fff6",
-        "hexterm": "82/ff/f6"
+        "hex": "#82fff7",
+        "hexterm": "82/ff/f7"
     },
     "ansi-7": {
-        "hex": "#ded9ce",
-        "hexterm": "de/d9/ce"
+        "hex": "#dedacf",
+        "hexterm": "de/da/cf"
     },
     "ansi-8": {
         "hex": "#313131",
         "hexterm": "31/31/31"
     },
     "ansi-9": {
-        "hex": "#f58b7f",
-        "hexterm": "f5/8b/7f"
+        "hex": "#f58c80",
+        "hexterm": "f5/8c/80"
     },
     "background": {
         "hex": "#171717",
@@ -72,16 +72,16 @@
         "hexterm": "bb/bb/bb"
     },
     "foreground": {
-        "hex": "#ded9ce",
-        "hexterm": "de/d9/ce"
+        "hex": "#dedacf",
+        "hexterm": "de/da/cf"
     },
     "selection": {
-        "hex": "#453a39",
-        "hexterm": "45/3a/39"
+        "hex": "#453b39",
+        "hexterm": "45/3b/39"
     },
     "selection-text": {
-        "hex": "#b6bbbf",
-        "hexterm": "b6/bb/bf"
+        "hex": "#b6bbc0",
+        "hexterm": "b6/bb/c0"
     },
     "theme-author": "unknown",
     "theme-name": "Wombat",

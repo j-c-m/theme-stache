@@ -52,7 +52,7 @@ do_osc() {
 
     print_osc_rgb 10 "77/77/77"
     print_osc_rgb 11 "11/11/11"
-    print_osc_rgb 12 "fc/dc/07"
+    print_osc_rgb 12 "fc/dc/08"
     print_osc_rgb 17 "66/66/66"
     print_osc_rgb 19 "ff/ff/ff"
 }

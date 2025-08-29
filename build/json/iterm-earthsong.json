@@ -1,87 +1,87 @@
 {
     "ansi-0": {
-        "hex": "#111417",
-        "hexterm": "11/14/17"
+        "hex": "#121418",
+        "hexterm": "12/14/18"
     },
     "ansi-1": {
-        "hex": "#c84134",
-        "hexterm": "c8/41/34"
+        "hex": "#c94234",
+        "hexterm": "c9/42/34"
     },
     "ansi-10": {
-        "hex": "#97e035",
-        "hexterm": "97/e0/35"
+        "hex": "#98e036",
+        "hexterm": "98/e0/36"
     },
     "ansi-11": {
-        "hex": "#dfd561",
-        "hexterm": "df/d5/61"
+        "hex": "#e0d561",
+        "hexterm": "e0/d5/61"
     },
     "ansi-12": {
-        "hex": "#5ed9ff",
-        "hexterm": "5e/d9/ff"
+        "hex": "#5fdaff",
+        "hexterm": "5f/da/ff"
     },
     "ansi-13": {
-        "hex": "#ff9168",
-        "hexterm": "ff/91/68"
+        "hex": "#ff9269",
+        "hexterm": "ff/92/69"
     },
     "ansi-14": {
-        "hex": "#83ef88",
-        "hexterm": "83/ef/88"
+        "hex": "#84f088",
+        "hexterm": "84/f0/88"
     },
     "ansi-15": {
-        "hex": "#f6f6ec",
-        "hexterm": "f6/f6/ec"
+        "hex": "#f6f7ec",
+        "hexterm": "f6/f7/ec"
     },
     "ansi-2": {
-        "hex": "#84c44b",
-        "hexterm": "84/c4/4b"
+        "hex": "#85c54c",
+        "hexterm": "85/c5/4c"
     },
     "ansi-3": {
-        "hex": "#f4ae2e",
-        "hexterm": "f4/ae/2e"
+        "hex": "#f5ae2e",
+        "hexterm": "f5/ae/2e"
     },
     "ansi-4": {
-        "hex": "#1397b9",
-        "hexterm": "13/97/b9"
+        "hex": "#1398b9",
+        "hexterm": "13/98/b9"
     },
     "ansi-5": {
-        "hex": "#d0623c",
-        "hexterm": "d0/62/3c"
+        "hex": "#d0633d",
+        "hexterm": "d0/63/3d"
     },
     "ansi-6": {
-        "hex": "#4f9452",
-        "hexterm": "4f/94/52"
+        "hex": "#509552",
+        "hexterm": "50/95/52"
     },
     "ansi-7": {
-        "hex": "#e5c5a9",
-        "hexterm": "e5/c5/a9"
+        "hex": "#e5c6aa",
+        "hexterm": "e5/c6/aa"
     },
     "ansi-8": {
-        "hex": "#665e54",
-        "hexterm": "66/5e/54"
+        "hex": "#675f54",
+        "hexterm": "67/5f/54"
     },
     "ansi-9": {
-        "hex": "#ff6459",
-        "hexterm": "ff/64/59"
+        "hex": "#ff645a",
+        "hexterm": "ff/64/5a"
     },
     "background": {
-        "hex": "#282420",
-        "hexterm": "28/24/20"
+        "hex": "#292520",
+        "hexterm": "29/25/20"
     },
     "cursor": {
-        "hex": "#f6f6ec",
-        "hexterm": "f6/f6/ec"
+        "hex": "#f6f7ec",
+        "hexterm": "f6/f7/ec"
     },
     "foreground": {
-        "hex": "#e5c6a8",
-        "hexterm": "e5/c6/a8"
+        "hex": "#e5c7a9",
+        "hexterm": "e5/c7/a9"
     },
     "selection": {
-        "hex": "#111417",
-        "hexterm": "11/14/17"
+        "hex": "#121418",
+        "hexterm": "12/14/18"
     },
     "selection-text": {
-        "hex": "#e5c6a8",
-        "hexterm": "e5/c6/a8"
+        "hex": "#e5c7a9",
+        "hexterm": "e5/c7/a9"
     },
     "theme-author": "unknown",
     "theme-name": "Earthsong",

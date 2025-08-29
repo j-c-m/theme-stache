@@ -16,8 +16,8 @@
         "hexterm": "df/b5/63"
     },
     "ansi-12": {
-        "hex": "#4c89c4",
-        "hexterm": "4c/89/c4"
+        "hex": "#4c89c5",
+        "hexterm": "4c/89/c5"
     },
     "ansi-13": {
         "hex": "#d55119",
@@ -68,20 +68,20 @@
         "hexterm": "1e/20/27"
     },
     "cursor": {
-        "hex": "#f6f6ec",
-        "hexterm": "f6/f6/ec"
+        "hex": "#f6f7ec",
+        "hexterm": "f6/f7/ec"
     },
     "foreground": {
         "hex": "#9ba2b2",
         "hexterm": "9b/a2/b2"
     },
     "selection": {
-        "hex": "#2e353d",
-        "hexterm": "2e/35/3d"
+        "hex": "#2f363e",
+        "hexterm": "2f/36/3e"
     },
     "selection-text": {
-        "hex": "#7c8fa3",
-        "hexterm": "7c/8f/a3"
+        "hex": "#7d8fa4",
+        "hexterm": "7d/8f/a4"
     },
     "theme-author": "unknown",
     "theme-name": "Firewatch",

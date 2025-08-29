@@ -52,7 +52,7 @@ do_osc() {
 
     print_osc_rgb 10 "d2/d8/d9"
     print_osc_rgb 11 "3d/3f/41"
-    print_osc_rgb 12 "70/81/83"
+    print_osc_rgb 12 "70/82/84"
     print_osc_rgb 17 "21/42/83"
     print_osc_rgb 19 "d2/d8/d9"
 }

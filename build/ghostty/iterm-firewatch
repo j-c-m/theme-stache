@@ -15,13 +15,13 @@ palette = 8=#585f6d
 palette = 9=#d95360
 palette = 10=#5ab977
 palette = 11=#dfb563
-palette = 12=#4c89c4
+palette = 12=#4c89c5
 palette = 13=#d55119
 palette = 14=#44a8b6
 palette = 15=#e6e5ff
 background = #1e2027
 foreground = #9ba2b2
-cursor-color = #f6f6ec
+cursor-color = #f6f7ec
 cursor-text = #585f6d
-selection-background = #2e353d
-selection-foreground = #7c8fa3
+selection-background = #2f363e
+selection-foreground = #7d8fa4

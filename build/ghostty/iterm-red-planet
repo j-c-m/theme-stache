@@ -3,11 +3,11 @@
 # Author:   unknown
 # Variant:  dark
 
-palette = 0=#201f1f
+palette = 0=#202020
 palette = 1=#8c3432
 palette = 2=#728271
 palette = 3=#e8bf6a
-palette = 4=#69809e
+palette = 4=#69819e
 palette = 5=#896492
 palette = 6=#5b8390
 palette = 7=#b9aa99
@@ -16,12 +16,12 @@ palette = 9=#b55242
 palette = 10=#869985
 palette = 11=#ebeb91
 palette = 12=#60827e
-palette = 13=#de4873
+palette = 13=#de4974
 palette = 14=#38add8
 palette = 15=#d6bfb8
 background = #222222
 foreground = #c2b790
 cursor-color = #c2b790
-cursor-text = #201f1f
+cursor-text = #202020
 selection-background = #1b324a
-selection-foreground = #bcb290
+selection-foreground = #bcb291

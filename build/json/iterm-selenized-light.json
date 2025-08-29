@@ -4,24 +4,24 @@
         "hexterm": "ec/e3/cc"
     },
     "ansi-1": {
-        "hex": "#d1202d",
-        "hexterm": "d1/20/2d"
+        "hex": "#d2212d",
+        "hexterm": "d2/21/2d"
     },
     "ansi-10": {
-        "hex": "#418b00",
-        "hexterm": "41/8b/00"
+        "hex": "#428b00",
+        "hexterm": "42/8b/00"
     },
     "ansi-11": {
-        "hex": "#a68200",
-        "hexterm": "a6/82/00"
+        "hex": "#a78300",
+        "hexterm": "a7/83/00"
     },
     "ansi-12": {
-        "hex": "#006dcd",
-        "hexterm": "00/6d/cd"
+        "hex": "#006dce",
+        "hexterm": "00/6d/ce"
     },
     "ansi-13": {
-        "hex": "#c34291",
-        "hexterm": "c3/42/91"
+        "hex": "#c44392",
+        "hexterm": "c4/43/92"
     },
     "ansi-14": {
         "hex": "#00978a",
@@ -32,12 +32,12 @@
         "hexterm": "3a/4d/53"
     },
     "ansi-2": {
-        "hex": "#489000",
-        "hexterm": "48/90/00"
+        "hex": "#489100",
+        "hexterm": "48/91/00"
     },
     "ansi-3": {
-        "hex": "#ac8900",
-        "hexterm": "ac/89/00"
+        "hex": "#ad8900",
+        "hexterm": "ad/89/00"
     },
     "ansi-4": {
         "hex": "#0072d4",
@@ -52,28 +52,28 @@
         "hexterm": "00/9c/8f"
     },
     "ansi-7": {
-        "hex": "#8f9994",
-        "hexterm": "8f/99/94"
+        "hex": "#909995",
+        "hexterm": "90/99/95"
     },
     "ansi-8": {
-        "hex": "#d5ccb5",
-        "hexterm": "d5/cc/b5"
+        "hex": "#d5cdb6",
+        "hexterm": "d5/cd/b6"
     },
     "ansi-9": {
         "hex": "#cc1729",
         "hexterm": "cc/17/29"
     },
     "background": {
-        "hex": "#faf2da",
-        "hexterm": "fa/f2/da"
+        "hex": "#fbf3db",
+        "hexterm": "fb/f3/db"
     },
     "cursor": {
-        "hex": "#53666d",
-        "hexterm": "53/66/6d"
+        "hex": "#53676d",
+        "hexterm": "53/67/6d"
     },
     "foreground": {
-        "hex": "#53666d",
-        "hexterm": "53/66/6d"
+        "hex": "#53676d",
+        "hexterm": "53/67/6d"
     },
     "selection": {
         "hex": "#ece3cc",

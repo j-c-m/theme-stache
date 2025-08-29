@@ -24,8 +24,8 @@
         "hexterm": "cc/00/cc"
     },
     "ansi-14": {
-        "hex": "#0086cb",
-        "hexterm": "00/86/cb"
+        "hex": "#0087cc",
+        "hexterm": "00/87/cc"
     },
     "ansi-15": {
         "hex": "#ffffff",
@@ -56,8 +56,8 @@
         "hexterm": "cc/cc/cc"
     },
     "ansi-8": {
-        "hex": "#7f7f7f",
-        "hexterm": "7f/7f/7f"
+        "hex": "#808080",
+        "hexterm": "80/80/80"
     },
     "ansi-9": {
         "hex": "#cc0000",

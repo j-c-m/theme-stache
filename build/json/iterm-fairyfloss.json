@@ -56,8 +56,8 @@
         "hexterm": "f8/f8/f0"
     },
     "ansi-8": {
-        "hex": "#5f90ca",
-        "hexterm": "5f/90/ca"
+        "hex": "#6090cb",
+        "hexterm": "60/90/cb"
     },
     "ansi-9": {
         "hex": "#ff857f",
@@ -80,8 +80,8 @@
         "hexterm": "80/77/a8"
     },
     "selection-text": {
-        "hex": "#f5e0ce",
-        "hexterm": "f5/e0/ce"
+        "hex": "#f6e1ce",
+        "hexterm": "f6/e1/ce"
     },
     "theme-author": "unknown",
     "theme-name": "Fairyfloss",

@@ -8,52 +8,52 @@
         "hexterm": "ec/5f/67"
     },
     "ansi-10": {
-        "hex": "#93d393",
-        "hexterm": "93/d3/93"
+        "hex": "#93d493",
+        "hexterm": "93/d4/93"
     },
     "ansi-11": {
-        "hex": "#ffd156",
-        "hexterm": "ff/d1/56"
+        "hex": "#ffd256",
+        "hexterm": "ff/d2/56"
     },
     "ansi-12": {
-        "hex": "#4d83d0",
-        "hexterm": "4d/83/d0"
+        "hex": "#4d84d1",
+        "hexterm": "4d/84/d1"
     },
     "ansi-13": {
         "hex": "#ff55ff",
         "hexterm": "ff/55/ff"
     },
     "ansi-14": {
-        "hex": "#83e8e4",
-        "hexterm": "83/e8/e4"
+        "hex": "#83e9e4",
+        "hexterm": "83/e9/e4"
     },
     "ansi-15": {
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#80a763",
-        "hexterm": "80/a7/63"
+        "hex": "#81a764",
+        "hexterm": "81/a7/64"
     },
     "ansi-3": {
-        "hex": "#fdc253",
-        "hexterm": "fd/c2/53"
+        "hex": "#fec254",
+        "hexterm": "fe/c2/54"
     },
     "ansi-4": {
-        "hex": "#5485c0",
-        "hexterm": "54/85/c0"
+        "hex": "#5486c0",
+        "hexterm": "54/86/c0"
     },
     "ansi-5": {
-        "hex": "#bf83c0",
-        "hexterm": "bf/83/c0"
+        "hex": "#bf83c1",
+        "hexterm": "bf/83/c1"
     },
     "ansi-6": {
-        "hex": "#57c2c0",
-        "hexterm": "57/c2/c0"
+        "hex": "#57c2c1",
+        "hexterm": "57/c2/c1"
     },
     "ansi-7": {
-        "hex": "#eeece7",
-        "hexterm": "ee/ec/e7"
+        "hex": "#efece7",
+        "hexterm": "ef/ec/e7"
     },
     "ansi-8": {
         "hex": "#555555",
@@ -64,24 +64,24 @@
         "hexterm": "ff/69/73"
     },
     "background": {
-        "hex": "#212121",
-        "hexterm": "21/21/21"
+        "hex": "#222222",
+        "hexterm": "22/22/22"
     },
     "cursor": {
         "hex": "#bbbbbb",
         "hexterm": "bb/bb/bb"
     },
     "foreground": {
-        "hex": "#bdb9ae",
-        "hexterm": "bd/b9/ae"
+        "hex": "#bdbaae",
+        "hexterm": "bd/ba/ae"
     },
     "selection": {
-        "hex": "#262e35",
-        "hexterm": "26/2e/35"
+        "hex": "#272e35",
+        "hexterm": "27/2e/35"
     },
     "selection-text": {
-        "hex": "#fffefe",
-        "hexterm": "ff/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "SpaceGray Eighties",

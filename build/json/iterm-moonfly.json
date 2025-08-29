@@ -64,8 +64,8 @@
         "hexterm": "ff/51/89"
     },
     "background": {
-        "hex": "#070707",
-        "hexterm": "07/07/07"
+        "hex": "#080808",
+        "hexterm": "08/08/08"
     },
     "cursor": {
         "hex": "#9e9e9e",

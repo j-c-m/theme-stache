@@ -1,7 +1,7 @@
 {
     "ansi-0": {
-        "hex": "#142630",
-        "hexterm": "14/26/30"
+        "hex": "#142631",
+        "hexterm": "14/26/31"
     },
     "ansi-1": {
         "hex": "#ff2320",
@@ -32,8 +32,8 @@
         "hexterm": "8f/f5/86"
     },
     "ansi-2": {
-        "hex": "#3aa5ff",
-        "hexterm": "3a/a5/ff"
+        "hex": "#3ba5ff",
+        "hexterm": "3b/a5/ff"
     },
     "ansi-3": {
         "hex": "#e9e75c",
@@ -52,8 +52,8 @@
         "hexterm": "8f/f5/86"
     },
     "ansi-7": {
-        "hex": "#ba45b1",
-        "hexterm": "ba/45/b1"
+        "hex": "#ba46b2",
+        "hexterm": "ba/46/b2"
     },
     "ansi-8": {
         "hex": "#fff688",
@@ -76,8 +76,8 @@
         "hexterm": "8f/f5/86"
     },
     "selection": {
-        "hex": "#084fb0",
-        "hexterm": "08/4f/b0"
+        "hex": "#094fb1",
+        "hexterm": "09/4f/b1"
     },
     "selection-text": {
         "hex": "#8ff586",

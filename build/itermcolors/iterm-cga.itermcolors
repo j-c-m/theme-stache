@@ -104,7 +104,7 @@
 		<key>Green Component</key>
 		<real>1.0</real>
 		<key>Red Component</key>
-		<real>0.996078431372549</real>
+		<real>1.0</real>
 	</dict>
 	<key>Ansi 2 Color</key>
 	<dict>
@@ -271,7 +271,7 @@
 		<key>Color Space</key>
 		<string>sRGB</string>
 		<key>Green Component</key>
-		<real>0.8666666666666667</real>
+		<real>0.8705882352941177</real>
 		<key>Red Component</key>
 		<real>0.7568627450980392</real>
 	</dict>

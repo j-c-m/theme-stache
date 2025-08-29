@@ -48,10 +48,10 @@ do_osc() {
     print_osc4 12 "56/c2/ff"
     print_osc4 13 "cf/2f/98"
     print_osc4 14 "52/ee/e5"
-    print_osc4 15 "fe/ff/ff"
+    print_osc4 15 "ff/ff/ff"
 
     print_osc_rgb 10 "ff/ff/ff"
-    print_osc_rgb 11 "19/19/19"
+    print_osc_rgb 11 "1a/1a/1a"
     print_osc_rgb 12 "cc/cc/cc"
     print_osc_rgb 17 "33/33/33"
     print_osc_rgb 19 "00/00/00"
@@ -73,7 +73,7 @@ do_linux() {
     print_linux 12 "#56c2ff"
     print_linux 13 "#cf2f98"
     print_linux 14 "#52eee5"
-    print_linux 15 "#feffff"
+    print_linux 15 "#ffffff"
 }
 
 case "$TERM" in

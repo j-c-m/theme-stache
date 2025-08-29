@@ -52,7 +52,7 @@ do_osc() {
 
     print_osc_rgb 10 "b3/c9/d7"
     print_osc_rgb 11 "19/19/19"
-    print_osc_rgb 12 "f3/4a/00"
+    print_osc_rgb 12 "f3/4b/00"
     print_osc_rgb 17 "b3/c9/d7"
     print_osc_rgb 19 "19/19/19"
 }

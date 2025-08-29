@@ -28,8 +28,8 @@
         "hexterm": "95/e6/cb"
     },
     "ansi-15": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
         "hex": "#a6cc70",

@@ -33,15 +33,15 @@ print_linux() {
 }
 
 do_osc() {
-    print_osc4 0 "0e/18/1f"
+    print_osc4 0 "0f/19/1f"
     print_osc4 1 "de/6e/7c"
     print_osc4 2 "90/ff/6b"
-    print_osc4 3 "b7/7e/63"
+    print_osc4 3 "b7/7e/64"
     print_osc4 4 "81/90/d4"
     print_osc4 5 "b2/79/a7"
     print_osc4 6 "66/a5/ad"
     print_osc4 7 "c6/d5/cf"
-    print_osc4 8 "26/39/44"
+    print_osc4 8 "26/39/45"
     print_osc4 9 "e8/83/8f"
     print_osc4 10 "a0/ff/85"
     print_osc4 11 "d6/8c/67"
@@ -51,22 +51,22 @@ do_osc() {
     print_osc4 15 "98/a3/9e"
 
     print_osc_rgb 10 "c6/d5/cf"
-    print_osc_rgb 11 "0e/18/1f"
+    print_osc_rgb 11 "0f/19/1f"
     print_osc_rgb 12 "ce/dd/d7"
-    print_osc_rgb 17 "3a/3e/3c"
+    print_osc_rgb 17 "3a/3e/3d"
     print_osc_rgb 19 "c6/d5/cf"
 }
 
 do_linux() {
-    print_linux 0 "#0e181f"
+    print_linux 0 "#0f191f"
     print_linux 1 "#de6e7c"
     print_linux 2 "#90ff6b"
-    print_linux 3 "#b77e63"
+    print_linux 3 "#b77e64"
     print_linux 4 "#8190d4"
     print_linux 5 "#b279a7"
     print_linux 6 "#66a5ad"
     print_linux 7 "#c6d5cf"
-    print_linux 8 "#263944"
+    print_linux 8 "#263945"
     print_linux 9 "#e8838f"
     print_linux 10 "#a0ff85"
     print_linux 11 "#d68c67"

@@ -64,16 +64,16 @@
         "hexterm": "d0/20/63"
     },
     "background": {
-        "hex": "#0e0c15",
-        "hexterm": "0e/0c/15"
+        "hex": "#0e0d15",
+        "hexterm": "0e/0d/15"
     },
     "cursor": {
         "hex": "#bbbbbb",
         "hexterm": "bb/bb/bb"
     },
     "foreground": {
-        "hex": "#dbd0b9",
-        "hexterm": "db/d0/b9"
+        "hex": "#dbd1b9",
+        "hexterm": "db/d1/b9"
     },
     "selection": {
         "hex": "#f3e0b8",

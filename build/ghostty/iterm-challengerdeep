@@ -3,7 +3,7 @@
 # Author:   unknown
 # Variant:  dark
 
-palette = 0=#141127
+palette = 0=#141228
 palette = 1=#ff5458
 palette = 2=#62d196
 palette = 3=#ffb378
@@ -20,8 +20,8 @@ palette = 13=#c991e1
 palette = 14=#aaffe4
 palette = 15=#cbe3e7
 background = #1e1c31
-foreground = #cbe0e7
+foreground = #cbe1e7
 cursor-color = #fbfcfc
-cursor-text = #141127
+cursor-text = #141228
 selection-background = #cbe1e7
 selection-foreground = #1e1c31

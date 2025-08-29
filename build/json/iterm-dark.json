@@ -68,8 +68,8 @@
         "hexterm": "1e/1e/1e"
     },
     "cursor": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "foreground": {
         "hex": "#cccccc",

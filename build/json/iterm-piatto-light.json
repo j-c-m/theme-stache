@@ -68,16 +68,16 @@
         "hexterm": "ff/ff/ff"
     },
     "cursor": {
-        "hex": "#5e76c7",
-        "hexterm": "5e/76/c7"
+        "hex": "#5e77c8",
+        "hexterm": "5e/77/c8"
     },
     "foreground": {
         "hex": "#414141",
         "hexterm": "41/41/41"
     },
     "selection": {
-        "hex": "#6f6a4e",
-        "hexterm": "6f/6a/4e"
+        "hex": "#706b4e",
+        "hexterm": "70/6b/4e"
     },
     "selection-text": {
         "hex": "#acbcdc",

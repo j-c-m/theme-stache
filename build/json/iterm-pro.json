@@ -40,8 +40,8 @@
         "hexterm": "99/99/00"
     },
     "ansi-4": {
-        "hex": "#1f08db",
-        "hexterm": "1f/08/db"
+        "hex": "#2009db",
+        "hexterm": "20/09/db"
     },
     "ansi-5": {
         "hex": "#b200b2",

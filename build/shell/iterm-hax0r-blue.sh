@@ -50,11 +50,11 @@ do_osc() {
     print_osc4 14 "00/b3/f7"
     print_osc4 15 "fe/fe/fe"
 
-    print_osc_rgb 10 "10/b6/ff"
-    print_osc_rgb 11 "01/04/15"
+    print_osc_rgb 10 "11/b7/ff"
+    print_osc_rgb 11 "01/05/15"
     print_osc_rgb 12 "10/b6/ff"
-    print_osc_rgb 17 "c1/e3/ff"
-    print_osc_rgb 19 "f5/f5/f5"
+    print_osc_rgb 17 "c1/e4/ff"
+    print_osc_rgb 19 "f6/f6/f6"
 }
 
 do_linux() {
@@ -65,7 +65,7 @@ do_linux() {
     print_linux 4 "#10b6ff"
     print_linux 5 "#10b6ff"
     print_linux 6 "#10b6ff"
-    print_linux 7 "#10b6ff"
+    print_linux 7 "#11b7ff"
     print_linux 8 "#080117"
     print_linux 9 "#00b3f7"
     print_linux 10 "#00b3f7"

@@ -53,8 +53,8 @@ do_osc() {
     print_osc_rgb 10 "a0/a0/a0"
     print_osc_rgb 11 "12/12/12"
     print_osc_rgb 12 "bb/bb/bb"
-    print_osc_rgb 17 "45/3a/39"
-    print_osc_rgb 19 "b6/bb/bf"
+    print_osc_rgb 17 "45/3b/39"
+    print_osc_rgb 19 "b6/bb/c0"
 }
 
 do_linux() {

@@ -1,11 +1,11 @@
 {
     "ansi-0": {
-        "hex": "#0d101a",
-        "hexterm": "0d/10/1a"
+        "hex": "#0e101a",
+        "hexterm": "0e/10/1a"
     },
     "ansi-1": {
-        "hex": "#e03500",
-        "hexterm": "e0/35/00"
+        "hex": "#e03600",
+        "hexterm": "e0/36/00"
     },
     "ansi-10": {
         "hex": "#58db9e",
@@ -64,8 +64,8 @@
         "hexterm": "ff/48/21"
     },
     "background": {
-        "hex": "#0d101a",
-        "hexterm": "0d/10/1a"
+        "hex": "#0e101a",
+        "hexterm": "0e/10/1a"
     },
     "cursor": {
         "hex": "#edf2c2",
@@ -76,8 +76,8 @@
         "hexterm": "eb/ef/c0"
     },
     "selection": {
-        "hex": "#36382c",
-        "hexterm": "36/38/2c"
+        "hex": "#37382d",
+        "hexterm": "37/38/2d"
     },
     "selection-text": {
         "hex": "#ebefc0",

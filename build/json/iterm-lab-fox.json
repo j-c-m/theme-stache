@@ -8,12 +8,12 @@
         "hexterm": "fc/6d/26"
     },
     "ansi-10": {
-        "hex": "#52e9a8",
-        "hexterm": "52/e9/a8"
+        "hex": "#53eaa8",
+        "hexterm": "53/ea/a8"
     },
     "ansi-11": {
-        "hex": "#fca012",
-        "hexterm": "fc/a0/12"
+        "hex": "#fca013",
+        "hexterm": "fc/a0/13"
     },
     "ansi-12": {
         "hex": "#db501f",
@@ -28,8 +28,8 @@
         "hexterm": "7d/53/e7"
     },
     "ansi-15": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
         "hex": "#3eb383",
@@ -52,12 +52,12 @@
         "hexterm": "6e/49/cb"
     },
     "ansi-7": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-8": {
-        "hex": "#454545",
-        "hexterm": "45/45/45"
+        "hex": "#464646",
+        "hexterm": "46/46/46"
     },
     "ansi-9": {
         "hex": "#ff6517",
@@ -72,16 +72,16 @@
         "hexterm": "7f/7f/7f"
     },
     "foreground": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "selection": {
-        "hex": "#ca392d",
-        "hexterm": "ca/39/2d"
+        "hex": "#cb392e",
+        "hexterm": "cb/39/2e"
     },
     "selection-text": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "Lab Fox",

@@ -64,24 +64,24 @@
         "hexterm": "00/b3/f7"
     },
     "background": {
-        "hex": "#010415",
-        "hexterm": "01/04/15"
+        "hex": "#010515",
+        "hexterm": "01/05/15"
     },
     "cursor": {
         "hex": "#10b6ff",
         "hexterm": "10/b6/ff"
     },
     "foreground": {
-        "hex": "#10b6ff",
-        "hexterm": "10/b6/ff"
+        "hex": "#11b7ff",
+        "hexterm": "11/b7/ff"
     },
     "selection": {
-        "hex": "#c1e3ff",
-        "hexterm": "c1/e3/ff"
+        "hex": "#c1e4ff",
+        "hexterm": "c1/e4/ff"
     },
     "selection-text": {
-        "hex": "#f5f5f5",
-        "hexterm": "f5/f5/f5"
+        "hex": "#f6f6f6",
+        "hexterm": "f6/f6/f6"
     },
     "theme-author": "unknown",
     "theme-name": "HaX0R_BLUE",

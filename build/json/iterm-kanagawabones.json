@@ -4,8 +4,8 @@
         "hexterm": "1f/1f/28"
     },
     "ansi-1": {
-        "hex": "#e46977",
-        "hexterm": "e4/69/77"
+        "hex": "#e46a78",
+        "hexterm": "e4/6a/78"
     },
     "ansi-10": {
         "hex": "#9ec967",
@@ -32,8 +32,8 @@
         "hexterm": "a8/a4/8d"
     },
     "ansi-2": {
-        "hex": "#98bc6c",
-        "hexterm": "98/bc/6c"
+        "hex": "#98bc6d",
+        "hexterm": "98/bc/6d"
     },
     "ansi-3": {
         "hex": "#e5c283",
@@ -56,8 +56,8 @@
         "hexterm": "dd/d8/bb"
     },
     "ansi-8": {
-        "hex": "#3b3b51",
-        "hexterm": "3b/3b/51"
+        "hex": "#3c3c51",
+        "hexterm": "3c/3c/51"
     },
     "ansi-9": {
         "hex": "#ec818c",

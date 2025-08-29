@@ -1,87 +1,87 @@
 {
     "ansi-0": {
-        "hex": "#273036",
-        "hexterm": "27/30/36"
+        "hex": "#273136",
+        "hexterm": "27/31/36"
     },
     "ansi-1": {
         "hex": "#ff6d7e",
         "hexterm": "ff/6d/7e"
     },
     "ansi-10": {
-        "hex": "#a1e57b",
-        "hexterm": "a1/e5/7b"
+        "hex": "#a2e57b",
+        "hexterm": "a2/e5/7b"
     },
     "ansi-11": {
-        "hex": "#ffec71",
-        "hexterm": "ff/ec/71"
+        "hex": "#ffed72",
+        "hexterm": "ff/ed/72"
     },
     "ansi-12": {
         "hex": "#ffb270",
         "hexterm": "ff/b2/70"
     },
     "ansi-13": {
-        "hex": "#b9a0f7",
-        "hexterm": "b9/a0/f7"
+        "hex": "#baa0f8",
+        "hexterm": "ba/a0/f8"
     },
     "ansi-14": {
-        "hex": "#7bd4f0",
-        "hexterm": "7b/d4/f0"
+        "hex": "#7cd5f1",
+        "hexterm": "7c/d5/f1"
     },
     "ansi-15": {
-        "hex": "#f1fffb",
-        "hexterm": "f1/ff/fb"
+        "hex": "#f2fffc",
+        "hexterm": "f2/ff/fc"
     },
     "ansi-2": {
-        "hex": "#a1e57b",
-        "hexterm": "a1/e5/7b"
+        "hex": "#a2e57b",
+        "hexterm": "a2/e5/7b"
     },
     "ansi-3": {
-        "hex": "#ffec71",
-        "hexterm": "ff/ec/71"
+        "hex": "#ffed72",
+        "hexterm": "ff/ed/72"
     },
     "ansi-4": {
         "hex": "#ffb270",
         "hexterm": "ff/b2/70"
     },
     "ansi-5": {
-        "hex": "#b9a0f7",
-        "hexterm": "b9/a0/f7"
+        "hex": "#baa0f8",
+        "hexterm": "ba/a0/f8"
     },
     "ansi-6": {
-        "hex": "#7bd4f0",
-        "hexterm": "7b/d4/f0"
+        "hex": "#7cd5f1",
+        "hexterm": "7c/d5/f1"
     },
     "ansi-7": {
-        "hex": "#f1fffb",
-        "hexterm": "f1/ff/fb"
+        "hex": "#f2fffc",
+        "hexterm": "f2/ff/fc"
     },
     "ansi-8": {
-        "hex": "#6a7578",
-        "hexterm": "6a/75/78"
+        "hex": "#6b7678",
+        "hexterm": "6b/76/78"
     },
     "ansi-9": {
         "hex": "#ff6d7e",
         "hexterm": "ff/6d/7e"
     },
     "background": {
-        "hex": "#273036",
-        "hexterm": "27/30/36"
+        "hex": "#273136",
+        "hexterm": "27/31/36"
     },
     "cursor": {
         "hex": "#b8c4c3",
         "hexterm": "b8/c4/c3"
     },
     "foreground": {
-        "hex": "#f1fffb",
-        "hexterm": "f1/ff/fb"
+        "hex": "#f2fffc",
+        "hexterm": "f2/ff/fc"
     },
     "selection": {
-        "hex": "#535e62",
-        "hexterm": "53/5e/62"
+        "hex": "#545f62",
+        "hexterm": "54/5f/62"
     },
     "selection-text": {
-        "hex": "#f1fffb",
-        "hexterm": "f1/ff/fb"
+        "hex": "#f2fffc",
+        "hexterm": "f2/ff/fc"
     },
     "theme-author": "unknown",
     "theme-name": "Monokai Pro Machine",

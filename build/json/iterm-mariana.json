@@ -28,8 +28,8 @@
         "hexterm": "82/c4/c4"
     },
     "ansi-15": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
         "hex": "#99c794",
@@ -68,8 +68,8 @@
         "hexterm": "34/3d/46"
     },
     "cursor": {
-        "hex": "#fbbb6a",
-        "hexterm": "fb/bb/6a"
+        "hex": "#fcbb6a",
+        "hexterm": "fc/bb/6a"
     },
     "foreground": {
         "hex": "#d8dee9",

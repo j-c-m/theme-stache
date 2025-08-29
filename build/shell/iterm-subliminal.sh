@@ -54,7 +54,7 @@ do_osc() {
     print_osc_rgb 11 "28/2c/35"
     print_osc_rgb 12 "c7/c7/c7"
     print_osc_rgb 17 "48/4e/5b"
-    print_osc_rgb 19 "fe/ff/ff"
+    print_osc_rgb 19 "ff/ff/ff"
 }
 
 do_linux() {

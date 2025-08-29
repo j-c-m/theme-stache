@@ -4,16 +4,16 @@
         "hexterm": "17/38/4c"
     },
     "ansi-1": {
-        "hex": "#d15023",
-        "hexterm": "d1/50/23"
+        "hex": "#d15123",
+        "hexterm": "d1/51/23"
     },
     "ansi-10": {
-        "hex": "#618c98",
-        "hexterm": "61/8c/98"
+        "hex": "#628d98",
+        "hexterm": "62/8d/98"
     },
     "ansi-11": {
-        "hex": "#fdd29e",
-        "hexterm": "fd/d2/9e"
+        "hex": "#fdd39f",
+        "hexterm": "fd/d3/9f"
     },
     "ansi-12": {
         "hex": "#1bbcdd",
@@ -24,12 +24,12 @@
         "hexterm": "bb/e3/ee"
     },
     "ansi-14": {
-        "hex": "#86abb3",
-        "hexterm": "86/ab/b3"
+        "hex": "#87acb4",
+        "hexterm": "87/ac/b4"
     },
     "ansi-15": {
-        "hex": "#fee3cd",
-        "hexterm": "fe/e3/cd"
+        "hex": "#fee4ce",
+        "hexterm": "fe/e4/ce"
     },
     "ansi-2": {
         "hex": "#027c9b",
@@ -44,8 +44,8 @@
         "hexterm": "1e/49/50"
     },
     "ansi-5": {
-        "hex": "#68d3f1",
-        "hexterm": "68/d3/f1"
+        "hex": "#68d4f1",
+        "hexterm": "68/d4/f1"
     },
     "ansi-6": {
         "hex": "#50a3b5",
@@ -56,16 +56,16 @@
         "hexterm": "de/b8/8d"
     },
     "ansi-8": {
-        "hex": "#424b52",
-        "hexterm": "42/4b/52"
+        "hex": "#434b53",
+        "hexterm": "43/4b/53"
     },
     "ansi-9": {
-        "hex": "#d38677",
-        "hexterm": "d3/86/77"
+        "hex": "#d48678",
+        "hexterm": "d4/86/78"
     },
     "background": {
-        "hex": "#08131a",
-        "hexterm": "08/13/1a"
+        "hex": "#09141b",
+        "hexterm": "09/14/1b"
     },
     "cursor": {
         "hex": "#fca02f",
@@ -76,12 +76,12 @@
         "hexterm": "de/b8/8d"
     },
     "selection": {
-        "hex": "#1e4862",
-        "hexterm": "1e/48/62"
+        "hex": "#1e4962",
+        "hexterm": "1e/49/62"
     },
     "selection-text": {
-        "hex": "#fee3cd",
-        "hexterm": "fe/e3/cd"
+        "hex": "#fee4ce",
+        "hexterm": "fe/e4/ce"
     },
     "theme-author": "unknown",
     "theme-name": "SeaShells",

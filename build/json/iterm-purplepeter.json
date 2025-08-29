@@ -1,27 +1,27 @@
 {
     "ansi-0": {
-        "hex": "#0a041f",
-        "hexterm": "0a/04/1f"
+        "hex": "#0a0520",
+        "hexterm": "0a/05/20"
     },
     "ansi-1": {
-        "hex": "#ff786c",
-        "hexterm": "ff/78/6c"
+        "hex": "#ff796d",
+        "hexterm": "ff/79/6d"
     },
     "ansi-10": {
-        "hex": "#b4bd8e",
-        "hexterm": "b4/bd/8e"
+        "hex": "#b4be8f",
+        "hexterm": "b4/be/8f"
     },
     "ansi-11": {
-        "hex": "#f1e9bf",
-        "hexterm": "f1/e9/bf"
+        "hex": "#f2e9bf",
+        "hexterm": "f2/e9/bf"
     },
     "ansi-12": {
         "hex": "#79daed",
         "hexterm": "79/da/ed"
     },
     "ansi-13": {
-        "hex": "#b991d4",
-        "hexterm": "b9/91/d4"
+        "hex": "#ba91d4",
+        "hexterm": "ba/91/d4"
     },
     "ansi-14": {
         "hex": "#a0a0d6",
@@ -32,36 +32,36 @@
         "hexterm": "b9/ae/d3"
     },
     "ansi-2": {
-        "hex": "#98b481",
-        "hexterm": "98/b4/81"
+        "hex": "#99b481",
+        "hexterm": "99/b4/81"
     },
     "ansi-3": {
-        "hex": "#efdeab",
-        "hexterm": "ef/de/ab"
+        "hex": "#efdfac",
+        "hexterm": "ef/df/ac"
     },
     "ansi-4": {
         "hex": "#66d9ef",
         "hexterm": "66/d9/ef"
     },
     "ansi-5": {
-        "hex": "#e68ecd",
-        "hexterm": "e6/8e/cd"
+        "hex": "#e78fcd",
+        "hexterm": "e7/8f/cd"
     },
     "ansi-6": {
-        "hex": "#b98cff",
-        "hexterm": "b9/8c/ff"
+        "hex": "#ba8cff",
+        "hexterm": "ba/8c/ff"
     },
     "ansi-7": {
         "hex": "#ffba81",
         "hexterm": "ff/ba/81"
     },
     "ansi-8": {
-        "hex": "#100b22",
-        "hexterm": "10/0b/22"
+        "hex": "#100b23",
+        "hexterm": "10/0b/23"
     },
     "ansi-9": {
-        "hex": "#f89f92",
-        "hexterm": "f8/9f/92"
+        "hex": "#f99f92",
+        "hexterm": "f9/9f/92"
     },
     "background": {
         "hex": "#2a1a4a",
@@ -72,12 +72,12 @@
         "hexterm": "c7/c7/c7"
     },
     "foreground": {
-        "hex": "#ebe6f9",
-        "hexterm": "eb/e6/f9"
+        "hex": "#ece7fa",
+        "hexterm": "ec/e7/fa"
     },
     "selection": {
-        "hex": "#8688c2",
-        "hexterm": "86/88/c2"
+        "hex": "#8689c2",
+        "hexterm": "86/89/c2"
     },
     "selection-text": {
         "hex": "#271c50",

@@ -4,32 +4,32 @@
         "hexterm": "14/19/1e"
     },
     "ansi-1": {
-        "hex": "#b43c29",
-        "hexterm": "b4/3c/29"
+        "hex": "#b43c2a",
+        "hexterm": "b4/3c/2a"
     },
     "ansi-10": {
-        "hex": "#57e690",
-        "hexterm": "57/e6/90"
+        "hex": "#58e790",
+        "hexterm": "58/e7/90"
     },
     "ansi-11": {
         "hex": "#ece100",
         "hexterm": "ec/e1/00"
     },
     "ansi-12": {
-        "hex": "#a6aaf1",
-        "hexterm": "a6/aa/f1"
+        "hex": "#a7abf2",
+        "hexterm": "a7/ab/f2"
     },
     "ansi-13": {
-        "hex": "#e07de0",
-        "hexterm": "e0/7d/e0"
+        "hex": "#e17ee1",
+        "hexterm": "e1/7e/e1"
     },
     "ansi-14": {
-        "hex": "#5ffdff",
-        "hexterm": "5f/fd/ff"
+        "hex": "#60fdff",
+        "hexterm": "60/fd/ff"
     },
     "ansi-15": {
-        "hex": "#feffff",
-        "hexterm": "fe/ff/ff"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
         "hex": "#00c200",
@@ -40,12 +40,12 @@
         "hexterm": "c7/c4/00"
     },
     "ansi-4": {
-        "hex": "#2743c7",
-        "hexterm": "27/43/c7"
+        "hex": "#2744c7",
+        "hexterm": "27/44/c7"
     },
     "ansi-5": {
-        "hex": "#bf3fbd",
-        "hexterm": "bf/3f/bd"
+        "hex": "#c040be",
+        "hexterm": "c0/40/be"
     },
     "ansi-6": {
         "hex": "#00c5c7",
@@ -56,24 +56,24 @@
         "hexterm": "c7/c7/c7"
     },
     "ansi-8": {
-        "hex": "#676767",
-        "hexterm": "67/67/67"
+        "hex": "#686868",
+        "hexterm": "68/68/68"
     },
     "ansi-9": {
-        "hex": "#dc7974",
-        "hexterm": "dc/79/74"
+        "hex": "#dd7975",
+        "hexterm": "dd/79/75"
     },
     "background": {
-        "hex": "#14191e",
-        "hexterm": "14/19/1e"
+        "hex": "#15191f",
+        "hexterm": "15/19/1f"
     },
     "cursor": {
-        "hex": "#fefffe",
-        "hexterm": "fe/ff/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "foreground": {
-        "hex": "#dbdbdb",
-        "hexterm": "db/db/db"
+        "hex": "#dcdcdc",
+        "hexterm": "dc/dc/dc"
     },
     "selection": {
         "hex": "#b3d7ff",

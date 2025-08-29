@@ -35,7 +35,7 @@ print_linux() {
 do_osc() {
     print_osc4 0 "92/92/92"
     print_osc4 1 "e2/73/73"
-    print_osc4 2 "93/b9/79"
+    print_osc4 2 "94/b9/79"
     print_osc4 3 "ff/ba/7b"
     print_osc4 4 "97/be/dc"
     print_osc4 5 "e1/c0/fa"
@@ -52,15 +52,15 @@ do_osc() {
 
     print_osc_rgb 10 "de/de/de"
     print_osc_rgb 11 "12/12/12"
-    print_osc_rgb 12 "ff/a4/60"
+    print_osc_rgb 12 "ff/a5/60"
     print_osc_rgb 17 "47/4e/91"
-    print_osc_rgb 19 "f3/f3/f3"
+    print_osc_rgb 19 "f4/f4/f4"
 }
 
 do_linux() {
     print_linux 0 "#929292"
     print_linux 1 "#e27373"
-    print_linux 2 "#93b979"
+    print_linux 2 "#94b979"
     print_linux 3 "#ffba7b"
     print_linux 4 "#97bedc"
     print_linux 5 "#e1c0fa"

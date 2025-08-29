@@ -1,23 +1,23 @@
 {
     "ansi-0": {
-        "hex": "#4e4e4e",
-        "hexterm": "4e/4e/4e"
+        "hex": "#4f4f4f",
+        "hexterm": "4f/4f/4f"
     },
     "ansi-1": {
-        "hex": "#ff6b60",
-        "hexterm": "ff/6b/60"
+        "hex": "#ff6c60",
+        "hexterm": "ff/6c/60"
     },
     "ansi-10": {
-        "hex": "#ceffab",
-        "hexterm": "ce/ff/ab"
+        "hex": "#ceffac",
+        "hexterm": "ce/ff/ac"
     },
     "ansi-11": {
-        "hex": "#ffffcb",
-        "hexterm": "ff/ff/cb"
+        "hex": "#ffffcc",
+        "hexterm": "ff/ff/cc"
     },
     "ansi-12": {
-        "hex": "#b5dcfe",
-        "hexterm": "b5/dc/fe"
+        "hex": "#b5dcff",
+        "hexterm": "b5/dc/ff"
     },
     "ansi-13": {
         "hex": "#ff9cfe",
@@ -32,24 +32,24 @@
         "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#a7ff60",
-        "hexterm": "a7/ff/60"
+        "hex": "#a8ff60",
+        "hexterm": "a8/ff/60"
     },
     "ansi-3": {
         "hex": "#ffffb6",
         "hexterm": "ff/ff/b6"
     },
     "ansi-4": {
-        "hex": "#96cafd",
-        "hexterm": "96/ca/fd"
+        "hex": "#96cbfe",
+        "hexterm": "96/cb/fe"
     },
     "ansi-5": {
         "hex": "#ff73fd",
         "hexterm": "ff/73/fd"
     },
     "ansi-6": {
-        "hex": "#c6c4fd",
-        "hexterm": "c6/c4/fd"
+        "hex": "#c6c5fe",
+        "hexterm": "c6/c5/fe"
     },
     "ansi-7": {
         "hex": "#eeeeee",
@@ -68,20 +68,20 @@
         "hexterm": "00/00/00"
     },
     "cursor": {
-        "hex": "#ffa460",
-        "hexterm": "ff/a4/60"
+        "hex": "#ffa560",
+        "hexterm": "ff/a5/60"
     },
     "foreground": {
         "hex": "#bbbbbb",
         "hexterm": "bb/bb/bb"
     },
     "selection": {
-        "hex": "#353883",
-        "hexterm": "35/38/83"
+        "hex": "#363983",
+        "hexterm": "36/39/83"
     },
     "selection-text": {
-        "hex": "#f1f1f1",
-        "hexterm": "f1/f1/f1"
+        "hex": "#f2f2f2",
+        "hexterm": "f2/f2/f2"
     },
     "theme-author": "unknown",
     "theme-name": "Builtin Pastel Dark",

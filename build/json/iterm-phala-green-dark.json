@@ -12,16 +12,16 @@
         "hexterm": "00/db/00"
     },
     "ansi-11": {
-        "hex": "#eae600",
-        "hexterm": "ea/e6/00"
+        "hex": "#eae700",
+        "hexterm": "ea/e7/00"
     },
     "ansi-12": {
-        "hex": "#0432fe",
-        "hexterm": "04/32/fe"
+        "hex": "#0433ff",
+        "hexterm": "04/33/ff"
     },
     "ansi-13": {
-        "hex": "#ec3aea",
-        "hexterm": "ec/3a/ea"
+        "hex": "#ed3aea",
+        "hexterm": "ed/3a/ea"
     },
     "ansi-14": {
         "hex": "#00e8ea",
@@ -32,56 +32,56 @@
         "hexterm": "ea/ea/ea"
     },
     "ansi-2": {
-        "hex": "#00b000",
-        "hexterm": "00/b0/00"
+        "hex": "#00b100",
+        "hexterm": "00/b1/00"
     },
     "ansi-3": {
-        "hex": "#a9a600",
-        "hexterm": "a9/a6/00"
+        "hex": "#a9a700",
+        "hexterm": "a9/a7/00"
     },
     "ansi-4": {
-        "hex": "#0223bf",
-        "hexterm": "02/23/bf"
+        "hex": "#0223c0",
+        "hexterm": "02/23/c0"
     },
     "ansi-5": {
-        "hex": "#c12dbf",
-        "hexterm": "c1/2d/bf"
+        "hex": "#c22ec0",
+        "hexterm": "c2/2e/c0"
     },
     "ansi-6": {
-        "hex": "#00b3bf",
-        "hexterm": "00/b3/bf"
+        "hex": "#00b4c0",
+        "hexterm": "00/b4/c0"
     },
     "ansi-7": {
-        "hex": "#cacaca",
-        "hexterm": "ca/ca/ca"
+        "hex": "#cbcbcb",
+        "hexterm": "cb/cb/cb"
     },
     "ansi-8": {
         "hex": "#797979",
         "hexterm": "79/79/79"
     },
     "ansi-9": {
-        "hex": "#ec2200",
-        "hexterm": "ec/22/00"
+        "hex": "#ed2200",
+        "hexterm": "ed/22/00"
     },
     "background": {
         "hex": "#000000",
         "hexterm": "00/00/00"
     },
     "cursor": {
-        "hex": "#c0fb03",
-        "hexterm": "c0/fb/03"
+        "hex": "#c1fc03",
+        "hexterm": "c1/fc/03"
     },
     "foreground": {
-        "hex": "#c0fb03",
-        "hexterm": "c0/fb/03"
+        "hex": "#c1fc03",
+        "hexterm": "c1/fc/03"
     },
     "selection": {
-        "hex": "#004703",
-        "hexterm": "00/47/03"
+        "hex": "#014804",
+        "hexterm": "01/48/04"
     },
     "selection-text": {
-        "hex": "#fefefe",
-        "hexterm": "fe/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "theme-author": "unknown",
     "theme-name": "Phala Green Dark",

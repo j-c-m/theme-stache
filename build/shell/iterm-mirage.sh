@@ -54,7 +54,7 @@ do_osc() {
     print_osc_rgb 11 "1b/27/38"
     print_osc_rgb 12 "dd/b3/ff"
     print_osc_rgb 17 "27/39/51"
-    print_osc_rgb 19 "d3/db/e4"
+    print_osc_rgb 19 "d3/db/e5"
 }
 
 do_linux() {

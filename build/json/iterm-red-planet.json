@@ -1,7 +1,7 @@
 {
     "ansi-0": {
-        "hex": "#201f1f",
-        "hexterm": "20/1f/1f"
+        "hex": "#202020",
+        "hexterm": "20/20/20"
     },
     "ansi-1": {
         "hex": "#8c3432",
@@ -20,8 +20,8 @@
         "hexterm": "60/82/7e"
     },
     "ansi-13": {
-        "hex": "#de4873",
-        "hexterm": "de/48/73"
+        "hex": "#de4974",
+        "hexterm": "de/49/74"
     },
     "ansi-14": {
         "hex": "#38add8",
@@ -40,8 +40,8 @@
         "hexterm": "e8/bf/6a"
     },
     "ansi-4": {
-        "hex": "#69809e",
-        "hexterm": "69/80/9e"
+        "hex": "#69819e",
+        "hexterm": "69/81/9e"
     },
     "ansi-5": {
         "hex": "#896492",
@@ -80,8 +80,8 @@
         "hexterm": "1b/32/4a"
     },
     "selection-text": {
-        "hex": "#bcb290",
-        "hexterm": "bc/b2/90"
+        "hex": "#bcb291",
+        "hexterm": "bc/b2/91"
     },
     "theme-author": "unknown",
     "theme-name": "Red Planet",

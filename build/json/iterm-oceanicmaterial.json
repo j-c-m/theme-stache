@@ -4,64 +4,64 @@
         "hexterm": "00/00/00"
     },
     "ansi-1": {
-        "hex": "#ee2a29",
-        "hexterm": "ee/2a/29"
+        "hex": "#ee2b2a",
+        "hexterm": "ee/2b/2a"
     },
     "ansi-10": {
         "hex": "#70be71",
         "hexterm": "70/be/71"
     },
     "ansi-11": {
-        "hex": "#fef063",
-        "hexterm": "fe/f0/63"
+        "hex": "#fff163",
+        "hexterm": "ff/f1/63"
     },
     "ansi-12": {
-        "hex": "#53a4f3",
-        "hexterm": "53/a4/f3"
+        "hex": "#54a4f3",
+        "hexterm": "54/a4/f3"
     },
     "ansi-13": {
-        "hex": "#a94dbb",
-        "hexterm": "a9/4d/bb"
+        "hex": "#aa4dbc",
+        "hexterm": "aa/4d/bc"
     },
     "ansi-14": {
-        "hex": "#42c6d9",
-        "hexterm": "42/c6/d9"
+        "hex": "#42c7da",
+        "hexterm": "42/c7/da"
     },
     "ansi-15": {
-        "hex": "#fffefe",
-        "hexterm": "ff/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#3fa33f",
-        "hexterm": "3f/a3/3f"
+        "hex": "#40a33f",
+        "hexterm": "40/a3/3f"
     },
     "ansi-3": {
-        "hex": "#fee92e",
-        "hexterm": "fe/e9/2e"
+        "hex": "#ffea2e",
+        "hexterm": "ff/ea/2e"
     },
     "ansi-4": {
-        "hex": "#1d80ef",
-        "hexterm": "1d/80/ef"
+        "hex": "#1e80f0",
+        "hexterm": "1e/80/f0"
     },
     "ansi-5": {
         "hex": "#8800a0",
         "hexterm": "88/00/a0"
     },
     "ansi-6": {
-        "hex": "#16aec9",
-        "hexterm": "16/ae/c9"
+        "hex": "#16afca",
+        "hexterm": "16/af/ca"
     },
     "ansi-7": {
         "hex": "#a4a4a4",
         "hexterm": "a4/a4/a4"
     },
     "ansi-8": {
-        "hex": "#767676",
-        "hexterm": "76/76/76"
+        "hex": "#777777",
+        "hexterm": "77/77/77"
     },
     "ansi-9": {
-        "hex": "#dc5b60",
-        "hexterm": "dc/5b/60"
+        "hex": "#dc5c60",
+        "hexterm": "dc/5c/60"
     },
     "background": {
         "hex": "#1c262b",

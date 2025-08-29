@@ -15,19 +15,19 @@ cursor      = '#c7c7c7'
 
 # Selection colors
 [colors.selection]
-background  = '#e0925c'
+background  = '#e1925c'
 text        = '#1d1a1e'
 
 # Normal colors
 [colors.normal]
 black       = '#1d1a1e'
 red         = '#ff5b82'
-green       = '#47d7a0'
-yellow      = '#e7e562'
-blue        = '#5db3ee'
+green       = '#47d7a1'
+yellow      = '#e8e562'
+blue        = '#5db4ee'
 magenta     = '#da6cda'
-cyan        = '#56e8ea'
-white       = '#ececec'
+cyan        = '#57e9eb'
+white       = '#ededed'
 
 # Bright colors
 [colors.bright]

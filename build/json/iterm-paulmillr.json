@@ -24,8 +24,8 @@
         "hexterm": "db/67/e6"
     },
     "ansi-14": {
-        "hex": "#79dff2",
-        "hexterm": "79/df/f2"
+        "hex": "#7adff2",
+        "hexterm": "7a/df/f2"
     },
     "ansi-15": {
         "hex": "#ffffff",
@@ -40,12 +40,12 @@
         "hexterm": "e7/bf/00"
     },
     "ansi-4": {
-        "hex": "#386bd7",
-        "hexterm": "38/6b/d7"
+        "hex": "#396bd7",
+        "hexterm": "39/6b/d7"
     },
     "ansi-5": {
-        "hex": "#b349be",
-        "hexterm": "b3/49/be"
+        "hex": "#b449be",
+        "hexterm": "b4/49/be"
     },
     "ansi-6": {
         "hex": "#66ccff",

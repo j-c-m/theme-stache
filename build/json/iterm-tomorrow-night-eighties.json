@@ -4,8 +4,8 @@
         "hexterm": "00/00/00"
     },
     "ansi-1": {
-        "hex": "#f27779",
-        "hexterm": "f2/77/79"
+        "hex": "#f2777a",
+        "hexterm": "f2/77/7a"
     },
     "ansi-10": {
         "hex": "#99cc99",
@@ -28,8 +28,8 @@
         "hexterm": "66/cc/cc"
     },
     "ansi-15": {
-        "hex": "#fffefe",
-        "hexterm": "ff/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
         "hex": "#99cc99",
@@ -52,20 +52,20 @@
         "hexterm": "66/cc/cc"
     },
     "ansi-7": {
-        "hex": "#fffefe",
-        "hexterm": "ff/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "ansi-8": {
         "hex": "#000000",
         "hexterm": "00/00/00"
     },
     "ansi-9": {
-        "hex": "#f17779",
-        "hexterm": "f1/77/79"
+        "hex": "#f2777a",
+        "hexterm": "f2/77/7a"
     },
     "background": {
-        "hex": "#2c2c2c",
-        "hexterm": "2c/2c/2c"
+        "hex": "#2d2d2d",
+        "hexterm": "2d/2d/2d"
     },
     "cursor": {
         "hex": "#cccccc",

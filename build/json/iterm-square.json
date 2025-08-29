@@ -68,8 +68,8 @@
         "hexterm": "1a/1a/1a"
     },
     "cursor": {
-        "hex": "#fbfacc",
-        "hexterm": "fb/fa/cc"
+        "hex": "#fcfbcc",
+        "hexterm": "fc/fb/cc"
     },
     "foreground": {
         "hex": "#acacab",

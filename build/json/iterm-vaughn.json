@@ -1,7 +1,7 @@
 {
     "ansi-0": {
-        "hex": "#24234f",
-        "hexterm": "24/23/4f"
+        "hex": "#25234f",
+        "hexterm": "25/23/4f"
     },
     "ansi-1": {
         "hex": "#705050",
@@ -64,8 +64,8 @@
         "hexterm": "dc/a3/a3"
     },
     "background": {
-        "hex": "#25234e",
-        "hexterm": "25/23/4e"
+        "hex": "#25234f",
+        "hexterm": "25/23/4f"
     },
     "cursor": {
         "hex": "#ff5555",

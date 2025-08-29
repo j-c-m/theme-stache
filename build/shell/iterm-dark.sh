@@ -52,7 +52,7 @@ do_osc() {
 
     print_osc_rgb 10 "cc/cc/cc"
     print_osc_rgb 11 "1e/1e/1e"
-    print_osc_rgb 12 "fe/ff/ff"
+    print_osc_rgb 12 "ff/ff/ff"
     print_osc_rgb 17 "3a/3d/41"
     print_osc_rgb 19 "e0/e0/e0"
 }

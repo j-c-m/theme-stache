@@ -44,8 +44,8 @@
         "hexterm": "00/00/a3"
     },
     "ansi-5": {
-        "hex": "#950061",
-        "hexterm": "95/00/61"
+        "hex": "#950062",
+        "hexterm": "95/00/62"
     },
     "ansi-6": {
         "hex": "#00bbbb",
@@ -64,8 +64,8 @@
         "hexterm": "bb/00/00"
     },
     "background": {
-        "hex": "#13773c",
-        "hexterm": "13/77/3c"
+        "hex": "#13773d",
+        "hexterm": "13/77/3d"
     },
     "cursor": {
         "hex": "#8c2800",

@@ -60,20 +60,20 @@
         "hexterm": "15/00/00"
     },
     "ansi-9": {
-        "hex": "#ff1010",
-        "hexterm": "ff/10/10"
+        "hex": "#ff1111",
+        "hexterm": "ff/11/11"
     },
     "background": {
-        "hex": "#1f0000",
-        "hexterm": "1f/00/00"
+        "hex": "#200101",
+        "hexterm": "20/01/01"
     },
     "cursor": {
         "hex": "#b00d0d",
         "hexterm": "b0/0d/0d"
     },
     "foreground": {
-        "hex": "#b00d0d",
-        "hexterm": "b0/0d/0d"
+        "hex": "#b10e0e",
+        "hexterm": "b1/0e/0e"
     },
     "selection": {
         "hex": "#ebc1ff",

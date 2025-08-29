@@ -76,8 +76,8 @@
         "hexterm": "13/a1/0e"
     },
     "selection": {
-        "hex": "#fffefe",
-        "hexterm": "ff/fe/fe"
+        "hex": "#ffffff",
+        "hexterm": "ff/ff/ff"
     },
     "selection-text": {
         "hex": "#000000",

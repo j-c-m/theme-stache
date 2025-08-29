@@ -36,8 +36,8 @@
         "hexterm": "00/8b/00"
     },
     "ansi-3": {
-        "hex": "#ffcf00",
-        "hexterm": "ff/cf/00"
+        "hex": "#ffd000",
+        "hexterm": "ff/d0/00"
     },
     "ansi-4": {
         "hex": "#0081ff",

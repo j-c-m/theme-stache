@@ -51,7 +51,7 @@ do_osc() {
     print_osc4 15 "e4/e4/e4"
 
     print_osc_rgb 10 "bd/bd/bd"
-    print_osc_rgb 11 "07/07/07"
+    print_osc_rgb 11 "08/08/08"
     print_osc_rgb 12 "9e/9e/9e"
     print_osc_rgb 17 "b2/ce/ee"
     print_osc_rgb 19 "08/08/08"

@@ -11,31 +11,31 @@ foreground  = '#4d4d4c'
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
 text        = '#000000'
-cursor      = '#4c4c4c'
+cursor      = '#4d4d4c'
 
 # Selection colors
 [colors.selection]
 background  = '#d6d6d6'
-text        = '#4c4c4c'
+text        = '#4d4d4c'
 
 # Normal colors
 [colors.normal]
 black       = '#000000'
-red         = '#c82828'
+red         = '#c82829'
 green       = '#718c00'
 yellow      = '#eab700'
-blue        = '#4171ae'
+blue        = '#4271ae'
 magenta     = '#8959a8'
 cyan        = '#3e999f'
-white       = '#fffefe'
+white       = '#ffffff'
 
 # Bright colors
 [colors.bright]
 black       = '#000000'
-red         = '#c82828'
-green       = '#708b00'
-yellow      = '#e9b600'
-blue        = '#4170ae'
-magenta     = '#8958a7'
-cyan        = '#3d999f'
-white       = '#fffefe'
+red         = '#c82829'
+green       = '#718c00'
+yellow      = '#eab700'
+blue        = '#4271ae'
+magenta     = '#8959a8'
+cyan        = '#3e999f'
+white       = '#ffffff'

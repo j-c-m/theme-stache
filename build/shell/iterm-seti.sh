@@ -52,7 +52,7 @@ do_osc() {
 
     print_osc_rgb 10 "ca/ce/cd"
     print_osc_rgb 11 "11/12/13"
-    print_osc_rgb 12 "e2/be/21"
+    print_osc_rgb 12 "e3/bf/21"
     print_osc_rgb 17 "30/32/33"
     print_osc_rgb 19 "ca/ce/cd"
 }

@@ -4,52 +4,52 @@
         "hexterm": "1b/1d/1e"
     },
     "ansi-1": {
-        "hex": "#e60712",
-        "hexterm": "e6/07/12"
+        "hex": "#e60813",
+        "hexterm": "e6/08/13"
     },
     "ansi-10": {
-        "hex": "#ff3238",
-        "hexterm": "ff/32/38"
+        "hex": "#ff3338",
+        "hexterm": "ff/33/38"
     },
     "ansi-11": {
-        "hex": "#fe3935",
-        "hexterm": "fe/39/35"
+        "hex": "#fe3a35",
+        "hexterm": "fe/3a/35"
     },
     "ansi-12": {
-        "hex": "#1d4fff",
-        "hexterm": "1d/4f/ff"
+        "hex": "#1d50ff",
+        "hexterm": "1d/50/ff"
     },
     "ansi-13": {
-        "hex": "#737bff",
-        "hexterm": "73/7b/ff"
+        "hex": "#747cff",
+        "hexterm": "74/7c/ff"
     },
     "ansi-14": {
-        "hex": "#6083ff",
-        "hexterm": "60/83/ff"
+        "hex": "#6184ff",
+        "hexterm": "61/84/ff"
     },
     "ansi-15": {
-        "hex": "#fefff9",
-        "hexterm": "fe/ff/f9"
+        "hex": "#fffff9",
+        "hexterm": "ff/ff/f9"
     },
     "ansi-2": {
-        "hex": "#e22828",
-        "hexterm": "e2/28/28"
+        "hex": "#e22928",
+        "hexterm": "e2/29/28"
     },
     "ansi-3": {
-        "hex": "#e24655",
-        "hexterm": "e2/46/55"
+        "hex": "#e24756",
+        "hexterm": "e2/47/56"
     },
     "ansi-4": {
-        "hex": "#2b3fff",
-        "hexterm": "2b/3f/ff"
+        "hex": "#2c3fff",
+        "hexterm": "2c/3f/ff"
     },
     "ansi-5": {
         "hex": "#2435db",
         "hexterm": "24/35/db"
     },
     "ansi-6": {
-        "hex": "#3255ff",
-        "hexterm": "32/55/ff"
+        "hex": "#3256ff",
+        "hexterm": "32/56/ff"
     },
     "ansi-7": {
         "hex": "#fffef6",
@@ -68,20 +68,20 @@
         "hexterm": "1b/1d/1e"
     },
     "cursor": {
-        "hex": "#2b3fff",
-        "hexterm": "2b/3f/ff"
+        "hex": "#2c3fff",
+        "hexterm": "2c/3f/ff"
     },
     "foreground": {
-        "hex": "#e2e2e2",
-        "hexterm": "e2/e2/e2"
+        "hex": "#e3e3e3",
+        "hexterm": "e3/e3/e3"
     },
     "selection": {
-        "hex": "#070e4f",
-        "hexterm": "07/0e/4f"
+        "hex": "#070e50",
+        "hexterm": "07/0e/50"
     },
     "selection-text": {
-        "hex": "#ef272d",
-        "hexterm": "ef/27/2d"
+        "hex": "#f0272d",
+        "hexterm": "f0/27/2d"
     },
     "theme-author": "unknown",
     "theme-name": "Spiderman",

@@ -41,7 +41,7 @@ do_osc() {
     print_osc4 5 "ff/b8/d1"
     print_osc4 6 "c5/a3/ff"
     print_osc4 7 "f8/f8/f0"
-    print_osc4 8 "5f/90/ca"
+    print_osc4 8 "60/90/cb"
     print_osc4 9 "ff/85/7f"
     print_osc4 10 "c2/ff/df"
     print_osc4 11 "ff/ea/00"
@@ -54,7 +54,7 @@ do_osc() {
     print_osc_rgb 11 "5a/54/75"
     print_osc_rgb 12 "f8/f8/f0"
     print_osc_rgb 17 "80/77/a8"
-    print_osc_rgb 19 "f5/e0/ce"
+    print_osc_rgb 19 "f6/e1/ce"
 }
 
 do_linux() {
@@ -66,7 +66,7 @@ do_linux() {
     print_linux 5 "#ffb8d1"
     print_linux 6 "#c5a3ff"
     print_linux 7 "#f8f8f2"
-    print_linux 8 "#5f90ca"
+    print_linux 8 "#6090cb"
     print_linux 9 "#ff857f"
     print_linux 10 "#c2ffdf"
     print_linux 11 "#ffea00"

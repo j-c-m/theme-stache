@@ -24,16 +24,16 @@
         "hexterm": "e5/00/e5"
     },
     "ansi-14": {
-        "hex": "#8c9bc3",
-        "hexterm": "8c/9b/c3"
+        "hex": "#8c9bc4",
+        "hexterm": "8c/9b/c4"
     },
     "ansi-15": {
         "hex": "#e5e5e5",
         "hexterm": "e5/e5/e5"
     },
     "ansi-2": {
-        "hex": "#a7ff60",
-        "hexterm": "a7/ff/60"
+        "hex": "#a8ff60",
+        "hexterm": "a8/ff/60"
     },
     "ansi-3": {
         "hex": "#bfbb1f",
@@ -48,8 +48,8 @@
         "hexterm": "ff/73/fd"
     },
     "ansi-6": {
-        "hex": "#59647e",
-        "hexterm": "59/64/7e"
+        "hex": "#5a647e",
+        "hexterm": "5a/64/7e"
     },
     "ansi-7": {
         "hex": "#bfbfbf",
@@ -76,12 +76,12 @@
         "hexterm": "ff/ff/ff"
     },
     "selection": {
-        "hex": "#59647e",
-        "hexterm": "59/64/7e"
+        "hex": "#5a647e",
+        "hexterm": "5a/64/7e"
     },
     "selection-text": {
-        "hex": "#f1f1f1",
-        "hexterm": "f1/f1/f1"
+        "hex": "#f2f2f2",
+        "hexterm": "f2/f2/f2"
     },
     "theme-author": "unknown",
     "theme-name": "Rippedcasts",

@@ -8,12 +8,12 @@
         "hexterm": "83/2e/31"
     },
     "ansi-10": {
-        "hex": "#a63c3f",
-        "hexterm": "a6/3c/3f"
+        "hex": "#a63c40",
+        "hexterm": "a6/3c/40"
     },
     "ansi-11": {
-        "hex": "#d2484d",
-        "hexterm": "d2/48/4d"
+        "hex": "#d2494e",
+        "hexterm": "d2/49/4e"
     },
     "ansi-12": {
         "hex": "#fc595f",
@@ -24,20 +24,20 @@
         "hexterm": "df/93/95"
     },
     "ansi-14": {
-        "hex": "#b98486",
-        "hexterm": "b9/84/86"
+        "hex": "#ba8586",
+        "hexterm": "ba/85/86"
     },
     "ansi-15": {
         "hex": "#f5f5f5",
         "hexterm": "f5/f5/f5"
     },
     "ansi-2": {
-        "hex": "#a63b3f",
-        "hexterm": "a6/3b/3f"
+        "hex": "#a63c40",
+        "hexterm": "a6/3c/40"
     },
     "ansi-3": {
-        "hex": "#d2494e",
-        "hexterm": "d2/49/4e"
+        "hex": "#d3494e",
+        "hexterm": "d3/49/4e"
     },
     "ansi-4": {
         "hex": "#fc595f",
@@ -48,8 +48,8 @@
         "hexterm": "df/93/95"
     },
     "ansi-6": {
-        "hex": "#b98486",
-        "hexterm": "b9/84/86"
+        "hex": "#ba8586",
+        "hexterm": "ba/85/86"
     },
     "ansi-7": {
         "hex": "#f5f5f5",
@@ -76,12 +76,12 @@
         "hexterm": "a1/b0/b8"
     },
     "selection": {
-        "hex": "#afbec5",
-        "hexterm": "af/be/c5"
+        "hex": "#b0bec5",
+        "hexterm": "b0/be/c5"
     },
     "selection-text": {
-        "hex": "#292c31",
-        "hexterm": "29/2c/31"
+        "hex": "#2a2d32",
+        "hexterm": "2a/2d/32"
     },
     "theme-author": "unknown",
     "theme-name": "Tomorrow Night Burns",

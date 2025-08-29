@@ -1,87 +1,87 @@
 {
     "ansi-0": {
-        "hex": "#15151e",
-        "hexterm": "15/15/1e"
+        "hex": "#15161e",
+        "hexterm": "15/16/1e"
     },
     "ansi-1": {
-        "hex": "#f6768d",
-        "hexterm": "f6/76/8d"
+        "hex": "#f7768e",
+        "hexterm": "f7/76/8e"
     },
     "ansi-10": {
-        "hex": "#9ecd69",
-        "hexterm": "9e/cd/69"
+        "hex": "#9ece6a",
+        "hexterm": "9e/ce/6a"
     },
     "ansi-11": {
-        "hex": "#e0af67",
-        "hexterm": "e0/af/67"
+        "hex": "#e0af68",
+        "hexterm": "e0/af/68"
     },
     "ansi-12": {
-        "hex": "#79a1f7",
-        "hexterm": "79/a1/f7"
+        "hex": "#7aa2f7",
+        "hexterm": "7a/a2/f7"
     },
     "ansi-13": {
-        "hex": "#ba99f7",
-        "hexterm": "ba/99/f7"
+        "hex": "#bb9af7",
+        "hexterm": "bb/9a/f7"
     },
     "ansi-14": {
-        "hex": "#7dcefe",
-        "hexterm": "7d/ce/fe"
+        "hex": "#7dcfff",
+        "hexterm": "7d/cf/ff"
     },
     "ansi-15": {
-        "hex": "#c0c9f5",
-        "hexterm": "c0/c9/f5"
+        "hex": "#c0caf5",
+        "hexterm": "c0/ca/f5"
     },
     "ansi-2": {
-        "hex": "#9ecd69",
-        "hexterm": "9e/cd/69"
+        "hex": "#9ece6a",
+        "hexterm": "9e/ce/6a"
     },
     "ansi-3": {
-        "hex": "#e0af67",
-        "hexterm": "e0/af/67"
+        "hex": "#e0af68",
+        "hexterm": "e0/af/68"
     },
     "ansi-4": {
-        "hex": "#79a1f7",
-        "hexterm": "79/a1/f7"
+        "hex": "#7aa2f7",
+        "hexterm": "7a/a2/f7"
     },
     "ansi-5": {
-        "hex": "#ba99f7",
-        "hexterm": "ba/99/f7"
+        "hex": "#bb9af7",
+        "hexterm": "bb/9a/f7"
     },
     "ansi-6": {
-        "hex": "#7dcefe",
-        "hexterm": "7d/ce/fe"
+        "hex": "#7dcfff",
+        "hexterm": "7d/cf/ff"
     },
     "ansi-7": {
-        "hex": "#a9b0d6",
-        "hexterm": "a9/b0/d6"
+        "hex": "#a9b1d6",
+        "hexterm": "a9/b1/d6"
     },
     "ansi-8": {
-        "hex": "#414768",
-        "hexterm": "41/47/68"
+        "hex": "#414868",
+        "hexterm": "41/48/68"
     },
     "ansi-9": {
-        "hex": "#f6768d",
-        "hexterm": "f6/76/8d"
+        "hex": "#f7768e",
+        "hexterm": "f7/76/8e"
     },
     "background": {
-        "hex": "#1a1a26",
-        "hexterm": "1a/1a/26"
+        "hex": "#1a1b26",
+        "hexterm": "1a/1b/26"
     },
     "cursor": {
-        "hex": "#c0c9f5",
-        "hexterm": "c0/c9/f5"
+        "hex": "#c0caf5",
+        "hexterm": "c0/ca/f5"
     },
     "foreground": {
-        "hex": "#c0c9f5",
-        "hexterm": "c0/c9/f5"
+        "hex": "#c0caf5",
+        "hexterm": "c0/ca/f5"
     },
     "selection": {
-        "hex": "#273357",
-        "hexterm": "27/33/57"
+        "hex": "#283457",
+        "hexterm": "28/34/57"
     },
     "selection-text": {
-        "hex": "#c0c9f5",
-        "hexterm": "c0/c9/f5"
+        "hex": "#c0caf5",
+        "hexterm": "c0/ca/f5"
     },
     "theme-author": "unknown",
     "theme-name": "solarized-osaka-night",

@@ -1,51 +1,51 @@
 {
     "ansi-0": {
-        "hex": "#7c8a8f",
-        "hexterm": "7c/8a/8f"
+        "hex": "#7d8b8f",
+        "hexterm": "7d/8b/8f"
     },
     "ansi-1": {
-        "hex": "#b23a51",
-        "hexterm": "b2/3a/51"
+        "hex": "#b23a52",
+        "hexterm": "b2/3a/52"
     },
     "ansi-10": {
-        "hex": "#80c46f",
-        "hexterm": "80/c4/6f"
+        "hex": "#80c470",
+        "hexterm": "80/c4/70"
     },
     "ansi-11": {
         "hex": "#ffeb62",
         "hexterm": "ff/eb/62"
     },
     "ansi-12": {
-        "hex": "#4095ff",
-        "hexterm": "40/95/ff"
+        "hex": "#4196ff",
+        "hexterm": "41/96/ff"
     },
     "ansi-13": {
-        "hex": "#fb5175",
-        "hexterm": "fb/51/75"
+        "hex": "#fc5275",
+        "hexterm": "fc/52/75"
     },
     "ansi-14": {
-        "hex": "#52ccbd",
-        "hexterm": "52/cc/bd"
+        "hex": "#53cdbd",
+        "hexterm": "53/cd/bd"
     },
     "ansi-15": {
         "hex": "#d2d8d9",
         "hexterm": "d2/d8/d9"
     },
     "ansi-2": {
-        "hex": "#789a69",
-        "hexterm": "78/9a/69"
+        "hex": "#789b6a",
+        "hexterm": "78/9b/6a"
     },
     "ansi-3": {
-        "hex": "#b9ab4a",
-        "hexterm": "b9/ab/4a"
+        "hex": "#b9ac4a",
+        "hexterm": "b9/ac/4a"
     },
     "ansi-4": {
         "hex": "#2a7fac",
         "hexterm": "2a/7f/ac"
     },
     "ansi-5": {
-        "hex": "#bc4f5a",
-        "hexterm": "bc/4f/5a"
+        "hex": "#bd4f5a",
+        "hexterm": "bd/4f/5a"
     },
     "ansi-6": {
         "hex": "#44a799",
@@ -64,24 +64,24 @@
         "hexterm": "f2/48/40"
     },
     "background": {
-        "hex": "#2b2c2e",
-        "hexterm": "2b/2c/2e"
+        "hex": "#2b2d2e",
+        "hexterm": "2b/2d/2e"
     },
     "cursor": {
-        "hex": "#708183",
-        "hexterm": "70/81/83"
+        "hex": "#708284",
+        "hexterm": "70/82/84"
     },
     "foreground": {
         "hex": "#d2d8d9",
         "hexterm": "d2/d8/d9"
     },
     "selection": {
-        "hex": "#e3e8ed",
-        "hexterm": "e3/e8/ed"
+        "hex": "#e4e8ed",
+        "hexterm": "e4/e8/ed"
     },
     "selection-text": {
-        "hex": "#3e3f41",
-        "hexterm": "3e/3f/41"
+        "hex": "#3f4041",
+        "hexterm": "3f/40/41"
     },
     "theme-author": "unknown",
     "theme-name": "Chalk",

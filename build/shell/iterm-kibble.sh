@@ -53,7 +53,7 @@ do_osc() {
     print_osc_rgb 10 "f7/f7/f7"
     print_osc_rgb 11 "0e/10/0a"
     print_osc_rgb 12 "9f/da/9c"
-    print_osc_rgb 17 "9b/a6/86"
+    print_osc_rgb 17 "9b/a7/87"
     print_osc_rgb 19 "00/00/00"
 }
 

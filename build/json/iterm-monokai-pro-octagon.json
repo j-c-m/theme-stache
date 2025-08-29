@@ -4,64 +4,64 @@
         "hexterm": "28/2a/3a"
     },
     "ansi-1": {
-        "hex": "#ff6579",
-        "hexterm": "ff/65/79"
+        "hex": "#ff657a",
+        "hexterm": "ff/65/7a"
     },
     "ansi-10": {
-        "hex": "#b9d661",
-        "hexterm": "b9/d6/61"
+        "hex": "#bad761",
+        "hexterm": "ba/d7/61"
     },
     "ansi-11": {
-        "hex": "#ffd66d",
-        "hexterm": "ff/d6/6d"
+        "hex": "#ffd76d",
+        "hexterm": "ff/d7/6d"
     },
     "ansi-12": {
         "hex": "#ff9b5e",
         "hexterm": "ff/9b/5e"
     },
     "ansi-13": {
-        "hex": "#c399c8",
-        "hexterm": "c3/99/c8"
+        "hex": "#c39ac9",
+        "hexterm": "c3/9a/c9"
     },
     "ansi-14": {
-        "hex": "#9cd0ba",
-        "hexterm": "9c/d0/ba"
+        "hex": "#9cd1bb",
+        "hexterm": "9c/d1/bb"
     },
     "ansi-15": {
-        "hex": "#e9f1f0",
-        "hexterm": "e9/f1/f0"
+        "hex": "#eaf2f1",
+        "hexterm": "ea/f2/f1"
     },
     "ansi-2": {
-        "hex": "#b9d661",
-        "hexterm": "b9/d6/61"
+        "hex": "#bad761",
+        "hexterm": "ba/d7/61"
     },
     "ansi-3": {
-        "hex": "#ffd66d",
-        "hexterm": "ff/d6/6d"
+        "hex": "#ffd76d",
+        "hexterm": "ff/d7/6d"
     },
     "ansi-4": {
         "hex": "#ff9b5e",
         "hexterm": "ff/9b/5e"
     },
     "ansi-5": {
-        "hex": "#c399c8",
-        "hexterm": "c3/99/c8"
+        "hex": "#c39ac9",
+        "hexterm": "c3/9a/c9"
     },
     "ansi-6": {
-        "hex": "#9cd0ba",
-        "hexterm": "9c/d0/ba"
+        "hex": "#9cd1bb",
+        "hexterm": "9c/d1/bb"
     },
     "ansi-7": {
-        "hex": "#e9f1f0",
-        "hexterm": "e9/f1/f0"
+        "hex": "#eaf2f1",
+        "hexterm": "ea/f2/f1"
     },
     "ansi-8": {
         "hex": "#696d77",
         "hexterm": "69/6d/77"
     },
     "ansi-9": {
-        "hex": "#ff6579",
-        "hexterm": "ff/65/79"
+        "hex": "#ff657a",
+        "hexterm": "ff/65/7a"
     },
     "background": {
         "hex": "#282a3a",
@@ -72,16 +72,16 @@
         "hexterm": "b2/b9/bd"
     },
     "foreground": {
-        "hex": "#e9f1f0",
-        "hexterm": "e9/f1/f0"
+        "hex": "#eaf2f1",
+        "hexterm": "ea/f2/f1"
     },
     "selection": {
-        "hex": "#535762",
-        "hexterm": "53/57/62"
+        "hex": "#535763",
+        "hexterm": "53/57/63"
     },
     "selection-text": {
-        "hex": "#e9f1f0",
-        "hexterm": "e9/f1/f0"
+        "hex": "#eaf2f1",
+        "hexterm": "ea/f2/f1"
     },
     "theme-author": "unknown",
     "theme-name": "Monokai Pro Octagon",

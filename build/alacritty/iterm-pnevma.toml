@@ -11,7 +11,7 @@ foreground  = '#d0d0d0'
 # Colors the cursor will use if `custom_cursor_colors` is true
 [colors.cursor]
 text        = '#2f2e2d'
-cursor      = '#e3c8ae'
+cursor      = '#e4c9af'
 
 # Selection colors
 [colors.selection]

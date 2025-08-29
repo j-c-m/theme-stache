@@ -8,12 +8,12 @@
         "hexterm": "ff/00/00"
     },
     "ansi-10": {
-        "hex": "#3bcf1d",
-        "hexterm": "3b/cf/1d"
+        "hex": "#3bd01d",
+        "hexterm": "3b/d0/1d"
     },
     "ansi-11": {
-        "hex": "#ecc809",
-        "hexterm": "ec/c8/09"
+        "hex": "#edc809",
+        "hexterm": "ed/c8/09"
     },
     "ansi-12": {
         "hex": "#5555ff",
@@ -24,20 +24,20 @@
         "hexterm": "ff/55/ff"
     },
     "ansi-14": {
-        "hex": "#6ae3f9",
-        "hexterm": "6a/e3/f9"
+        "hex": "#6ae3fa",
+        "hexterm": "6a/e3/fa"
     },
     "ansi-15": {
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#37dd21",
-        "hexterm": "37/dd/21"
+        "hex": "#38de21",
+        "hexterm": "38/de/21"
     },
     "ansi-3": {
-        "hex": "#fee409",
-        "hexterm": "fe/e4/09"
+        "hex": "#ffe50a",
+        "hexterm": "ff/e5/0a"
     },
     "ansi-4": {
         "hex": "#1460d2",
@@ -60,28 +60,28 @@
         "hexterm": "55/55/55"
     },
     "ansi-9": {
-        "hex": "#f40d17",
-        "hexterm": "f4/0d/17"
+        "hex": "#f40e17",
+        "hexterm": "f4/0e/17"
     },
     "background": {
-        "hex": "#122637",
-        "hexterm": "12/26/37"
+        "hex": "#132738",
+        "hexterm": "13/27/38"
     },
     "cursor": {
-        "hex": "#f0cb09",
-        "hexterm": "f0/cb/09"
+        "hex": "#f0cc09",
+        "hexterm": "f0/cc/09"
     },
     "foreground": {
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
     "selection": {
-        "hex": "#18344f",
-        "hexterm": "18/34/4f"
+        "hex": "#18354f",
+        "hexterm": "18/35/4f"
     },
     "selection-text": {
-        "hex": "#b4b4b4",
-        "hexterm": "b4/b4/b4"
+        "hex": "#b5b5b5",
+        "hexterm": "b5/b5/b5"
     },
     "theme-author": "unknown",
     "theme-name": "Cobalt2",

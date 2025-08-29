@@ -1,7 +1,7 @@
 {
     "ansi-0": {
-        "hex": "#141127",
-        "hexterm": "14/11/27"
+        "hex": "#141228",
+        "hexterm": "14/12/28"
     },
     "ansi-1": {
         "hex": "#ff5458",
@@ -72,8 +72,8 @@
         "hexterm": "fb/fc/fc"
     },
     "foreground": {
-        "hex": "#cbe0e7",
-        "hexterm": "cb/e0/e7"
+        "hex": "#cbe1e7",
+        "hexterm": "cb/e1/e7"
     },
     "selection": {
         "hex": "#cbe1e7",

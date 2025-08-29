@@ -8,48 +8,48 @@
         "hexterm": "f9/55/5f"
     },
     "ansi-10": {
-        "hex": "#34bb99",
-        "hexterm": "34/bb/99"
+        "hex": "#35bb9a",
+        "hexterm": "35/bb/9a"
     },
     "ansi-11": {
         "hex": "#ffff55",
         "hexterm": "ff/ff/55"
     },
     "ansi-12": {
-        "hex": "#589cf5",
-        "hexterm": "58/9c/f5"
+        "hex": "#589df6",
+        "hexterm": "58/9d/f6"
     },
     "ansi-13": {
-        "hex": "#e75598",
-        "hexterm": "e7/55/98"
+        "hex": "#e75699",
+        "hexterm": "e7/56/99"
     },
     "ansi-14": {
-        "hex": "#3978bb",
-        "hexterm": "39/78/bb"
+        "hex": "#3979bc",
+        "hexterm": "39/79/bc"
     },
     "ansi-15": {
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
     "ansi-2": {
-        "hex": "#20af89",
-        "hexterm": "20/af/89"
+        "hex": "#21b089",
+        "hexterm": "21/b0/89"
     },
     "ansi-3": {
-        "hex": "#fdf029",
-        "hexterm": "fd/f0/29"
+        "hex": "#fef02a",
+        "hexterm": "fe/f0/2a"
     },
     "ansi-4": {
-        "hex": "#589cf5",
-        "hexterm": "58/9c/f5"
+        "hex": "#589df6",
+        "hexterm": "58/9d/f6"
     },
     "ansi-5": {
-        "hex": "#934d95",
-        "hexterm": "93/4d/95"
+        "hex": "#944d95",
+        "hexterm": "94/4d/95"
     },
     "ansi-6": {
-        "hex": "#1e9ee6",
-        "hexterm": "1e/9e/e6"
+        "hex": "#1f9ee7",
+        "hexterm": "1f/9e/e7"
     },
     "ansi-7": {
         "hex": "#bbbbbb",
@@ -60,12 +60,12 @@
         "hexterm": "55/55/55"
     },
     "ansi-9": {
-        "hex": "#fa8b8e",
-        "hexterm": "fa/8b/8e"
+        "hex": "#fa8c8f",
+        "hexterm": "fa/8c/8f"
     },
     "background": {
-        "hex": "#1c2836",
-        "hexterm": "1c/28/36"
+        "hex": "#1d2837",
+        "hexterm": "1d/28/37"
     },
     "cursor": {
         "hex": "#bbbbbb",
@@ -76,8 +76,8 @@
         "hexterm": "ff/ff/ff"
     },
     "selection": {
-        "hex": "#b4d5ff",
-        "hexterm": "b4/d5/ff"
+        "hex": "#b5d5ff",
+        "hexterm": "b5/d5/ff"
     },
     "selection-text": {
         "hex": "#000000",

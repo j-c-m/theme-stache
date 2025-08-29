@@ -4,52 +4,52 @@
         "hexterm": "00/00/00"
     },
     "ansi-1": {
-        "hex": "#fd1414",
-        "hexterm": "fd/14/14"
+        "hex": "#fe1414",
+        "hexterm": "fe/14/14"
     },
     "ansi-10": {
-        "hex": "#00ff43",
-        "hexterm": "00/ff/43"
+        "hex": "#00ff44",
+        "hexterm": "00/ff/44"
     },
     "ansi-11": {
         "hex": "#ffd100",
         "hexterm": "ff/d1/00"
     },
     "ansi-12": {
-        "hex": "#00aeff",
-        "hexterm": "00/ae/ff"
+        "hex": "#00afff",
+        "hexterm": "00/af/ff"
     },
     "ansi-13": {
         "hex": "#ff008a",
         "hexterm": "ff/00/8a"
     },
     "ansi-14": {
-        "hex": "#00ffd2",
-        "hexterm": "00/ff/d2"
+        "hex": "#00ffd3",
+        "hexterm": "00/ff/d3"
     },
     "ansi-15": {
-        "hex": "#f4ecec",
-        "hexterm": "f4/ec/ec"
+        "hex": "#f5ecec",
+        "hexterm": "f5/ec/ec"
     },
     "ansi-2": {
-        "hex": "#73ff00",
-        "hexterm": "73/ff/00"
+        "hex": "#74ff00",
+        "hexterm": "74/ff/00"
     },
     "ansi-3": {
-        "hex": "#f0ff01",
-        "hexterm": "f0/ff/01"
+        "hex": "#f1ff01",
+        "hexterm": "f1/ff/01"
     },
     "ansi-4": {
-        "hex": "#00ddff",
-        "hexterm": "00/dd/ff"
+        "hex": "#00deff",
+        "hexterm": "00/de/ff"
     },
     "ansi-5": {
-        "hex": "#ff00ef",
-        "hexterm": "ff/00/ef"
+        "hex": "#ff00f0",
+        "hexterm": "ff/00/f0"
     },
     "ansi-6": {
-        "hex": "#00ffbb",
-        "hexterm": "00/ff/bb"
+        "hex": "#00ffbc",
+        "hexterm": "00/ff/bc"
     },
     "ansi-7": {
         "hex": "#ffffff",
@@ -68,20 +68,20 @@
         "hexterm": "00/2a/1a"
     },
     "cursor": {
-        "hex": "#fff300",
-        "hexterm": "ff/f3/00"
+        "hex": "#fff400",
+        "hexterm": "ff/f4/00"
     },
     "foreground": {
         "hex": "#ffffff",
         "hexterm": "ff/ff/ff"
     },
     "selection": {
-        "hex": "#507e4f",
-        "hexterm": "50/7e/4f"
+        "hex": "#517e50",
+        "hexterm": "51/7e/50"
     },
     "selection-text": {
-        "hex": "#e1e1e1",
-        "hexterm": "e1/e1/e1"
+        "hex": "#e2e2e2",
+        "hexterm": "e2/e2/e2"
     },
     "theme-author": "unknown",
     "theme-name": "Grey-green",

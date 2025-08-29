@@ -1,47 +1,47 @@
 {
     "ansi-0": {
-        "hex": "#341a0d",
-        "hexterm": "34/1a/0d"
+        "hex": "#351b0e",
+        "hexterm": "35/1b/0e"
     },
     "ansi-1": {
-        "hex": "#9b281b",
-        "hexterm": "9b/28/1b"
+        "hex": "#9b291c",
+        "hexterm": "9b/29/1c"
     },
     "ansi-10": {
-        "hex": "#b3b163",
-        "hexterm": "b3/b1/63"
+        "hex": "#b4b264",
+        "hexterm": "b4/b2/64"
     },
     "ansi-11": {
-        "hex": "#ff9565",
-        "hexterm": "ff/95/65"
+        "hex": "#ff9566",
+        "hexterm": "ff/95/66"
     },
     "ansi-12": {
-        "hex": "#9eb2b3",
-        "hexterm": "9e/b2/b3"
+        "hex": "#9eb2b4",
+        "hexterm": "9e/b2/b4"
     },
     "ansi-13": {
         "hex": "#ff5b6a",
         "hexterm": "ff/5b/6a"
     },
     "ansi-14": {
-        "hex": "#89cc8e",
-        "hexterm": "89/cc/8e"
+        "hex": "#8acd8f",
+        "hexterm": "8a/cd/8f"
     },
     "ansi-15": {
-        "hex": "#ffe597",
-        "hexterm": "ff/e5/97"
+        "hex": "#ffe598",
+        "hexterm": "ff/e5/98"
     },
     "ansi-2": {
-        "hex": "#626132",
-        "hexterm": "62/61/32"
+        "hex": "#636232",
+        "hexterm": "63/62/32"
     },
     "ansi-3": {
-        "hex": "#c26e27",
-        "hexterm": "c2/6e/27"
+        "hex": "#c36e28",
+        "hexterm": "c3/6e/28"
     },
     "ansi-4": {
-        "hex": "#515b5c",
-        "hexterm": "51/5b/5c"
+        "hex": "#515c5d",
+        "hexterm": "51/5c/5d"
     },
     "ansi-5": {
         "hex": "#9b1d29",
@@ -52,36 +52,36 @@
         "hexterm": "58/80/56"
     },
     "ansi-7": {
-        "hex": "#f6d75c",
-        "hexterm": "f6/d7/5c"
+        "hex": "#f7d75c",
+        "hexterm": "f7/d7/5c"
     },
     "ansi-8": {
-        "hex": "#874227",
-        "hexterm": "87/42/27"
+        "hex": "#874228",
+        "hexterm": "87/42/28"
     },
     "ansi-9": {
-        "hex": "#ff4230",
-        "hexterm": "ff/42/30"
+        "hex": "#ff4331",
+        "hexterm": "ff/43/31"
     },
     "background": {
-        "hex": "#110b0d",
-        "hexterm": "11/0b/0d"
+        "hex": "#120b0d",
+        "hexterm": "12/0b/0d"
     },
     "cursor": {
-        "hex": "#c36c32",
-        "hexterm": "c3/6c/32"
+        "hex": "#c46c32",
+        "hexterm": "c4/6c/32"
     },
     "foreground": {
-        "hex": "#f6d56a",
-        "hexterm": "f6/d5/6a"
+        "hex": "#f7d66a",
+        "hexterm": "f7/d6/6a"
     },
     "selection": {
-        "hex": "#f6d56a",
-        "hexterm": "f6/d5/6a"
+        "hex": "#f7d66a",
+        "hexterm": "f7/d6/6a"
     },
     "selection-text": {
-        "hex": "#110b0d",
-        "hexterm": "11/0b/0d"
+        "hex": "#120b0d",
+        "hexterm": "12/0b/0d"
     },
     "theme-author": "unknown",
     "theme-name": "MonaLisa",
