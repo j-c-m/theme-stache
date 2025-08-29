@@ -34,17 +34,17 @@ def load_plist(plist_path):
 
 def rgb_to_hex(r, g, b):
     """Convert RGB values (0-1) to hex format (#RRGGBB)."""
-    r = int(r * 255)
-    g = int(g * 255)
-    b = int(b * 255)
+    r = round(r * 255)
+    g = round(g * 255)
+    b = round(b * 255)
     return f"#{r:02x}{g:02x}{b:02x}"
 
 def hex_to_rgb(hex_color):
     """Convert hex color (#RRGGBB) to RGB values (0-1)."""
     hex_color = hex_color.lstrip('#')
-    r = int(hex_color[0:2], 16) / 255.0
-    g = int(hex_color[2:4], 16) / 255.0
-    b = int(hex_color[4:6], 16) / 255.0
+    r = round(hex_color[0:2], 16) / 255.0
+    g = round(hex_color[2:4], 16) / 255.0
+    b = round(hex_color[4:6], 16) / 255.0
     return r, g, b
 
 def hex_to_hexterm(hex_color):
@@ -329,7 +329,7 @@ def calculate_luminance(hex_color):
     """Calculate relative luminance of a hex color."""
     # Remove # and convert to RGB
     hex_color = hex_color.lstrip('#')
-    r, g, b = int(hex_color[0:2], 16) / 255.0, int(hex_color[2:4], 16) / 255.0, int(hex_color[4:6], 16) / 255.0
+    r, g, b = rond(hex_color[0:2], 16) / 255.0, round(hex_color[2:4], 16) / 255.0, round(hex_color[4:6], 16) / 255.0
     # Convert to linear RGB
     r = srgb_to_linear(r)
     g = srgb_to_linear(g)
