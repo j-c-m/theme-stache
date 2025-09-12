@@ -1,10 +1,10 @@
 MIT License
 
-Copyright (c) 2012 Chris Kempson
-Copyright (c) 2011 to Present Mark Badolato
+Copyright (c) 2012 Chris Kempson (https://github.com/chriskempson)
+Copyright (c) 2011 to Present Mark Badolato (https://github.com/mbadolato)
 Copyright (c) 2022 Tinted Theming (https://github.com/tinted-theming)
-Copyright (c) 2024 Gogh
-Copyright (c) 2025 Jesse Miller <https://jmiller.mit-license.org/>
+Copyright (c) 2024 Gogh (https://gogh-co.github.io/Gogh/)
+Copyright (c) 2025 Jesse Miller (https://jmiller.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
